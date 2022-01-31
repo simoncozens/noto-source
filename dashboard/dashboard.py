@@ -89,11 +89,11 @@ for ix, file in enumerate(all_files):
     logging.basicConfig(
         handlers=[
             logging.FileHandler("output/%s/build.log" % family),
-            # logging.StreamHandler(),
+            logging.StreamHandler(),
         ],
         level=logging.INFO,
     )
-    print("\n## %s (%i/%i) ##\n" % (family, ix + 1, len(all_files)))
+    print("\n::group::%s (%i/%i)\n" % (family, ix + 1, len(all_files)))
     errors = None
     report = None
     try:
@@ -155,6 +155,7 @@ for ix, file in enumerate(all_files):
             "outputs": outputs,
         }
     )
+    print("\n::endgroup::")
 
 
 compiler = Compiler()
