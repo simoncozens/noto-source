@@ -41,7 +41,7 @@ class NotoBuilder(GFBuilder):
     def post_process_ttf(self, filename):
         super().post_process_ttf(filename)
         self.outputs.add(filename)
-        hinted_dir = "output/%s/unhinted/ttf" % self.get_family_name()
+        hinted_dir = "output/%s/hinted/ttf" % self.get_family_name()
         os.makedirs(hinted_dir, exist_ok=True)
         hinted = filename.replace("unhinted", "hinted")
         try:
