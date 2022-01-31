@@ -96,10 +96,10 @@ for ix, file in enumerate(all_files):
     print("\n## %s (%i/%i) ##\n" % (family, ix + 1, len(all_files)))
     errors = None
     report = None
-    # try:
-    #     nb.build()
-    # except Exception as e:
-    #     errors = str(e)
+    try:
+        nb.build()
+    except Exception as e:
+        errors = str(e)
     os.makedirs("output/%s/badges" % family, exist_ok=True)
     # We just run fontbakery on static TTF + variable
     interesting_outputs = sorted(
