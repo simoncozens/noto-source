@@ -79,7 +79,7 @@ for file in [*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")]:
     family = nb.get_family_name()
     os.makedirs("output/%s" % family, exist_ok=True)
     logging.basicConfig(
-        filename="output/%s/build.log" % family, encoding="utf-8", level=logging.INFO
+        filename="output/%s/build.log" % family, level=logging.INFO
     )
     print("\n## %s ##\n" % family)
     errors = None
