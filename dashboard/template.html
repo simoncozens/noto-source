@@ -31,16 +31,20 @@
 			</header>
 		</div>
 		<div class="container">
-			{{#each projects}}
-			<h2>{{family}}</h2>
-			<p>{{{this.commit}}}</p>
-			<table>
+			<table class="table">
+				{{#each projects}}
+				<tr>
+					<th colspan="4">
+						<h2>{{family}}</h2>
+						<p>{{{this.commit}}}</p>
+					</th>
+				</tr>
 				<tr>
 					<td>
 						<a href="{{this.log}}">build log</a><br />
 						{{#if errors}}
 						<h3 class="text-danger">Build Errored!</h3>
-						<p>{{errors}}</p>
+						<pre>{{errors}}</pre>
 						{{else}}
 						<a href="{{this.fontbakery}}">Fontbakery report</a><br />
 						{{#each this.badges}}
@@ -49,7 +53,7 @@
 					</td>
 					{{#each this.outputs}}
 					<td>
-						<p>{{@key}}</p>
+						<p><b>{{@key}}</b></p>
 						<ul>
 							{{#each this}}
 							<li><a href="{{path}}">{{display}}</a></li>
@@ -58,8 +62,8 @@
 					</td>
 					{{/each}}
 				</tr>
+				{{/each}}
 			</table>
-			{{/each}}
 		</div>
 	</body>
 </html>
