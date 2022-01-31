@@ -19,6 +19,7 @@ class NotoBuilder(GFBuilder):
         family = self.get_family_name(source)
         self.config = {
             "sources": [source],
+            "familyName": family,
             "outputDir": "fonts",
             "buildVariable": True,
             "autohintTTF": False,
@@ -76,29 +77,29 @@ def last_commit(file):
 
 
 all_files = sorted([*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")])
-all_files = [x for x in all_files if x not in BLACKLISTED]
 
 # Test a reasonable sized subset
 all_files = [x for x in all_files if "NotoSansM" in x]
-
 for ix, file in enumerate(all_files):
     nb = NotoBuilder(file)
     family = nb.get_family_name()
+    if family in BLACKLISTED:
+        continue
     os.makedirs("output/%s" % family, exist_ok=True)
     logging.basicConfig(
         handlers=[
             logging.FileHandler("output/%s/build.log" % family),
-            logging.StreamHandler(),
+            # logging.StreamHandler(),
         ],
         level=logging.INFO,
     )
     print("\n## %s (%i/%i) ##\n" % (family, ix + 1, len(all_files)))
     errors = None
     report = None
-    try:
-        nb.build()
-    except Exception as e:
-        errors = str(e)
+    # try:
+    #     nb.build()
+    # except Exception as e:
+    #     errors = str(e)
     os.makedirs("output/%s/badges" % family, exist_ok=True)
     # We just run fontbakery on static TTF + variable
     interesting_outputs = sorted(
