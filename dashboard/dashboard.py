@@ -11,6 +11,7 @@ import subprocess
 
 
 COMMIT_URL = "https://github.com/googlefonts/noto-source/commit"
+BLACKLISTED = ["Noto Sans", "Noto Serif", "Noto Sans Mono"]
 
 
 class NotoBuilder(GFBuilder):
@@ -74,7 +75,13 @@ def last_commit(file):
     return log
 
 
-for file in [*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")]:
+all_files = sorted([*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")])
+all_files = [x for x in all_files if x not in BLACKLISTED]
+
+# Test a reasonable sized subset
+all_files = [x for x in all_files if "NotoSansM" in x]
+
+for ix, file in enumerate(all_files):
     nb = NotoBuilder(file)
     family = nb.get_family_name()
     os.makedirs("output/%s" % family, exist_ok=True)
@@ -85,7 +92,7 @@ for file in [*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")]:
         ],
         level=logging.INFO,
     )
-    print("\n## %s ##\n" % family)
+    print("\n## %s (%i/%i) ##\n" % (family, ix + 1, len(all_files)))
     errors = None
     report = None
     try:
