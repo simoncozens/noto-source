@@ -80,13 +80,6 @@ def last_commit(file):
 
 all_files = sorted([*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")])
 
-# Test a reasonable sized subset
-all_files = [
-    x
-    for x in all_files
-    if "NotoSansM" in x and "Malayalam" not in x and "Myanmar" not in x
-]
-
 for ix, file in enumerate(all_files):
     nb = NotoBuilder(file)
     family = nb.get_family_name()
