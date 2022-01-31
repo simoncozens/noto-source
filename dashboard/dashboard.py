@@ -79,21 +79,24 @@ def last_commit(file):
 all_files = sorted([*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")])
 
 # Test a reasonable sized subset
-all_files = [x for x in all_files if "NotoSansM" in x]
+all_files = [
+    x
+    for x in all_files
+    if "NotoSansM" in x and "Malayalam" not in x and "Myanmar" not in x
+]
+
 for ix, file in enumerate(all_files):
     nb = NotoBuilder(file)
     family = nb.get_family_name()
     if family in BLACKLISTED:
         continue
     os.makedirs("output/%s" % family, exist_ok=True)
-    logging.basicConfig(
-        handlers=[
-            logging.FileHandler("output/%s/build.log" % family),
-            logging.StreamHandler(),
-        ],
-        level=logging.INFO,
-    )
-    print("\n::group::%s (%i/%i)\n" % (family, ix + 1, len(all_files)))
+    log = logging.getLogger()
+    for hdlr in log.handlers[:]:
+        log.removeHandler(hdlr)
+    log.addHandler(logging.FileHandler("output/%s/build.log" % family))
+    log.addHandler(logging.StreamHandler())
+    print("\n::group::%s (%i/%i)\n" % (family, ix + 1, len(all_files)), file=sys.stderr)
     errors = None
     report = None
     try:
@@ -155,7 +158,7 @@ for ix, file in enumerate(all_files):
             "outputs": outputs,
         }
     )
-    print("\n::endgroup::")
+    print("\n::endgroup::", file=sys.stderr)
 
 
 compiler = Compiler()
