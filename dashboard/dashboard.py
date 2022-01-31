@@ -79,8 +79,13 @@ for file in [*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")]:
     family = nb.get_family_name()
     os.makedirs("output/%s" % family, exist_ok=True)
     logging.basicConfig(
-        filename="output/%s/build.log" % family, level=logging.INFO
+        handlers=[
+            logging.FileHandler("output/%s/build.log" % family),
+            logging.StreamHandler(),
+        ],
+        level=logging.INFO,
     )
+    logging.getLogger().addHandler(logging.StreamHandler())
     print("\n## %s ##\n" % family)
     errors = None
     report = None
