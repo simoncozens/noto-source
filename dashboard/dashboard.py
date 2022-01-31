@@ -85,7 +85,6 @@ for file in [*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")]:
         ],
         level=logging.INFO,
     )
-    logging.getLogger().addHandler(logging.StreamHandler())
     print("\n## %s ##\n" % family)
     errors = None
     report = None
