@@ -154,7 +154,9 @@ for ix, file in enumerate(all_files):
             "errors": errors,
             "fontbakery": report,
             "badges": [
-                urllib.parse.quote_plus(x.replace("output/", DASHBOARD_URL))
+                urllib.parse.quote_plus(x.replace("output/", DASHBOARD_URL)).replace(
+                    "+", "%2520"
+                )
                 for x in glob.glob("output/%s/badges/*.json" % family)
             ],
             "outputs": outputs,
