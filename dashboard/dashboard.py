@@ -5,6 +5,7 @@ from pybars import Compiler
 import sys
 import glob
 import re
+import urllib.parse
 import logging
 import os
 import subprocess
@@ -12,6 +13,7 @@ import subprocess
 
 COMMIT_URL = "https://github.com/googlefonts/noto-source/commit"
 BLACKLISTED = ["Noto Sans", "Noto Serif", "Noto Sans Mono"]
+DASHBOARD_URL = "https://simoncozens.github.io/noto-source/"
 
 
 class NotoBuilder(GFBuilder):
@@ -152,7 +154,7 @@ for ix, file in enumerate(all_files):
             "errors": errors,
             "fontbakery": report,
             "badges": [
-                x.replace("output/", "")
+                urllib.parse.quote_plus(x.replace("output/", DASHBOARD_URL))
                 for x in glob.glob("output/%s/badges/*.json" % family)
             ],
             "outputs": outputs,
@@ -165,5 +167,5 @@ compiler = Compiler()
 template = open("dashboard/template.html", "r").read()
 template = compiler.compile(template)
 output = template({"projects": script_projects})
-with open("output/dashboard.html", "w") as fh:
+with open("output/index.html", "w") as fh:
     fh.write(output)
