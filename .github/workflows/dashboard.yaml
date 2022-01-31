@@ -21,9 +21,8 @@ jobs:
       run: |
         python dashboard/dashboard.py
       continue-on-error: true
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v2
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        name: Dashboard
-        path: |
-          output
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./output
