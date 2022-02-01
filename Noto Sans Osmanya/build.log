@@ -1,0 +1,10 @@
+Creating variable fonts from src/NotoSansOsmanya/NotoSansOsmanya.designspace
+Postprocessing font output/Noto Sans Osmanya/unhinted/variable-ttf/NotoSansOsmanya[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansOsmanya/NotoSansOsmanya.designspace
+Created static font output/Noto Sans Osmanya/unhinted/otf/NotoSansOsmanya-Regular.otf
+Postprocessing font output/Noto Sans Osmanya/unhinted/otf/NotoSansOsmanya-Regular.otf
+Creating static fonts from src/NotoSansOsmanya/NotoSansOsmanya.designspace
+Created static font output/Noto Sans Osmanya/unhinted/ttf/NotoSansOsmanya-Regular.ttf
+Postprocessing font output/Noto Sans Osmanya/unhinted/ttf/NotoSansOsmanya-Regular.ttf
+Building variable, static completed. All done!

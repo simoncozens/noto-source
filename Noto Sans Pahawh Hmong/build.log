@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansPahawhHmong/NotoSansPahawhHmong.designspace
+Postprocessing font output/Noto Sans Pahawh Hmong/unhinted/variable-ttf/NotoSansPahawhHmong[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansPahawhHmong/NotoSansPahawhHmong.designspace
+Created static font output/Noto Sans Pahawh Hmong/unhinted/otf/NotoSansPahawhHmong-Regular.otf
+Postprocessing font output/Noto Sans Pahawh Hmong/unhinted/otf/NotoSansPahawhHmong-Regular.otf
+Creating static fonts from src/NotoSansPahawhHmong/NotoSansPahawhHmong.designspace
+Created static font output/Noto Sans Pahawh Hmong/unhinted/ttf/NotoSansPahawhHmong-Regular.ttf
+Postprocessing font output/Noto Sans Pahawh Hmong/unhinted/ttf/NotoSansPahawhHmong-Regular.ttf
+Couldn't autohint output/Noto Sans Pahawh Hmong/unhinted/ttf/NotoSansPahawhHmong-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

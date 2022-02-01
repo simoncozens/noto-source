@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>9</td>
+                <td>9</td>
+                <td>215</td>
+                <td>15</td>
+                <td>179</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>3%</td>
+                <td>3%</td>
+                <td>65%</td>
+                <td>5%</td>
+                <td>54%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check axis ordering on the STAT table. </h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/STAT/axis_order&gt;</div>
+<details><summary>ℹ️ <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>From a total of 2 font files, 1 of them (50.00%) lack a STAT table.</p>
+<pre><code>And these are the most common STAT axis orderings:
+('wght', 1) [code: summary]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Check `Google Fonts Latin Core` glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 213 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 213 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 16.2kb |
+| Hinted Size   | 16.2kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.1 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 16.9kb |
+| Hinted Size   | 16.9kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.1 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<h3>Font has old ttfautohint applied?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/old_ttfautohint&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<h3>EPAR table present in font?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/epar&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<h3>Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gasp&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2017 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2017 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Check for font-v versioning.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontv&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<h3>Combined length of family and style must not exceed 27 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Syloti Nagri' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Syloti Nagri' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>Ensure variable fonts include an avar table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/mandatory_avar_table&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This variable font does not have an avar table. [code: missing-avar]</p>
+</span></li></ul></div></details>
+<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf', 'output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf', 'output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h3>Check font can render its own name.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/render_own_name&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Syloti Nagri [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Syloti Nagri [code: render-own-name]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; ⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Font contains all required tables?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/required_tables&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<h3>List all superfamily filepaths</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/superfamily/list&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Syloti Nagri/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Syloti Nagri/unhinted/variable-ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️⚠️</h2>
+<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uniA804 (U+A804): X=322.5,Y=-1.0 (should be at baseline 0?)
+* uniA80D (U+A80D): X=338.0,Y=1.5 (should be at baseline 0?)
+* uniA80D (U+A80D): X=576.0,Y=1.5 (should be at baseline 0?) and uniA80D (U+A80D): X=505.5,Y=2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uniA804 (U+A804): X=322.5,Y=-1.0 (should be at baseline 0?)
+* uniA80D (U+A80D): X=338.0,Y=1.5 (should be at baseline 0?)
+* uniA80D (U+A80D): X=576.0,Y=1.5 (should be at baseline 0?) and uniA80D (U+A80D): X=505.5,Y=2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni09EE (U+09EE) contains a short segment B&lt;&lt;442.0,292.0&gt;-&lt;439.0,292.0&gt;-&lt;436.0,292.0&gt;&gt;
+* uni09EE (U+09EE) contains a short segment B&lt;&lt;436.0,292.0&gt;-&lt;433.0,292.0&gt;-&lt;430.0,293.0&gt;&gt;
+* uniA800 (U+A800) contains a short segment L&lt;&lt;668.0,505.0&gt;--&lt;665.0,506.0&gt;&gt;
+* uniA803 (U+A803) contains a short segment B&lt;&lt;377.0,435.0&gt;-&lt;377.0,424.0&gt;-&lt;380.0,412.0&gt;&gt;
+* uniA807 (U+A807) contains a short segment L&lt;&lt;751.0,522.0&gt;--&lt;748.0,523.0&gt;&gt;
+* uniA807 (U+A807) contains a short segment L&lt;&lt;164.0,190.0&gt;--&lt;168.0,189.0&gt;&gt;
+* uniA808 (U+A808) contains a short segment L&lt;&lt;810.0,558.0&gt;--&lt;807.0,560.0&gt;&gt;
+* uniA808 (U+A808) contains a short segment L&lt;&lt;430.0,544.0&gt;--&lt;427.0,545.0&gt;&gt;
+* uniA808 (U+A808) contains a short segment L&lt;&lt;144.0,341.0&gt;--&lt;148.0,340.0&gt;&gt;
+* uniA808 (U+A808) contains a short segment L&lt;&lt;507.0,341.0&gt;--&lt;511.0,340.0&gt;&gt; and 36 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>

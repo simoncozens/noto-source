@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>12</td>
+                <td>7</td>
+                <td>214</td>
+                <td>15</td>
+                <td>179</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>3%</td>
+                <td>2%</td>
+                <td>62%</td>
+                <td>4%</td>
+                <td>52%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check axis ordering on the STAT table. </h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/STAT/axis_order&gt;</div>
+<details><summary>ℹ️ <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>From a total of 2 font files, 1 of them (50.00%) lack a STAT table.</p>
+<pre><code>And these are the most common STAT axis orderings:
+('wght', 1) [code: summary]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Check `Google Fonts Latin Core` glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 214 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 214 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 50.8kb |
+| Hinted Size   | 50.8kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 52.1kb |
+| Hinted Size   | 52.1kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<h3>Font has old ttfautohint applied?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/old_ttfautohint&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.003'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.003'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<h3>EPAR table present in font?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/epar&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<h3>Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gasp&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2018-2021 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2018-2021 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Check for font-v versioning.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontv&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.003&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.003&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<h3>Ensure variable fonts include an avar table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/mandatory_avar_table&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This variable font does not have an avar table. [code: missing-avar]</p>
+</span></li></ul></div></details>
+<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf', 'output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf', 'output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h3>Check font can render its own name.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/render_own_name&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Sharada [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Sharada [code: render-own-name]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; ⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Font contains all required tables?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/required_tables&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<h3>List all superfamily filepaths</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/superfamily/list&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Sharada/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Sharada/unhinted/variable-ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- NullMark
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- NullMark
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.os2&gt; 🔥🔥</h2>
+<h3>Fonts have consistent PANOSE proportion?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_proportion&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h3>Fonts have consistent PANOSE family type?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_familytype&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* letterVocL (U+1118B): X=451.0,Y=1.5 (should be at baseline 0?)
+* letterVocLL (U+1118C): X=451.0,Y=1.5 (should be at baseline 0?)
+* Ca (U+11196): X=99.0,Y=-1.0 (should be at baseline 0?)
+* Cha (U+11197): X=410.0,Y=1.0 (should be at baseline 0?)
+* Ra (U+111AB): X=155.5,Y=2.0 (should be at baseline 0?) and Sh_Three (U+111D3): X=95.0,Y=624.0 (should be at cap-height 625?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* letterVocL (U+1118B): X=451.0,Y=1.5 (should be at baseline 0?)
+* letterVocLL (U+1118C): X=451.0,Y=1.5 (should be at baseline 0?)
+* Ca (U+11196): X=99.0,Y=-1.0 (should be at baseline 0?)
+* Cha (U+11197): X=410.0,Y=1.0 (should be at baseline 0?)
+* Ra (U+111AB): X=155.5,Y=2.0 (should be at baseline 0?) and Sh_Three (U+111D3): X=95.0,Y=624.0 (should be at cap-height 625?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* letterA (U+11183) contains a short segment B&lt;&lt;349.0,211.0&gt;-&lt;342.0,210.0&gt;-&lt;334.0,210.0&gt;&gt;
+* letterA (U+11183) contains a short segment B&lt;&lt;334.0,210.0&gt;-&lt;326.0,210.0&gt;-&lt;318.0,210.0&gt;&gt;
+* letterAA (U+11184) contains a short segment B&lt;&lt;349.0,211.0&gt;-&lt;342.0,210.0&gt;-&lt;334.0,210.0&gt;&gt;
+* letterAA (U+11184) contains a short segment B&lt;&lt;334.0,210.0&gt;-&lt;326.0,210.0&gt;-&lt;318.0,210.0&gt;&gt;
+* letterU (U+11187) contains a short segment B&lt;&lt;308.0,388.0&gt;-&lt;314.0,389.0&gt;-&lt;320.0,389.5&gt;&gt;
+* letterU (U+11187) contains a short segment B&lt;&lt;320.0,389.5&gt;-&lt;326.0,390.0&gt;-&lt;333.0,390.0&gt;&gt;
+* letterUU (U+11188) contains a short segment B&lt;&lt;594.0,204.0&gt;-&lt;590.0,204.0&gt;-&lt;585.5,204.0&gt;&gt;
+* letterUU (U+11188) contains a short segment B&lt;&lt;585.5,204.0&gt;-&lt;581.0,204.0&gt;-&lt;577.0,203.0&gt;&gt;
+* letterUU (U+11188) contains a short segment B&lt;&lt;308.0,388.0&gt;-&lt;314.0,389.0&gt;-&lt;320.0,389.5&gt;&gt;
+* letterUU (U+11188) contains a short segment B&lt;&lt;320.0,389.5&gt;-&lt;326.0,390.0&gt;-&lt;333.0,390.0&gt;&gt; and 11 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Shaping Checks&gt; 🔥⏩⏩⏩⏩⏩</h2>
+<h3>Check that texts shape as per expectation</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/regression&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>test/fontbakery/sharada.json: Expected and actual shaping not matching</p>
+<div class="shaping">
+<style type="text/css">
+    @font-face {font-family: "TestFont"; src: url(../../output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf);}
+    .tf { font-family: "TestFont"; }
+    .shaping pre { font-size: 1.2rem; }
+    .shaping li { font-size: 1.2rem; border-top: 1px solid #ddd; padding: 12px; margin-top: 12px; }
+    .shaping-svg { height: 100px; margin:10px; transform: matrix(1, 0, 0, -1, 0, 0); }
+</style>
+<h4>test/fontbakery/sharada.json: Expected and actual shaping not matching</h4>
+</div>
+<div class="shaping">
+<li>Shaping did not match: <span class="tf">𑆱𑆴𑇌𑆱𑆶𑇌</span> (Issue #1333)</li>
+<pre>Expected: I=0+224|ShortVowelMark=0@-97,0+0|Sa=0+700|NullMark=0+0|Sa=3+700|U.alt4=3@-248,0+0|ShortVowelMark=3@-350,0+0</pre>
+<pre>Got     : I=0+224|ShortVowelMark=0@-97,0+0|Sa=0+700|Sa=3+700|U.alt4=3@-248,0+0|ShortVowelMark=3@-350,0+0</pre>
+<pre>                                                  +++++++++++++
+</pre>
+<p>Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1624 2380" transform="matrix(1 0 0 -1 0 0)">
+<path d="M84,0L84,550L24,550L24,625L84,625L84,690Q84,736 104,780Q124,823 167,852Q210,880 278,880Q381,880 468,807Q555,733 625,593L543,593Q489,688 427,747Q364,805 280,805Q226,805 198,771Q169,737 169,688L169,625L296,625L296,550L169,550L169,0L84,0Z"  transform="translate(0, 955)"/>
+<path d="M154,-265L-46,-87L3,-37L203,-215L154,-265Z"  transform="translate(127, 955)"/>
+<path d="M532,0L532,242L253,242L253,192Q253,166 244,141Q235,116 209,116Q196,116 171,130Q145,144 118,166Q90,187 71,210Q51,233 51,251Q51,273 72,287Q92,301 120,309Q147,317 168,321L168,550L24,550L24,625L253,625L253,317L532,317L532,625L676,625L676,550L617,550L617,0L532,0Z"  transform="translate(224, 955)"/>
+<path d="M532,0L532,242L253,242L253,192Q253,166 244,141Q235,116 209,116Q196,116 171,130Q145,144 118,166Q90,187 71,210Q51,233 51,251Q51,273 72,287Q92,301 120,309Q147,317 168,321L168,550L24,550L24,625L253,625L253,317L532,317L532,625L676,625L676,550L617,550L617,0L532,0Z"  transform="translate(924, 955)"/>
+<path d="M-16,-250Q-60,-250 -104,-239Q-148,-229 -186,-207L-150,-148Q-113,-165 -80,-171Q-47,-177 -18,-177Q25,-177 52,-160Q78,-144 78,-108L78,35L163,35L163,-112Q163,-176 114,-213Q64,-250 -16,-250Z"  transform="translate(1376, 955)"/>
+<path d="M154,-265L-46,-87L3,-37L203,-215L154,-265Z"  transform="translate(1274, 955)"/>
+</svg>
+Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1624 2380" transform="matrix(1 0 0 -1 0 0)">
+<path d="M84,0L84,550L24,550L24,625L84,625L84,690Q84,736 104,780Q124,823 167,852Q210,880 278,880Q381,880 468,807Q555,733 625,593L543,593Q489,688 427,747Q364,805 280,805Q226,805 198,771Q169,737 169,688L169,625L296,625L296,550L169,550L169,0L84,0Z"  transform="translate(0, 955)"/>
+<path d="M154,-265L-46,-87L3,-37L203,-215L154,-265Z"  transform="translate(127, 955)"/>
+<path d="M532,0L532,242L253,242L253,192Q253,166 244,141Q235,116 209,116Q196,116 171,130Q145,144 118,166Q90,187 71,210Q51,233 51,251Q51,273 72,287Q92,301 120,309Q147,317 168,321L168,550L24,550L24,625L253,625L253,317L532,317L532,625L676,625L676,550L617,550L617,0L532,0Z"  transform="translate(224, 955)"/>
+<path d=""  transform="translate(924, 955)"/>
+<path d="M532,0L532,242L253,242L253,192Q253,166 244,141Q235,116 209,116Q196,116 171,130Q145,144 118,166Q90,187 71,210Q51,233 51,251Q51,273 72,287Q92,301 120,309Q147,317 168,321L168,550L24,550L24,625L253,625L253,317L532,317L532,625L676,625L676,550L617,550L617,0L532,0Z"  transform="translate(924, 955)"/>
+<path d="M-16,-250Q-60,-250 -104,-239Q-148,-229 -186,-207L-150,-148Q-113,-165 -80,-171Q-47,-177 -18,-177Q25,-177 52,-160Q78,-144 78,-108L78,35L163,35L163,-112Q163,-176 114,-213Q64,-250 -16,-250Z"  transform="translate(1376, 955)"/>
+<path d="M154,-265L-46,-87L3,-37L203,-215L154,-265Z"  transform="translate(1274, 955)"/>
+</svg></p>
+</div> [code: shaping-regression]
+</span></li></ul></div></details>
+                    </body>
+                </html>

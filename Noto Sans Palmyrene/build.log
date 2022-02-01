@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansPalmyrene/NotoSansPalmyrene.designspace
+Postprocessing font output/Noto Sans Palmyrene/unhinted/variable-ttf/NotoSansPalmyrene[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansPalmyrene/NotoSansPalmyrene.designspace
+Created static font output/Noto Sans Palmyrene/unhinted/otf/NotoSansPalmyrene-Regular.otf
+Postprocessing font output/Noto Sans Palmyrene/unhinted/otf/NotoSansPalmyrene-Regular.otf
+Creating static fonts from src/NotoSansPalmyrene/NotoSansPalmyrene.designspace
+Created static font output/Noto Sans Palmyrene/unhinted/ttf/NotoSansPalmyrene-Regular.ttf
+Postprocessing font output/Noto Sans Palmyrene/unhinted/ttf/NotoSansPalmyrene-Regular.ttf
+Couldn't autohint output/Noto Sans Palmyrene/unhinted/ttf/NotoSansPalmyrene-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

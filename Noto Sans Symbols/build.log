@@ -1,0 +1,41 @@
+Creating variable fonts from src/NotoSansSymbols/NotoSansSymbols.designspace
+Postprocessing font output/Noto Sans Symbols/unhinted/variable-ttf/NotoSansSymbols[wght].ttf
+Creating static fonts from src/NotoSansSymbols/NotoSansSymbols.designspace
+Created static font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-SemiBold.otf
+Postprocessing font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-SemiBold.otf
+Created static font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Bold.otf
+Postprocessing font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Bold.otf
+Created static font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-ExtraLight.otf
+Postprocessing font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-ExtraLight.otf
+Created static font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Light.otf
+Postprocessing font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Light.otf
+Created static font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-ExtraBold.otf
+Postprocessing font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-ExtraBold.otf
+Created static font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Black.otf
+Postprocessing font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Black.otf
+Created static font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Medium.otf
+Postprocessing font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Medium.otf
+Created static font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Thin.otf
+Postprocessing font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Thin.otf
+Created static font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Regular.otf
+Postprocessing font output/Noto Sans Symbols/unhinted/otf/NotoSansSymbols-Regular.otf
+Creating static fonts from src/NotoSansSymbols/NotoSansSymbols.designspace
+Created static font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Medium.ttf
+Postprocessing font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Medium.ttf
+Created static font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Black.ttf
+Postprocessing font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Black.ttf
+Created static font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Bold.ttf
+Postprocessing font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Bold.ttf
+Created static font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-ExtraLight.ttf
+Postprocessing font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-ExtraLight.ttf
+Created static font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Light.ttf
+Postprocessing font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Light.ttf
+Created static font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-ExtraBold.ttf
+Postprocessing font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-ExtraBold.ttf
+Created static font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Regular.ttf
+Postprocessing font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Regular.ttf
+Created static font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Thin.ttf
+Postprocessing font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-Thin.ttf
+Created static font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-SemiBold.ttf
+Postprocessing font output/Noto Sans Symbols/unhinted/ttf/NotoSansSymbols-SemiBold.ttf
+Building variable, static completed. All done!

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>32</td>
+                <td>30</td>
+                <td>538</td>
+                <td>36</td>
+                <td>409</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>4%</td>
+                <td>3%</td>
+                <td>62%</td>
+                <td>4%</td>
+                <td>47%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check axis ordering on the STAT table. </h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/STAT/axis_order&gt;</div>
+<details><summary>ℹ️ <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>From a total of 5 font files, 4 of them (80.00%) lack a STAT table.</p>
+<pre><code>And these are the most common STAT axis orderings:
+('wght', 1) [code: summary]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Check `Google Fonts Latin Core` glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 212 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 212 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 212 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 212 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 212 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 11.2kb |
+| Hinted Size   | 11.3kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.2 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 11.3kb |
+| Hinted Size   | 11.3kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.2 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 11.3kb |
+| Hinted Size   | 11.3kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.2 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 11.3kb |
+| Hinted Size   | 11.3kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.2 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 17.5kb |
+| Hinted Size   | 17.6kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.1 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<h3>Font has old ttfautohint applied?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/old_ttfautohint&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<h3>EPAR table present in font?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/epar&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<h3>Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gasp&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2017 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2017 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2017 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2017 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2017 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Font has all mandatory 'name' table entries?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/mandatory_entries&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME) [code: missing-entry]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME) [code: missing-entry]</p>
+</span></li></ul></div></details>
+<h3>Check name table: FONT_FAMILY_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/familyname&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the &quot;name&quot; table: Expected &quot;Noto Sans Sundanese Medium&quot; but got &quot;Noto Sans Sundanese&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the &quot;name&quot; table: Expected &quot;Noto Sans Sundanese SemiBold&quot; but got &quot;Noto Sans Sundanese&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<h3>Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/typographicfamilyname&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Non-RIBBI fonts must have a TYPOGRAPHIC_FAMILY_NAME entry on the name table. [code: non-ribbi-lacks-entry]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Non-RIBBI fonts must have a TYPOGRAPHIC_FAMILY_NAME entry on the name table. [code: non-ribbi-lacks-entry]</p>
+</span></li></ul></div></details>
+<h3>Check for font-v versioning.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontv&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf', 'output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf', 'output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf', 'output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf', 'output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf', 'output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf', 'output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h3>Check font can render its own name.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/render_own_name&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Sundanese [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Sundanese [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Sundanese [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Sundanese [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Sundanese [code: render-own-name]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 385, but got 368 instead. [code: descent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 385, but got 368 instead. [code: descent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 385, but got 368 instead. [code: descent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 385, but got 368 instead. [code: descent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 385, but got 368 instead. [code: descent]</p>
+</span></li></ul></div></details>
+<h3>Font contains all required tables?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/required_tables&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<h3>List all superfamily filepaths</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/superfamily/list&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Sundanese/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Sundanese/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Sundanese/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Sundanese/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Sundanese/unhinted/variable-ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.name&gt; 🔥⏩⏩⏩⏩⏩</h2>
+<h3>Verify that each group of fonts with the same nameID 1 has maximum of 4 fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/family/max_4_fonts_per_family_name&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Family 'Noto Sans Sundanese' has 5 fonts (should be 4 or fewer). [code: too-many]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Check glyphs in mark glyph class are non-spacing.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_spacing_marks&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+uni1BA1 (U+1BA1) and uni1BA11BA5 (unencoded) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+uni1BA1 (U+1BA1) and uni1BA11BA5 (unencoded) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+uni1BA1 (U+1BA1) and uni1BA11BA5 (unencoded) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+uni1BA1 (U+1BA1) and uni1BA11BA5 (unencoded) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+uni1BA1 (U+1BA1) and uni1BA11BA5 (unencoded) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check GDEF mark glyph class doesn't have characters that are not marks.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_non_mark_chars&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+1BA1 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+1BA1 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+1BA1 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+1BA1 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+1BA1 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni1B8E (U+1B8E): X=212.5,Y=0.5 (should be at baseline 0?)
+* uni1B8E (U+1B8E): X=33.5,Y=1.0 (should be at baseline 0?)
+* uni1B8E (U+1B8E): X=557.0,Y=1.0 (should be at baseline 0?)
+* uni1BB0 (U+1BB0): X=419.0,Y=-2.0 (should be at baseline 0?)
+* uni1BB0 (U+1BB0): X=419.0,Y=716.0 (should be at cap-height 714?)
+* uni1BB0 (U+1BB0): X=419.0,Y=-2.0 (should be at baseline 0?)
+* uni1BB8 (U+1BB8): X=221.5,Y=1.0 (should be at baseline 0?)
+* uni1BB8 (U+1BB8): X=42.5,Y=1.0 (should be at baseline 0?)
+* uni1BB8 (U+1BB8): X=530.0,Y=1.0 (should be at baseline 0?)
+* uni1BBC (U+1BBC): X=814.0,Y=-370.0 (should be at descender -368?) and 7 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni1B8E (U+1B8E): X=37.5,Y=-0.5 (should be at baseline 0?)
+* uni1BB0 (U+1BB0): X=419.0,Y=-2.0 (should be at baseline 0?)
+* uni1BB0 (U+1BB0): X=419.0,Y=716.0 (should be at cap-height 714?)
+* uni1BB0 (U+1BB0): X=419.0,Y=-2.0 (should be at baseline 0?)
+* uni1BB8 (U+1BB8): X=334.0,Y=1.5 (should be at baseline 0?) and uni1BB8 (U+1BB8): X=55.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni1B8E (U+1B8E): X=38.0,Y=-1.0 (should be at baseline 0?)
+* uni1BB0 (U+1BB0): X=419.0,Y=-2.0 (should be at baseline 0?)
+* uni1BB0 (U+1BB0): X=419.0,Y=716.0 (should be at cap-height 714?)
+* uni1BB0 (U+1BB0): X=419.0,Y=-2.0 (should be at baseline 0?) and uni1BB8 (U+1BB8): X=58.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni1BB0 (U+1BB0): X=419.0,Y=-2.0 (should be at baseline 0?)
+* uni1BB0 (U+1BB0): X=419.0,Y=716.0 (should be at cap-height 714?)
+* uni1BB0 (U+1BB0): X=419.0,Y=-2.0 (should be at baseline 0?)
+* uni1BB8 (U+1BB8): X=360.5,Y=-2.0 (should be at baseline 0?) and uni1BBC (U+1BBC): X=1134.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni1B8E (U+1B8E): X=38.0,Y=-1.0 (should be at baseline 0?)
+* uni1BB0 (U+1BB0): X=419.0,Y=-2.0 (should be at baseline 0?)
+* uni1BB0 (U+1BB0): X=419.0,Y=716.0 (should be at cap-height 714?)
+* uni1BB0 (U+1BB0): X=419.0,Y=-2.0 (should be at baseline 0?) and uni1BB8 (U+1BB8): X=58.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni1B85 (U+1B85) contains a short segment B&lt;&lt;623.5,251.0&gt;-&lt;615.0,246.0&gt;-&lt;615.0,239.0&gt;&gt;
+* uni1BB3 (U+1BB3) contains a short segment B&lt;&lt;623.5,251.0&gt;-&lt;615.0,246.0&gt;-&lt;615.0,239.0&gt;&gt;
+* uni1BB6 (U+1BB6) contains a short segment B&lt;&lt;517.5,251.0&gt;-&lt;509.0,246.0&gt;-&lt;509.0,239.0&gt;&gt;
+* uni1BB8 (U+1BB8) contains a short segment L&lt;&lt;818.0,556.0&gt;--&lt;795.0,556.0&gt;&gt; and uni1BB9 (U+1BB9) contains a short segment B&lt;&lt;592.5,251.0&gt;-&lt;584.0,246.0&gt;-&lt;584.0,239.0&gt;&gt; [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni1B85 (U+1B85) contains a short segment B&lt;&lt;518.0,258.0&gt;-&lt;510.0,247.0&gt;-&lt;510.0,236.0&gt;&gt;
+* uni1B86 (U+1B86) contains a short segment B&lt;&lt;875.5,494.5&gt;-&lt;886.0,478.0&gt;-&lt;886.0,464.0&gt;&gt;
+* uni1B86 (U+1B86) contains a short segment B&lt;&lt;842.0,422.0&gt;-&lt;825.0,422.0&gt;-&lt;813.5,430.0&gt;&gt;
+* uni1B86 (U+1B86) contains a short segment B&lt;&lt;813.5,430.0&gt;-&lt;802.0,438.0&gt;-&lt;790.0,448.5&gt;&gt;
+* uni1BB3 (U+1BB3) contains a short segment B&lt;&lt;518.0,258.0&gt;-&lt;510.0,247.0&gt;-&lt;510.0,236.0&gt;&gt;
+* uni1BB6 (U+1BB6) contains a short segment B&lt;&lt;405.0,258.0&gt;-&lt;397.0,247.0&gt;-&lt;397.0,236.0&gt;&gt; and uni1BB9 (U+1BB9) contains a short segment B&lt;&lt;496.0,258.0&gt;-&lt;488.0,247.0&gt;-&lt;488.0,236.0&gt;&gt; [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni1B86 (U+1B86) contains a short segment B&lt;&lt;875.5,498.5&gt;-&lt;886.0,482.0&gt;-&lt;886.0,468.0&gt;&gt;
+* uni1B86 (U+1B86) contains a short segment B&lt;&lt;886.0,468.0&gt;-&lt;886.0,449.0&gt;-&lt;874.0,438.0&gt;&gt;
+* uni1B86 (U+1B86) contains a short segment B&lt;&lt;842.0,427.0&gt;-&lt;826.0,427.0&gt;-&lt;814.5,435.0&gt;&gt;
+* uni1B86 (U+1B86) contains a short segment B&lt;&lt;814.5,435.0&gt;-&lt;803.0,443.0&gt;-&lt;791.5,453.5&gt;&gt;
+* uni1BB3 (U+1BB3) contains a short segment B&lt;&lt;498.0,259.5&gt;-&lt;490.0,247.0&gt;-&lt;490.0,236.0&gt;&gt; and uni1BB9 (U+1BB9) contains a short segment B&lt;&lt;478.0,259.5&gt;-&lt;470.0,247.0&gt;-&lt;470.0,236.0&gt;&gt; [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni1B85 (U+1B85) contains a short segment B&lt;&lt;567.0,254.5&gt;-&lt;559.0,246.0&gt;-&lt;559.0,238.0&gt;&gt;
+* uni1B86 (U+1B86) contains a short segment B&lt;&lt;842.0,409.0&gt;-&lt;824.0,409.0&gt;-&lt;811.0,417.0&gt;&gt;
+* uni1B86 (U+1B86) contains a short segment B&lt;&lt;811.0,417.0&gt;-&lt;798.0,425.0&gt;-&lt;785.0,436.0&gt;&gt;
+* uni1BB3 (U+1BB3) contains a short segment B&lt;&lt;567.0,254.5&gt;-&lt;559.0,246.0&gt;-&lt;559.0,238.0&gt;&gt;
+* uni1BB6 (U+1BB6) contains a short segment B&lt;&lt;457.0,254.5&gt;-&lt;449.0,246.0&gt;-&lt;449.0,238.0&gt;&gt; and uni1BB9 (U+1BB9) contains a short segment B&lt;&lt;541.0,254.5&gt;-&lt;533.0,246.0&gt;-&lt;533.0,238.0&gt;&gt; [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* uni1B86 (U+1B86): L&lt;&lt;829.0,584.0&gt;--&lt;690.0,496.0&gt;&gt;/B&lt;&lt;690.0,496.0&gt;-&lt;705.0,501.0&gt;-&lt;729.0,506.5&gt;&gt; = 13.902687114220551 [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>

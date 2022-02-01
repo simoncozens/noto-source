@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansSylotiNagri/NotoSansSylotiNagri.designspace
+Postprocessing font output/Noto Sans Syloti Nagri/unhinted/variable-ttf/NotoSansSylotiNagri[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansSylotiNagri/NotoSansSylotiNagri.designspace
+Created static font output/Noto Sans Syloti Nagri/unhinted/otf/NotoSansSylotiNagri-Regular.otf
+Postprocessing font output/Noto Sans Syloti Nagri/unhinted/otf/NotoSansSylotiNagri-Regular.otf
+Creating static fonts from src/NotoSansSylotiNagri/NotoSansSylotiNagri.designspace
+Created static font output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf
+Postprocessing font output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf
+Couldn't autohint output/Noto Sans Syloti Nagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

@@ -1,0 +1,10 @@
+Creating variable fonts from src/NotoSansSaurashtra/NotoSansSaurashtra.designspace
+Postprocessing font output/Noto Sans Saurashtra/unhinted/variable-ttf/NotoSansSaurashtra[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansSaurashtra/NotoSansSaurashtra.designspace
+Created static font output/Noto Sans Saurashtra/unhinted/otf/NotoSansSaurashtra-Regular.otf
+Postprocessing font output/Noto Sans Saurashtra/unhinted/otf/NotoSansSaurashtra-Regular.otf
+Creating static fonts from src/NotoSansSaurashtra/NotoSansSaurashtra.designspace
+Created static font output/Noto Sans Saurashtra/unhinted/ttf/NotoSansSaurashtra-Regular.ttf
+Postprocessing font output/Noto Sans Saurashtra/unhinted/ttf/NotoSansSaurashtra-Regular.ttf
+Building variable, static completed. All done!

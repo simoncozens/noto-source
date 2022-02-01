@@ -1,0 +1,295 @@
+Creating variable fonts from src/NotoSansSinhala.glyphs
+Postprocessing font output/Noto Sans Sinhala/unhinted/variable-ttf/NotoSansSinhala[wdth,wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansSinhala.glyphs
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Bold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Bold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedExtraLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedExtraLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedExtraBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedExtraBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedExtraBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedSemiBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Black.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Black.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedExtraBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Light.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Light.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensed.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensed.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedSemiBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedExtraBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedExtraBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedExtraBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedThin.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedThin.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedThin.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedThin.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedBlack.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedBlack.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedBlack.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedBlack.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Black.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Black.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedBlack.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Condensed.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Condensed.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedBlack.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedBlack.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedExtraLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Light.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Light.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedMedium.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedMedium.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Regular.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Regular.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedSemiBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedMedium.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensed.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensed.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedMedium.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedMedium.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Medium.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Medium.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedExtraLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Regular.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Regular.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Thin.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Thin.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedExtraLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedSemiBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedSemiBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedMedium.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedMedium.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedExtraLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedExtraLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Thin.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-Thin.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Bold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Bold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedSemiBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedExtraBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedSemiBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedSemiBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedThin.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiCondensedThin.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedExtraLight.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedMedium.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedMedium.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedBlack.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedBlack.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Condensed.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Condensed.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedThin.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-SemiCondensedThin.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-SemiBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensed.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensed.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedThin.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-CondensedThin.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensed.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensed.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedThin.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedThin.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Medium.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-Medium.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedMedium.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-CondensedBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedBold.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhalaUI-ExtraCondensedBold.otf
+Created static font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Sans Sinhala/unhinted/otf/NotoSansSinhala-ExtraCondensedBlack.otf
+Creating static fonts from src/NotoSansSinhala.glyphs
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedExtraBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedBlack.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedSemiBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensed.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensed.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Light.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Light.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedThin.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedMedium.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedBlack.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedBlack.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedMedium.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedExtraLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Regular.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Regular.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Medium.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Medium.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedSemiBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Condensed.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Condensed.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Thin.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Thin.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedThin.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedThin.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Medium.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Medium.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Black.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Black.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedExtraBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Bold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Bold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedThin.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensed.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensed.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedExtraLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Thin.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Thin.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedSemiBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedExtraBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Black.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Black.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedMedium.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedMedium.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedThin.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedThin.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedMedium.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-CondensedLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Bold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-Bold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedExtraLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Regular.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Regular.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedBlack.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedBlack.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedExtraBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Condensed.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Condensed.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedExtraLight.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Light.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-Light.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedBlack.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedBlack.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensed.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensed.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensed.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensed.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedMedium.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedMedium.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedThin.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedThin.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedThin.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedThin.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-CondensedSemiBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedBlack.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-SemiCondensedMedium.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhalaUI-ExtraCondensedBold.ttf
+Created static font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedBold.ttf
+Postprocessing font output/Noto Sans Sinhala/unhinted/ttf/NotoSansSinhala-SemiCondensedBold.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo'}

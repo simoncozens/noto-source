@@ -1,0 +1,26 @@
+Creating variable fonts from src/NotoSansSoraSompeng/NotoSansSoraSompeng.designspace
+Postprocessing font output/Noto Sans Sora Sompeng/unhinted/variable-ttf/NotoSansSoraSompeng[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansSoraSompeng/NotoSansSoraSompeng.designspace
+Created static font output/Noto Sans Sora Sompeng/unhinted/otf/NotoSansSoraSompeng-Regular.otf
+Postprocessing font output/Noto Sans Sora Sompeng/unhinted/otf/NotoSansSoraSompeng-Regular.otf
+Created static font output/Noto Sans Sora Sompeng/unhinted/otf/NotoSansSoraSompeng-SemiBold.otf
+Postprocessing font output/Noto Sans Sora Sompeng/unhinted/otf/NotoSansSoraSompeng-SemiBold.otf
+Created static font output/Noto Sans Sora Sompeng/unhinted/otf/NotoSansSoraSompeng-Bold.otf
+Postprocessing font output/Noto Sans Sora Sompeng/unhinted/otf/NotoSansSoraSompeng-Bold.otf
+Created static font output/Noto Sans Sora Sompeng/unhinted/otf/NotoSansSoraSompeng-Medium.otf
+Postprocessing font output/Noto Sans Sora Sompeng/unhinted/otf/NotoSansSoraSompeng-Medium.otf
+Creating static fonts from src/NotoSansSoraSompeng/NotoSansSoraSompeng.designspace
+Created static font output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-Regular.ttf
+Postprocessing font output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-Regular.ttf
+Couldn't autohint output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-Regular.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-Bold.ttf
+Postprocessing font output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-Bold.ttf
+Couldn't autohint output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-Bold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-SemiBold.ttf
+Postprocessing font output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-SemiBold.ttf
+Couldn't autohint output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-SemiBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-Medium.ttf
+Postprocessing font output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-Medium.ttf
+Couldn't autohint output/Noto Sans Sora Sompeng/unhinted/ttf/NotoSansSoraSompeng-Medium.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

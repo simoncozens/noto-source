@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansPhoenician/NotoSansPhoenician.designspace
+Postprocessing font output/Noto Sans Phoenician/unhinted/variable-ttf/NotoSansPhoenician[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansPhoenician/NotoSansPhoenician.designspace
+Created static font output/Noto Sans Phoenician/unhinted/otf/NotoSansPhoenician-Regular.otf
+Postprocessing font output/Noto Sans Phoenician/unhinted/otf/NotoSansPhoenician-Regular.otf
+Creating static fonts from src/NotoSansPhoenician/NotoSansPhoenician.designspace
+Created static font output/Noto Sans Phoenician/unhinted/ttf/NotoSansPhoenician-Regular.ttf
+Postprocessing font output/Noto Sans Phoenician/unhinted/ttf/NotoSansPhoenician-Regular.ttf
+Couldn't autohint output/Noto Sans Phoenician/unhinted/ttf/NotoSansPhoenician-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

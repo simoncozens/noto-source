@@ -1,0 +1,10 @@
+Creating variable fonts from src/NotoSansShavian/NotoSansShavian.designspace
+Postprocessing font output/Noto Sans Shavian/unhinted/variable-ttf/NotoSansShavian[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansShavian/NotoSansShavian.designspace
+Created static font output/Noto Sans Shavian/unhinted/otf/NotoSansShavian-Regular.otf
+Postprocessing font output/Noto Sans Shavian/unhinted/otf/NotoSansShavian-Regular.otf
+Creating static fonts from src/NotoSansShavian/NotoSansShavian.designspace
+Created static font output/Noto Sans Shavian/unhinted/ttf/NotoSansShavian-Regular.ttf
+Postprocessing font output/Noto Sans Shavian/unhinted/ttf/NotoSansShavian-Regular.ttf
+Building variable, static completed. All done!

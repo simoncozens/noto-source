@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansRunic/NotoSansRunic.designspace
+Postprocessing font output/Noto Sans Runic/unhinted/variable-ttf/NotoSansRunic[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansRunic/NotoSansRunic.designspace
+Created static font output/Noto Sans Runic/unhinted/otf/NotoSansRunic-Regular.otf
+Postprocessing font output/Noto Sans Runic/unhinted/otf/NotoSansRunic-Regular.otf
+Creating static fonts from src/NotoSansRunic/NotoSansRunic.designspace
+Created static font output/Noto Sans Runic/unhinted/ttf/NotoSansRunic-Regular.ttf
+Postprocessing font output/Noto Sans Runic/unhinted/ttf/NotoSansRunic-Regular.ttf
+Couldn't autohint output/Noto Sans Runic/unhinted/ttf/NotoSansRunic-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

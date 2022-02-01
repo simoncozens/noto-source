@@ -1,0 +1,10 @@
+Creating variable fonts from src/NotoSansSymbols2/NotoSansSymbols2.designspace
+Couldn't build variable font: Axis order arg is missing {'wght'} axes.
+Creating static fonts from src/NotoSansSymbols2/NotoSansSymbols2.designspace
+Created static font output/Noto Sans Symbols2/unhinted/otf/NotoSansSymbols2-Regular.otf
+Postprocessing font output/Noto Sans Symbols2/unhinted/otf/NotoSansSymbols2-Regular.otf
+Creating static fonts from src/NotoSansSymbols2/NotoSansSymbols2.designspace
+Created static font output/Noto Sans Symbols2/unhinted/ttf/NotoSansSymbols2-Regular.ttf
+Postprocessing font output/Noto Sans Symbols2/unhinted/ttf/NotoSansSymbols2-Regular.ttf
+Couldn't autohint output/Noto Sans Symbols2/unhinted/ttf/NotoSansSymbols2-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

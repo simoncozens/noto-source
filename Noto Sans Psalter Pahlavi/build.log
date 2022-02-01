@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansPsalterPahlavi.glyphs
+Postprocessing font output/Noto Sans Psalter Pahlavi/unhinted/variable-ttf/NotoSansPsalterPahlavi[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansPsalterPahlavi.glyphs
+Created static font output/Noto Sans Psalter Pahlavi/unhinted/otf/NotoSansPsalterPahlavi-Regular.otf
+Postprocessing font output/Noto Sans Psalter Pahlavi/unhinted/otf/NotoSansPsalterPahlavi-Regular.otf
+Creating static fonts from src/NotoSansPsalterPahlavi.glyphs
+Created static font output/Noto Sans Psalter Pahlavi/unhinted/ttf/NotoSansPsalterPahlavi-Regular.ttf
+Postprocessing font output/Noto Sans Psalter Pahlavi/unhinted/ttf/NotoSansPsalterPahlavi-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

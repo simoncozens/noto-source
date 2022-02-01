@@ -1,0 +1,12 @@
+Creating variable fonts from src/NotoSansPauCinHau.glyphs
+Postprocessing font output/Noto Sans Pau Cin Hau/unhinted/variable-ttf/NotoSansPauCinHau[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansPauCinHau.glyphs
+Created static font output/Noto Sans Pau Cin Hau/unhinted/otf/NotoSansPauCinHau-Regular.otf
+Postprocessing font output/Noto Sans Pau Cin Hau/unhinted/otf/NotoSansPauCinHau-Regular.otf
+Creating static fonts from src/NotoSansPauCinHau.glyphs
+Created static font output/Noto Sans Pau Cin Hau/unhinted/ttf/NotoSansPauCinHau-Regular.ttf
+Postprocessing font output/Noto Sans Pau Cin Hau/unhinted/ttf/NotoSansPauCinHau-Regular.ttf
+Couldn't autohint output/Noto Sans Pau Cin Hau/unhinted/ttf/NotoSansPauCinHau-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

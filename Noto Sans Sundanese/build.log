@@ -1,0 +1,22 @@
+Creating variable fonts from src/NotoSansSundanese/NotoSansSundanese.designspace
+Postprocessing font output/Noto Sans Sundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansSundanese/NotoSansSundanese.designspace
+Created static font output/Noto Sans Sundanese/unhinted/otf/NotoSansSundanese-SemiBold.otf
+Postprocessing font output/Noto Sans Sundanese/unhinted/otf/NotoSansSundanese-SemiBold.otf
+Created static font output/Noto Sans Sundanese/unhinted/otf/NotoSansSundanese-Regular.otf
+Postprocessing font output/Noto Sans Sundanese/unhinted/otf/NotoSansSundanese-Regular.otf
+Created static font output/Noto Sans Sundanese/unhinted/otf/NotoSansSundanese-Medium.otf
+Postprocessing font output/Noto Sans Sundanese/unhinted/otf/NotoSansSundanese-Medium.otf
+Created static font output/Noto Sans Sundanese/unhinted/otf/NotoSansSundanese-Bold.otf
+Postprocessing font output/Noto Sans Sundanese/unhinted/otf/NotoSansSundanese-Bold.otf
+Creating static fonts from src/NotoSansSundanese/NotoSansSundanese.designspace
+Created static font output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf
+Postprocessing font output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf
+Created static font output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf
+Postprocessing font output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf
+Created static font output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf
+Postprocessing font output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf
+Created static font output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf
+Postprocessing font output/Noto Sans Sundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf
+Building variable, static completed. All done!

@@ -1,0 +1,12 @@
+Creating variable fonts from src/NotoSansSharada.glyphs
+Postprocessing font output/Noto Sans Sharada/unhinted/variable-ttf/NotoSansSharada[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansSharada.glyphs
+Created static font output/Noto Sans Sharada/unhinted/otf/NotoSansSharada-Regular.otf
+Postprocessing font output/Noto Sans Sharada/unhinted/otf/NotoSansSharada-Regular.otf
+Creating static fonts from src/NotoSansSharada.glyphs
+Created static font output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf
+Postprocessing font output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf
+Couldn't autohint output/Noto Sans Sharada/unhinted/ttf/NotoSansSharada-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}
