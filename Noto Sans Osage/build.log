@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansOsage.glyphs
+Postprocessing font output/Noto Sans Osage/unhinted/variable-ttf/NotoSansOsage[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansOsage.glyphs
+Created static font output/Noto Sans Osage/unhinted/otf/NotoSansOsage-Regular.otf
+Postprocessing font output/Noto Sans Osage/unhinted/otf/NotoSansOsage-Regular.otf
+Creating static fonts from src/NotoSansOsage.glyphs
+Created static font output/Noto Sans Osage/unhinted/ttf/NotoSansOsage-Regular.ttf
+Postprocessing font output/Noto Sans Osage/unhinted/ttf/NotoSansOsage-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

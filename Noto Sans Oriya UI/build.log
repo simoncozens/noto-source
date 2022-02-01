@@ -1,0 +1,67 @@
+Creating variable fonts from src/NotoSansOriyaUI-MM.glyphs
+Postprocessing font output/Noto Sans Oriya UI/unhinted/variable-ttf/NotoSansOriyaUI-MM[wdth,wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansOriyaUI-MM.glyphs
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-Condensed.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-Condensed.otf
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-ExtraCondensedThin.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-ExtraCondensedThin.otf
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-ExtraCondensed.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-ExtraCondensed.otf
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-ExtraCondensedBlack.otf
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-Black.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-Black.otf
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-CondensedBold.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-CondensedBold.otf
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-Thin.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-Thin.otf
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-ExtraCondensedBold.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-ExtraCondensedBold.otf
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-Regular.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-Regular.otf
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-CondensedBlack.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-CondensedBlack.otf
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-CondensedThin.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-CondensedThin.otf
+Created static font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-Bold.otf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/otf/NotoSansOriyaUI-Bold.otf
+Creating static fonts from src/NotoSansOriyaUI-MM.glyphs
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Black.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Black.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Black.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-CondensedThin.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-CondensedThin.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-CondensedThin.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-CondensedBlack.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-CondensedBlack.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-CondensedBlack.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensedBold.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensedBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Thin.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Thin.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Thin.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensedThin.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensedThin.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensedBlack.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensedBlack.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Regular.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Regular.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Regular.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Condensed.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Condensed.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Condensed.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Bold.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Bold.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-Bold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensed.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensed.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-ExtraCondensed.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-CondensedBold.ttf
+Postprocessing font output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-CondensedBold.ttf
+Couldn't autohint output/Noto Sans Oriya UI/unhinted/ttf/NotoSansOriyaUI-CondensedBold.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

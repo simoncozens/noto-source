@@ -1,0 +1,12 @@
+Creating variable fonts from src/NotoSansNushu.glyphs
+Postprocessing font output/Noto Sans Nushu/unhinted/variable-ttf/NotoSansNushu[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansNushu.glyphs
+Created static font output/Noto Sans Nushu/unhinted/otf/NotoSansNushu-Regular.otf
+Postprocessing font output/Noto Sans Nushu/unhinted/otf/NotoSansNushu-Regular.otf
+Creating static fonts from src/NotoSansNushu.glyphs
+Created static font output/Noto Sans Nushu/unhinted/ttf/NotoSansNushu-Regular.ttf
+Postprocessing font output/Noto Sans Nushu/unhinted/ttf/NotoSansNushu-Regular.ttf
+Couldn't autohint output/Noto Sans Nushu/unhinted/ttf/NotoSansNushu-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

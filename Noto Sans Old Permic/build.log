@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansOldPermic/NotoSansOldPermic.designspace
+Postprocessing font output/Noto Sans Old Permic/unhinted/variable-ttf/NotoSansOldPermic[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansOldPermic/NotoSansOldPermic.designspace
+Created static font output/Noto Sans Old Permic/unhinted/otf/NotoSansOldPermic-Regular.otf
+Postprocessing font output/Noto Sans Old Permic/unhinted/otf/NotoSansOldPermic-Regular.otf
+Creating static fonts from src/NotoSansOldPermic/NotoSansOldPermic.designspace
+Created static font output/Noto Sans Old Permic/unhinted/ttf/NotoSansOldPermic-Regular.ttf
+Postprocessing font output/Noto Sans Old Permic/unhinted/ttf/NotoSansOldPermic-Regular.ttf
+Couldn't autohint output/Noto Sans Old Permic/unhinted/ttf/NotoSansOldPermic-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

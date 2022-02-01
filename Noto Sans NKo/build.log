@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansNKo.glyphs
+Postprocessing font output/Noto Sans NKo/unhinted/variable-ttf/NotoSansNKo[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansNKo.glyphs
+Created static font output/Noto Sans NKo/unhinted/otf/NotoSansNKo-Regular.otf
+Postprocessing font output/Noto Sans NKo/unhinted/otf/NotoSansNKo-Regular.otf
+Creating static fonts from src/NotoSansNKo.glyphs
+Created static font output/Noto Sans NKo/unhinted/ttf/NotoSansNKo-Regular.ttf
+Postprocessing font output/Noto Sans NKo/unhinted/ttf/NotoSansNKo-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

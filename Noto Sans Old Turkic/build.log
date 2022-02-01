@@ -1,0 +1,10 @@
+Creating variable fonts from src/NotoSansOldTurkic/NotoSansOldTurkic.designspace
+Postprocessing font output/Noto Sans Old Turkic/unhinted/variable-ttf/NotoSansOldTurkic[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansOldTurkic/NotoSansOldTurkic.designspace
+Created static font output/Noto Sans Old Turkic/unhinted/otf/NotoSansOldTurkic-Regular.otf
+Postprocessing font output/Noto Sans Old Turkic/unhinted/otf/NotoSansOldTurkic-Regular.otf
+Creating static fonts from src/NotoSansOldTurkic/NotoSansOldTurkic.designspace
+Created static font output/Noto Sans Old Turkic/unhinted/ttf/NotoSansOldTurkic-Regular.ttf
+Postprocessing font output/Noto Sans Old Turkic/unhinted/ttf/NotoSansOldTurkic-Regular.ttf
+Building variable, static completed. All done!

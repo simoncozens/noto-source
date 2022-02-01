@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansNabataean/NotoSansNabataean.designspace
+Postprocessing font output/Noto Sans Nabataean/unhinted/variable-ttf/NotoSansNabataean[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansNabataean/NotoSansNabataean.designspace
+Created static font output/Noto Sans Nabataean/unhinted/otf/NotoSansNabataean-Regular.otf
+Postprocessing font output/Noto Sans Nabataean/unhinted/otf/NotoSansNabataean-Regular.otf
+Creating static fonts from src/NotoSansNabataean/NotoSansNabataean.designspace
+Created static font output/Noto Sans Nabataean/unhinted/ttf/NotoSansNabataean-Regular.ttf
+Postprocessing font output/Noto Sans Nabataean/unhinted/ttf/NotoSansNabataean-Regular.ttf
+Couldn't autohint output/Noto Sans Nabataean/unhinted/ttf/NotoSansNabataean-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

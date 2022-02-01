@@ -1,0 +1,23 @@
+Creating variable fonts from src/NotoSansOlChiki.glyphs
+Postprocessing font output/Noto Sans Ol Chiki/unhinted/variable-ttf/NotoSansOlChiki[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansOlChiki.glyphs
+Created static font output/Noto Sans Ol Chiki/unhinted/otf/NotoSansOlChiki-Bold.otf
+Postprocessing font output/Noto Sans Ol Chiki/unhinted/otf/NotoSansOlChiki-Bold.otf
+Created static font output/Noto Sans Ol Chiki/unhinted/otf/NotoSansOlChiki-Regular.otf
+Postprocessing font output/Noto Sans Ol Chiki/unhinted/otf/NotoSansOlChiki-Regular.otf
+Created static font output/Noto Sans Ol Chiki/unhinted/otf/NotoSansOlChiki-Medium.otf
+Postprocessing font output/Noto Sans Ol Chiki/unhinted/otf/NotoSansOlChiki-Medium.otf
+Created static font output/Noto Sans Ol Chiki/unhinted/otf/NotoSansOlChiki-SemiBold.otf
+Postprocessing font output/Noto Sans Ol Chiki/unhinted/otf/NotoSansOlChiki-SemiBold.otf
+Creating static fonts from src/NotoSansOlChiki.glyphs
+Created static font output/Noto Sans Ol Chiki/unhinted/ttf/NotoSansOlChiki-Bold.ttf
+Postprocessing font output/Noto Sans Ol Chiki/unhinted/ttf/NotoSansOlChiki-Bold.ttf
+Created static font output/Noto Sans Ol Chiki/unhinted/ttf/NotoSansOlChiki-Regular.ttf
+Postprocessing font output/Noto Sans Ol Chiki/unhinted/ttf/NotoSansOlChiki-Regular.ttf
+Created static font output/Noto Sans Ol Chiki/unhinted/ttf/NotoSansOlChiki-SemiBold.ttf
+Postprocessing font output/Noto Sans Ol Chiki/unhinted/ttf/NotoSansOlChiki-SemiBold.ttf
+Created static font output/Noto Sans Ol Chiki/unhinted/ttf/NotoSansOlChiki-Medium.ttf
+Postprocessing font output/Noto Sans Ol Chiki/unhinted/ttf/NotoSansOlChiki-Medium.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

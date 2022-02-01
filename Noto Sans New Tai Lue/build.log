@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansNewTaiLue/NotoSansNewTaiLue.designspace
+Postprocessing font output/Noto Sans New Tai Lue/unhinted/variable-ttf/NotoSansNewTaiLue[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansNewTaiLue/NotoSansNewTaiLue.designspace
+Created static font output/Noto Sans New Tai Lue/unhinted/otf/NotoSansNewTaiLue-Regular.otf
+Postprocessing font output/Noto Sans New Tai Lue/unhinted/otf/NotoSansNewTaiLue-Regular.otf
+Creating static fonts from src/NotoSansNewTaiLue/NotoSansNewTaiLue.designspace
+Created static font output/Noto Sans New Tai Lue/unhinted/ttf/NotoSansNewTaiLue-Regular.ttf
+Postprocessing font output/Noto Sans New Tai Lue/unhinted/ttf/NotoSansNewTaiLue-Regular.ttf
+Couldn't autohint output/Noto Sans New Tai Lue/unhinted/ttf/NotoSansNewTaiLue-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

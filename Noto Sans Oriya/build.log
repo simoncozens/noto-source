@@ -1,0 +1,67 @@
+Creating variable fonts from src/NotoSansOriya-MM.glyphs
+Postprocessing font output/Noto Sans Oriya/unhinted/variable-ttf/NotoSansOriya-MM[wdth,wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansOriya-MM.glyphs
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-CondensedThin.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-CondensedThin.otf
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-ExtraCondensedThin.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-ExtraCondensedThin.otf
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-Regular.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-Regular.otf
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-ExtraCondensedBold.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-ExtraCondensedBold.otf
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-ExtraCondensedBlack.otf
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-ExtraCondensed.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-ExtraCondensed.otf
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-Thin.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-Thin.otf
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-CondensedBlack.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-CondensedBlack.otf
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-Black.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-Black.otf
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-CondensedBold.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-CondensedBold.otf
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-Condensed.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-Condensed.otf
+Created static font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-Bold.otf
+Postprocessing font output/Noto Sans Oriya/unhinted/otf/NotoSansOriya-Bold.otf
+Creating static fonts from src/NotoSansOriya-MM.glyphs
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Bold.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Bold.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Bold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensedThin.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensedThin.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensedBlack.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensedBlack.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Regular.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Regular.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Regular.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Black.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Black.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Black.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-CondensedThin.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-CondensedThin.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-CondensedThin.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensed.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensed.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensed.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-CondensedBold.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-CondensedBold.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-CondensedBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensedBold.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-ExtraCondensedBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-CondensedBlack.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-CondensedBlack.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-CondensedBlack.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Thin.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Thin.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Thin.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Condensed.ttf
+Postprocessing font output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Condensed.ttf
+Couldn't autohint output/Noto Sans Oriya/unhinted/ttf/NotoSansOriya-Condensed.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

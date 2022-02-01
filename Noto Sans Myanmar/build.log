@@ -1,0 +1,151 @@
+Creating variable fonts from src/NotoSansMyanmar-MM.glyphs
+Postprocessing font output/Noto Sans Myanmar/unhinted/variable-ttf/NotoSansMyanmar-MM[wdth,wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansMyanmar-MM.glyphs
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraLight.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraLight.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedSemiBold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Bold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Bold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Light.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Light.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedMedium.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedMedium.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedExtraBold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensed.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensed.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedMedium.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedMedium.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedSemiBold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedBlack.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedBlack.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedMedium.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedSemiBold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedSemiBold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedExtraLight.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedExtraLight.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Regular.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Regular.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedLight.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedLight.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedThin.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedThin.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Condensed.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Condensed.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedExtraLight.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedExtraBold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedExtraBold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Black.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Black.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensed.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensed.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedBlack.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedLight.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedLight.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedBold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedBold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Medium.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Medium.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedBold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedBold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedThin.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedThin.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Thin.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-Thin.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraBold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraBold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedLight.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedLight.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedExtraBold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedBlack.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedBlack.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-ExtraCondensedExtraLight.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedBold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiCondensedBold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiBold.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-SemiBold.otf
+Created static font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedThin.otf
+Postprocessing font output/Noto Sans Myanmar/unhinted/otf/NotoSansMyanmar-CondensedThin.otf
+Creating static fonts from src/NotoSansMyanmar-MM.glyphs
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedBlack.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedExtraBold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedExtraLight.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedLight.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedLight.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedSemiBold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedThin.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Thin.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Thin.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedSemiBold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedMedium.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedMedium.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Regular.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Regular.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedBlack.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedLight.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Bold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Bold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedLight.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedLight.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedBlack.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedBlack.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraBold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraBold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedBold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedBold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedExtraLight.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedThin.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-CondensedThin.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Light.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Light.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedMedium.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensed.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensed.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedMedium.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Black.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Black.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Condensed.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Condensed.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedBold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedBold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Medium.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-Medium.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraCondensedBold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensed.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensed.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedExtraBold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiBold.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiBold.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraLight.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-ExtraLight.ttf
+Created static font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedThin.ttf
+Postprocessing font output/Noto Sans Myanmar/unhinted/ttf/NotoSansMyanmar-SemiCondensedThin.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

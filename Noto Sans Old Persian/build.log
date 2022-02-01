@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansOldPersian/NotoSansOldPersian.designspace
+Postprocessing font output/Noto Sans Old Persian/unhinted/variable-ttf/NotoSansOldPersian[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansOldPersian/NotoSansOldPersian.designspace
+Created static font output/Noto Sans Old Persian/unhinted/otf/NotoSansOldPersian-Regular.otf
+Postprocessing font output/Noto Sans Old Persian/unhinted/otf/NotoSansOldPersian-Regular.otf
+Creating static fonts from src/NotoSansOldPersian/NotoSansOldPersian.designspace
+Created static font output/Noto Sans Old Persian/unhinted/ttf/NotoSansOldPersian-Regular.ttf
+Postprocessing font output/Noto Sans Old Persian/unhinted/ttf/NotoSansOldPersian-Regular.ttf
+Couldn't autohint output/Noto Sans Old Persian/unhinted/ttf/NotoSansOldPersian-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
