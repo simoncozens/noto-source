@@ -70,38 +70,7 @@ class NotoBuilder(GFBuilder):
             self.logger.error("Couldn't build variable font: %s" % e)
 
 
-os.makedirs("output", exist_ok=True)  # Stop it being deleted
-
-script_projects = {}
-# Try to load state here
-try:
-    script_projects = requests.get(STATE_URL).json()
-except Exception as e:
-    logging.getLogger().error(e)
-
-def last_commit(file):
-    log = subprocess.check_output(
-        ["git", "log", "-1", "--abbrev-commit", "--follow", "--pretty=reference", file]
-    ).decode("utf-8")
-    log = re.sub(r"^(\w+)", fr'<a href="{COMMIT_URL}/\1">\1</a>', log)
-    return log
-
-
-all_files = sorted([*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")])
-
-# Work out which we're building
-to_build = []
-for ix, file in enumerate(all_files):
-    nb = NotoBuilder(file)
-    family = nb.get_family_name()
-    if family in BLACKLISTED:
-        continue
-    if family not in script_projects or last_commit(file) != script_projects[family]["commit"]:
-        to_build.append(file)
-    if len(to_build) > MAX_BUILD:
-        break
-
-for ix, file in enumerate(to_build):
+def build_and_test_file(file):
     nb = NotoBuilder(file)
     family = nb.get_family_name()
     os.makedirs("output/%s" % family, exist_ok=True)
@@ -158,7 +127,8 @@ for ix, file in enumerate(to_build):
             outputs.setdefault("hinted", []).append(
                 {"path": p, "display": os.path.basename(p)}
             )
-    script_projects[family] = {
+    print("\n::endgroup::", file=sys.stderr)
+    return {
             "family": family,
             "commit": last_commit(file),
             "log": "%s/build.log" % family,
@@ -172,7 +142,42 @@ for ix, file in enumerate(to_build):
             ],
             "outputs": outputs,
         }
-    print("\n::endgroup::", file=sys.stderr)
+
+
+os.makedirs("output", exist_ok=True)  # Stop it being deleted
+
+script_projects = {}
+# Try to load state here
+try:
+    script_projects = requests.get(STATE_URL).json()
+except Exception as e:
+    logging.getLogger().error(e)
+
+def last_commit(file):
+    log = subprocess.check_output(
+        ["git", "log", "-1", "--abbrev-commit", "--follow", "--pretty=reference", file]
+    ).decode("utf-8")
+    log = re.sub(r"^(\w+)", fr'<a href="{COMMIT_URL}/\1">\1</a>', log)
+    return log
+
+
+all_files = sorted([*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")])
+
+# Work out which we're building
+to_build = []
+for ix, file in enumerate(all_files):
+    nb = NotoBuilder(file)
+    family = nb.get_family_name()
+    if family in BLACKLISTED:
+        continue
+    if family not in script_projects or last_commit(file) != script_projects[family]["commit"]:
+        to_build.append(file)
+    if len(to_build) > MAX_BUILD:
+        break
+
+# for ix, file in enumerate(to_build):
+#     results = build_and_test_file(file)
+#     script_projects[results["family"]] = results
 
 
 compiler = Compiler()
