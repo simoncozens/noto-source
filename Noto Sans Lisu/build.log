@@ -1,0 +1,22 @@
+Creating variable fonts from src/NotoSansLisu.glyphs
+Postprocessing font output/Noto Sans Lisu/unhinted/variable-ttf/NotoSansLisu[wght].ttf
+Creating static fonts from src/NotoSansLisu.glyphs
+Created static font output/Noto Sans Lisu/unhinted/otf/NotoSansLisu-SemiBold.otf
+Postprocessing font output/Noto Sans Lisu/unhinted/otf/NotoSansLisu-SemiBold.otf
+Created static font output/Noto Sans Lisu/unhinted/otf/NotoSansLisu-Bold.otf
+Postprocessing font output/Noto Sans Lisu/unhinted/otf/NotoSansLisu-Bold.otf
+Created static font output/Noto Sans Lisu/unhinted/otf/NotoSansLisu-Regular.otf
+Postprocessing font output/Noto Sans Lisu/unhinted/otf/NotoSansLisu-Regular.otf
+Created static font output/Noto Sans Lisu/unhinted/otf/NotoSansLisu-Medium.otf
+Postprocessing font output/Noto Sans Lisu/unhinted/otf/NotoSansLisu-Medium.otf
+Creating static fonts from src/NotoSansLisu.glyphs
+Created static font output/Noto Sans Lisu/unhinted/ttf/NotoSansLisu-SemiBold.ttf
+Postprocessing font output/Noto Sans Lisu/unhinted/ttf/NotoSansLisu-SemiBold.ttf
+Created static font output/Noto Sans Lisu/unhinted/ttf/NotoSansLisu-Regular.ttf
+Postprocessing font output/Noto Sans Lisu/unhinted/ttf/NotoSansLisu-Regular.ttf
+Created static font output/Noto Sans Lisu/unhinted/ttf/NotoSansLisu-Bold.ttf
+Postprocessing font output/Noto Sans Lisu/unhinted/ttf/NotoSansLisu-Bold.ttf
+Created static font output/Noto Sans Lisu/unhinted/ttf/NotoSansLisu-Medium.ttf
+Postprocessing font output/Noto Sans Lisu/unhinted/ttf/NotoSansLisu-Medium.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

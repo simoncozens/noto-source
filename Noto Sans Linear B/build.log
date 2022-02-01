@@ -1,0 +1,10 @@
+Creating variable fonts from src/NotoSansLinearB/NotoSansLinearB.designspace
+Couldn't build variable font: Axis order arg is missing {'CASL'} axes.
+Creating static fonts from src/NotoSansLinearB/NotoSansLinearB.designspace
+Created static font output/Noto Sans Linear B/unhinted/otf/NotoSansLinearB-Regular.otf
+Postprocessing font output/Noto Sans Linear B/unhinted/otf/NotoSansLinearB-Regular.otf
+Creating static fonts from src/NotoSansLinearB/NotoSansLinearB.designspace
+Created static font output/Noto Sans Linear B/unhinted/ttf/NotoSansLinearB-Regular.ttf
+Postprocessing font output/Noto Sans Linear B/unhinted/ttf/NotoSansLinearB-Regular.ttf
+Couldn't autohint output/Noto Sans Linear B/unhinted/ttf/NotoSansLinearB-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

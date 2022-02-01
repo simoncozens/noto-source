@@ -1,0 +1,12 @@
+Creating variable fonts from src/NotoSansLimbu.glyphs
+Postprocessing font output/Noto Sans Limbu/unhinted/variable-ttf/NotoSansLimbu[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansLimbu.glyphs
+Created static font output/Noto Sans Limbu/unhinted/otf/NotoSansLimbu-Regular.otf
+Postprocessing font output/Noto Sans Limbu/unhinted/otf/NotoSansLimbu-Regular.otf
+Creating static fonts from src/NotoSansLimbu.glyphs
+Created static font output/Noto Sans Limbu/unhinted/ttf/NotoSansLimbu-Regular.ttf
+Postprocessing font output/Noto Sans Limbu/unhinted/ttf/NotoSansLimbu-Regular.ttf
+Couldn't autohint output/Noto Sans Limbu/unhinted/ttf/NotoSansLimbu-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

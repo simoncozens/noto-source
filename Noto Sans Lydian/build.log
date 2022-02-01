@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansLydian/NotoSansLydian.designspace
+Postprocessing font output/Noto Sans Lydian/unhinted/variable-ttf/NotoSansLydian[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansLydian/NotoSansLydian.designspace
+Created static font output/Noto Sans Lydian/unhinted/otf/NotoSansLydian-Regular.otf
+Postprocessing font output/Noto Sans Lydian/unhinted/otf/NotoSansLydian-Regular.otf
+Creating static fonts from src/NotoSansLydian/NotoSansLydian.designspace
+Created static font output/Noto Sans Lydian/unhinted/ttf/NotoSansLydian-Regular.ttf
+Postprocessing font output/Noto Sans Lydian/unhinted/ttf/NotoSansLydian-Regular.ttf
+Couldn't autohint output/Noto Sans Lydian/unhinted/ttf/NotoSansLydian-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
