@@ -9,11 +9,14 @@ import urllib.parse
 import logging
 import os
 import subprocess
+import json
 
 
 COMMIT_URL = "https://github.com/googlefonts/noto-source/commit"
-BLACKLISTED = ["Noto Sans", "Noto Serif", "Noto Sans Mono"]
+BLACKLISTED = ["Noto Sans", "Noto Serif", "Noto Sans Mono", "Arimo", "Arimo-Italic"]
 DASHBOARD_URL = "https://simoncozens.github.io/noto-source/"
+STATE_URL = DASHBOARD_URL + "state.json"
+MAX_BUILD = 20
 
 
 class NotoBuilder(GFBuilder):
@@ -67,8 +70,8 @@ class NotoBuilder(GFBuilder):
 
 os.makedirs("output", exist_ok=True)  # Stop it being deleted
 
-script_projects = []
-
+script_projects = {}
+# Try to load state here
 
 def last_commit(file):
     log = subprocess.check_output(
@@ -80,11 +83,21 @@ def last_commit(file):
 
 all_files = sorted([*glob.glob("src/*.glyphs"), *glob.glob("src/*/*.designspace")])
 
+# Work out which we're building
+to_build = []
 for ix, file in enumerate(all_files):
     nb = NotoBuilder(file)
     family = nb.get_family_name()
     if family in BLACKLISTED:
         continue
+    if family not in script_projects or last_commit(file) != script_projects[family]["commit"]:
+        to_build.append(file)
+    if len(to_build) > MAX_BUILD:
+        break
+
+for ix, file in enumerate(to_build):
+    nb = NotoBuilder(file)
+    family = nb.get_family_name()
     os.makedirs("output/%s" % family, exist_ok=True)
     log = logging.getLogger()
     for hdlr in log.handlers[:]:
@@ -139,8 +152,7 @@ for ix, file in enumerate(all_files):
             outputs.setdefault("hinted", []).append(
                 {"path": p, "display": os.path.basename(p)}
             )
-    script_projects.append(
-        {
+    script_projects[family] = {
             "family": family,
             "commit": last_commit(file),
             "log": "%s/build.log" % family,
@@ -154,7 +166,6 @@ for ix, file in enumerate(all_files):
             ],
             "outputs": outputs,
         }
-    )
     print("\n::endgroup::", file=sys.stderr)
 
 
@@ -164,3 +175,6 @@ template = compiler.compile(template)
 output = template({"projects": script_projects})
 with open("output/index.html", "w") as fh:
     fh.write(output)
+
+with open("output/state.json", "w") as fh:
+    json.dump(script_projects, fh)
