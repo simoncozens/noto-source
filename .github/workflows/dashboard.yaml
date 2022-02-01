@@ -20,6 +20,8 @@ jobs:
     - name: Build dashboard
       run: |
         python dashboard/dashboard.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       continue-on-error: true
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
