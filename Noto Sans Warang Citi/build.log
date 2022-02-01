@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansWarangCiti/NotoSansWarangCiti.designspace
+Postprocessing font output/Noto Sans Warang Citi/unhinted/variable-ttf/NotoSansWarangCiti[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansWarangCiti/NotoSansWarangCiti.designspace
+Created static font output/Noto Sans Warang Citi/unhinted/otf/NotoSansWarangCiti-Regular.otf
+Postprocessing font output/Noto Sans Warang Citi/unhinted/otf/NotoSansWarangCiti-Regular.otf
+Creating static fonts from src/NotoSansWarangCiti/NotoSansWarangCiti.designspace
+Created static font output/Noto Sans Warang Citi/unhinted/ttf/NotoSansWarangCiti-Regular.ttf
+Postprocessing font output/Noto Sans Warang Citi/unhinted/ttf/NotoSansWarangCiti-Regular.ttf
+Couldn't autohint output/Noto Sans Warang Citi/unhinted/ttf/NotoSansWarangCiti-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

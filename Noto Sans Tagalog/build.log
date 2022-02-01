@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansTagalog/NotoSansTagalog.designspace
+Postprocessing font output/Noto Sans Tagalog/unhinted/variable-ttf/NotoSansTagalog[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansTagalog/NotoSansTagalog.designspace
+Created static font output/Noto Sans Tagalog/unhinted/otf/NotoSansTagalog-Regular.otf
+Postprocessing font output/Noto Sans Tagalog/unhinted/otf/NotoSansTagalog-Regular.otf
+Creating static fonts from src/NotoSansTagalog/NotoSansTagalog.designspace
+Created static font output/Noto Sans Tagalog/unhinted/ttf/NotoSansTagalog-Regular.ttf
+Postprocessing font output/Noto Sans Tagalog/unhinted/ttf/NotoSansTagalog-Regular.ttf
+Couldn't autohint output/Noto Sans Tagalog/unhinted/ttf/NotoSansTagalog-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

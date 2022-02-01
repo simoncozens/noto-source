@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansYi/NotoSansYi.designspace
+Postprocessing font output/Noto Sans Yi/unhinted/variable-ttf/NotoSansYi[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansYi/NotoSansYi.designspace
+Created static font output/Noto Sans Yi/unhinted/otf/NotoSansYi-Regular.otf
+Postprocessing font output/Noto Sans Yi/unhinted/otf/NotoSansYi-Regular.otf
+Creating static fonts from src/NotoSansYi/NotoSansYi.designspace
+Created static font output/Noto Sans Yi/unhinted/ttf/NotoSansYi-Regular.ttf
+Postprocessing font output/Noto Sans Yi/unhinted/ttf/NotoSansYi-Regular.ttf
+Couldn't autohint output/Noto Sans Yi/unhinted/ttf/NotoSansYi-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

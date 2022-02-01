@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>13</td>
+                <td>11</td>
+                <td>215</td>
+                <td>15</td>
+                <td>173</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>4%</td>
+                <td>3%</td>
+                <td>62%</td>
+                <td>4%</td>
+                <td>50%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check axis ordering on the STAT table. </h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/STAT/axis_order&gt;</div>
+<details><summary>ℹ️ <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>From a total of 2 font files, 1 of them (50.00%) lack a STAT table.</p>
+<pre><code>And these are the most common STAT axis orderings:
+('wght', 1) [code: summary]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Check `Google Fonts Latin Core` glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 214 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 214 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 18.2kb |
+| Hinted Size   | 18.3kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.1 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 19.0kb |
+| Hinted Size   | 19.1kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.1 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<h3>Font has old ttfautohint applied?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/old_ttfautohint&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.002'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.002'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<h3>EPAR table present in font?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/epar&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<h3>Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gasp&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2020 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2020 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Check for font-v versioning.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontv&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.002&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.002&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<h3>Ensure variable fonts include an avar table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/mandatory_avar_table&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This variable font does not have an avar table. [code: missing-avar]</p>
+</span></li></ul></div></details>
+<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf', 'output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf', 'output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h3>Check font can render its own name.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/render_own_name&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Takri [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Takri [code: render-own-name]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Font has **proper** whitespace glyph names?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphnames&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot; [code: not-recommended-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot; [code: not-recommended-00a0]</p>
+</span></li></ul></div></details>
+<h3>Font contains all required tables?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/required_tables&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<h3>Glyph names are all valid?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/valid_glyphnames&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: danda-deva, dbldanda-deva, a-takr, aa-takr, i-takr, ii-takr, u-takr, uu-takr, e-takr, ai-takr and 60 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: danda-deva, dbldanda-deva, a-takr, aa-takr, i-takr, ii-takr, u-takr, uu-takr, e-takr, ai-takr and 60 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<h3>List all superfamily filepaths</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/superfamily/list&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Takri/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Takri/unhinted/variable-ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.os2&gt; 🔥🔥</h2>
+<h3>Fonts have consistent PANOSE proportion?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_proportion&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h3>Fonts have consistent PANOSE family type?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_familytype&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️⚠️</h2>
+<h3>Check GDEF mark glyph class doesn't have characters that are not marks.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_non_mark_chars&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+116B6 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+116B6 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️⚠️</h2>
+<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* northIndicPlaceholderMark (U+A837): X=453.0,Y=623.0 (should be at cap-height 625?)
+* nga-takr (U+1168E): X=479.0,Y=624.0 (should be at cap-height 625?)
+* ca-takr (U+1168F): X=407.0,Y=-1.5 (should be at baseline 0?)
+* ttha-takr (U+11695): X=148.5,Y=626.0 (should be at cap-height 625?)
+* ddha-takr (U+11697): X=418.0,Y=-2.0 (should be at baseline 0?) and da-takr (U+1169B): X=417.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* northIndicPlaceholderMark (U+A837): X=453.0,Y=623.0 (should be at cap-height 625?)
+* nga-takr (U+1168E): X=479.0,Y=624.0 (should be at cap-height 625?)
+* ca-takr (U+1168F): X=401.5,Y=0.5 (should be at baseline 0?)
+* ttha-takr (U+11695): X=148.5,Y=626.0 (should be at cap-height 625?)
+* ddha-takr (U+11697): X=414.5,Y=-1.0 (should be at baseline 0?) and da-takr (U+1169B): X=413.5,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* a-takr (U+11680) contains a short segment B&lt;&lt;242.0,550.0&gt;-&lt;247.0,540.0&gt;-&lt;250.0,525.0&gt;&gt;
+* aa-takr (U+11681) contains a short segment B&lt;&lt;242.0,550.0&gt;-&lt;247.0,540.0&gt;-&lt;250.0,525.0&gt;&gt;
+* u-takr (U+11684) contains a short segment L&lt;&lt;288.0,318.0&gt;--&lt;307.0,318.0&gt;&gt;
+* uu-takr (U+11685) contains a short segment L&lt;&lt;288.0,318.0&gt;--&lt;307.0,318.0&gt;&gt;
+* o-takr (U+11688) contains a short segment B&lt;&lt;242.0,550.0&gt;-&lt;247.0,540.0&gt;-&lt;250.0,525.0&gt;&gt;
+* au-takr (U+11689) contains a short segment B&lt;&lt;242.0,550.0&gt;-&lt;247.0,540.0&gt;-&lt;250.0,525.0&gt;&gt;
+* gha-takr (U+1168D) contains a short segment B&lt;&lt;59.0,396.0&gt;-&lt;59.0,407.0&gt;-&lt;60.5,417.5&gt;&gt;
+* gha-takr (U+1168D) contains a short segment B&lt;&lt;60.5,417.5&gt;-&lt;62.0,428.0&gt;-&lt;63.0,437.0&gt;&gt;
+* gha-takr (U+1168D) contains a short segment B&lt;&lt;153.0,501.0&gt;-&lt;153.0,490.0&gt;-&lt;151.5,477.5&gt;&gt;
+* ja-takr (U+11691) contains a short segment B&lt;&lt;361.0,395.0&gt;-&lt;373.0,396.0&gt;-&lt;381.0,396.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>

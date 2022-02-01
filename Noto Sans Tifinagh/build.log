@@ -1,0 +1,55 @@
+Creating variable fonts from src/NotoSansTifinagh.glyphs
+Postprocessing font output/Noto Sans Tifinagh/unhinted/variable-ttf/NotoSansTifinagh[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansTifinagh.glyphs
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAdrar-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAdrar-Regular.otf
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAir-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAir-Regular.otf
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAPT-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAPT-Regular.otf
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAhaggar-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAhaggar-Regular.otf
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAzawagh-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAzawagh-Regular.otf
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinagh-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinagh-Regular.otf
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghHawad-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghHawad-Regular.otf
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghRhissaIxa-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghRhissaIxa-Regular.otf
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAgrawImazighen-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghAgrawImazighen-Regular.otf
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghGhat-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghGhat-Regular.otf
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghTawellemmet-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghTawellemmet-Regular.otf
+Created static font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghSIL-Regular.otf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/otf/NotoSansTifinaghSIL-Regular.otf
+Creating static fonts from src/NotoSansTifinagh.glyphs
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAhaggar-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAhaggar-Regular.ttf
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghTawellemmet-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghTawellemmet-Regular.ttf
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghGhat-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghGhat-Regular.ttf
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAdrar-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAdrar-Regular.ttf
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAzawagh-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAzawagh-Regular.ttf
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAir-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAir-Regular.ttf
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghHawad-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghHawad-Regular.ttf
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAPT-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghAPT-Regular.ttf
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghSIL-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinaghSIL-Regular.ttf
+Created static font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinagh-Regular.ttf
+Postprocessing font output/Noto Sans Tifinagh/unhinted/ttf/NotoSansTifinagh-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

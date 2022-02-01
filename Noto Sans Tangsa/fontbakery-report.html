@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>25</td>
+                <td>26</td>
+                <td>557</td>
+                <td>36</td>
+                <td>401</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>3%</td>
+                <td>3%</td>
+                <td>68%</td>
+                <td>4%</td>
+                <td>49%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check axis ordering on the STAT table. </h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/STAT/axis_order&gt;</div>
+<details><summary>ℹ️ <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>From a total of 5 font files, 4 of them (80.00%) lack a STAT table.</p>
+<pre><code>And these are the most common STAT axis orderings:
+('wght', 1) [code: summary]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Check `Google Fonts Latin Core` glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 214 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 214 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 214 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 214 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 214 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>License URL matches License text on name table?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license_url&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 21.0kb |
+| Hinted Size   | 21.0kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.1 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 23.4kb |
+| Hinted Size   | 23.4kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.1 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 22.5kb |
+| Hinted Size   | 22.5kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.1 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 23.3kb |
+| Hinted Size   | 23.4kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.1 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 40.0kb |
+| Hinted Size   | 40.0kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.1 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<h3>Font has old ttfautohint applied?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/old_ttfautohint&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 1.501'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 1.501'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 1.501'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 1.501'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 1.501'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<h3>EPAR table present in font?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/epar&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<h3>Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gasp&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2022 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2022 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2022 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2022 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2022 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Check for font-v versioning.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontv&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 1.501&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 1.501&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 1.501&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 1.501&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 1.501&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<h3>Combined length of family and style must not exceed 27 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Tangsa Medium' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Tangsa SemiBold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h3>Check font can render its own name.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/render_own_name&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Tangsa [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Tangsa Medium [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Tangsa [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Tangsa SemiBold [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Tangsa [code: render-own-name]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value 293 is too large. It should be less than double the yMin. Current absolute yMin value is 26 [code: descent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value 293 is too large. It should be less than double the yMin. Current absolute yMin value is 26 [code: descent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value 293 is too large. It should be less than double the yMin. Current absolute yMin value is 26 [code: descent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value 293 is too large. It should be less than double the yMin. Current absolute yMin value is 26 [code: descent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value 293 is too large. It should be less than double the yMin. Current absolute yMin value is 26 [code: descent]</p>
+</span></li></ul></div></details>
+<h3>Font contains all required tables?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/required_tables&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<h3>List all superfamily filepaths</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/superfamily/list&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Tangsa/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Tangsa/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Tangsa/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Tangsa/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Tangsa/unhinted/variable-ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.layout&gt; 🔥🔥🔥🔥🔥</h2>
+<h3>Does the font have any invalid script tags?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/layout_valid_script_tags&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following invalid script tags were found in the font: tnsa [code: bad-script-tags]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following invalid script tags were found in the font: tnsa [code: bad-script-tags]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following invalid script tags were found in the font: tnsa [code: bad-script-tags]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following invalid script tags were found in the font: tnsa [code: bad-script-tags]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following invalid script tags were found in the font: tnsa [code: bad-script-tags]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* vztangsa (U+16A78): X=178.0,Y=715.0 (should be at cap-height 714?)
+* vqtangsa (U+16A7A): X=178.0,Y=715.0 (should be at cap-height 714?)
+* awztangsa (U+16A88): X=422.0,Y=1.5 (should be at baseline 0?)
+* awqtangsa (U+16A8A): X=154.0,Y=716.0 (should be at cap-height 714?)
+* uictangsa (U+16A8D): X=218.0,Y=0.5 (should be at baseline 0?)
+* uixtangsa (U+16A8F): X=480.0,Y=1.0 (should be at baseline 0?)
+* uiuztangsa (U+16A98): X=358.5,Y=713.5 (should be at cap-height 714?)
+* uiuctangsa (U+16A99): X=358.5,Y=713.5 (should be at cap-height 714?)
+* uiuxtangsa (U+16A9B): X=358.5,Y=713.5 (should be at cap-height 714?)
+* mztangsa (U+16A9C): X=542.0,Y=1.5 (should be at baseline 0?) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* axtangsa (U+16A77): X=752.0,Y=713.0 (should be at cap-height 714?)
+* vxtangsa (U+16A7B): X=809.0,Y=713.0 (should be at cap-height 714?)
+* eqtangsa (U+16A7E): X=72.0,Y=712.0 (should be at cap-height 714?)
+* awztangsa (U+16A88): X=394.0,Y=-0.5 (should be at baseline 0?)
+* uiuztangsa (U+16A98): X=334.5,Y=714.5 (should be at cap-height 714?)
+* gatangsa (U+16AA2): X=274.5,Y=712.5 (should be at cap-height 714?)
+* ngatangsa (U+16AA3): X=320.0,Y=-0.5 (should be at baseline 0?)
+* phatangsa (U+16AA9): X=401.0,Y=-1.0 (should be at baseline 0?)
+* batangsa (U+16AAA): X=386.0,Y=-1.0 (should be at baseline 0?)
+* tatangsa (U+16AB0): X=391.0,Y=-1.0 (should be at baseline 0?) and 10 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* axtangsa (U+16A77): X=739.0,Y=716.0 (should be at cap-height 714?)
+* vxtangsa (U+16A7B): X=793.0,Y=716.0 (should be at cap-height 714?)
+* eqtangsa (U+16A7E): X=75.0,Y=713.0 (should be at cap-height 714?)
+* awztangsa (U+16A88): X=382.5,Y=-1.5 (should be at baseline 0?)
+* awqtangsa (U+16A8A): X=20.0,Y=713.0 (should be at cap-height 714?)
+* uiuztangsa (U+16A98): X=325.0,Y=715.0 (should be at cap-height 714?)
+* uiuctangsa (U+16A99): X=326.0,Y=714.5 (should be at cap-height 714?)
+* uiuxtangsa (U+16A9B): X=326.0,Y=714.5 (should be at cap-height 714?)
+* gatangsa (U+16AA2): X=270.5,Y=712.0 (should be at cap-height 714?)
+* ngatangsa (U+16AA3): X=309.0,Y=-0.5 (should be at baseline 0?) and 6 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* mztangsa (U+16A9C): X=530.0,Y=2.0 (should be at baseline 0?)
+* mztangsa (U+16A9C): X=385.5,Y=2.0 (should be at baseline 0?)
+* gatangsa (U+16AA2): X=280.0,Y=712.5 (should be at cap-height 714?)
+* phatangsa (U+16AA9): X=413.0,Y=1.0 (should be at baseline 0?)
+* batangsa (U+16AAA): X=402.5,Y=1.0 (should be at baseline 0?)
+* tatangsa (U+16AB0): X=410.0,Y=1.0 (should be at baseline 0?)
+* thatangsa (U+16AB9): X=226.0,Y=1.5 (should be at baseline 0?)
+* fatangsa (U+16ABB): X=417.0,Y=1.0 (should be at baseline 0?)
+* zatangsa (U+16ABE): X=403.0,Y=713.0 (should be at cap-height 714?)
+* fourtangsa (U+16AC4): X=362.0,Y=712.0 (should be at cap-height 714?) and fivetangsa (U+16AC5): X=85.0,Y=712.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* axtangsa (U+16A77): X=739.0,Y=716.0 (should be at cap-height 714?)
+* vxtangsa (U+16A7B): X=793.0,Y=716.0 (should be at cap-height 714?)
+* eqtangsa (U+16A7E): X=75.0,Y=713.0 (should be at cap-height 714?)
+* awztangsa (U+16A88): X=382.5,Y=-1.5 (should be at baseline 0?)
+* awqtangsa (U+16A8A): X=20.0,Y=713.0 (should be at cap-height 714?)
+* uictangsa (U+16A8D): X=183.0,Y=0.5 (should be at baseline 0?)
+* uiuztangsa (U+16A98): X=325.0,Y=715.0 (should be at cap-height 714?)
+* uiuctangsa (U+16A99): X=326.0,Y=714.5 (should be at cap-height 714?)
+* uiuxtangsa (U+16A9B): X=326.0,Y=714.5 (should be at cap-height 714?)
+* fatangsa (U+16ABB): X=278.5,Y=712.0 (should be at cap-height 714?) and 6 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* oqtangsa (U+16A72) contains a short segment L&lt;&lt;354.0,599.0&gt;--&lt;354.0,599.0&gt;&gt;
+* aztangsa (U+16A74) contains a short segment L&lt;&lt;191.0,459.0&gt;--&lt;191.0,459.0&gt;&gt;
+* actangsa (U+16A75) contains a short segment B&lt;&lt;420.0,263.0&gt;-&lt;426.0,263.0&gt;-&lt;433.0,263.0&gt;&gt;
+* vctangsa (U+16A79) contains a short segment B&lt;&lt;467.0,263.0&gt;-&lt;473.0,263.0&gt;-&lt;480.0,263.0&gt;&gt;
+* eqtangsa (U+16A7E) contains a short segment B&lt;&lt;319.0,388.0&gt;-&lt;321.0,388.0&gt;-&lt;324.0,388.0&gt;&gt;
+* ictangsa (U+16A81) contains a short segment B&lt;&lt;300.0,579.0&gt;-&lt;300.0,593.0&gt;-&lt;288.0,602.5&gt;&gt;
+* ixtangsa (U+16A83) contains a short segment B&lt;&lt;300.0,579.0&gt;-&lt;300.0,593.0&gt;-&lt;288.0,602.5&gt;&gt;
+* uctangsa (U+16A85) contains a short segment B&lt;&lt;184.5,185.0&gt;-&lt;181.0,173.0&gt;-&lt;181.0,163.0&gt;&gt;
+* uqtangsa (U+16A86) contains a short segment B&lt;&lt;415.0,524.0&gt;-&lt;415.0,519.0&gt;-&lt;415.0,516.0&gt;&gt;
+* awctangsa (U+16A89) contains a short segment B&lt;&lt;159.0,434.0&gt;-&lt;159.0,439.0&gt;-&lt;159.0,444.0&gt;&gt; and 21 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* aztangsa (U+16A74) contains a short segment L&lt;&lt;165.0,448.0&gt;--&lt;166.0,448.0&gt;&gt;
+* axtangsa (U+16A77) contains a short segment B&lt;&lt;453.0,215.0&gt;-&lt;453.0,210.0&gt;-&lt;453.0,204.0&gt;&gt;
+* vxtangsa (U+16A7B) contains a short segment B&lt;&lt;515.0,215.0&gt;-&lt;515.0,209.0&gt;-&lt;515.0,204.0&gt;&gt;
+* eqtangsa (U+16A7E) contains a short segment B&lt;&lt;298.0,427.0&gt;-&lt;290.0,426.0&gt;-&lt;281.0,426.0&gt;&gt;
+* uztangsa (U+16A84) contains a short segment B&lt;&lt;563.0,499.0&gt;-&lt;563.0,491.0&gt;-&lt;563.0,483.0&gt;&gt;
+* awctangsa (U+16A89) contains a short segment B&lt;&lt;167.0,427.0&gt;-&lt;167.0,433.0&gt;-&lt;167.0,440.0&gt;&gt;
+* uiztangsa (U+16A8C) contains a short segment B&lt;&lt;477.0,688.0&gt;-&lt;484.0,688.0&gt;-&lt;490.0,688.0&gt;&gt;
+* uiztangsa (U+16A8C) contains a short segment B&lt;&lt;377.0,572.0&gt;-&lt;377.0,575.0&gt;-&lt;377.0,576.0&gt;&gt;
+* uictangsa (U+16A8D) contains a short segment B&lt;&lt;618.0,501.0&gt;-&lt;618.0,492.0&gt;-&lt;618.0,483.0&gt;&gt;
+* uictangsa (U+16A8D) contains a short segment B&lt;&lt;184.0,441.0&gt;-&lt;174.0,440.0&gt;-&lt;164.0,440.0&gt;&gt; and 16 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* aztangsa (U+16A74) contains a short segment L&lt;&lt;154.0,444.0&gt;--&lt;155.0,444.0&gt;&gt;
+* uqtangsa (U+16A86) contains a short segment B&lt;&lt;430.0,343.0&gt;-&lt;430.0,340.0&gt;-&lt;430.0,336.0&gt;&gt;
+* awctangsa (U+16A89) contains a short segment B&lt;&lt;171.0,423.0&gt;-&lt;170.0,431.0&gt;-&lt;170.0,438.0&gt;&gt;
+* uiztangsa (U+16A8C) contains a short segment B&lt;&lt;359.0,576.0&gt;-&lt;359.0,579.0&gt;-&lt;359.0,582.0&gt;&gt;
+* uixtangsa (U+16A8F) contains a short segment B&lt;&lt;765.0,257.0&gt;-&lt;763.0,252.0&gt;-&lt;761.0,247.0&gt;&gt;
+* uexlongtangsa (U+16A91) contains a short segment B&lt;&lt;530.0,347.0&gt;-&lt;534.0,351.0&gt;-&lt;537.5,354.0&gt;&gt;
+* uexlongtangsa (U+16A91) contains a short segment B&lt;&lt;537.5,354.0&gt;-&lt;541.0,357.0&gt;-&lt;545.0,360.0&gt;&gt;
+* uexlongtangsa (U+16A91) contains a short segment B&lt;&lt;596.0,324.0&gt;-&lt;590.0,319.0&gt;-&lt;586.0,315.0&gt;&gt;
+* uexlongtangsa (U+16A91) contains a short segment B&lt;&lt;264.0,329.0&gt;-&lt;260.0,325.0&gt;-&lt;257.0,323.0&gt;&gt;
+* uezshorttangsa (U+16A92) contains a short segment B&lt;&lt;497.0,369.0&gt;-&lt;493.0,375.0&gt;-&lt;489.5,380.5&gt;&gt; and 6 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* aztangsa (U+16A74) contains a short segment L&lt;&lt;177.0,453.0&gt;--&lt;177.0,453.0&gt;&gt;
+* eqtangsa (U+16A7E) contains a short segment B&lt;&lt;308.0,386.0&gt;-&lt;315.0,386.0&gt;-&lt;322.0,386.0&gt;&gt;
+* eqtangsa (U+16A7E) contains a short segment B&lt;&lt;302.0,423.0&gt;-&lt;299.0,423.0&gt;-&lt;295.0,423.0&gt;&gt;
+* awctangsa (U+16A89) contains a short segment B&lt;&lt;163.0,430.0&gt;-&lt;163.0,436.0&gt;-&lt;163.0,442.0&gt;&gt;
+* uiztangsa (U+16A8C) contains a short segment B&lt;&lt;396.0,567.0&gt;-&lt;396.0,568.0&gt;-&lt;396.0,569.0&gt;&gt;
+* uictangsa (U+16A8D) contains a short segment B&lt;&lt;642.0,496.0&gt;-&lt;642.0,492.0&gt;-&lt;642.0,491.0&gt;&gt;
+* uiqtangsa (U+16A8E) contains a short segment B&lt;&lt;263.0,337.0&gt;-&lt;259.0,337.0&gt;-&lt;255.0,337.0&gt;&gt;
+* uexlongtangsa (U+16A91) contains a short segment B&lt;&lt;571.0,358.0&gt;-&lt;579.0,364.0&gt;-&lt;585.0,369.0&gt;&gt;
+* uexlongtangsa (U+16A91) contains a short segment B&lt;&lt;693.0,354.0&gt;-&lt;683.0,344.0&gt;-&lt;672.0,335.0&gt;&gt;
+* uexlongtangsa (U+16A91) contains a short segment L&lt;&lt;650.0,316.0&gt;--&lt;650.0,316.0&gt;&gt; and 8 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* uezshorttangsa (U+16A92): L&lt;&lt;556.0,290.0&gt;--&lt;501.0,375.0&gt;&gt; -&gt; L&lt;&lt;501.0,375.0&gt;--&lt;498.0,379.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>aztangsa (U+16A74): L&lt;&lt;190.0,714.0&gt;--&lt;191.0,459.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>aztangsa (U+16A74): L&lt;&lt;164.0,714.0&gt;--&lt;165.0,448.0&gt;&gt;</li>
+<li>eighttangsa (U+16AC8): L&lt;&lt;301.0,420.0&gt;--&lt;302.0,0.0&gt;&gt; and eztangsa (U+16A7C): L&lt;&lt;493.0,626.0&gt;--&lt;376.0,625.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>aztangsa (U+16A74): L&lt;&lt;153.0,714.0&gt;--&lt;154.0,444.0&gt;&gt;</li>
+<li>eighttangsa (U+16AC8): L&lt;&lt;285.0,432.0&gt;--&lt;286.0,0.0&gt;&gt; and oxtangsa (U+16A73): L&lt;&lt;418.0,223.0&gt;--&lt;417.0,104.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>aztangsa (U+16A74): L&lt;&lt;176.0,714.0&gt;--&lt;177.0,453.0&gt;&gt; and eighttangsa (U+16AC8): L&lt;&lt;319.0,407.0&gt;--&lt;320.0,0.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+                    </body>
+                </html>

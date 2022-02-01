@@ -1,0 +1,51 @@
+Creating variable fonts from src/NotoSansThaana/NotoSansThaana.designspace
+Postprocessing font output/Noto Sans Thaana/unhinted/variable-ttf/NotoSansThaana[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansThaana/NotoSansThaana.designspace
+Created static font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-ExtraBold.otf
+Postprocessing font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-ExtraBold.otf
+Created static font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Black.otf
+Postprocessing font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Black.otf
+Created static font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Medium.otf
+Postprocessing font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Medium.otf
+Created static font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Light.otf
+Postprocessing font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Light.otf
+Created static font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Bold.otf
+Postprocessing font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Bold.otf
+Created static font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-SemiBold.otf
+Postprocessing font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-SemiBold.otf
+Created static font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Thin.otf
+Postprocessing font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Thin.otf
+Created static font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Regular.otf
+Postprocessing font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-Regular.otf
+Created static font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-ExtraLight.otf
+Postprocessing font output/Noto Sans Thaana/unhinted/otf/NotoSansThaana-ExtraLight.otf
+Creating static fonts from src/NotoSansThaana/NotoSansThaana.designspace
+Created static font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-SemiBold.ttf
+Postprocessing font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-SemiBold.ttf
+Couldn't autohint output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-SemiBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Light.ttf
+Postprocessing font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Light.ttf
+Couldn't autohint output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Light.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Black.ttf
+Postprocessing font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Black.ttf
+Couldn't autohint output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Black.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-ExtraLight.ttf
+Postprocessing font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-ExtraLight.ttf
+Couldn't autohint output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-ExtraLight.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-ExtraBold.ttf
+Postprocessing font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-ExtraBold.ttf
+Couldn't autohint output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-ExtraBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Bold.ttf
+Postprocessing font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Bold.ttf
+Couldn't autohint output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Bold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Regular.ttf
+Postprocessing font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Regular.ttf
+Couldn't autohint output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Regular.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Medium.ttf
+Postprocessing font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Medium.ttf
+Couldn't autohint output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Medium.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Thin.ttf
+Postprocessing font output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Thin.ttf
+Couldn't autohint output/Noto Sans Thaana/unhinted/ttf/NotoSansThaana-Thin.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

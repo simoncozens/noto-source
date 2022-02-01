@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansTaiLe.glyphs
+Postprocessing font output/Noto Sans Tai Le/unhinted/variable-ttf/NotoSansTaiLe[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansTaiLe.glyphs
+Created static font output/Noto Sans Tai Le/unhinted/otf/NotoSansTaiLe-Regular.otf
+Postprocessing font output/Noto Sans Tai Le/unhinted/otf/NotoSansTaiLe-Regular.otf
+Creating static fonts from src/NotoSansTaiLe.glyphs
+Created static font output/Noto Sans Tai Le/unhinted/ttf/NotoSansTaiLe-Regular.ttf
+Postprocessing font output/Noto Sans Tai Le/unhinted/ttf/NotoSansTaiLe-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

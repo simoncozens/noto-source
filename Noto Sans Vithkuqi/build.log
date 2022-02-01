@@ -1,0 +1,26 @@
+Creating variable fonts from src/NotoSansVithkuqi.glyphs
+Postprocessing font output/Noto Sans Vithkuqi/unhinted/variable-ttf/NotoSansVithkuqi[wght].ttf
+Creating static fonts from src/NotoSansVithkuqi.glyphs
+Created static font output/Noto Sans Vithkuqi/unhinted/otf/NotoSansVithkuqi-Bold.otf
+Postprocessing font output/Noto Sans Vithkuqi/unhinted/otf/NotoSansVithkuqi-Bold.otf
+Created static font output/Noto Sans Vithkuqi/unhinted/otf/NotoSansVithkuqi-SemiBold.otf
+Postprocessing font output/Noto Sans Vithkuqi/unhinted/otf/NotoSansVithkuqi-SemiBold.otf
+Created static font output/Noto Sans Vithkuqi/unhinted/otf/NotoSansVithkuqi-Regular.otf
+Postprocessing font output/Noto Sans Vithkuqi/unhinted/otf/NotoSansVithkuqi-Regular.otf
+Created static font output/Noto Sans Vithkuqi/unhinted/otf/NotoSansVithkuqi-Medium.otf
+Postprocessing font output/Noto Sans Vithkuqi/unhinted/otf/NotoSansVithkuqi-Medium.otf
+Creating static fonts from src/NotoSansVithkuqi.glyphs
+Created static font output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-SemiBold.ttf
+Postprocessing font output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-SemiBold.ttf
+Couldn't autohint output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-SemiBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-Bold.ttf
+Postprocessing font output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-Bold.ttf
+Couldn't autohint output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-Bold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-Medium.ttf
+Postprocessing font output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-Medium.ttf
+Couldn't autohint output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-Medium.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-Regular.ttf
+Postprocessing font output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-Regular.ttf
+Couldn't autohint output/Noto Sans Vithkuqi/unhinted/ttf/NotoSansVithkuqi-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

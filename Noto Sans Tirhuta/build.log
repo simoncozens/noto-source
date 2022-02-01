@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansTirhuta.glyphs
+Postprocessing font output/Noto Sans Tirhuta/unhinted/variable-ttf/NotoSansTirhuta[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansTirhuta.glyphs
+Created static font output/Noto Sans Tirhuta/unhinted/otf/NotoSansTirhuta-Regular.otf
+Postprocessing font output/Noto Sans Tirhuta/unhinted/otf/NotoSansTirhuta-Regular.otf
+Creating static fonts from src/NotoSansTirhuta.glyphs
+Created static font output/Noto Sans Tirhuta/unhinted/ttf/NotoSansTirhuta-Regular.ttf
+Postprocessing font output/Noto Sans Tirhuta/unhinted/ttf/NotoSansTirhuta-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

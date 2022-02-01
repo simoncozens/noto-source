@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>27</td>
+                <td>46</td>
+                <td>528</td>
+                <td>36</td>
+                <td>408</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>3%</td>
+                <td>6%</td>
+                <td>64%</td>
+                <td>4%</td>
+                <td>49%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check axis ordering on the STAT table. </h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/STAT/axis_order&gt;</div>
+<details><summary>ℹ️ <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>From a total of 5 font files, 4 of them (80.00%) lack a STAT table.</p>
+<pre><code>And these are the most common STAT axis orderings:
+('wght', 1) [code: summary]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Check `Google Fonts Latin Core` glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 213 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 213 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 213 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 213 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 213 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Checking OS/2 usWeightClass.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/usweightclass&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 usWeightClass is '482' when it should be '500'. [code: bad-value]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 usWeightClass is '586' when it should be '600'. [code: bad-value]</p>
+</span></li></ul></div></details>
+<h3>License URL matches License text on name table?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license_url&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>For now we're still accepting http URLs, but you should consider using https instead.
+[code: http]</p>
+</span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 94.3kb |
+| Hinted Size   | 94.4kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 94.7kb |
+| Hinted Size   | 94.7kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 94.8kb |
+| Hinted Size   | 94.8kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 94.5kb |
+| Hinted Size   | 94.5kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 134.3kb |
+| Hinted Size   | 134.3kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<h3>Font has old ttfautohint applied?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/old_ttfautohint&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<h3>EPAR table present in font?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/epar&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<h3>Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gasp&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2020 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2020 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2020 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2020 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2020 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Glyphs are similiar to Google Fonts version?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version: [a_raMedial_signAetham, a_raMedial_signAitham, a_raMedial_signEtham, a_raMedial_signOotham, a_raMedial_signThamAitham, ba_raMedial_signAetham, ba_raMedial_signAitham, ba_raMedial_signOotham, ba_raMedial_signThamAitham, ba_signAetham, ba_signAitham, ba_signOotham, ba_signThamAitham, caHigh_raMedial_signAetham, caHigh_raMedial_signAitham, caHigh_raMedial_signOotham, caHigh_raMedial_signThamAitham, caHigh_signAetham, caHigh_signAitham, caHigh_signOotham, caHigh_signThamAitham, caLow_raMedial_signAetham, caLow_raMedial_signAitham, caLow_raMedial_signOotham, caLow_raMedial_signThamAitham, caLow_signAetham, caLow_signAitham, caLow_signOotham, caLow_signThamAitham, chaHigh_raMedial_signAetham, chaHigh_raMedial_signAitham, chaHigh_raMedial_signEtham, chaHigh_raMedial_signOotham, chaHigh_raMedial_signThamAitham, chaHigh_signAetham, chaHigh_signAitham, chaHigh_signEtham, chaHigh_signOotham, chaHigh_signThamAitham, chaLow_raMedial_signAetham, chaLow_raMedial_signAitham, chaLow_raMedial_signEtham, chaLow_raMedial_signOotham, chaLow_raMedial_signThamAitham, chaLow_signAetham, chaLow_signAitham, chaLow_signEtham, chaLow_signOotham, chaLow_signThamAitham, da_raMedial_signAetham, da_raMedial_signAitham, da_raMedial_signOotham, da_raMedial_signThamAitham, da_signAetham, da_signAitham, da_signOotham, da_signThamAitham, faHigh_raMedial_signAetham, faHigh_raMedial_signAitham, faHigh_raMedial_signOotham, faHigh_raMedial_signThamAitham, faHigh_signAetham, faHigh_signAitham, faHigh_signOotham, faHigh_signThamAitham, faLow_raMedial_signAetham, faLow_raMedial_signAitham, faLow_raMedial_signOotham, faLow_raMedial_signThamAitham, faLow_signAetham, faLow_signAitham, faLow_signOotham, faLow_signThamAitham, greatSa_raMedial_signAetham, greatSa_raMedial_signAitham, greatSa_raMedial_signEtham, greatSa_raMedial_signOotham, greatSa_raMedial_signThamAitham, greatSa_raMedialtham, greatSa_signAetham, greatSa_signAitham, greatSa_signEtham, greatSa_signOotham, greatSa_signThamAitham, haHigh_raMedial_signAetham, haHigh_raMedial_signAitham, haHigh_raMedial_signOotham, haHigh_raMedial_signThamAitham, haHigh_signAetham, haHigh_signAitham, haHigh_signOotham, haHigh_signThamAitham, haLow_raMedial_signAetham, haLow_raMedial_signAitham, haLow_raMedial_signEtham, haLow_raMedial_signOotham, haLow_raMedial_signThamAitham, haLow_signAetham, haLow_signAitham, haLow_signEtham, haLow_signOotham, haLow_signThamAitham, kaHigh_raMedial_signAetham, kaHigh_raMedial_signAitham, kaHigh_raMedial_signEtham, kaHigh_raMedial_signOotham, kaHigh_raMedial_signThamAitham, kaHigh_signAetham, kaHigh_signAitham, kaHigh_signEtham, kaHigh_signOotham, kaHigh_signThamAitham, kaLow_raMedial_signAetham, kaLow_raMedial_signAitham, kaLow_raMedial_signOotham, kaLow_raMedial_signThamAitham, kaLow_signAetham, kaLow_signAitham, kaLow_signOotham, kaLow_signThamAitham, khaHigh_raMedial_signAetham, khaHigh_raMedial_signAitham, khaHigh_raMedial_signEtham, khaHigh_raMedial_signOotham, khaHigh_raMedial_signThamAitham, khaHigh_raMedialtham, khaHigh_signAetham, khaHigh_signAitham, khaHigh_signEtham, khaHigh_signOotham, khaHigh_signThamAitham, khaLow_raMedial_signAetham, khaLow_raMedial_signAitham, khaLow_raMedial_signEtham, khaLow_raMedial_signOotham, khaLow_raMedial_signThamAitham, khaLow_raMedialtham, khaLow_signAetham, khaLow_signAitham, khaLow_signEtham, khaLow_signOotham, khaLow_signThamAitham, kxaHigh_raMedial_signAetham, kxaHigh_raMedial_signAitham, kxaHigh_raMedial_signEtham, kxaHigh_raMedial_signOotham, kxaHigh_raMedial_signThamAitham, kxaHigh_raMedialtham, kxaHigh_signAetham, kxaHigh_signAitham, kxaHigh_signEtham, kxaHigh_signOotham, kxaHigh_signThamAitham, kxaLow_raMedial_signAetham, kxaLow_raMedial_signAitham, kxaLow_raMedial_signOotham, kxaLow_raMedial_signThamAitham, kxaLow_signAetham, kxaLow_signAitham, kxaLow_signOotham, kxaLow_signThamAitham, la_raMedial_signAetham, la_raMedial_signAitham, la_raMedial_signOotham, la_raMedial_signThamAitham, la_signAetham, la_signAitham, la_signOotham, la_signThamAitham, lla.haHigh_rM_signThamAitham, lla.haHigh_raMedial_signAetham, lla.haHigh_raMedial_signAitham, lla.haHigh_raMedial_signEtham, lla.haHigh_raMedial_signOotham, lla.haHigh_signAetham, lla.haHigh_signAitham, lla.haHigh_signEtham, lla.haHigh_signOotham, lla.haHigh_signThamAitham, lla_raMedial_signAetham, lla_raMedial_signAitham, lla_raMedial_signEtham, lla_raMedial_signOotham, lla_raMedial_signThamAitham, lla_signAetham, lla_signAitham, lla_signEtham, lla_signOotham, lla_signThamAitham, ma_raMedial_signAetham, ma_raMedial_signAitham, ma_raMedial_signEtham, ma_raMedial_signOotham, ma_raMedial_signThamAitham, ma_raMedialtham, ma_signAetham, ma_signAitham, ma_signEtham, ma_signOotham, ma_signThamAitham, maiSat_tone1tham, na_raMedial_signAetham, na_raMedial_signAitham, na_raMedial_signOotham, na_raMedial_signThamAitham, na_signAetham, na_signAitham, na_signOotham, na_signThamAitham, nasignAa_rM_signThamAitham, nasignAa_raMedial_signAetham, nasignAa_raMedial_signAitham, nasignAa_raMedial_signOotham, nasignAa_signAetham, nasignAa_signAitham, nasignAa_signOotham, nasignAa_signThamAitham, nga_raMedial_signAetham, nga_raMedial_signAitham, nga_raMedial_signOotham, nga_raMedial_signThamAitham, nga_signAetham, nga_signAitham, nga_signOotham, nga_signThamAitham, nya.nya_raMedial_signAetham, nya.nya_raMedial_signAitham, nya.nya_raMedial_signEtham, nya.nya_raMedial_signOotham, nya.nya_raMedial_signThamAitham, nya.nya_raMedialtham, nya.nya_signAetham, nya.nya_signAitham, nya.nya_signEtham, nya.nya_signOotham, nya.nya_signThamAitham, nya.nyatham, nya_raMedial_signAetham, nya_raMedial_signAitham, nya_raMedial_signEtham, nya_raMedial_signOotham, nya_raMedial_signThamAitham, nya_raMedialtham, nya_signAetham, nya_signAitham, nya_signEtham, nya_signOotham, nya_signThamAitham, paHigh_raMedial_signAetham, paHigh_raMedial_signAitham, paHigh_raMedial_signOotham, paHigh_raMedial_signThamAitham, paHigh_signAetham, paHigh_signAitham, paHigh_signOotham, paHigh_signThamAitham, paLow_raMedial_signAetham, paLow_raMedial_signAitham, paLow_raMedial_signOotham, paLow_raMedial_signThamAitham, paLow_signAetham, paLow_signAitham, paLow_signOotham, paLow_signThamAitham, phaHigh_raMedial_signAetham, phaHigh_raMedial_signAitham, phaHigh_raMedial_signEtham, phaHigh_raMedial_signOotham, phaHigh_raMedial_signThamAitham, phaHigh_raMedialtham, phaHigh_signAetham, phaHigh_signAitham, phaHigh_signEtham, phaHigh_signOotham, phaHigh_signThamAitham, phaLow_raMedial_signAetham, phaLow_raMedial_signAitham, phaLow_raMedial_signEtham, phaLow_raMedial_signOotham, phaLow_raMedial_signThamAitham, phaLow_raMedialtham, phaLow_signAetham, phaLow_signAitham, phaLow_signEtham, phaLow_signOotham, phaLow_signThamAitham, ra.rathaHigh_rM_signThamAitham, ra_raMedial_signAetham, ra_raMedial_signAitham, ra_raMedial_signOotham, ra_raMedial_signThamAitham, ra_signAetham, ra_signAitham, ra_signOotham, ra_signThamAitham, rana_raMedial_signAetham, rana_raMedial_signAitham, rana_raMedial_signOotham, rana_raMedial_signThamAitham, rana_signAetham, rana_signAitham, rana_signOotham, rana_signThamAitham, rata.rathaHigh_rM_signAetham, rata.rathaHigh_rM_signAitham, rata.rathaHigh_rM_signOotham, rata.rathaHigh_signAetham, rata.rathaHigh_signAitham, rata.rathaHigh_signOotham, rata.rathaHigh_signThamAitham, rata_raMedial_signAetham, rata_raMedial_signAitham, rata_raMedial_signOotham, rata_raMedial_signThamAitham, rata_signAetham, rata_signAitham, rata_signOotham, rata_signThamAitham, rathaHigh_rM_signAitham, rathaHigh_rM_signThamAitham, rathaHigh_raMedial_signAetham, rathaHigh_raMedial_signEtham, rathaHigh_raMedial_signOotham, rathaHigh_signAetham, rathaHigh_signAitham, rathaHigh_signEtham, rathaHigh_signOotham, rathaHigh_signThamAitham, rathaLow_rM_signAitham, rathaLow_rM_signThamAitham, rathaLow_raMedial_signAetham, rathaLow_raMedial_signOotham, rathaLow_signAetham, rathaLow_signAitham, rathaLow_signOotham, rathaLow_signThamAitham, saHigh_raMedial_signAetham, saHigh_raMedial_signAitham, saHigh_raMedial_signEtham, saHigh_raMedial_signOotham, saHigh_raMedial_signThamAitham, saHigh_signAetham, saHigh_signAitham, saHigh_signEtham, saHigh_signOotham, saHigh_signThamAitham, saLow_raMedial_signAetham, saLow_raMedial_signAitham, saLow_raMedial_signOotham, saLow_raMedial_signThamAitham, saLow_signAetham, saLow_signAitham, saLow_signOotham, saLow_signThamAitham, shaHigh_raMedialtham, shaHigh_signAetham, shaHigh_signAitham, shaHigh_signEtham, shaHigh_signOotham, shaHigh_signThamAitham, signI_maiKangLaitham, ssaHigh_raMedial_signAetham, ssaHigh_raMedial_signAitham, ssaHigh_raMedial_signEtham, ssaHigh_raMedial_signOotham, ssaHigh_raMedial_signThamAitham, ssaHigh_raMedialtham, ssaHigh_signAetham, ssaHigh_signAitham, ssaHigh_signEtham, ssaHigh_signOotham, ssaHigh_signThamAitham, taHigh_raMedial_signAetham, taHigh_raMedial_signAitham, taHigh_raMedial_signEtham, taHigh_raMedial_signOotham, taHigh_raMedial_signThamAitham, taHigh_raMedialtham, taHigh_signAetham, taHigh_signAitham, taHigh_signEtham, taHigh_signOotham, taHigh_signThamAitham, taLow_raMedial_signAetham, taLow_raMedial_signAitham, taLow_raMedial_signOotham, taLow_raMedial_signThamAitham, taLow_signAetham, taLow_signAitham, taLow_signOotham, taLow_signThamAitham, thaHigh_raMedial_signAetham, thaHigh_raMedial_signAitham, thaHigh_raMedial_signOotham, thaHigh_raMedial_signThamAitham, thaHigh_signAetham, thaHigh_signAitham, thaHigh_signOotham, thaHigh_signThamAitham, thaLow_raMedial_signAetham, thaLow_raMedial_signAitham, thaLow_raMedial_signOotham, thaLow_raMedial_signThamAitham, thaLow_signAetham, thaLow_signAitham, thaLow_signOotham, thaLow_signThamAitham, uni00611A6E, uni00611A6F, uni00611A70, uni00611A71, uni00611A72, uni1A21, uni1A22, uni1A25, uni1A2C, uni1A2C.blwf, uni1A2C.blwf2, uni1A32, uni1A39, uni1A3D, uni1A3E, uni1A42, uni1A44, uni1A46, uni1A46.blwf, uni1A47, uni1A47.blwf, uni1A54, uni1A57, uni1A58, uni1A5B, uni1A5B.alt, uni1A65, uni1A65.blwf1, uni1A6F, uni1A70, uni1A71, uni1A72, uni1A7B, uni1A7B.blwf, uni1A7C.blwf, uni1A83, uni1A84, uni1A93, uni1A94, uni1A98, uni1AAC, wa_raMedial_signAetham, wa_raMedial_signAitham, wa_raMedial_signOotham, wa_raMedial_signThamAitham, wa_signAetham, wa_signAitham, wa_signOotham, wa_signThamAitham, yaHigh_raMedial_signAetham, yaHigh_raMedial_signAitham, yaHigh_raMedial_signOotham, yaHigh_raMedial_signThamAitham, yaHigh_signAetham, yaHigh_signAitham, yaHigh_signOotham, yaHigh_signThamAitham, yaLow_raMedial_signAetham, yaLow_raMedial_signAitham, yaLow_raMedial_signEtham, yaLow_raMedial_signOotham, yaLow_raMedial_signThamAitham, yaLow_signAetham, yaLow_signAitham, yaLow_signEtham, yaLow_signOotham, yaLow_signThamAitham]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version: [a_raMedial_signAetham, a_raMedial_signAitham, a_raMedial_signEtham, a_raMedial_signOotham, a_raMedial_signThamAitham, ba_raMedial_signAetham, ba_raMedial_signAitham, ba_raMedial_signEtham, ba_raMedial_signOotham, ba_raMedial_signThamAitham, ba_raMedialtham, ba_signAetham, ba_signAitham, ba_signEtham, ba_signOotham, ba_signThamAitham, caHigh_raMedial_signAetham, caHigh_raMedial_signAitham, caHigh_raMedial_signEtham, caHigh_raMedial_signOotham, caHigh_raMedial_signThamAitham, caHigh_raMedialtham, caHigh_signAetham, caHigh_signAitham, caHigh_signEtham, caHigh_signOotham, caHigh_signThamAitham, caLow_raMedial_signAetham, caLow_raMedial_signAitham, caLow_raMedial_signEtham, caLow_raMedial_signOotham, caLow_raMedial_signThamAitham, caLow_raMedialtham, caLow_signAetham, caLow_signAitham, caLow_signEtham, caLow_signOotham, caLow_signThamAitham, chaHigh_raMedial_signAetham, chaHigh_raMedial_signAitham, chaHigh_raMedial_signEtham, chaHigh_raMedial_signOotham, chaHigh_raMedial_signThamAitham, chaHigh_raMedialtham, chaHigh_signAetham, chaHigh_signAitham, chaHigh_signEtham, chaHigh_signOotham, chaHigh_signThamAitham, chaLow_raMedial_signAetham, chaLow_raMedial_signAitham, chaLow_raMedial_signEtham, chaLow_raMedial_signOotham, chaLow_raMedial_signThamAitham, chaLow_raMedialtham, chaLow_signAetham, chaLow_signAitham, chaLow_signEtham, chaLow_signOotham, chaLow_signThamAitham, da_raMedial_signAetham, da_raMedial_signAitham, da_raMedial_signEtham, da_raMedial_signOotham, da_raMedial_signThamAitham, da_raMedialtham, da_signAetham, da_signAitham, da_signEtham, da_signOotham, da_signThamAitham, faHigh_raMedial_signAetham, faHigh_raMedial_signAitham, faHigh_raMedial_signEtham, faHigh_raMedial_signOotham, faHigh_raMedial_signThamAitham, faHigh_raMedialtham, faHigh_signAetham, faHigh_signAitham, faHigh_signEtham, faHigh_signOotham, faHigh_signThamAitham, faLow_raMedial_signAetham, faLow_raMedial_signAitham, faLow_raMedial_signEtham, faLow_raMedial_signOotham, faLow_raMedial_signThamAitham, faLow_raMedialtham, faLow_signAetham, faLow_signAitham, faLow_signEtham, faLow_signOotham, faLow_signThamAitham, greatSa_raMedial_signAetham, greatSa_raMedial_signAitham, greatSa_raMedial_signEtham, greatSa_raMedial_signOotham, greatSa_raMedial_signThamAitham, greatSa_raMedialtham, greatSa_signAetham, greatSa_signAitham, greatSa_signEtham, greatSa_signOotham, greatSa_signThamAitham, haHigh_raMedial_signAetham, haHigh_raMedial_signAitham, haHigh_raMedial_signEtham, haHigh_raMedial_signOotham, haHigh_raMedial_signThamAitham, haHigh_raMedialtham, haHigh_signAetham, haHigh_signAitham, haHigh_signEtham, haHigh_signOotham, haHigh_signThamAitham, haLow_raMedial_signAetham, haLow_raMedial_signAitham, haLow_raMedial_signEtham, haLow_raMedial_signOotham, haLow_raMedial_signThamAitham, haLow_raMedialtham, haLow_signAetham, haLow_signAitham, haLow_signEtham, haLow_signOotham, haLow_signThamAitham, kaHigh_raMedial_signAetham, kaHigh_raMedial_signAitham, kaHigh_raMedial_signEtham, kaHigh_raMedial_signOotham, kaHigh_raMedial_signThamAitham, kaHigh_raMedialtham, kaHigh_signAetham, kaHigh_signAitham, kaHigh_signEtham, kaHigh_signOotham, kaHigh_signThamAitham, kaLow_raMedial_signAetham, kaLow_raMedial_signAitham, kaLow_raMedial_signEtham, kaLow_raMedial_signOotham, kaLow_raMedial_signThamAitham, kaLow_raMedialtham, kaLow_signAetham, kaLow_signAitham, kaLow_signEtham, kaLow_signOotham, kaLow_signThamAitham, khaHigh_raMedial_signAetham, khaHigh_raMedial_signAitham, khaHigh_raMedial_signEtham, khaHigh_raMedial_signOotham, khaHigh_raMedial_signThamAitham, khaHigh_raMedialtham, khaHigh_signAetham, khaHigh_signAitham, khaHigh_signEtham, khaHigh_signOotham, khaHigh_signThamAitham, khaLow_raMedial_signAetham, khaLow_raMedial_signAitham, khaLow_raMedial_signEtham, khaLow_raMedial_signOotham, khaLow_raMedial_signThamAitham, khaLow_raMedialtham, khaLow_signAetham, khaLow_signAitham, khaLow_signEtham, khaLow_signOotham, khaLow_signThamAitham, kxaHigh_raMedial_signAetham, kxaHigh_raMedial_signAitham, kxaHigh_raMedial_signEtham, kxaHigh_raMedial_signOotham, kxaHigh_raMedial_signThamAitham, kxaHigh_raMedialtham, kxaHigh_signAetham, kxaHigh_signAitham, kxaHigh_signEtham, kxaHigh_signOotham, kxaHigh_signThamAitham, kxaLow_raMedial_signAetham, kxaLow_raMedial_signAitham, kxaLow_raMedial_signEtham, kxaLow_raMedial_signOotham, kxaLow_raMedial_signThamAitham, kxaLow_raMedialtham, kxaLow_signAetham, kxaLow_signAitham, kxaLow_signEtham, kxaLow_signOotham, kxaLow_signThamAitham, la_raMedial_signAetham, la_raMedial_signAitham, la_raMedial_signEtham, la_raMedial_signOotham, la_raMedial_signThamAitham, la_raMedialtham, la_signAetham, la_signAitham, la_signEtham, la_signOotham, la_signThamAitham, lla.haHigh_rM_signThamAitham, lla.haHigh_raMedial_signAetham, lla.haHigh_raMedial_signAitham, lla.haHigh_raMedial_signEtham, lla.haHigh_raMedial_signOotham, lla.haHigh_raMedialtham, lla.haHigh_signAetham, lla.haHigh_signAitham, lla.haHigh_signEtham, lla.haHigh_signOotham, lla.haHigh_signThamAitham, lla.haHightham, lla_raMedial_signAetham, lla_raMedial_signAitham, lla_raMedial_signEtham, lla_raMedial_signOotham, lla_raMedial_signThamAitham, lla_raMedialtham, lla_signAetham, lla_signAitham, lla_signEtham, lla_signOotham, lla_signThamAitham, ma_raMedial_signAetham, ma_raMedial_signAitham, ma_raMedial_signEtham, ma_raMedial_signOotham, ma_raMedial_signThamAitham, ma_raMedialtham, ma_signAetham, ma_signAitham, ma_signEtham, ma_signOotham, ma_signThamAitham, na_raMedial_signAetham, na_raMedial_signAitham, na_raMedial_signEtham, na_raMedial_signOotham, na_raMedial_signThamAitham, na_raMedialtham, na_signAetham, na_signAitham, na_signEtham, na_signOotham, na_signThamAitham, nasignAa_rM_signThamAitham, nasignAa_raMedial_signAetham, nasignAa_raMedial_signAitham, nasignAa_raMedial_signEtham, nasignAa_raMedial_signOotham, nasignAa_raMedialtham, nasignAa_signAetham, nasignAa_signAitham, nasignAa_signEtham, nasignAa_signOotham, nasignAa_signThamAitham, nga_raMedial_signAetham, nga_raMedial_signAitham, nga_raMedial_signEtham, nga_raMedial_signOotham, nga_raMedial_signThamAitham, nga_raMedialtham, nga_signAetham, nga_signAitham, nga_signEtham, nga_signOotham, nga_signThamAitham, nya.nya_raMedial_signAetham, nya.nya_raMedial_signAitham, nya.nya_raMedial_signEtham, nya.nya_raMedial_signOotham, nya.nya_raMedial_signThamAitham, nya.nya_raMedialtham, nya.nya_signAetham, nya.nya_signAitham, nya.nya_signEtham, nya.nya_signOotham, nya.nya_signThamAitham, nya.nyatham, nya_raMedial_signAetham, nya_raMedial_signAitham, nya_raMedial_signEtham, nya_raMedial_signOotham, nya_raMedial_signThamAitham, nya_raMedialtham, nya_signAetham, nya_signAitham, nya_signEtham, nya_signOotham, nya_signThamAitham, paHigh_raMedial_signAetham, paHigh_raMedial_signAitham, paHigh_raMedial_signEtham, paHigh_raMedial_signOotham, paHigh_raMedial_signThamAitham, paHigh_raMedialtham, paHigh_signAetham, paHigh_signAitham, paHigh_signEtham, paHigh_signEtham.alt, paHigh_signOotham, paHigh_signThamAitham, paLow_raMedial_signAetham, paLow_raMedial_signAitham, paLow_raMedial_signEtham, paLow_raMedial_signOotham, paLow_raMedial_signThamAitham, paLow_raMedialtham, paLow_signAetham, paLow_signAitham, paLow_signEtham, paLow_signOotham, paLow_signThamAitham, phaHigh_raMedial_signAetham, phaHigh_raMedial_signAitham, phaHigh_raMedial_signEtham, phaHigh_raMedial_signOotham, phaHigh_raMedial_signThamAitham, phaHigh_raMedialtham, phaHigh_signAetham, phaHigh_signAitham, phaHigh_signEtham, phaHigh_signOotham, phaHigh_signThamAitham, phaLow_raMedial_signAetham, phaLow_raMedial_signAitham, phaLow_raMedial_signEtham, phaLow_raMedial_signOotham, phaLow_raMedial_signThamAitham, phaLow_raMedialtham, phaLow_signAetham, phaLow_signAitham, phaLow_signEtham, phaLow_signOotham, phaLow_signThamAitham, ra.rathaHigh_rM_signThamAitham, ra_raMedial_signAetham, ra_raMedial_signAitham, ra_raMedial_signEtham, ra_raMedial_signOotham, ra_raMedial_signThamAitham, ra_raMedialtham, ra_signAetham, ra_signAitham, ra_signEtham, ra_signOotham, ra_signThamAitham, rana_raMedial_signAetham, rana_raMedial_signAitham, rana_raMedial_signEtham, rana_raMedial_signOotham, rana_raMedial_signThamAitham, rana_raMedialtham, rana_signAetham, rana_signAitham, rana_signEtham, rana_signOotham, rana_signThamAitham, rata.rathaHigh_rM_signAetham, rata.rathaHigh_rM_signAitham, rata.rathaHigh_rM_signEtham, rata.rathaHigh_rM_signOotham, rata.rathaHigh_raMedialtham, rata.rathaHigh_signAetham, rata.rathaHigh_signAitham, rata.rathaHigh_signEtham, rata.rathaHigh_signOotham, rata.rathaHigh_signThamAitham, rata_raMedial_signAetham, rata_raMedial_signAitham, rata_raMedial_signEtham, rata_raMedial_signOotham, rata_raMedial_signThamAitham, rata_raMedialtham, rata_signAetham, rata_signAitham, rata_signEtham, rata_signOotham, rata_signThamAitham, rathaHigh_rM_signAitham, rathaHigh_rM_signThamAitham, rathaHigh_raMedial_signAetham, rathaHigh_raMedial_signEtham, rathaHigh_raMedial_signOotham, rathaHigh_raMedialtham, rathaHigh_signAetham, rathaHigh_signAitham, rathaHigh_signEtham, rathaHigh_signOotham, rathaHigh_signThamAitham, rathaLow_rM_signAitham, rathaLow_rM_signThamAitham, rathaLow_raMedial_signAetham, rathaLow_raMedial_signEtham, rathaLow_raMedial_signOotham, rathaLow_raMedialtham, rathaLow_signAetham, rathaLow_signAitham, rathaLow_signEtham, rathaLow_signOotham, rathaLow_signThamAitham, saHigh_raMedial_signAetham, saHigh_raMedial_signAitham, saHigh_raMedial_signEtham, saHigh_raMedial_signOotham, saHigh_raMedial_signThamAitham, saHigh_raMedialtham, saHigh_signAetham, saHigh_signAitham, saHigh_signEtham, saHigh_signOotham, saHigh_signThamAitham, saLow_raMedial_signAetham, saLow_raMedial_signAitham, saLow_raMedial_signEtham, saLow_raMedial_signOotham, saLow_raMedial_signThamAitham, saLow_raMedialtham, saLow_signAetham, saLow_signAitham, saLow_signEtham, saLow_signOotham, saLow_signThamAitham, shaHigh_raMedialtham, shaHigh_signAetham, shaHigh_signAitham, shaHigh_signEtham, shaHigh_signOotham, shaHigh_signThamAitham, signI_maiKangLaitham, ssaHigh_raMedial_signAetham, ssaHigh_raMedial_signAitham, ssaHigh_raMedial_signEtham, ssaHigh_raMedial_signOotham, ssaHigh_raMedial_signThamAitham, ssaHigh_raMedialtham, ssaHigh_signAetham, ssaHigh_signAitham, ssaHigh_signEtham, ssaHigh_signOotham, ssaHigh_signThamAitham, taHigh_raMedial_signAetham, taHigh_raMedial_signAitham, taHigh_raMedial_signEtham, taHigh_raMedial_signOotham, taHigh_raMedial_signThamAitham, taHigh_raMedialtham, taHigh_signAetham, taHigh_signAitham, taHigh_signEtham, taHigh_signOotham, taHigh_signThamAitham, taLow_raMedial_signAetham, taLow_raMedial_signAitham, taLow_raMedial_signEtham, taLow_raMedial_signOotham, taLow_raMedial_signThamAitham, taLow_raMedialtham, taLow_signAetham, taLow_signAitham, taLow_signEtham, taLow_signOotham, taLow_signThamAitham, thaHigh_raMedial_signAetham, thaHigh_raMedial_signAitham, thaHigh_raMedial_signEtham, thaHigh_raMedial_signOotham, thaHigh_raMedial_signThamAitham, thaHigh_raMedialtham, thaHigh_signAetham, thaHigh_signAitham, thaHigh_signEtham, thaHigh_signOotham, thaHigh_signThamAitham, thaLow_raMedial_signAetham, thaLow_raMedial_signAitham, thaLow_raMedial_signEtham, thaLow_raMedial_signOotham, thaLow_raMedial_signThamAitham, thaLow_raMedialtham, thaLow_signAetham, thaLow_signAitham, thaLow_signEtham, thaLow_signOotham, thaLow_signThamAitham, uni00611A55, uni00611A6E, uni00611A6F, uni00611A70, uni00611A71, uni00611A72, uni1A20, uni1A21, uni1A22, uni1A25, uni1A28, uni1A2A, uni1A2B, uni1A2B.blwf, uni1A2C, uni1A2C.blwf, uni1A2C.blwf2, uni1A32, uni1A39, uni1A3A, uni1A3D, uni1A3E, uni1A3F, uni1A42, uni1A44, uni1A46, uni1A47, uni1A47.blwf, uni1A48, uni1A4A, uni1A4B, uni1A4C, uni1A4E, uni1A50, uni1A52, uni1A54, uni1A57, uni1A58, uni1A59, uni1A59.blwf4, uni1A5B, uni1A5B.alt, uni1A6F, uni1A70, uni1A71, uni1A72, uni1A7B, uni1A7B.blwf, uni1A7C.blwf, uni1A83, uni1A84, uni1A86, uni1A89, uni1A93, uni1A94, uni1A95, uni1A96, uni1A98, uni1A99, uni1AA2, uni1AAC, uni1AE, wa_raMedial_signAetham, wa_raMedial_signAitham, wa_raMedial_signEtham, wa_raMedial_signOotham, wa_raMedial_signThamAitham, wa_raMedialtham, wa_signAetham, wa_signAitham, wa_signEtham, wa_signOotham, wa_signThamAitham, wa_yaLowtham.alt, yaHigh_raMedial_signAetham, yaHigh_raMedial_signAitham, yaHigh_raMedial_signEtham, yaHigh_raMedial_signOotham, yaHigh_raMedial_signThamAitham, yaHigh_raMedialtham, yaHigh_signAetham, yaHigh_signAitham, yaHigh_signEtham, yaHigh_signOotham, yaHigh_signThamAitham, yaLow_raMedial_signAetham, yaLow_raMedial_signAitham, yaLow_raMedial_signEtham, yaLow_raMedial_signOotham, yaLow_raMedial_signThamAitham, yaLow_raMedialtham, yaLow_signAetham, yaLow_signAitham, yaLow_signEtham, yaLow_signOotham, yaLow_signThamAitham]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version: [a_raMedial_signAitham, a_raMedial_signOotham, chaHigh_raMedial_signAitham, chaHigh_raMedial_signOotham, chaHigh_raMedial_signThamAitham, chaHigh_signAitham, chaHigh_signOotham, chaHigh_signThamAitham, greatSa_raMedial_signAitham, greatSa_raMedial_signOotham, greatSa_raMedial_signThamAitham, greatSa_signAitham, greatSa_signOotham, greatSa_signThamAitham, haLow_raMedial_signAitham, haLow_raMedial_signOotham, haLow_signAitham, haLow_signOotham, kaHigh_raMedial_signAitham, kaHigh_signAitham, khaHigh_raMedial_signAitham, khaHigh_raMedial_signOotham, khaHigh_raMedial_signThamAitham, khaHigh_signAitham, khaHigh_signOotham, khaHigh_signThamAitham, khaLow_raMedial_signAitham, khaLow_raMedial_signOotham, khaLow_raMedial_signThamAitham, khaLow_signAitham, khaLow_signOotham, khaLow_signThamAitham, kxaHigh_raMedial_signAitham, kxaHigh_raMedial_signOotham, kxaHigh_raMedial_signThamAitham, kxaHigh_signAitham, kxaHigh_signOotham, kxaHigh_signThamAitham, lla.haHigh_raMedial_signAitham, lla.haHigh_raMedial_signOotham, lla.haHigh_signAitham, lla.haHigh_signOotham, lla_raMedial_signAitham, lla_raMedial_signOotham, lla_signAitham, lla_signOotham, ma_raMedial_signAetham, ma_raMedial_signAitham, ma_raMedial_signOotham, ma_raMedial_signThamAitham, ma_signAetham, ma_signAitham, ma_signOotham, ma_signThamAitham, nya.nya_raMedial_signAitham, nya.nya_raMedial_signOotham, nya.nya_signAitham, nya.nya_signOotham, nya_raMedial_signAitham, nya_raMedial_signOotham, nya_signAitham, nya_signOotham, phaHigh_raMedial_signAitham, phaHigh_raMedial_signOotham, phaHigh_raMedial_signThamAitham, phaHigh_signAitham, phaHigh_signOotham, phaHigh_signThamAitham, phaLow_raMedial_signAitham, phaLow_signAitham, rathaHigh_rM_signAitham, rathaHigh_rM_signThamAitham, rathaHigh_raMedial_signOotham, rathaHigh_signAitham, rathaHigh_signOotham, rathaHigh_signThamAitham, saHigh_raMedial_signAitham, saHigh_signAitham, shaHigh_signAetham, shaHigh_signAitham, shaHigh_signOotham, shaHigh_signThamAitham, signI_maiKangLaitham, ssaHigh_raMedial_signAetham, ssaHigh_raMedial_signAitham, ssaHigh_raMedial_signEtham, ssaHigh_raMedial_signOotham, ssaHigh_raMedial_signThamAitham, ssaHigh_raMedialtham, ssaHigh_signAetham, ssaHigh_signAitham, ssaHigh_signEtham, ssaHigh_signOotham, ssaHigh_signThamAitham, taHigh_raMedial_signAitham, taHigh_signAitham, uni00611A70, uni00611A71, uni1A47, uni1A58, uni1A59, uni1A59.blwf4, uni1A5B, uni1A5B.alt, uni1A65, uni1A65.blwf1, uni1A7B, uni1A7B.blwf, uni1A7C.blwf, uni1A94, uni1A98]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version: [a_raMedial_signAetham, a_raMedial_signAitham, a_raMedial_signEtham, a_raMedial_signOotham, a_raMedial_signThamAitham, ba_raMedial_signAetham, ba_raMedial_signAitham, ba_raMedial_signEtham, ba_raMedial_signOotham, ba_raMedial_signThamAitham, ba_signAetham, ba_signAitham, ba_signEtham, ba_signOotham, ba_signThamAitham, caHigh_raMedial_signAetham, caHigh_raMedial_signAitham, caHigh_raMedial_signEtham, caHigh_raMedial_signOotham, caHigh_raMedial_signThamAitham, caHigh_signAetham, caHigh_signAitham, caHigh_signEtham, caHigh_signOotham, caHigh_signThamAitham, caLow_raMedial_signAetham, caLow_raMedial_signAitham, caLow_raMedial_signEtham, caLow_raMedial_signOotham, caLow_raMedial_signThamAitham, caLow_signAetham, caLow_signAitham, caLow_signEtham, caLow_signOotham, caLow_signThamAitham, chaHigh_raMedial_signAetham, chaHigh_raMedial_signAitham, chaHigh_raMedial_signEtham, chaHigh_raMedial_signOotham, chaHigh_raMedial_signThamAitham, chaHigh_raMedialtham, chaHigh_signAetham, chaHigh_signAitham, chaHigh_signEtham, chaHigh_signOotham, chaHigh_signThamAitham, chaLow_raMedial_signAetham, chaLow_raMedial_signAitham, chaLow_raMedial_signEtham, chaLow_raMedial_signOotham, chaLow_raMedial_signThamAitham, chaLow_raMedialtham, chaLow_signAetham, chaLow_signAitham, chaLow_signEtham, chaLow_signOotham, chaLow_signThamAitham, da_raMedial_signAetham, da_raMedial_signAitham, da_raMedial_signEtham, da_raMedial_signOotham, da_raMedial_signThamAitham, da_signAetham, da_signAitham, da_signEtham, da_signOotham, da_signThamAitham, faHigh_raMedial_signAetham, faHigh_raMedial_signAitham, faHigh_raMedial_signEtham, faHigh_raMedial_signOotham, faHigh_raMedial_signThamAitham, faHigh_raMedialtham, faHigh_signAetham, faHigh_signAitham, faHigh_signEtham, faHigh_signOotham, faHigh_signThamAitham, faLow_raMedial_signAetham, faLow_raMedial_signAitham, faLow_raMedial_signEtham, faLow_raMedial_signOotham, faLow_raMedial_signThamAitham, faLow_raMedialtham, faLow_signAetham, faLow_signAitham, faLow_signEtham, faLow_signOotham, faLow_signThamAitham, greatSa_raMedial_signAetham, greatSa_raMedial_signAitham, greatSa_raMedial_signEtham, greatSa_raMedial_signOotham, greatSa_raMedial_signThamAitham, greatSa_raMedialtham, greatSa_signAetham, greatSa_signAitham, greatSa_signEtham, greatSa_signOotham, greatSa_signThamAitham, haHigh_raMedial_signAetham, haHigh_raMedial_signAitham, haHigh_raMedial_signEtham, haHigh_raMedial_signOotham, haHigh_raMedial_signThamAitham, haHigh_raMedialtham, haHigh_signAetham, haHigh_signAitham, haHigh_signEtham, haHigh_signOotham, haHigh_signThamAitham, haLow_raMedial_signAetham, haLow_raMedial_signAitham, haLow_raMedial_signEtham, haLow_raMedial_signOotham, haLow_raMedial_signThamAitham, haLow_raMedialtham, haLow_signAetham, haLow_signAitham, haLow_signEtham, haLow_signOotham, haLow_signThamAitham, kaHigh_raMedial_signAetham, kaHigh_raMedial_signAitham, kaHigh_raMedial_signEtham, kaHigh_raMedial_signOotham, kaHigh_raMedial_signThamAitham, kaHigh_raMedialtham, kaHigh_signAetham, kaHigh_signAitham, kaHigh_signEtham, kaHigh_signOotham, kaHigh_signThamAitham, kaLow_raMedial_signAetham, kaLow_raMedial_signAitham, kaLow_raMedial_signEtham, kaLow_raMedial_signOotham, kaLow_raMedial_signThamAitham, kaLow_signAetham, kaLow_signAitham, kaLow_signEtham, kaLow_signOotham, kaLow_signThamAitham, khaHigh_raMedial_signAetham, khaHigh_raMedial_signAitham, khaHigh_raMedial_signEtham, khaHigh_raMedial_signOotham, khaHigh_raMedial_signThamAitham, khaHigh_raMedialtham, khaHigh_signAetham, khaHigh_signAitham, khaHigh_signEtham, khaHigh_signOotham, khaHigh_signThamAitham, khaLow_raMedial_signAetham, khaLow_raMedial_signAitham, khaLow_raMedial_signEtham, khaLow_raMedial_signOotham, khaLow_raMedial_signThamAitham, khaLow_raMedialtham, khaLow_signAetham, khaLow_signAitham, khaLow_signEtham, khaLow_signOotham, khaLow_signThamAitham, kxaHigh_raMedial_signAetham, kxaHigh_raMedial_signAitham, kxaHigh_raMedial_signEtham, kxaHigh_raMedial_signOotham, kxaHigh_raMedial_signThamAitham, kxaHigh_raMedialtham, kxaHigh_signAetham, kxaHigh_signAitham, kxaHigh_signEtham, kxaHigh_signOotham, kxaHigh_signThamAitham, kxaLow_raMedial_signAetham, kxaLow_raMedial_signAitham, kxaLow_raMedial_signEtham, kxaLow_raMedial_signOotham, kxaLow_raMedial_signThamAitham, kxaLow_raMedialtham, kxaLow_signAetham, kxaLow_signAitham, kxaLow_signEtham, kxaLow_signOotham, kxaLow_signThamAitham, la_raMedial_signAetham, la_raMedial_signAitham, la_raMedial_signEtham, la_raMedial_signOotham, la_raMedial_signThamAitham, la_raMedialtham, la_signAetham, la_signAitham, la_signEtham, la_signOotham, la_signThamAitham, lla.haHigh_rM_signThamAitham, lla.haHigh_raMedial_signAetham, lla.haHigh_raMedial_signAitham, lla.haHigh_raMedial_signEtham, lla.haHigh_raMedial_signOotham, lla.haHigh_raMedialtham, lla.haHigh_signAetham, lla.haHigh_signAitham, lla.haHigh_signEtham, lla.haHigh_signOotham, lla.haHigh_signThamAitham, lla.haHightham, lla_raMedial_signAetham, lla_raMedial_signAitham, lla_raMedial_signEtham, lla_raMedial_signOotham, lla_raMedial_signThamAitham, lla_raMedialtham, lla_signAetham, lla_signAitham, lla_signEtham, lla_signOotham, lla_signThamAitham, ma_raMedial_signAetham, ma_raMedial_signAitham, ma_raMedial_signEtham, ma_raMedial_signOotham, ma_raMedial_signThamAitham, ma_raMedialtham, ma_signAetham, ma_signAitham, ma_signEtham, ma_signOotham, ma_signThamAitham, maiSat_tone1tham, na_raMedial_signAetham, na_raMedial_signAitham, na_raMedial_signEtham, na_raMedial_signOotham, na_raMedial_signThamAitham, na_raMedialtham, na_signAetham, na_signAitham, na_signEtham, na_signOotham, na_signThamAitham, nasignAa_rM_signThamAitham, nasignAa_raMedial_signAetham, nasignAa_raMedial_signAitham, nasignAa_raMedial_signEtham, nasignAa_raMedial_signOotham, nasignAa_raMedialtham, nasignAa_signAetham, nasignAa_signAitham, nasignAa_signEtham, nasignAa_signOotham, nasignAa_signThamAitham, nga_raMedial_signAetham, nga_raMedial_signAitham, nga_raMedial_signEtham, nga_raMedial_signOotham, nga_raMedial_signThamAitham, nga_raMedialtham, nga_signAetham, nga_signAitham, nga_signEtham, nga_signOotham, nga_signThamAitham, nya.nya_raMedial_signAetham, nya.nya_raMedial_signAitham, nya.nya_raMedial_signEtham, nya.nya_raMedial_signOotham, nya.nya_raMedial_signThamAitham, nya.nya_raMedialtham, nya.nya_signAetham, nya.nya_signAitham, nya.nya_signEtham, nya.nya_signOotham, nya.nya_signThamAitham, nya.nyatham, nya_raMedial_signAetham, nya_raMedial_signAitham, nya_raMedial_signEtham, nya_raMedial_signOotham, nya_raMedial_signThamAitham, nya_raMedialtham, nya_signAetham, nya_signAitham, nya_signEtham, nya_signOotham, nya_signThamAitham, paHigh_raMedial_signAetham, paHigh_raMedial_signAitham, paHigh_raMedial_signEtham, paHigh_raMedial_signOotham, paHigh_raMedial_signThamAitham, paHigh_raMedialtham, paHigh_signAetham, paHigh_signAitham, paHigh_signEtham, paHigh_signEtham.alt, paHigh_signOotham, paHigh_signThamAitham, paLow_raMedial_signAetham, paLow_raMedial_signAitham, paLow_raMedial_signEtham, paLow_raMedial_signOotham, paLow_raMedial_signThamAitham, paLow_signAetham, paLow_signAitham, paLow_signEtham, paLow_signOotham, paLow_signThamAitham, phaHigh_raMedial_signAetham, phaHigh_raMedial_signAitham, phaHigh_raMedial_signEtham, phaHigh_raMedial_signOotham, phaHigh_raMedial_signThamAitham, phaHigh_raMedialtham, phaHigh_signAetham, phaHigh_signAitham, phaHigh_signEtham, phaHigh_signOotham, phaHigh_signThamAitham, phaLow_raMedial_signAetham, phaLow_raMedial_signAitham, phaLow_raMedial_signEtham, phaLow_raMedial_signOotham, phaLow_raMedial_signThamAitham, phaLow_raMedialtham, phaLow_signAetham, phaLow_signAitham, phaLow_signEtham, phaLow_signOotham, phaLow_signThamAitham, ra.rathaHigh_rM_signThamAitham, ra_raMedial_signAetham, ra_raMedial_signAitham, ra_raMedial_signEtham, ra_raMedial_signOotham, ra_raMedial_signThamAitham, ra_raMedialtham, ra_signAetham, ra_signAitham, ra_signEtham, ra_signOotham, ra_signThamAitham, rana_raMedial_signAetham, rana_raMedial_signAitham, rana_raMedial_signEtham, rana_raMedial_signOotham, rana_raMedial_signThamAitham, rana_raMedialtham, rana_signAetham, rana_signAitham, rana_signEtham, rana_signOotham, rana_signThamAitham, rata.rathaHigh_rM_signAetham, rata.rathaHigh_rM_signAitham, rata.rathaHigh_rM_signEtham, rata.rathaHigh_rM_signOotham, rata.rathaHigh_raMedialtham, rata.rathaHigh_signAetham, rata.rathaHigh_signAitham, rata.rathaHigh_signEtham, rata.rathaHigh_signOotham, rata.rathaHigh_signThamAitham, rata_raMedial_signAetham, rata_raMedial_signAitham, rata_raMedial_signEtham, rata_raMedial_signOotham, rata_raMedial_signThamAitham, rata_signAetham, rata_signAitham, rata_signEtham, rata_signOotham, rata_signThamAitham, rathaHigh_rM_signAitham, rathaHigh_rM_signThamAitham, rathaHigh_raMedial_signAetham, rathaHigh_raMedial_signEtham, rathaHigh_raMedial_signOotham, rathaHigh_raMedialtham, rathaHigh_signAetham, rathaHigh_signAitham, rathaHigh_signEtham, rathaHigh_signOotham, rathaHigh_signThamAitham, rathaLow_rM_signAitham, rathaLow_rM_signThamAitham, rathaLow_raMedial_signAetham, rathaLow_raMedial_signEtham, rathaLow_raMedial_signOotham, rathaLow_raMedialtham, rathaLow_signAetham, rathaLow_signAitham, rathaLow_signEtham, rathaLow_signOotham, rathaLow_signThamAitham, saHigh_raMedial_signAetham, saHigh_raMedial_signAitham, saHigh_raMedial_signEtham, saHigh_raMedial_signOotham, saHigh_raMedial_signThamAitham, saHigh_raMedialtham, saHigh_signAetham, saHigh_signAitham, saHigh_signEtham, saHigh_signOotham, saHigh_signThamAitham, saLow_raMedial_signAetham, saLow_raMedial_signAitham, saLow_raMedial_signEtham, saLow_raMedial_signOotham, saLow_raMedial_signThamAitham, saLow_raMedialtham, saLow_signAetham, saLow_signAitham, saLow_signEtham, saLow_signOotham, saLow_signThamAitham, shaHigh_raMedialtham, shaHigh_signAetham, shaHigh_signAitham, shaHigh_signEtham, shaHigh_signOotham, shaHigh_signThamAitham, signI_maiKangLaitham, ssaHigh_raMedial_signAetham, ssaHigh_raMedial_signAitham, ssaHigh_raMedial_signEtham, ssaHigh_raMedial_signOotham, ssaHigh_raMedial_signThamAitham, ssaHigh_raMedialtham, ssaHigh_signAetham, ssaHigh_signAitham, ssaHigh_signEtham, ssaHigh_signOotham, ssaHigh_signThamAitham, taHigh_raMedial_signAetham, taHigh_raMedial_signAitham, taHigh_raMedial_signEtham, taHigh_raMedial_signOotham, taHigh_raMedial_signThamAitham, taHigh_raMedialtham, taHigh_signAetham, taHigh_signAitham, taHigh_signEtham, taHigh_signOotham, taHigh_signThamAitham, taLow_raMedial_signAetham, taLow_raMedial_signAitham, taLow_raMedial_signEtham, taLow_raMedial_signOotham, taLow_raMedial_signThamAitham, taLow_signAetham, taLow_signAitham, taLow_signEtham, taLow_signOotham, taLow_signThamAitham, thaHigh_raMedial_signAetham, thaHigh_raMedial_signAitham, thaHigh_raMedial_signEtham, thaHigh_raMedial_signOotham, thaHigh_raMedial_signThamAitham, thaHigh_raMedialtham, thaHigh_signAetham, thaHigh_signAitham, thaHigh_signEtham, thaHigh_signOotham, thaHigh_signThamAitham, thaLow_raMedial_signAetham, thaLow_raMedial_signAitham, thaLow_raMedial_signEtham, thaLow_raMedial_signOotham, thaLow_raMedial_signThamAitham, thaLow_signAetham, thaLow_signAitham, thaLow_signEtham, thaLow_signOotham, thaLow_signThamAitham, uni00611A55, uni00611A6E, uni00611A6F, uni00611A70, uni00611A71, uni00611A72, uni1A20, uni1A21, uni1A22, uni1A25, uni1A28, uni1A2B, uni1A2C, uni1A2C.blwf, uni1A2C.blwf2, uni1A32, uni1A39, uni1A3A, uni1A3D, uni1A3E, uni1A3F, uni1A42, uni1A44, uni1A46, uni1A47, uni1A47.blwf, uni1A48, uni1A4A, uni1A4B, uni1A4C, uni1A4E, uni1A50, uni1A52, uni1A54, uni1A57, uni1A58, uni1A59, uni1A5B, uni1A5B.alt, uni1A65, uni1A65.blwf1, uni1A6F, uni1A70, uni1A71, uni1A72, uni1A7B, uni1A7B.blwf, uni1A7C.blwf, uni1A82, uni1A83, uni1A84, uni1A86, uni1A89, uni1A93, uni1A94, uni1A98, uni1AA2, uni1AAC, uni1AE, wa_raMedial_signAetham, wa_raMedial_signAitham, wa_raMedial_signEtham, wa_raMedial_signOotham, wa_raMedial_signThamAitham, wa_signAetham, wa_signAitham, wa_signEtham, wa_signOotham, wa_signThamAitham, wa_yaLowtham.alt, yaHigh_raMedial_signAetham, yaHigh_raMedial_signAitham, yaHigh_raMedial_signEtham, yaHigh_raMedial_signOotham, yaHigh_raMedial_signThamAitham, yaHigh_raMedialtham, yaHigh_signAetham, yaHigh_signAitham, yaHigh_signEtham, yaHigh_signOotham, yaHigh_signThamAitham, yaLow_raMedial_signAetham, yaLow_raMedial_signAitham, yaLow_raMedial_signEtham, yaLow_raMedial_signOotham, yaLow_raMedial_signThamAitham, yaLow_raMedialtham, yaLow_signAetham, yaLow_signAitham, yaLow_signEtham, yaLow_signOotham, yaLow_signThamAitham]</p>
+</span></li></ul></div></details>
+<h3>Check for font-v versioning.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontv&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.001&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<h3>Variable font weight coordinates must be multiples of 100.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont_weight_instances&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Found a variable font instance with 'wght'=482.7586212158203. This should instead be a multiple of 100. [code: bad-coordinate]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Found a variable font instance with 'wght'=586.2068939208984. This should instead be a multiple of 100. [code: bad-coordinate]</p>
+</span></li></ul></div></details>
+<h3>Are there caret positions declared for every ligature?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/ligature_carets&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font lacks caret positioning values for these ligature glyphs:
+- maiKang_maiSattham.blwf1
+- maiKang_tone1tham.blwf1
+- maiSat_maiSattham
+- maiSat_tone1tham
+- signI_maiKangLaitham
+- signI_maiKangtham
+- signO_maiSattham.blwf1
+- signO_tone1tham.blwf1
+- signOaAbove_tone1tham.blwf1
+- taHigh.watham
+- uni1AA9
+- wa_yaLowtham</p>
+<p>[code: incomplete-caret-pos-data]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font lacks caret positioning values for these ligature glyphs:
+- maiKang_maiSattham.blwf1
+- maiKang_tone1tham.blwf1
+- maiSat_maiSattham
+- maiSat_tone1tham
+- signI_maiKangLaitham
+- signI_maiKangtham
+- signO_maiSattham.blwf1
+- signO_tone1tham.blwf1
+- signOaAbove_tone1tham.blwf1
+- taHigh.watham
+- uni1AA9
+- wa_yaLowtham</p>
+<p>[code: incomplete-caret-pos-data]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font lacks caret positioning values for these ligature glyphs:
+- maiKang_maiSattham.blwf1
+- maiKang_tone1tham.blwf1
+- maiSat_maiSattham
+- maiSat_tone1tham
+- signI_maiKangLaitham
+- signI_maiKangtham
+- signO_maiSattham.blwf1
+- signO_tone1tham.blwf1
+- signOaAbove_tone1tham.blwf1
+- taHigh.watham
+- uni1AA9
+- wa_yaLowtham</p>
+<p>[code: incomplete-caret-pos-data]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font lacks caret positioning values for these ligature glyphs:
+- maiKang_maiSattham.blwf1
+- maiKang_tone1tham.blwf1
+- maiSat_maiSattham
+- maiSat_tone1tham
+- signI_maiKangLaitham
+- signI_maiKangtham
+- signO_maiSattham.blwf1
+- signO_tone1tham.blwf1
+- signOaAbove_tone1tham.blwf1
+- taHigh.watham
+- uni1AA9
+- wa_yaLowtham</p>
+<p>[code: incomplete-caret-pos-data]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font lacks caret positioning values for these ligature glyphs:
+- maiKang_maiSattham.blwf1
+- maiKang_tone1tham.blwf1
+- maiSat_maiSattham
+- maiSat_tone1tham
+- signI_maiKangLaitham
+- signI_maiKangtham
+- signO_maiSattham.blwf1
+- signO_tone1tham.blwf1
+- signOaAbove_tone1tham.blwf1
+- taHigh.watham
+- uni1AA9
+- wa_yaLowtham</p>
+<p>[code: incomplete-caret-pos-data]</p>
+</span></li></ul></div></details>
+<h3>Combined length of family and style must not exceed 27 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Tai Tham Medium' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Tai Tham SemiBold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>Check variable font instances have correct coordinate values</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont_instance_coordinates&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Instance &quot;Medium&quot; wght value is &quot;482.7586212158203&quot;. It should be &quot;500.0&quot; [code: bad-coordinate]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Instance &quot;SemiBold&quot; wght value is &quot;586.2068939208984&quot;. It should be &quot;600.0&quot; [code: bad-coordinate]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Further info can be found in our spec https://github.com/googlefonts/gf-docs/tree/main/Spec#axes</p>
+</span></li></ul></div></details>
+<h3>Ensure variable fonts include an avar table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/mandatory_avar_table&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This variable font does not have an avar table. [code: missing-avar]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h3>Check font can render its own name.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/render_own_name&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Tai Tham [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Tai Tham Medium [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Tai Tham [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Tai Tham SemiBold [code: render-own-name]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Noto Sans Tai Tham [code: render-own-name]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1079, but got 1034 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1079, but got 1034 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1079, but got 1034 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1079, but got 1034 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1079, but got 1034 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<h3>Font contains all required tables?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/required_tables&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GPOS
+- GSUB
+- And gasp [code: optional-tables]</p>
+</span></li></ul></div></details>
+<h3>List all superfamily filepaths</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/superfamily/list&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Tai Tham/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Tai Tham/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Tai Tham/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Tai Tham/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Sans Tai Tham/unhinted/variable-ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- shaHigh_raMedial_signEtham
+- uni1A58.blwf
+- uni1A58.alt
+- rue_raMedial_signAetham
+- rue_raMedial_signThamAitham
+- shaHigh_raMedial_signOotham
+- shaHigh_raMedial_signAetham
+- rue_signAetham
+- uni1A31.blwf
+- lue_signThamAitham
+- And 28 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- shaHigh_raMedial_signEtham
+- uni1A58.blwf
+- uni1A58.alt
+- rue_raMedial_signAetham
+- rue_raMedial_signThamAitham
+- shaHigh_raMedial_signOotham
+- shaHigh_raMedial_signAetham
+- rue_signAetham
+- uni1A31.blwf
+- lue_signThamAitham
+- And 28 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- shaHigh_raMedial_signEtham
+- uni1A58.blwf
+- uni1A58.alt
+- rue_raMedial_signAetham
+- rue_raMedial_signThamAitham
+- shaHigh_raMedial_signOotham
+- shaHigh_raMedial_signAetham
+- rue_signAetham
+- uni1A31.blwf
+- lue_signThamAitham
+- And 28 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- shaHigh_raMedial_signEtham
+- uni1A58.blwf
+- uni1A58.alt
+- rue_raMedial_signAetham
+- rue_raMedial_signThamAitham
+- shaHigh_raMedial_signOotham
+- shaHigh_raMedial_signAetham
+- rue_signAetham
+- uni1A31.blwf
+- lue_signThamAitham
+- And 28 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- shaHigh_raMedial_signEtham
+- uni1A58.blwf
+- uni1A58.alt
+- rue_raMedial_signAetham
+- rue_raMedial_signThamAitham
+- shaHigh_raMedial_signOotham
+- shaHigh_raMedial_signAetham
+- rue_signAetham
+- uni1A31.blwf
+- lue_signThamAitham
+- And 28 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.os2&gt; 🔥🔥</h2>
+<h3>Fonts have consistent PANOSE proportion?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_proportion&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h3>Fonts have consistent PANOSE family type?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_familytype&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni1A22 (U+1A22): X=200.0,Y=698.0 (should be at cap-height 700?)
+* uni1A26 (U+1A26): X=219.0,Y=1.0 (should be at baseline 0?)
+* uni1A27 (U+1A27): X=403.5,Y=2.0 (should be at baseline 0?)
+* uni1A2B (U+1A2B): X=403.5,Y=2.0 (should be at baseline 0?)
+* uni1AE (U+1A2E): X=443.0,Y=2.0 (should be at baseline 0?)
+* uni1A2F (U+1A2F): X=314.0,Y=-0.5 (should be at baseline 0?)
+* uni1A33 (U+1A33): X=748.0,Y=2.0 (should be at baseline 0?)
+* uni1A36 (U+1A36): X=228.0,Y=-2.0 (should be at baseline 0?)
+* uni1A3E (U+1A3E): X=417.0,Y=1.5 (should be at baseline 0?)
+* uni1A4C (U+1A4C): X=786.0,Y=1.0 (should be at baseline 0?) and 15 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni1A20 (U+1A20): X=670.5,Y=-2.0 (should be at baseline 0?)
+* uni1A22 (U+1A22): X=177.0,Y=702.0 (should be at cap-height 700?)
+* uni1A25 (U+1A25): X=479.5,Y=-2.0 (should be at baseline 0?)
+* uni1A26 (U+1A26): X=210.0,Y=-1.0 (should be at baseline 0?)
+* uni1A27 (U+1A27): X=393.5,Y=1.5 (should be at baseline 0?)
+* uni1A2B (U+1A2B): X=315.0,Y=702.0 (should be at cap-height 700?)
+* uni1A2B (U+1A2B): X=393.5,Y=1.5 (should be at baseline 0?)
+* uni1A2C (U+1A2C): X=224.0,Y=-1.5 (should be at baseline 0?)
+* uni1A30 (U+1A30): X=479.5,Y=-2.0 (should be at baseline 0?)
+* uni1A32 (U+1A32): X=634.5,Y=-2.0 (should be at baseline 0?) and 14 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni1A20 (U+1A20): X=673.5,Y=-1.0 (should be at baseline 0?)
+* uni1A26 (U+1A26): X=207.0,Y=-2.0 (should be at baseline 0?)
+* uni1A27 (U+1A27): X=389.5,Y=1.0 (should be at baseline 0?)
+* uni1A2B (U+1A2B): X=389.5,Y=1.0 (should be at baseline 0?)
+* uni1A32 (U+1A32): X=631.5,Y=-1.0 (should be at baseline 0?)
+* uni1A33 (U+1A33): X=693.0,Y=2.0 (should be at baseline 0?)
+* uni1A36 (U+1A36): X=228.0,Y=-2.0 (should be at baseline 0?)
+* uni1A3A (U+1A3A): X=467.5,Y=-1.0 (should be at baseline 0?)
+* uni1A3D (U+1A3D): X=581.5,Y=-1.0 (should be at baseline 0?)
+* uni1A3E (U+1A3E): X=408.0,Y=2.0 (should be at baseline 0?) and 15 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni1A25 (U+1A25): X=492.5,Y=-2.0 (should be at baseline 0?)
+* uni1A27 (U+1A27): X=398.0,Y=1.5 (should be at baseline 0?)
+* uni1A2B (U+1A2B): X=398.0,Y=1.5 (should be at baseline 0?)
+* uni1A30 (U+1A30): X=492.5,Y=-2.0 (should be at baseline 0?)
+* uni1A33 (U+1A33): X=727.0,Y=2.0 (should be at baseline 0?)
+* uni1A36 (U+1A36): X=228.0,Y=-2.0 (should be at baseline 0?)
+* uni1A3E (U+1A3E): X=413.5,Y=1.5 (should be at baseline 0?)
+* uni1A47 (U+1A47): X=731.0,Y=-0.5 (should be at baseline 0?)
+* uni1A4C (U+1A4C): X=645.0,Y=2.0 (should be at baseline 0?)
+* uni1A4E (U+1A4E): X=210.0,Y=702.0 (should be at cap-height 700?) and 11 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni1A20 (U+1A20): X=673.5,Y=-1.0 (should be at baseline 0?)
+* uni1A26 (U+1A26): X=207.0,Y=-2.0 (should be at baseline 0?)
+* uni1A27 (U+1A27): X=389.5,Y=1.0 (should be at baseline 0?)
+* uni1A2B (U+1A2B): X=389.5,Y=1.0 (should be at baseline 0?)
+* uni1A32 (U+1A32): X=631.5,Y=-1.0 (should be at baseline 0?)
+* uni1A33 (U+1A33): X=693.0,Y=2.0 (should be at baseline 0?)
+* uni1A36 (U+1A36): X=228.0,Y=-2.0 (should be at baseline 0?)
+* uni1A3A (U+1A3A): X=467.5,Y=-1.0 (should be at baseline 0?)
+* uni1A3D (U+1A3D): X=581.5,Y=-1.0 (should be at baseline 0?)
+* uni1A43 (U+1A43): X=365.0,Y=2.0 (should be at baseline 0?) and 26 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni1A20 (U+1A20) contains a short segment L&lt;&lt;587.0,267.0&gt;--&lt;587.0,267.0&gt;&gt;
+* uni1A20 (U+1A20) contains a short segment L&lt;&lt;587.0,267.0&gt;--&lt;587.0,263.0&gt;&gt;
+* uni1A22 (U+1A22) contains a short segment B&lt;&lt;430.0,255.0&gt;-&lt;431.0,263.0&gt;-&lt;431.0,271.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;893.0,420.0&gt;-&lt;875.0,420.0&gt;-&lt;858.5,416.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;389.0,401.0&gt;-&lt;389.0,407.0&gt;-&lt;384.0,421.5&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;384.0,421.5&gt;-&lt;379.0,436.0&gt;-&lt;359.0,436.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;359.0,436.0&gt;-&lt;343.0,436.0&gt;-&lt;331.0,419.5&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;228.0,422.0&gt;-&lt;217.0,435.0&gt;-&lt;200.0,435.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;200.0,435.0&gt;-&lt;185.0,435.0&gt;-&lt;176.5,426.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;176.5,426.0&gt;-&lt;168.0,417.0&gt;-&lt;168.0,406.0&gt;&gt; and 85 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni1A20 (U+1A20) contains a short segment B&lt;&lt;583.0,272.0&gt;-&lt;583.0,270.0&gt;-&lt;583.0,269.0&gt;&gt;
+* uni1A20 (U+1A20) contains a short segment B&lt;&lt;583.0,269.0&gt;-&lt;583.0,268.0&gt;-&lt;583.0,269.0&gt;&gt;
+* uni1A20 (U+1A20) contains a short segment L&lt;&lt;583.0,266.0&gt;--&lt;583.0,266.0&gt;&gt;
+* uni1A20 (U+1A20) contains a short segment L&lt;&lt;583.0,266.0&gt;--&lt;583.0,265.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;723.0,210.0&gt;-&lt;723.0,205.0&gt;-&lt;723.0,201.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;380.0,411.0&gt;-&lt;380.0,427.0&gt;-&lt;372.5,447.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;341.0,467.0&gt;-&lt;323.0,467.0&gt;-&lt;309.5,450.5&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;215.5,454.0&gt;-&lt;204.0,468.0&gt;-&lt;186.0,468.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;186.0,468.0&gt;-&lt;172.0,468.0&gt;-&lt;161.0,458.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;161.0,458.0&gt;-&lt;150.0,448.0&gt;-&lt;150.0,429.0&gt;&gt; and 75 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni1A20 (U+1A20) contains a short segment B&lt;&lt;581.0,284.0&gt;-&lt;581.0,275.0&gt;-&lt;581.0,266.0&gt;&gt;
+* uni1A22 (U+1A22) contains a short segment B&lt;&lt;83.0,135.0&gt;-&lt;83.0,146.0&gt;-&lt;85.0,158.5&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;707.0,202.0&gt;-&lt;707.0,194.0&gt;-&lt;707.0,186.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;334.0,479.0&gt;-&lt;315.0,479.0&gt;-&lt;301.5,463.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;210.5,466.0&gt;-&lt;199.0,480.0&gt;-&lt;181.0,480.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;181.0,480.0&gt;-&lt;167.0,480.0&gt;-&lt;155.0,470.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;155.0,470.0&gt;-&lt;143.0,460.0&gt;-&lt;143.0,438.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;143.0,438.0&gt;-&lt;143.0,424.0&gt;-&lt;150.5,406.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;148.0,104.0&gt;-&lt;148.0,88.0&gt;-&lt;162.0,73.5&gt;&gt;
+* uni1A28 (U+1A28) contains a short segment B&lt;&lt;489.0,267.0&gt;-&lt;489.0,260.0&gt;-&lt;489.0,254.0&gt;&gt; and 65 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni1A20 (U+1A20) contains a short segment L&lt;&lt;585.0,267.0&gt;--&lt;585.0,267.0&gt;&gt;
+* uni1A20 (U+1A20) contains a short segment L&lt;&lt;585.0,267.0&gt;--&lt;585.0,264.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;384.0,406.0&gt;-&lt;384.0,418.0&gt;-&lt;377.5,435.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;377.5,435.0&gt;-&lt;371.0,452.0&gt;-&lt;350.0,452.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;350.0,452.0&gt;-&lt;332.0,452.0&gt;-&lt;319.5,435.5&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;221.0,438.5&gt;-&lt;210.0,452.0&gt;-&lt;193.0,452.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;193.0,452.0&gt;-&lt;178.0,452.0&gt;-&lt;168.5,442.5&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;168.5,442.5&gt;-&lt;159.0,433.0&gt;-&lt;159.0,418.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;159.0,418.0&gt;-&lt;159.0,407.0&gt;-&lt;165.5,392.0&gt;&gt;
+* uni1A25 (U+1A25) contains a short segment B&lt;&lt;180.0,121.0&gt;-&lt;180.0,108.0&gt;-&lt;193.5,98.0&gt;&gt; and 61 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* uni1A3D (U+1A3D): L&lt;&lt;504.0,266.0&gt;--&lt;504.0,266.0&gt;&gt; -&gt; L&lt;&lt;504.0,266.0&gt;--&lt;504.0,266.0&gt;&gt;
+* uni1A47 (U+1A47): L&lt;&lt;493.0,268.0&gt;--&lt;493.0,268.0&gt;&gt; -&gt; L&lt;&lt;493.0,268.0&gt;--&lt;493.0,268.0&gt;&gt;
+* uni1A48 (U+1A48): L&lt;&lt;499.0,268.0&gt;--&lt;499.0,268.0&gt;&gt; -&gt; L&lt;&lt;499.0,268.0&gt;--&lt;499.0,268.0&gt;&gt;
+* uni1A54 (U+1A54): L&lt;&lt;506.0,268.0&gt;--&lt;506.0,268.0&gt;&gt; -&gt; L&lt;&lt;506.0,268.0&gt;--&lt;506.0,268.0&gt;&gt;
+* uni1A54 (U+1A54): L&lt;&lt;902.0,268.0&gt;--&lt;902.0,267.0&gt;&gt; -&gt; L&lt;&lt;902.0,267.0&gt;--&lt;902.0,266.0&gt;&gt; and uni1AA2 (U+1AA2): L&lt;&lt;506.0,268.0&gt;--&lt;506.0,268.0&gt;&gt; -&gt; L&lt;&lt;506.0,268.0&gt;--&lt;506.0,268.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* uni1A2C (U+1A2C): L&lt;&lt;518.0,268.0&gt;--&lt;518.0,268.0&gt;&gt; -&gt; L&lt;&lt;518.0,268.0&gt;--&lt;518.0,268.0&gt;&gt;
+* uni1A32 (U+1A32): L&lt;&lt;539.0,266.0&gt;--&lt;539.0,266.0&gt;&gt; -&gt; L&lt;&lt;539.0,266.0&gt;--&lt;539.0,266.0&gt;&gt;
+* uni1A3D (U+1A3D): L&lt;&lt;489.0,266.0&gt;--&lt;489.0,266.0&gt;&gt; -&gt; L&lt;&lt;489.0,266.0&gt;--&lt;489.0,266.0&gt;&gt;
+* uni1A47 (U+1A47): L&lt;&lt;474.0,268.0&gt;--&lt;474.0,268.0&gt;&gt; -&gt; L&lt;&lt;474.0,268.0&gt;--&lt;474.0,268.0&gt;&gt;
+* uni1A48 (U+1A48): L&lt;&lt;482.0,268.0&gt;--&lt;482.0,268.0&gt;&gt; -&gt; L&lt;&lt;482.0,268.0&gt;--&lt;482.0,268.0&gt;&gt;
+* uni1A54 (U+1A54): L&lt;&lt;492.0,268.0&gt;--&lt;492.0,268.0&gt;&gt; -&gt; L&lt;&lt;492.0,268.0&gt;--&lt;492.0,268.0&gt;&gt;
+* uni1A54 (U+1A54): L&lt;&lt;891.0,268.0&gt;--&lt;891.0,268.0&gt;&gt; -&gt; L&lt;&lt;891.0,268.0&gt;--&lt;891.0,268.0&gt;&gt;
+* uni1A93 (U+1A93): L&lt;&lt;539.0,267.0&gt;--&lt;539.0,267.0&gt;&gt; -&gt; L&lt;&lt;539.0,267.0&gt;--&lt;539.0,267.0&gt;&gt; and uni1AA2 (U+1AA2): L&lt;&lt;491.0,268.0&gt;--&lt;491.0,268.0&gt;&gt; -&gt; L&lt;&lt;491.0,268.0&gt;--&lt;491.0,268.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni1A4F (U+1A4F): L&lt;&lt;199.0,35.0&gt;--&lt;200.0,-124.0&gt;&gt;</li>
+<li>uni1A4F (U+1A4F): L&lt;&lt;76.0,203.0&gt;--&lt;202.0,204.0&gt;&gt;</li>
+<li>uni1A4F (U+1A4F): L&lt;&lt;78.0,-86.0&gt;--&lt;76.0,203.0&gt;&gt;</li>
+<li>uni1A50 (U+1A50): L&lt;&lt;84.0,203.0&gt;--&lt;211.0,204.0&gt;&gt; and uni1A50 (U+1A50): L&lt;&lt;89.0,385.0&gt;--&lt;87.0,660.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni1A2A (U+1A2A): L&lt;&lt;87.0,271.0&gt;--&lt;89.0,636.0&gt;&gt;</li>
+<li>uni1A4F (U+1A4F): L&lt;&lt;82.0,-86.0&gt;--&lt;80.0,169.0&gt;&gt;</li>
+<li>uni1A50 (U+1A50): L&lt;&lt;173.0,47.0&gt;--&lt;174.0,-124.0&gt;&gt;</li>
+<li>uni1A50 (U+1A50): L&lt;&lt;179.0,705.0&gt;--&lt;178.0,490.0&gt;&gt; and uni1A50 (U+1A50): L&lt;&lt;84.0,-86.0&gt;--&lt;83.0,169.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni1A2A (U+1A2A): L&lt;&lt;88.0,271.0&gt;--&lt;90.0,635.0&gt;&gt;</li>
+<li>uni1A4F (U+1A4F): L&lt;&lt;157.0,53.0&gt;--&lt;158.0,-124.0&gt;&gt;</li>
+<li>uni1A4F (U+1A4F): L&lt;&lt;83.0,-86.0&gt;--&lt;81.0,156.0&gt;&gt;</li>
+<li>uni1A50 (U+1A50): L&lt;&lt;159.0,52.0&gt;--&lt;160.0,-124.0&gt;&gt;</li>
+<li>uni1A50 (U+1A50): L&lt;&lt;84.0,-86.0&gt;--&lt;82.0,156.0&gt;&gt; and uni1A50 (U+1A50): L&lt;&lt;86.0,419.0&gt;--&lt;87.0,636.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni1A2A (U+1A2A): L&lt;&lt;86.0,271.0&gt;--&lt;87.0,638.0&gt;&gt;</li>
+<li>uni1A4F (U+1A4F): L&lt;&lt;183.0,41.0&gt;--&lt;184.0,-124.0&gt;&gt;</li>
+<li>uni1A4F (U+1A4F): L&lt;&lt;80.0,-86.0&gt;--&lt;78.0,185.0&gt;&gt;</li>
+<li>uni1A50 (U+1A50): L&lt;&lt;191.0,42.0&gt;--&lt;192.0,-124.0&gt;&gt;</li>
+<li>uni1A50 (U+1A50): L&lt;&lt;197.0,706.0&gt;--&lt;196.0,493.0&gt;&gt;</li>
+<li>uni1A50 (U+1A50): L&lt;&lt;84.0,-86.0&gt;--&lt;83.0,185.0&gt;&gt; and uni1A50 (U+1A50): L&lt;&lt;88.0,398.0&gt;--&lt;87.0,651.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+                    </body>
+                </html>

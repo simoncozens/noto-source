@@ -1,0 +1,10 @@
+Creating variable fonts from src/NotoSansTaiViet/NotoSansTaiViet.designspace
+Postprocessing font output/Noto Sans Tai Viet/unhinted/variable-ttf/NotoSansTaiViet[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansTaiViet/NotoSansTaiViet.designspace
+Created static font output/Noto Sans Tai Viet/unhinted/otf/NotoSansTaiViet-Regular.otf
+Postprocessing font output/Noto Sans Tai Viet/unhinted/otf/NotoSansTaiViet-Regular.otf
+Creating static fonts from src/NotoSansTaiViet/NotoSansTaiViet.designspace
+Created static font output/Noto Sans Tai Viet/unhinted/ttf/NotoSansTaiViet-Regular.ttf
+Postprocessing font output/Noto Sans Tai Viet/unhinted/ttf/NotoSansTaiViet-Regular.ttf
+Building variable, static completed. All done!

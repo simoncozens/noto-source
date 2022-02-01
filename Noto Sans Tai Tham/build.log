@@ -1,0 +1,27 @@
+Creating variable fonts from src/NotoSansTaiTham.glyphs
+Postprocessing font output/Noto Sans Tai Tham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansTaiTham.glyphs
+Created static font output/Noto Sans Tai Tham/unhinted/otf/NotoSansTaiTham-SemiBold.otf
+Postprocessing font output/Noto Sans Tai Tham/unhinted/otf/NotoSansTaiTham-SemiBold.otf
+Created static font output/Noto Sans Tai Tham/unhinted/otf/NotoSansTaiTham-Bold.otf
+Postprocessing font output/Noto Sans Tai Tham/unhinted/otf/NotoSansTaiTham-Bold.otf
+Created static font output/Noto Sans Tai Tham/unhinted/otf/NotoSansTaiTham-Medium.otf
+Postprocessing font output/Noto Sans Tai Tham/unhinted/otf/NotoSansTaiTham-Medium.otf
+Created static font output/Noto Sans Tai Tham/unhinted/otf/NotoSansTaiTham-Regular.otf
+Postprocessing font output/Noto Sans Tai Tham/unhinted/otf/NotoSansTaiTham-Regular.otf
+Creating static fonts from src/NotoSansTaiTham.glyphs
+Created static font output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf
+Postprocessing font output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf
+Couldn't autohint output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Medium.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf
+Postprocessing font output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf
+Couldn't autohint output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Bold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf
+Postprocessing font output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf
+Couldn't autohint output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf
+Postprocessing font output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf
+Couldn't autohint output/Noto Sans Tai Tham/unhinted/ttf/NotoSansTaiTham-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

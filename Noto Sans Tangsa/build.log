@@ -1,0 +1,27 @@
+Creating variable fonts from src/NotoSansTangsa.glyphs
+Postprocessing font output/Noto Sans Tangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansTangsa.glyphs
+Created static font output/Noto Sans Tangsa/unhinted/otf/NotoSansTangsa-Regular.otf
+Postprocessing font output/Noto Sans Tangsa/unhinted/otf/NotoSansTangsa-Regular.otf
+Created static font output/Noto Sans Tangsa/unhinted/otf/NotoSansTangsa-Bold.otf
+Postprocessing font output/Noto Sans Tangsa/unhinted/otf/NotoSansTangsa-Bold.otf
+Created static font output/Noto Sans Tangsa/unhinted/otf/NotoSansTangsa-Medium.otf
+Postprocessing font output/Noto Sans Tangsa/unhinted/otf/NotoSansTangsa-Medium.otf
+Created static font output/Noto Sans Tangsa/unhinted/otf/NotoSansTangsa-SemiBold.otf
+Postprocessing font output/Noto Sans Tangsa/unhinted/otf/NotoSansTangsa-SemiBold.otf
+Creating static fonts from src/NotoSansTangsa.glyphs
+Created static font output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf
+Postprocessing font output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf
+Couldn't autohint output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf
+Postprocessing font output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf
+Couldn't autohint output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf
+Postprocessing font output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf
+Couldn't autohint output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf
+Postprocessing font output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf
+Couldn't autohint output/Noto Sans Tangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansTakri/NotoSansTakri.designspace
+Postprocessing font output/Noto Sans Takri/unhinted/variable-ttf/NotoSansTakri[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansTakri/NotoSansTakri.designspace
+Created static font output/Noto Sans Takri/unhinted/otf/NotoSansTakri-Regular.otf
+Postprocessing font output/Noto Sans Takri/unhinted/otf/NotoSansTakri-Regular.otf
+Creating static fonts from src/NotoSansTakri/NotoSansTakri.designspace
+Created static font output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf
+Postprocessing font output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf
+Couldn't autohint output/Noto Sans Takri/unhinted/ttf/NotoSansTakri-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

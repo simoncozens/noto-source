@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansZanabazarSquare/NotoSansZanabazarSquare.designspace
+Postprocessing font output/Noto Sans Zanabazar Square/unhinted/variable-ttf/NotoSansZanabazarSquare[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansZanabazarSquare/NotoSansZanabazarSquare.designspace
+Created static font output/Noto Sans Zanabazar Square/unhinted/otf/NotoSansZanabazarSquare-Regular.otf
+Postprocessing font output/Noto Sans Zanabazar Square/unhinted/otf/NotoSansZanabazarSquare-Regular.otf
+Creating static fonts from src/NotoSansZanabazarSquare/NotoSansZanabazarSquare.designspace
+Created static font output/Noto Sans Zanabazar Square/unhinted/ttf/NotoSansZanabazarSquare-Regular.ttf
+Postprocessing font output/Noto Sans Zanabazar Square/unhinted/ttf/NotoSansZanabazarSquare-Regular.ttf
+Couldn't autohint output/Noto Sans Zanabazar Square/unhinted/ttf/NotoSansZanabazarSquare-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

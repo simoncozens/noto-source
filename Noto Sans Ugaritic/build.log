@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansUgaritic/NotoSansUgaritic.designspace
+Postprocessing font output/Noto Sans Ugaritic/unhinted/variable-ttf/NotoSansUgaritic[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansUgaritic/NotoSansUgaritic.designspace
+Created static font output/Noto Sans Ugaritic/unhinted/otf/NotoSansUgaritic-Regular.otf
+Postprocessing font output/Noto Sans Ugaritic/unhinted/otf/NotoSansUgaritic-Regular.otf
+Creating static fonts from src/NotoSansUgaritic/NotoSansUgaritic.designspace
+Created static font output/Noto Sans Ugaritic/unhinted/ttf/NotoSansUgaritic-Regular.ttf
+Postprocessing font output/Noto Sans Ugaritic/unhinted/ttf/NotoSansUgaritic-Regular.ttf
+Couldn't autohint output/Noto Sans Ugaritic/unhinted/ttf/NotoSansUgaritic-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
