@@ -66,10 +66,23 @@
 			<table class="table">
 				{{#each projects}}
 				<tr id="{{family}}">
-					<th colspan="4">
+					<td colspan="4">
 						<h2>{{family}}</h2>
 						<p>{{{this.commit}}}</p>
-					</th>
+						{{#if issues}}
+						<h4>Open Issues</h4>
+						<ul>
+							{{#each issues}}
+							<li>
+								<a
+									href="https://github.com/googlefonts/noto-fonts/issues/{{this.id}}"
+									>#{{this.id}}</a
+								>: {{this.title}}
+							</li>
+							{{/each}}
+						</ul>
+						{{/if}}
+					</td>
 				</tr>
 				<tr>
 					<td>

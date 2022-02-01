@@ -3,3 +3,4 @@ git+https://github.com/googlefonts/ufo2ft@657942b
 git+https://github.com/simoncozens/gftools@autohint-script
 fontbakery>=0.8.4
 pybars3
+PyGithub

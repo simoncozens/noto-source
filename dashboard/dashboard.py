@@ -1,7 +1,9 @@
 from gftools.builder import GFBuilder
 from gftools.builder.autohint import autohint
 from pybars import Compiler
+from github import Github
 
+from collections import defaultdict
 import sys
 import glob
 import re
@@ -13,9 +15,16 @@ import json
 import requests
 
 
-
+TOKEN = os.environ["GITHUB_TOKEN"]
 COMMIT_URL = "https://github.com/googlefonts/noto-source/commit"
-BLACKLISTED = ["Noto Sans", "Noto Serif", "Noto Sans Mono", "Noto Sans Italic", "Arimo", "Arimo-Italic"]
+BLACKLISTED = [
+    "Noto Sans",
+    "Noto Serif",
+    "Noto Sans Mono",
+    "Noto Sans Italic",
+    "Arimo",
+    "Arimo-Italic",
+]
 DASHBOARD_URL = "https://simoncozens.github.io/noto-source/"
 STATE_URL = DASHBOARD_URL + "state.json"
 MAX_BUILD = 20
@@ -129,19 +138,19 @@ def build_and_test_file(file):
             )
     print("\n::endgroup::", file=sys.stderr)
     return {
-            "family": family,
-            "commit": last_commit(file),
-            "log": "%s/build.log" % family,
-            "errors": errors,
-            "fontbakery": report,
-            "badges": [
-                urllib.parse.quote_plus(x.replace("output/", DASHBOARD_URL)).replace(
-                    "+", "%2520"
-                )
-                for x in glob.glob("output/%s/badges/*.json" % family)
-            ],
-            "outputs": outputs,
-        }
+        "family": family,
+        "commit": last_commit(file),
+        "log": "%s/build.log" % family,
+        "errors": errors,
+        "fontbakery": report,
+        "badges": [
+            urllib.parse.quote_plus(x.replace("output/", DASHBOARD_URL)).replace(
+                "+", "%2520"
+            )
+            for x in glob.glob("output/%s/badges/*.json" % family)
+        ],
+        "outputs": outputs,
+    }
 
 
 os.makedirs("output", exist_ok=True)  # Stop it being deleted
@@ -152,6 +161,7 @@ try:
     script_projects = requests.get(STATE_URL).json()
 except Exception as e:
     logging.getLogger().error(e)
+
 
 def last_commit(file):
     log = subprocess.check_output(
@@ -170,15 +180,44 @@ for ix, file in enumerate(all_files):
     family = nb.get_family_name()
     if family in BLACKLISTED:
         continue
-    if family not in script_projects or last_commit(file) != script_projects[family]["commit"]:
+    if (
+        family not in script_projects
+        or last_commit(file) != script_projects[family]["commit"]
+    ):
         to_build.append(file)
     if len(to_build) > MAX_BUILD:
         break
 
-# for ix, file in enumerate(to_build):
-#     results = build_and_test_file(file)
-#     script_projects[results["family"]] = results
+for ix, file in enumerate(to_build):
+    results = build_and_test_file(file)
+    script_projects[results["family"]] = results
 
+
+g = Github(TOKEN)
+
+issues = defaultdict(list)
+
+try:
+    repo = g.get_repo("googlefonts/noto-fonts")
+    open_issues = repo.get_issues(state="open")
+    for issue in open_issues:
+        for label in issue.labels:
+            if label.name.startswith("Script-"):
+                issues[label.name.replace("Script-", "")].append(
+                    {"id": issue.number, "title": issue.title}
+                )
+except Exception as e:
+    logger.getLogger().error("Couldn't get list of issues: %s" % e)
+
+for project, value in script_projects.items():
+    # It's unfortunate that we do a double loop here, but it's
+    # also actually pretty useful at finding things which are
+    # labeled in ambiguous ways. e.g "Script-Nastaliq" and
+    # "Script-Urdu" will both end up in the "Noto Nastaliq Urdu"
+    # project.
+    for script, script_issues in issues.items():
+        if script in project:
+            value["issues"] = list(script_issues)
 
 compiler = Compiler()
 template = open("dashboard/template.html", "r").read()
