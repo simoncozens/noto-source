@@ -105,9 +105,7 @@ def build_and_test_file(file):
             [
                 "fontbakery",
                 "check-googlefonts",
-                "--config", "fontbakery.yml"
-                "-l",
-                "WARN",
+                "--config", "fontbakery.yml",
                 "-n",
                 "-l",
                 "INFO",
