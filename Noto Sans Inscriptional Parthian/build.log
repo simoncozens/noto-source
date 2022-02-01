@@ -1,0 +1,12 @@
+Creating variable fonts from src/NotoSansInscriptionalParthian.glyphs
+Postprocessing font output/Noto Sans Inscriptional Parthian/unhinted/variable-ttf/NotoSansInscriptionalParthian[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansInscriptionalParthian.glyphs
+Created static font output/Noto Sans Inscriptional Parthian/unhinted/otf/NotoSansInscriptionalParthian-Regular.otf
+Postprocessing font output/Noto Sans Inscriptional Parthian/unhinted/otf/NotoSansInscriptionalParthian-Regular.otf
+Creating static fonts from src/NotoSansInscriptionalParthian.glyphs
+Created static font output/Noto Sans Inscriptional Parthian/unhinted/ttf/NotoSansInscriptionalParthian-Regular.ttf
+Postprocessing font output/Noto Sans Inscriptional Parthian/unhinted/ttf/NotoSansInscriptionalParthian-Regular.ttf
+Couldn't autohint output/Noto Sans Inscriptional Parthian/unhinted/ttf/NotoSansInscriptionalParthian-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo'}

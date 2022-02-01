@@ -1,0 +1,295 @@
+Creating variable fonts from src/NotoSansGujarati-MM.glyphs
+Postprocessing font output/Noto Sans Gujarati/unhinted/variable-ttf/NotoSansGujarati-MM[wdth,wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansGujarati-MM.glyphs
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Medium.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Medium.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedExtraLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedThin.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedThin.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedExtraBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensed.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensed.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensed.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensed.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Medium.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Medium.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Bold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Bold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedThin.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedThin.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedSemiBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedExtraBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Regular.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Regular.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Black.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Black.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedSemiBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedExtraLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedMedium.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedMedium.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedSemiBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Black.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Black.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedBlack.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedBlack.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedMedium.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedMedium.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedThin.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedThin.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedBlack.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedBlack.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedMedium.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedExtraLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Light.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Light.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedExtraBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Condensed.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Condensed.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Thin.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Thin.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensed.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensed.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedExtraLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedMedium.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedMedium.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedBlack.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedBlack.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedExtraLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Light.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Light.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedSemiBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedThin.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedThin.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Thin.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Thin.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Condensed.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-Condensed.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-CondensedExtraBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedExtraBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedMedium.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedMedium.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedBlack.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedBlack.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedMedium.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-CondensedSemiBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Regular.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Regular.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedExtraBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedBlack.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedSemiBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraCondensedBlack.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-SemiCondensedExtraLight.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedThin.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensedThin.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedThin.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujaratiUI-ExtraCondensedThin.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Bold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-Bold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraBold.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-ExtraBold.otf
+Created static font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensed.otf
+Postprocessing font output/Noto Sans Gujarati/unhinted/otf/NotoSansGujarati-SemiCondensed.otf
+Creating static fonts from src/NotoSansGujarati-MM.glyphs
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedBlack.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Black.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Black.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedBlack.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Bold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Bold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Condensed.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Condensed.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Light.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Light.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedThin.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Bold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Bold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensed.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensed.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensed.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensed.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedExtraLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedExtraBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedExtraLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedBlack.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedMedium.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Regular.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Regular.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Black.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Black.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedThin.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedExtraLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedThin.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedThin.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedBlack.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedBlack.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Medium.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Medium.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedThin.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedThin.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedSemiBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Medium.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Medium.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedBlack.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedBlack.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedExtraBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Light.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Light.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedExtraLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Condensed.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Condensed.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedMedium.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedMedium.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedMedium.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedSemiBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedSemiBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedMedium.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensed.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensed.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensed.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensed.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Regular.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Regular.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Thin.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-Thin.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedThin.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedThin.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedThin.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedThin.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Thin.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-Thin.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedMedium.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedSemiBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-SemiCondensedLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedMedium.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedMedium.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedExtraBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-ExtraCondensedBlack.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-CondensedLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujaratiUI-CondensedExtraBold.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedLight.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-SemiCondensedLight.ttf
+Created static font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gujarati/unhinted/ttf/NotoSansGujarati-ExtraCondensedSemiBold.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

@@ -1,0 +1,151 @@
+Creating variable fonts from src/NotoSansGeorgian/NotoSansGeorgian.designspace
+Glyphs named 'On-georgian_macroncomb' have different number of segments
+Glyphs named 'Un-georgian_macroncomb' have different number of segments
+Couldn't build variable font: In 'src/NotoSansGeorgian/NotoSansGeorgian.designspace': Generating fonts from Designspace failed: fonts contains incompatible glyphs: 'On-georgian_macroncomb', 'Un-georgian_macroncomb'
+Creating static fonts from src/NotoSansGeorgian/NotoSansGeorgian.designspace
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedBlack.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedThin.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedThin.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensed.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensed.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedMedium.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedMedium.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedLight.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedLight.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Black.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Black.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiBold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiBold.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedSemiBold.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedThin.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedThin.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedBlack.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedBlack.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedBlack.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedBlack.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedThin.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedThin.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedSemiBold.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedExtraBold.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedBold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedBold.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Regular.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Regular.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Light.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Light.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedExtraBold.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedLight.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedLight.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedBold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedBold.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Condensed.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Condensed.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Medium.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Medium.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedMedium.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedMedium.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedLight.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedLight.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedSemiBold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedSemiBold.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-SemiCondensedExtraLight.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedExtraBold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedExtraBold.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedMedium.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensed.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensed.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraBold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraBold.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraLight.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraLight.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Thin.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Thin.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedExtraLight.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-CondensedExtraLight.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedExtraLight.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedBold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-ExtraCondensedBold.otf
+Created static font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Bold.otf
+Postprocessing font output/Noto Sans Georgian/unhinted/otf/NotoSansGeorgian-Bold.otf
+Creating static fonts from src/NotoSansGeorgian/NotoSansGeorgian.designspace
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedSemiBold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Regular.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Regular.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedLight.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedLight.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Medium.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Medium.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Light.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Light.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedMedium.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedMedium.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBlack.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBlack.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBlack.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiBold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiBold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedThin.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedThin.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedMedium.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraLight.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBlack.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedSemiBold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedThin.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedThin.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Condensed.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Condensed.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraLight.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraLight.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraLight.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedLight.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Bold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Bold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensed.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensed.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedThin.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedMedium.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedLight.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedLight.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraBold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraBold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraBold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Thin.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Thin.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Black.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Black.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraBold.ttf
+Created static font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensed.ttf
+Postprocessing font output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensed.ttf
+Building variable, static completed. All done!

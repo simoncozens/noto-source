@@ -1,0 +1,21 @@
+Creating variable fonts from src/NotoSansKayahLi/NotoSansKayahLi.designspace
+Postprocessing font output/Noto Sans Kayah Li/unhinted/variable-ttf/NotoSansKayahLi[wght].ttf
+Creating static fonts from src/NotoSansKayahLi/NotoSansKayahLi.designspace
+Created static font output/Noto Sans Kayah Li/unhinted/otf/NotoSansKayahLi-Bold.otf
+Postprocessing font output/Noto Sans Kayah Li/unhinted/otf/NotoSansKayahLi-Bold.otf
+Created static font output/Noto Sans Kayah Li/unhinted/otf/NotoSansKayahLi-SemiBold.otf
+Postprocessing font output/Noto Sans Kayah Li/unhinted/otf/NotoSansKayahLi-SemiBold.otf
+Created static font output/Noto Sans Kayah Li/unhinted/otf/NotoSansKayahLi-Medium.otf
+Postprocessing font output/Noto Sans Kayah Li/unhinted/otf/NotoSansKayahLi-Medium.otf
+Created static font output/Noto Sans Kayah Li/unhinted/otf/NotoSansKayahLi-Regular.otf
+Postprocessing font output/Noto Sans Kayah Li/unhinted/otf/NotoSansKayahLi-Regular.otf
+Creating static fonts from src/NotoSansKayahLi/NotoSansKayahLi.designspace
+Created static font output/Noto Sans Kayah Li/unhinted/ttf/NotoSansKayahLi-Medium.ttf
+Postprocessing font output/Noto Sans Kayah Li/unhinted/ttf/NotoSansKayahLi-Medium.ttf
+Created static font output/Noto Sans Kayah Li/unhinted/ttf/NotoSansKayahLi-Regular.ttf
+Postprocessing font output/Noto Sans Kayah Li/unhinted/ttf/NotoSansKayahLi-Regular.ttf
+Created static font output/Noto Sans Kayah Li/unhinted/ttf/NotoSansKayahLi-Bold.ttf
+Postprocessing font output/Noto Sans Kayah Li/unhinted/ttf/NotoSansKayahLi-Bold.ttf
+Created static font output/Noto Sans Kayah Li/unhinted/ttf/NotoSansKayahLi-SemiBold.ttf
+Postprocessing font output/Noto Sans Kayah Li/unhinted/ttf/NotoSansKayahLi-SemiBold.ttf
+Building variable, static completed. All done!

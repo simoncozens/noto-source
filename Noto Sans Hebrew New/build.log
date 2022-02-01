@@ -1,0 +1,3 @@
+Creating variable fonts from src/NotoSansHebrewNew.glyphs
+Couldn't build variable font: The features already contain a `table GDEF {...}` statement. Either delete it or set generate_GDEF to False.
+Creating static fonts from src/NotoSansHebrewNew.glyphs

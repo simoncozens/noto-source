@@ -1,0 +1,151 @@
+Creating variable fonts from src/NotoSansHebrew.glyphs
+Postprocessing font output/Noto Sans Hebrew/unhinted/variable-ttf/NotoSansHebrew[wdth,wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansHebrew.glyphs
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Bold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Bold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraLight.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraLight.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedMedium.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedBold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedBold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedMedium.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedMedium.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Condensed.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Condensed.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedExtraBold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedExtraBold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Black.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Black.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Light.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Light.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiBold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiBold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensed.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensed.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedBlack.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedBlack.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedExtraBold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedBold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedBold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedThin.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedThin.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Thin.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Thin.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraBold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraBold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedThin.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedThin.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedBlack.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedBlack.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedExtraBold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedSemiBold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedThin.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedThin.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedSemiBold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedSemiBold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedSemiBold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedExtraLight.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedExtraLight.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Medium.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Medium.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedBold.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedBold.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedExtraLight.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedMedium.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedMedium.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedBlack.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedExtraLight.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedLight.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-SemiCondensedLight.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedLight.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensedLight.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedLight.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-CondensedLight.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Regular.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-Regular.otf
+Created static font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensed.otf
+Postprocessing font output/Noto Sans Hebrew/unhinted/otf/NotoSansHebrew-ExtraCondensed.otf
+Creating static fonts from src/NotoSansHebrew.glyphs
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Medium.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Medium.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedLight.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedLight.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedSemiBold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraLight.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedSemiBold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBlack.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBlack.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Bold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Bold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraLight.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraLight.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiBold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiBold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Regular.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Regular.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedLight.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedThin.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedThin.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedMedium.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Condensed.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Condensed.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedThin.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Thin.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Thin.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedMedium.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraBold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedLight.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedLight.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedMedium.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedMedium.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBlack.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBlack.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraLight.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensed.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensed.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraBold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraBold.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraBold.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Black.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Black.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensed.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensed.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Light.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Light.ttf
+Created static font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedThin.ttf
+Postprocessing font output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedThin.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

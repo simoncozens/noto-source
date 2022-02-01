@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansGrantha.glyphs
+Postprocessing font output/Noto Sans Grantha/unhinted/variable-ttf/NotoSansGrantha[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansGrantha.glyphs
+Created static font output/Noto Sans Grantha/unhinted/otf/NotoSansGrantha-Regular.otf
+Postprocessing font output/Noto Sans Grantha/unhinted/otf/NotoSansGrantha-Regular.otf
+Creating static fonts from src/NotoSansGrantha.glyphs
+Created static font output/Noto Sans Grantha/unhinted/ttf/NotoSansGrantha-Regular.ttf
+Postprocessing font output/Noto Sans Grantha/unhinted/ttf/NotoSansGrantha-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

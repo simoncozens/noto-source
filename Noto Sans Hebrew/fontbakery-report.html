@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>33</td>
+                <td>159</td>
+                <td>776</td>
+                <td>74</td>
+                <td>1668</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>2%</td>
+                <td>12%</td>
+                <td>56%</td>
+                <td>5%</td>
+                <td>121%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Noto Fonts&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Ensure UnicodeRange bits are properly set.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unicode_range_bits&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/variable-ttf/NotoSansHebrew[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>UnicodeRange bit 6 &quot;Combining Diacritical Marks&quot; should be 1 because cmap has 1 of the 176 codepoints in this range. [code: bad-range-bit]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Name table records must not have trailing spaces.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/trailing_spaces&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name table record with key = (3, 1, 1033, 4) has trailing spaces that must be removed: 'Noto Sans [...] SemiBold ' [code: trailing-space]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name table record with key = (3, 1, 1033, 17) has trailing spaces that must be removed: 'Condensed SemiBold ' [code: trailing-space]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/variable-ttf/NotoSansHebrew[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name table record with key = (1, 0, 0, 272) has trailing spaces that must be removed: 'Condensed SemiBold ' [code: trailing-space]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name table record with key = (3, 1, 1033, 272) has trailing spaces that must be removed: 'Condensed SemiBold ' [code: trailing-space]</p>
+</span></li></ul></div></details>
+<h3>Glyph names are all valid?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/valid_glyphnames&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/variable-ttf/NotoSansHebrew[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+hatafpatah_zerowidthjoiner_siluqlefthb, hatafqamats_zerowidthjoiner_siluqlefthb and hatafsegol_zerowidthjoiner_siluqlefthb [code: legacy-long-names]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.os2&gt; 🔥🔥</h2>
+<h3>Fonts have consistent PANOSE proportion?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_proportion&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h3>Fonts have consistent PANOSE family type?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_familytype&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.name&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩</h2>
+<h3>Does full font name begin with the font family name?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/match_familyname_fullfont&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew Cond Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew Condensed Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew Cond ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew Condensed ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew Cond ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew Condensed ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew Cond Light') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew Condensed Light') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew Cond Med') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew Condensed Medium') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew Cond SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew Condensed SemiBold ') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew Cond Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew Condensed Thin') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew ExtCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew ExtraCondensed') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew ExtCond Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew ExtraCondensed Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew ExtCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew ExtraCondensed Bold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew ExtCond ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew ExtraCondensed ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew ExtCond ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew ExtraCondensed ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew ExtCond Light') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew ExtraCondensed Light') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew ExtCond Med') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew ExtraCondensed Medium') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew ExtCond SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew ExtraCondensed SemiBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew ExtCond Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew ExtraCondensed Thin') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew SemiBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew SemCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew SemiCondensed') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew SemCond Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew SemiCondensed Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew SemCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew SemiCondensed Bold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew SemCond ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew SemiCondensed ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew SemCond ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew SemiCondensed ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew SemCond Light') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew SemiCondensed Light') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew SemCond Med') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew SemiCondensed Medium') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew SemCond SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew SemiCondensed SemiBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Hebrew SemCond Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Hebrew SemiCondensed Thin') [code: does-not]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0592 (U+0592): X=50.0,Y=715.0 (should be at cap-height 714?)
+* uni0592 (U+0592): X=152.0,Y=715.0 (should be at cap-height 714?)
+* uni0592 (U+0592): X=179.0,Y=715.0 (should be at cap-height 714?)
+* uni0592 (U+0592): X=281.0,Y=715.0 (should be at cap-height 714?)
+* uni0594 (U+0594): X=50.0,Y=715.0 (should be at cap-height 714?)
+* uni0594 (U+0594): X=152.0,Y=715.0 (should be at cap-height 714?)
+* uni0595 (U+0595): X=146.0,Y=715.0 (should be at cap-height 714?)
+* uni0595 (U+0595): X=248.0,Y=715.0 (should be at cap-height 714?)
+* uni0595 (U+0595): X=146.0,Y=715.0 (should be at cap-height 714?)
+* uni0598 (U+0598): X=188.0,Y=715.0 (should be at cap-height 714?) and 24 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni05A1 (U+05A1): X=182.5,Y=716.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0598 (U+0598): X=277.0,Y=716.0 (should be at cap-height 714?)
+* uni0598 (U+0598): X=312.0,Y=716.0 (should be at cap-height 714?)
+* uni0599 (U+0599): X=120.0,Y=713.5 (should be at cap-height 714?)
+* uni059C (U+059C): X=122.5,Y=713.5 (should be at cap-height 714?)
+* uni059D (U+059D): X=122.5,Y=713.5 (should be at cap-height 714?)
+* uni059E (U+059E): X=267.0,Y=713.5 (should be at cap-height 714?)
+* uni059E (U+059E): X=123.5,Y=713.5 (should be at cap-height 714?)
+* uni05A1 (U+05A1): X=175.0,Y=712.5 (should be at cap-height 714?)
+* uni05A8 (U+05A8): X=119.5,Y=713.5 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=277.0,Y=716.0 (should be at cap-height 714?) and uni05AE (U+05AE): X=312.0,Y=716.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0592 (U+0592): X=60.0,Y=712.0 (should be at cap-height 714?)
+* uni0592 (U+0592): X=153.0,Y=712.0 (should be at cap-height 714?)
+* uni0592 (U+0592): X=178.0,Y=712.0 (should be at cap-height 714?)
+* uni0592 (U+0592): X=271.0,Y=712.0 (should be at cap-height 714?)
+* uni0594 (U+0594): X=54.0,Y=712.0 (should be at cap-height 714?)
+* uni0594 (U+0594): X=148.0,Y=712.0 (should be at cap-height 714?)
+* uni0595 (U+0595): X=146.0,Y=712.0 (should be at cap-height 714?)
+* uni0595 (U+0595): X=240.0,Y=712.0 (should be at cap-height 714?)
+* uni0595 (U+0595): X=146.0,Y=712.0 (should be at cap-height 714?)
+* uni05B9 (U+05B9): X=-47.0,Y=712.0 (should be at cap-height 714?) and 20 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0599 (U+0599): X=119.5,Y=712.5 (should be at cap-height 714?)
+* uni059C (U+059C): X=122.0,Y=712.5 (should be at cap-height 714?)
+* uni059D (U+059D): X=122.0,Y=712.5 (should be at cap-height 714?)
+* uni059E (U+059E): X=263.0,Y=712.5 (should be at cap-height 714?)
+* uni059E (U+059E): X=122.5,Y=712.5 (should be at cap-height 714?) and uni05A8 (U+05A8): X=119.5,Y=712.5 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0599 (U+0599): X=124.5,Y=714.5 (should be at cap-height 714?)
+* uni059F (U+059F): X=329.0,Y=713.0 (should be at cap-height 714?)
+* uni059F (U+059F): X=229.0,Y=713.0 (should be at cap-height 714?)
+* uni059F (U+059F): X=152.0,Y=712.0 (should be at cap-height 714?)
+* uni059F (U+059F): X=152.0,Y=712.0 (should be at cap-height 714?)
+* uni059F (U+059F): X=407.0,Y=712.0 (should be at cap-height 714?)
+* uni059F (U+059F): X=407.0,Y=712.0 (should be at cap-height 714?)
+* uni05A0 (U+05A0): X=92.0,Y=713.0 (should be at cap-height 714?)
+* uni05A0 (U+05A0): X=169.0,Y=712.0 (should be at cap-height 714?)
+* uni05A0 (U+05A0): X=169.0,Y=712.0 (should be at cap-height 714?) and 3 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni05AF (U+05AF): X=50.0,Y=713.0 (should be at cap-height 714?)
+* uni05AF (U+05AF): X=176.0,Y=713.0 (should be at cap-height 714?)
+* uni05AF (U+05AF): X=148.0,Y=713.0 (should be at cap-height 714?)
+* uni05AF (U+05AF): X=78.0,Y=713.0 (should be at cap-height 714?)
+* uni05D0 (U+05D0): X=355.0,Y=-1.0 (should be at baseline 0?)
+* uniFB20 (U+FB20): X=17.0,Y=1.0 (should be at baseline 0?)
+* uniFB2E (U+FB2E): X=355.0,Y=-1.0 (should be at baseline 0?)
+* uniFB2F (U+FB2F): X=355.0,Y=-1.0 (should be at baseline 0?) and uniFB30 (U+FB30): X=355.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0598 (U+0598): X=276.0,Y=715.0 (should be at cap-height 714?)
+* uni0598 (U+0598): X=310.0,Y=715.0 (should be at cap-height 714?)
+* uni0599 (U+0599): X=120.0,Y=713.0 (should be at cap-height 714?)
+* uni059C (U+059C): X=122.0,Y=713.5 (should be at cap-height 714?)
+* uni059D (U+059D): X=122.0,Y=713.5 (should be at cap-height 714?)
+* uni059E (U+059E): X=265.5,Y=713.5 (should be at cap-height 714?)
+* uni059E (U+059E): X=123.5,Y=713.5 (should be at cap-height 714?)
+* uni05A1 (U+05A1): X=174.5,Y=712.0 (should be at cap-height 714?)
+* uni05A8 (U+05A8): X=119.5,Y=713.0 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=276.0,Y=715.0 (should be at cap-height 714?) and uni05AE (U+05AE): X=310.0,Y=715.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0598 (U+0598): X=275.0,Y=715.0 (should be at cap-height 714?)
+* uni0598 (U+0598): X=309.0,Y=715.0 (should be at cap-height 714?)
+* uni0599 (U+0599): X=119.5,Y=712.5 (should be at cap-height 714?)
+* uni059C (U+059C): X=122.0,Y=713.0 (should be at cap-height 714?)
+* uni059D (U+059D): X=122.0,Y=713.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=264.0,Y=713.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=123.0,Y=713.0 (should be at cap-height 714?)
+* uni05A8 (U+05A8): X=119.5,Y=712.5 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=275.0,Y=715.0 (should be at cap-height 714?) and uni05AE (U+05AE): X=309.0,Y=715.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni05D0 (U+05D0): X=360.0,Y=-1.0 (should be at baseline 0?)
+* uniFB20 (U+FB20): X=134.0,Y=-1.0 (should be at baseline 0?)
+* uniFB2E (U+FB2E): X=360.0,Y=-1.0 (should be at baseline 0?)
+* uniFB2F (U+FB2F): X=360.0,Y=-1.0 (should be at baseline 0?) and uniFB30 (U+FB30): X=360.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0598 (U+0598): X=181.0,Y=712.0 (should be at cap-height 714?)
+* uni05A8 (U+05A8): X=127.0,Y=713.5 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=301.0,Y=716.0 (should be at cap-height 714?) and uni05AE (U+05AE): X=339.0,Y=716.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0599 (U+0599): X=118.5,Y=712.0 (should be at cap-height 714?)
+* uni059C (U+059C): X=120.5,Y=712.5 (should be at cap-height 714?)
+* uni059D (U+059D): X=120.5,Y=712.5 (should be at cap-height 714?)
+* uni059E (U+059E): X=262.0,Y=712.5 (should be at cap-height 714?)
+* uni059E (U+059E): X=122.0,Y=712.5 (should be at cap-height 714?) and uni05A8 (U+05A8): X=118.0,Y=712.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0599 (U+0599): X=131.0,Y=714.5 (should be at cap-height 714?)
+* uni059F (U+059F): X=203.5,Y=713.5 (should be at cap-height 714?)
+* uni059F (U+059F): X=140.0,Y=713.5 (should be at cap-height 714?)
+* uni059F (U+059F): X=460.5,Y=713.5 (should be at cap-height 714?)
+* uni059F (U+059F): X=396.5,Y=713.5 (should be at cap-height 714?)
+* uni05A0 (U+05A0): X=212.5,Y=713.5 (should be at cap-height 714?)
+* uni05A0 (U+05A0): X=149.0,Y=713.5 (should be at cap-height 714?)
+* uni05A1 (U+05A1): X=124.0,Y=716.0 (should be at cap-height 714?)
+* uni05A9 (U+05A9): X=187.0,Y=713.5 (should be at cap-height 714?)
+* uni05A9 (U+05A9): X=124.0,Y=713.5 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=214.0,Y=715.0 (should be at cap-height 714?) and uniFB1E (U+FB1E): X=205.0,Y=712.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0598 (U+0598): X=50.0,Y=716.0 (should be at cap-height 714?)
+* uni0598 (U+0598): X=266.0,Y=712.0 (should be at cap-height 714?)
+* uni0598 (U+0598): X=298.0,Y=712.0 (should be at cap-height 714?)
+* uni0598 (U+0598): X=82.0,Y=716.0 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=50.0,Y=716.0 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=266.0,Y=712.0 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=298.0,Y=712.0 (should be at cap-height 714?) and uni05AE (U+05AE): X=82.0,Y=716.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0599 (U+0599): X=123.5,Y=712.5 (should be at cap-height 714?) and uniFB20 (U+FB20): X=197.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni05A1 (U+05A1): X=78.0,Y=713.0 (should be at cap-height 714?)
+* uni05AF (U+05AF): X=50.0,Y=713.0 (should be at cap-height 714?)
+* uni05AF (U+05AF): X=175.0,Y=713.0 (should be at cap-height 714?)
+* uni05AF (U+05AF): X=147.0,Y=713.0 (should be at cap-height 714?)
+* uni05AF (U+05AF): X=78.0,Y=713.0 (should be at cap-height 714?)
+* uni05D0 (U+05D0): X=311.0,Y=-1.0 (should be at baseline 0?)
+* uniFB20 (U+FB20): X=114.0,Y=-1.0 (should be at baseline 0?)
+* uniFB2E (U+FB2E): X=311.0,Y=-1.0 (should be at baseline 0?)
+* uniFB2F (U+FB2F): X=311.0,Y=-1.0 (should be at baseline 0?) and uniFB30 (U+FB30): X=311.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uniFB20 (U+FB20): X=120.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0598 (U+0598): X=270.0,Y=713.0 (should be at cap-height 714?)
+* uni0598 (U+0598): X=304.0,Y=713.0 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=270.0,Y=713.0 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=304.0,Y=713.0 (should be at cap-height 714?) and uniFB20 (U+FB20): X=158.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0598 (U+0598): X=268.0,Y=713.0 (should be at cap-height 714?)
+* uni0598 (U+0598): X=301.0,Y=713.0 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=268.0,Y=713.0 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=301.0,Y=713.0 (should be at cap-height 714?) and uniFB20 (U+FB20): X=189.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni05D0 (U+05D0): X=316.0,Y=-1.0 (should be at baseline 0?)
+* uniFB2E (U+FB2E): X=316.0,Y=-1.0 (should be at baseline 0?)
+* uniFB2F (U+FB2F): X=316.0,Y=-1.0 (should be at baseline 0?) and uniFB30 (U+FB30): X=316.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0592 (U+0592): X=73.0,Y=712.0 (should be at cap-height 714?)
+* uni0592 (U+0592): X=174.0,Y=712.0 (should be at cap-height 714?)
+* uni0594 (U+0594): X=74.0,Y=712.0 (should be at cap-height 714?)
+* uni0595 (U+0595): X=140.0,Y=712.0 (should be at cap-height 714?)
+* uni05A1 (U+05A1): X=86.0,Y=715.0 (should be at cap-height 714?)
+* uni05B9 (U+05B9): X=0.0,Y=712.0 (should be at cap-height 714?)
+* uni05BA (U+05BA): X=-108.0,Y=712.0 (should be at cap-height 714?)
+* uni05C1 (U+05C1): X=73.0,Y=712.0 (should be at cap-height 714?)
+* uni05C2 (U+05C2): X=0.0,Y=712.0 (should be at cap-height 714?)
+* uni05C3 (U+05C3): X=141.5,Y=1.5 (should be at baseline 0?) and 7 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0599 (U+0599): X=118.5,Y=712.0 (should be at cap-height 714?)
+* uni059C (U+059C): X=112.0,Y=712.0 (should be at cap-height 714?)
+* uni059D (U+059D): X=112.0,Y=712.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=242.0,Y=712.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=112.0,Y=712.0 (should be at cap-height 714?) and uni05A8 (U+05A8): X=118.5,Y=712.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni05A1 (U+05A1): X=182.5,Y=716.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni05A1 (U+05A1): X=182.5,Y=716.0 (should be at cap-height 714?)
+* uni05C3 (U+05C3): X=177.5,Y=2.0 (should be at baseline 0?) and uni05C3 (U+05C3): X=90.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni05A1 (U+05A1): X=182.5,Y=716.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0599 (U+0599): X=122.0,Y=715.0 (should be at cap-height 714?)
+* uni059C (U+059C): X=124.5,Y=715.0 (should be at cap-height 714?)
+* uni059D (U+059D): X=124.5,Y=715.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=273.0,Y=715.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=126.0,Y=715.0 (should be at cap-height 714?) and uni05A8 (U+05A8): X=122.0,Y=715.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0592 (U+0592): X=55.0,Y=713.0 (should be at cap-height 714?)
+* uni0592 (U+0592): X=153.0,Y=713.0 (should be at cap-height 714?)
+* uni0592 (U+0592): X=178.0,Y=713.0 (should be at cap-height 714?)
+* uni0592 (U+0592): X=276.0,Y=713.0 (should be at cap-height 714?)
+* uni0594 (U+0594): X=52.0,Y=713.0 (should be at cap-height 714?)
+* uni0594 (U+0594): X=150.0,Y=713.0 (should be at cap-height 714?)
+* uni0595 (U+0595): X=146.0,Y=713.0 (should be at cap-height 714?)
+* uni0595 (U+0595): X=244.0,Y=713.0 (should be at cap-height 714?)
+* uni0595 (U+0595): X=146.0,Y=713.0 (should be at cap-height 714?)
+* uni0598 (U+0598): X=189.0,Y=712.0 (should be at cap-height 714?) and 22 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0598 (U+0598): X=281.0,Y=716.0 (should be at cap-height 714?)
+* uni0598 (U+0598): X=316.0,Y=716.0 (should be at cap-height 714?)
+* uni0599 (U+0599): X=121.5,Y=714.5 (should be at cap-height 714?)
+* uni059C (U+059C): X=124.0,Y=715.0 (should be at cap-height 714?)
+* uni059D (U+059D): X=124.0,Y=715.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=270.5,Y=715.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=125.0,Y=715.0 (should be at cap-height 714?)
+* uni05A1 (U+05A1): X=177.0,Y=713.5 (should be at cap-height 714?)
+* uni05A8 (U+05A8): X=121.5,Y=714.5 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=281.0,Y=716.0 (should be at cap-height 714?) and uni05AE (U+05AE): X=316.0,Y=716.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni059F (U+059F): X=335.0,Y=715.0 (should be at cap-height 714?)
+* uni059F (U+059F): X=231.0,Y=715.0 (should be at cap-height 714?)
+* uni05A0 (U+05A0): X=92.0,Y=715.0 (should be at cap-height 714?)
+* uni05A9 (U+05A9): X=228.0,Y=715.0 (should be at cap-height 714?)
+* uni05AE (U+05AE): X=294.0,Y=713.0 (should be at cap-height 714?) and uni05AE (U+05AE): X=330.0,Y=713.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uniFB20 (U+FB20): X=18.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0598 (U+0598): X=170.0,Y=715.0 (should be at cap-height 714?) and uni05AE (U+05AE): X=170.0,Y=715.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0599 (U+0599): X=122.0,Y=714.5 (should be at cap-height 714?)
+* uni059C (U+059C): X=124.0,Y=715.0 (should be at cap-height 714?)
+* uni059D (U+059D): X=124.0,Y=715.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=272.0,Y=715.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=125.0,Y=715.0 (should be at cap-height 714?) and uni05A8 (U+05A8): X=122.0,Y=714.5 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0599 (U+0599): X=121.5,Y=714.5 (should be at cap-height 714?)
+* uni059C (U+059C): X=124.0,Y=715.0 (should be at cap-height 714?)
+* uni059D (U+059D): X=124.0,Y=715.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=271.0,Y=715.0 (should be at cap-height 714?)
+* uni059E (U+059E): X=125.0,Y=715.0 (should be at cap-height 714?)
+* uni05A1 (U+05A1): X=178.0,Y=713.5 (should be at cap-height 714?) and uni05A8 (U+05A8): X=121.5,Y=714.5 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uniFB20 (U+FB20): X=160.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni05C3 (U+05C3): X=132.5,Y=1.0 (should be at baseline 0?)
+* uni05C3 (U+05C3): X=90.0,Y=1.0 (should be at baseline 0?) and uniFB20 (U+FB20): X=189.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/variable-ttf/NotoSansHebrew[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni05A1 (U+05A1): X=182.5,Y=716.0 (should be at cap-height 714?)
+* uni05C3 (U+05C3): X=177.5,Y=2.0 (should be at baseline 0?) and uni05C3 (U+05C3): X=90.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;224.0,115.0&gt;--&lt;219.0,115.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;246.0,511.0&gt;--&lt;250.0,511.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;250.0,351.0&gt;-&lt;259.0,351.0&gt;-&lt;264.5,351.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;264.5,351.5&gt;-&lt;270.0,352.0&gt;-&lt;278.0,353.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment L&lt;&lt;216.0,460.0&gt;--&lt;216.0,439.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;280.0,361.0&gt;-&lt;289.0,361.0&gt;-&lt;294.5,361.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;294.5,361.5&gt;-&lt;300.0,362.0&gt;-&lt;308.0,363.0&gt;&gt;
+* uni05E5 (U+05E5) contains a short segment L&lt;&lt;317.0,285.0&gt;--&lt;324.0,287.0&gt;&gt;
+* uni05E9 (U+05E9) contains a short segment L&lt;&lt;239.0,354.0&gt;--&lt;254.0,359.0&gt;&gt;
+* uniFB2A (U+FB2A) contains a short segment L&lt;&lt;239.0,354.0&gt;--&lt;254.0,359.0&gt;&gt; and 14 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;214.0,129.0&gt;--&lt;210.0,129.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;215.0,504.0&gt;--&lt;219.0,504.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;225.0,343.0&gt;-&lt;233.0,343.0&gt;-&lt;241.5,343.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;241.5,343.5&gt;-&lt;250.0,344.0&gt;-&lt;257.0,345.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;267.0,343.0&gt;-&lt;275.0,343.0&gt;-&lt;282.5,343.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;282.5,343.5&gt;-&lt;290.0,344.0&gt;-&lt;297.0,345.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;214.0,129.0&gt;--&lt;210.0,129.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;215.0,504.0&gt;--&lt;219.0,504.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;225.0,343.0&gt;-&lt;233.0,343.0&gt;-&lt;241.5,343.5&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;241.5,343.5&gt;-&lt;250.0,344.0&gt;-&lt;257.0,345.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;163.0,150.0&gt;--&lt;161.0,150.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;149.0,507.0&gt;--&lt;153.0,507.0&gt;&gt;
+* uni05E2 (U+05E2) contains a short segment B&lt;&lt;137.0,82.0&gt;-&lt;144.0,82.0&gt;-&lt;150.0,82.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;190.0,311.0&gt;-&lt;196.0,311.0&gt;-&lt;201.5,311.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;201.5,311.5&gt;-&lt;207.0,312.0&gt;-&lt;213.0,313.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;202.0,317.0&gt;-&lt;208.0,317.0&gt;-&lt;213.5,317.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;213.5,317.5&gt;-&lt;219.0,318.0&gt;-&lt;225.0,319.0&gt;&gt;
+* uni05E5 (U+05E5) contains a short segment L&lt;&lt;174.0,258.0&gt;--&lt;176.0,259.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;163.0,150.0&gt;--&lt;161.0,150.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;149.0,507.0&gt;--&lt;153.0,507.0&gt;&gt; and 6 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;177.0,115.0&gt;--&lt;173.0,115.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;228.0,528.0&gt;--&lt;232.0,528.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;235.0,217.0&gt;-&lt;226.0,215.0&gt;-&lt;217.5,213.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;251.0,220.0&gt;-&lt;242.0,218.0&gt;-&lt;233.5,216.5&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;177.0,115.0&gt;--&lt;173.0,115.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;228.0,528.0&gt;--&lt;232.0,528.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;235.0,217.0&gt;-&lt;226.0,215.0&gt;-&lt;217.5,213.5&gt;&gt;
+* uniFB44 (U+FB44) contains a short segment B&lt;&lt;251.0,220.0&gt;-&lt;242.0,218.0&gt;-&lt;233.5,216.5&gt;&gt; and uniFB4E (U+FB4E) contains a short segment B&lt;&lt;251.0,220.0&gt;-&lt;242.0,218.0&gt;-&lt;233.5,216.5&gt;&gt; [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;172.0,129.0&gt;--&lt;169.0,129.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;202.0,512.0&gt;--&lt;208.0,512.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;203.0,341.0&gt;-&lt;209.0,341.0&gt;-&lt;216.0,341.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;216.0,341.5&gt;-&lt;223.0,342.0&gt;-&lt;228.0,342.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;216.0,341.0&gt;-&lt;222.0,341.0&gt;-&lt;228.5,341.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;228.5,341.5&gt;-&lt;235.0,342.0&gt;-&lt;240.0,342.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;172.0,129.0&gt;--&lt;169.0,129.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;202.0,512.0&gt;--&lt;208.0,512.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;203.0,341.0&gt;-&lt;209.0,341.0&gt;-&lt;216.0,341.5&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;216.0,341.5&gt;-&lt;223.0,342.0&gt;-&lt;228.0,342.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;174.0,123.0&gt;--&lt;171.0,123.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;214.0,520.0&gt;--&lt;219.0,520.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;209.0,347.0&gt;-&lt;215.0,347.0&gt;-&lt;220.5,347.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;220.5,347.5&gt;-&lt;226.0,348.0&gt;-&lt;232.0,348.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;224.0,348.0&gt;-&lt;229.0,348.0&gt;-&lt;234.5,348.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;234.5,348.5&gt;-&lt;240.0,349.0&gt;-&lt;245.0,350.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;174.0,123.0&gt;--&lt;171.0,123.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;214.0,520.0&gt;--&lt;219.0,520.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;209.0,347.0&gt;-&lt;215.0,347.0&gt;-&lt;220.5,347.5&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;220.5,347.5&gt;-&lt;226.0,348.0&gt;-&lt;232.0,348.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;172.0,167.0&gt;--&lt;170.0,167.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;133.0,478.0&gt;--&lt;136.0,478.0&gt;&gt;
+* uni05E2 (U+05E2) contains a short segment B&lt;&lt;140.0,38.0&gt;-&lt;149.0,38.0&gt;-&lt;157.0,38.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;166.0,286.0&gt;-&lt;173.0,286.0&gt;-&lt;178.0,286.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;178.0,286.5&gt;-&lt;183.0,287.0&gt;-&lt;187.0,288.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;187.0,250.0&gt;-&lt;182.0,249.0&gt;-&lt;175.5,248.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;175.5,248.0&gt;-&lt;169.0,247.0&gt;-&lt;161.0,247.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;189.0,287.0&gt;-&lt;196.0,287.0&gt;-&lt;201.0,288.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;201.0,288.0&gt;-&lt;206.0,289.0&gt;-&lt;211.0,289.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;211.0,251.0&gt;-&lt;205.0,251.0&gt;-&lt;198.5,250.0&gt;&gt; and 15 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;169.0,161.0&gt;--&lt;167.0,161.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;139.0,489.0&gt;--&lt;142.0,489.0&gt;&gt;
+* uni05E2 (U+05E2) contains a short segment B&lt;&lt;139.0,54.0&gt;-&lt;147.0,54.0&gt;-&lt;154.0,55.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;175.0,295.0&gt;-&lt;182.0,295.0&gt;-&lt;187.0,296.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;187.0,296.0&gt;-&lt;192.0,297.0&gt;-&lt;197.0,297.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;197.0,243.0&gt;-&lt;190.0,242.0&gt;-&lt;183.0,241.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;183.0,241.0&gt;-&lt;176.0,240.0&gt;-&lt;167.0,240.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;194.0,298.0&gt;-&lt;201.0,298.0&gt;-&lt;206.0,299.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;206.0,299.0&gt;-&lt;211.0,300.0&gt;-&lt;216.0,300.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;216.0,246.0&gt;-&lt;209.0,245.0&gt;-&lt;202.0,244.5&gt;&gt; and 16 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;166.0,144.0&gt;--&lt;163.0,144.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;165.0,508.0&gt;--&lt;169.0,508.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;194.0,320.0&gt;-&lt;200.0,320.0&gt;-&lt;206.0,320.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;206.0,320.5&gt;-&lt;212.0,321.0&gt;-&lt;217.0,322.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;206.0,324.0&gt;-&lt;212.0,324.0&gt;-&lt;218.0,324.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;218.0,324.5&gt;-&lt;224.0,325.0&gt;-&lt;229.0,326.0&gt;&gt;
+* uni05E9 (U+05E9) contains a short segment L&lt;&lt;151.0,316.0&gt;--&lt;167.0,322.0&gt;&gt;
+* uniFB2A (U+FB2A) contains a short segment L&lt;&lt;151.0,316.0&gt;--&lt;167.0,322.0&gt;&gt;
+* uniFB2B (U+FB2B) contains a short segment L&lt;&lt;151.0,316.0&gt;--&lt;167.0,322.0&gt;&gt;
+* uniFB2C (U+FB2C) contains a short segment L&lt;&lt;151.0,316.0&gt;--&lt;167.0,322.0&gt;&gt; and 10 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;169.0,137.0&gt;--&lt;166.0,137.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;182.0,510.0&gt;--&lt;187.0,510.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;198.0,330.0&gt;-&lt;204.0,330.0&gt;-&lt;210.5,330.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;210.5,330.5&gt;-&lt;217.0,331.0&gt;-&lt;222.0,331.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;210.0,332.0&gt;-&lt;216.0,332.0&gt;-&lt;222.5,332.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;222.5,332.5&gt;-&lt;229.0,333.0&gt;-&lt;234.0,333.0&gt;&gt;
+* uni05E9 (U+05E9) contains a short segment L&lt;&lt;167.0,323.0&gt;--&lt;169.0,324.0&gt;&gt;
+* uniFB2A (U+FB2A) contains a short segment L&lt;&lt;167.0,323.0&gt;--&lt;169.0,324.0&gt;&gt;
+* uniFB2B (U+FB2B) contains a short segment L&lt;&lt;167.0,323.0&gt;--&lt;169.0,324.0&gt;&gt;
+* uniFB2C (U+FB2C) contains a short segment L&lt;&lt;167.0,323.0&gt;--&lt;169.0,324.0&gt;&gt; and 10 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;175.0,171.0&gt;--&lt;173.0,171.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;129.0,471.0&gt;--&lt;131.0,471.0&gt;&gt;
+* uni05E2 (U+05E2) contains a short segment B&lt;&lt;141.0,27.0&gt;-&lt;150.0,27.0&gt;-&lt;158.0,27.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;160.0,280.0&gt;-&lt;167.0,280.0&gt;-&lt;172.0,280.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;172.0,280.5&gt;-&lt;177.0,281.0&gt;-&lt;181.0,282.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;181.0,254.0&gt;-&lt;177.0,254.0&gt;-&lt;171.0,253.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;171.0,253.0&gt;-&lt;165.0,252.0&gt;-&lt;157.0,252.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;186.0,280.0&gt;-&lt;193.0,280.0&gt;-&lt;198.0,280.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;198.0,280.5&gt;-&lt;203.0,281.0&gt;-&lt;207.0,282.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;207.0,255.0&gt;-&lt;203.0,254.0&gt;-&lt;197.0,253.5&gt;&gt; and 16 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;219.0,123.0&gt;--&lt;214.0,123.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;229.0,507.0&gt;--&lt;233.0,507.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;237.0,347.0&gt;-&lt;245.0,347.0&gt;-&lt;252.0,347.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;252.0,347.5&gt;-&lt;259.0,348.0&gt;-&lt;267.0,349.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;273.0,351.0&gt;-&lt;282.0,351.0&gt;-&lt;288.5,352.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;288.5,352.0&gt;-&lt;295.0,353.0&gt;-&lt;302.0,353.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;219.0,123.0&gt;--&lt;214.0,123.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;229.0,507.0&gt;--&lt;233.0,507.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;237.0,347.0&gt;-&lt;245.0,347.0&gt;-&lt;252.0,347.5&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;252.0,347.5&gt;-&lt;259.0,348.0&gt;-&lt;267.0,349.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;141.0,144.0&gt;--&lt;139.0,144.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;144.0,506.0&gt;--&lt;148.0,506.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;188.0,317.0&gt;-&lt;194.0,317.0&gt;-&lt;198.5,317.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;198.5,317.5&gt;-&lt;203.0,318.0&gt;-&lt;207.0,319.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;207.0,238.0&gt;-&lt;198.0,237.0&gt;-&lt;191.0,236.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;191.0,236.0&gt;-&lt;184.0,235.0&gt;-&lt;176.0,235.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;188.0,317.0&gt;-&lt;194.0,317.0&gt;-&lt;198.5,317.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;198.5,317.5&gt;-&lt;203.0,318.0&gt;-&lt;207.0,319.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;207.0,238.0&gt;-&lt;198.0,237.0&gt;-&lt;191.0,236.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;191.0,236.0&gt;-&lt;184.0,235.0&gt;-&lt;176.0,235.0&gt;&gt; and 20 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;157.0,115.0&gt;--&lt;153.0,115.0&gt;&gt;
+* uni05D8 (U+05D8) contains a short segment B&lt;&lt;284.0,468.0&gt;-&lt;277.0,468.0&gt;-&lt;269.0,467.0&gt;&gt;
+* uni05D8 (U+05D8) contains a short segment B&lt;&lt;269.0,467.0&gt;-&lt;261.0,466.0&gt;-&lt;256.0,463.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;220.0,535.0&gt;--&lt;224.0,535.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;186.5,360.0&gt;-&lt;192.0,355.0&gt;-&lt;201.0,355.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;201.0,355.0&gt;-&lt;212.0,355.0&gt;-&lt;217.0,356.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;217.0,221.0&gt;-&lt;207.0,220.0&gt;-&lt;202.0,218.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;197.5,360.0&gt;-&lt;203.0,355.0&gt;-&lt;212.0,355.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;212.0,355.0&gt;-&lt;222.0,355.0&gt;-&lt;227.0,356.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;227.0,221.0&gt;-&lt;217.0,220.0&gt;-&lt;212.0,218.5&gt;&gt; and 15 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;154.0,129.0&gt;--&lt;152.0,129.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;197.0,516.0&gt;--&lt;203.0,516.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;194.0,340.0&gt;-&lt;199.0,340.0&gt;-&lt;205.5,340.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;205.5,340.5&gt;-&lt;212.0,341.0&gt;-&lt;216.0,341.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;194.0,340.0&gt;-&lt;199.0,340.0&gt;-&lt;205.5,340.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;205.5,340.5&gt;-&lt;212.0,341.0&gt;-&lt;216.0,341.0&gt;&gt;
+* uni05E9 (U+05E9) contains a short segment L&lt;&lt;195.0,120.0&gt;--&lt;205.0,120.0&gt;&gt;
+* uniFB2A (U+FB2A) contains a short segment L&lt;&lt;195.0,120.0&gt;--&lt;205.0,120.0&gt;&gt;
+* uniFB2B (U+FB2B) contains a short segment L&lt;&lt;195.0,120.0&gt;--&lt;205.0,120.0&gt;&gt;
+* uniFB2C (U+FB2C) contains a short segment L&lt;&lt;195.0,120.0&gt;--&lt;205.0,120.0&gt;&gt; and 10 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;155.0,123.0&gt;--&lt;152.0,123.0&gt;&gt;
+* uni05D8 (U+05D8) contains a short segment B&lt;&lt;289.0,483.0&gt;-&lt;282.0,483.0&gt;-&lt;272.0,481.5&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;208.0,525.0&gt;--&lt;213.0,525.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;181.0,353.0&gt;-&lt;186.0,347.0&gt;-&lt;197.0,347.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;197.0,347.0&gt;-&lt;202.0,347.0&gt;-&lt;207.0,347.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;207.0,347.5&gt;-&lt;212.0,348.0&gt;-&lt;216.0,348.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;202.0,347.0&gt;-&lt;207.0,347.0&gt;-&lt;212.0,347.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;212.0,347.5&gt;-&lt;217.0,348.0&gt;-&lt;221.0,348.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;155.0,123.0&gt;--&lt;152.0,123.0&gt;&gt;
+* uniFB38 (U+FB38) contains a short segment B&lt;&lt;289.0,483.0&gt;-&lt;282.0,483.0&gt;-&lt;272.0,481.5&gt;&gt; and 8 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;146.0,166.0&gt;--&lt;144.0,166.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;128.0,479.0&gt;--&lt;130.0,479.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;163.0,287.0&gt;-&lt;170.0,287.0&gt;-&lt;174.5,287.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;174.5,287.5&gt;-&lt;179.0,288.0&gt;-&lt;184.0,289.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;184.0,251.0&gt;-&lt;178.0,250.0&gt;-&lt;172.5,249.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;172.5,249.5&gt;-&lt;167.0,249.0&gt;-&lt;158.0,249.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;178.0,288.0&gt;-&lt;186.0,288.0&gt;-&lt;190.5,288.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;190.5,288.5&gt;-&lt;195.0,289.0&gt;-&lt;200.0,290.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;200.0,252.0&gt;-&lt;194.0,251.0&gt;-&lt;188.0,250.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;188.0,250.0&gt;-&lt;182.0,249.0&gt;-&lt;174.0,249.0&gt;&gt; and 16 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;144.0,158.0&gt;--&lt;142.0,158.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;134.0,489.0&gt;--&lt;137.0,489.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;172.0,298.0&gt;-&lt;179.0,298.0&gt;-&lt;183.5,298.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;183.5,298.5&gt;-&lt;188.0,299.0&gt;-&lt;193.0,300.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;193.0,246.0&gt;-&lt;186.0,245.0&gt;-&lt;179.5,244.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;179.5,244.5&gt;-&lt;173.0,244.0&gt;-&lt;165.0,244.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;182.0,299.0&gt;-&lt;189.0,299.0&gt;-&lt;193.5,299.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;193.5,299.5&gt;-&lt;198.0,300.0&gt;-&lt;203.0,301.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;203.0,247.0&gt;-&lt;196.0,245.0&gt;-&lt;189.5,244.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;189.5,244.5&gt;-&lt;183.0,244.0&gt;-&lt;175.0,244.0&gt;&gt; and 15 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;145.0,140.0&gt;--&lt;143.0,140.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;160.0,509.0&gt;--&lt;164.0,509.0&gt;&gt;
+* uni05E2 (U+05E2) contains a short segment B&lt;&lt;120.0,93.0&gt;-&lt;122.0,93.0&gt;-&lt;123.0,93.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;190.0,324.0&gt;-&lt;195.0,324.0&gt;-&lt;200.0,324.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;200.0,324.5&gt;-&lt;205.0,325.0&gt;-&lt;210.0,325.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;190.0,324.0&gt;-&lt;195.0,324.0&gt;-&lt;200.0,324.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;200.0,324.5&gt;-&lt;205.0,325.0&gt;-&lt;210.0,325.0&gt;&gt;
+* uni05E9 (U+05E9) contains a short segment L&lt;&lt;163.0,93.0&gt;--&lt;183.0,93.0&gt;&gt;
+* uniFB20 (U+FB20) contains a short segment B&lt;&lt;124.0,85.0&gt;-&lt;128.0,86.0&gt;-&lt;132.0,88.0&gt;&gt;
+* uniFB2A (U+FB2A) contains a short segment L&lt;&lt;163.0,93.0&gt;--&lt;183.0,93.0&gt;&gt; and 12 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;149.0,135.0&gt;--&lt;147.0,135.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;177.0,512.0&gt;--&lt;182.0,512.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;192.0,331.0&gt;-&lt;197.0,331.0&gt;-&lt;202.5,331.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;202.5,331.5&gt;-&lt;208.0,332.0&gt;-&lt;213.0,333.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;192.0,331.0&gt;-&lt;197.0,331.0&gt;-&lt;202.5,331.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;202.5,331.5&gt;-&lt;208.0,332.0&gt;-&lt;213.0,333.0&gt;&gt;
+* uni05E9 (U+05E9) contains a short segment L&lt;&lt;178.0,105.0&gt;--&lt;193.0,105.0&gt;&gt;
+* uniFB2A (U+FB2A) contains a short segment L&lt;&lt;178.0,105.0&gt;--&lt;193.0,105.0&gt;&gt;
+* uniFB2B (U+FB2B) contains a short segment L&lt;&lt;178.0,105.0&gt;--&lt;193.0,105.0&gt;&gt;
+* uniFB2C (U+FB2C) contains a short segment L&lt;&lt;178.0,105.0&gt;--&lt;193.0,105.0&gt;&gt; and 10 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;147.0,171.0&gt;--&lt;145.0,171.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;124.0,472.0&gt;--&lt;126.0,472.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;156.0,279.0&gt;-&lt;164.0,279.0&gt;-&lt;169.0,279.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;169.0,279.5&gt;-&lt;174.0,280.0&gt;-&lt;178.0,281.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;178.0,254.0&gt;-&lt;174.0,253.0&gt;-&lt;168.0,252.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;168.0,252.5&gt;-&lt;162.0,252.0&gt;-&lt;153.0,252.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;176.0,280.0&gt;-&lt;184.0,280.0&gt;-&lt;189.0,280.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;189.0,280.5&gt;-&lt;194.0,281.0&gt;-&lt;198.0,282.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;198.0,255.0&gt;-&lt;194.0,254.0&gt;-&lt;188.0,253.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;188.0,253.5&gt;-&lt;182.0,253.0&gt;-&lt;173.0,253.0&gt;&gt; and 16 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;234.0,170.0&gt;--&lt;233.0,170.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;146.0,475.0&gt;--&lt;148.0,475.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;174.0,284.0&gt;-&lt;180.0,284.0&gt;-&lt;185.0,285.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;185.0,285.0&gt;-&lt;190.0,286.0&gt;-&lt;196.0,286.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;214.0,287.0&gt;-&lt;220.0,287.0&gt;-&lt;225.0,287.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;225.0,287.5&gt;-&lt;230.0,288.0&gt;-&lt;236.0,289.0&gt;&gt;
+* uniFB21 (U+FB21) contains a short segment L&lt;&lt;200.0,417.0&gt;--&lt;201.0,414.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;234.0,170.0&gt;--&lt;233.0,170.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;146.0,475.0&gt;--&lt;148.0,475.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;174.0,284.0&gt;-&lt;180.0,284.0&gt;-&lt;185.0,285.0&gt;&gt; and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;227.0,168.0&gt;--&lt;225.0,168.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;152.0,488.0&gt;--&lt;155.0,488.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;181.0,289.0&gt;-&lt;187.0,289.0&gt;-&lt;194.0,289.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;194.0,289.5&gt;-&lt;201.0,290.0&gt;-&lt;207.0,291.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;221.0,298.0&gt;-&lt;227.0,298.0&gt;-&lt;234.0,298.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;234.0,298.5&gt;-&lt;241.0,299.0&gt;-&lt;247.0,300.0&gt;&gt;
+* uniFB21 (U+FB21) contains a short segment L&lt;&lt;213.0,402.0&gt;--&lt;214.0,400.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;227.0,168.0&gt;--&lt;225.0,168.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;152.0,488.0&gt;--&lt;155.0,488.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;181.0,289.0&gt;-&lt;187.0,289.0&gt;-&lt;194.0,289.5&gt;&gt; and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;215.0,154.0&gt;--&lt;211.0,154.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;178.0,507.0&gt;--&lt;181.0,507.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;202.0,311.0&gt;-&lt;210.0,311.0&gt;-&lt;218.5,311.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;218.5,311.5&gt;-&lt;227.0,312.0&gt;-&lt;235.0,313.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;243.0,325.0&gt;-&lt;251.0,325.0&gt;-&lt;259.0,325.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;259.0,325.5&gt;-&lt;267.0,326.0&gt;-&lt;275.0,327.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;215.0,154.0&gt;--&lt;211.0,154.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;178.0,507.0&gt;--&lt;181.0,507.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;202.0,311.0&gt;-&lt;210.0,311.0&gt;-&lt;218.5,311.5&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;218.5,311.5&gt;-&lt;227.0,312.0&gt;-&lt;235.0,313.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;215.0,164.0&gt;--&lt;211.0,164.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;162.0,508.0&gt;--&lt;165.0,508.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;193.0,297.0&gt;-&lt;201.0,297.0&gt;-&lt;209.5,297.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;209.5,297.5&gt;-&lt;218.0,298.0&gt;-&lt;226.0,299.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;233.0,317.0&gt;-&lt;241.0,317.0&gt;-&lt;249.5,317.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;249.5,317.5&gt;-&lt;258.0,318.0&gt;-&lt;266.0,319.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;215.0,164.0&gt;--&lt;211.0,164.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;162.0,508.0&gt;--&lt;165.0,508.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;193.0,297.0&gt;-&lt;201.0,297.0&gt;-&lt;209.5,297.5&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;209.5,297.5&gt;-&lt;218.0,298.0&gt;-&lt;226.0,299.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;214.0,142.0&gt;--&lt;210.0,142.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;195.0,506.0&gt;--&lt;199.0,506.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;213.0,326.0&gt;-&lt;220.0,326.0&gt;-&lt;229.0,326.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;229.0,326.5&gt;-&lt;238.0,327.0&gt;-&lt;245.0,328.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;254.0,333.0&gt;-&lt;262.0,333.0&gt;-&lt;270.0,333.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;270.0,333.5&gt;-&lt;278.0,334.0&gt;-&lt;285.0,335.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;214.0,142.0&gt;--&lt;210.0,142.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;195.0,506.0&gt;--&lt;199.0,506.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;213.0,326.0&gt;-&lt;220.0,326.0&gt;-&lt;229.0,326.5&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;229.0,326.5&gt;-&lt;238.0,327.0&gt;-&lt;245.0,328.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;188.0,157.0&gt;--&lt;185.0,157.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;155.0,507.0&gt;--&lt;159.0,507.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;191.0,304.0&gt;-&lt;198.0,304.0&gt;-&lt;205.0,305.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;205.0,305.0&gt;-&lt;212.0,306.0&gt;-&lt;219.0,306.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;217.0,317.0&gt;-&lt;223.0,317.0&gt;-&lt;230.0,317.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;230.0,317.5&gt;-&lt;237.0,318.0&gt;-&lt;244.0,319.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;188.0,157.0&gt;--&lt;185.0,157.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;155.0,507.0&gt;--&lt;159.0,507.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;191.0,304.0&gt;-&lt;198.0,304.0&gt;-&lt;205.0,305.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;205.0,305.0&gt;-&lt;212.0,306.0&gt;-&lt;219.0,306.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;199.0,115.0&gt;--&lt;195.0,115.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;236.0,520.0&gt;--&lt;240.0,520.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;232.0,352.0&gt;-&lt;240.0,352.0&gt;-&lt;244.5,352.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;244.5,352.5&gt;-&lt;249.0,353.0&gt;-&lt;256.0,354.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;255.0,359.0&gt;-&lt;263.0,359.0&gt;-&lt;267.5,359.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;267.5,359.5&gt;-&lt;272.0,360.0&gt;-&lt;278.0,360.0&gt;&gt;
+* uni05E9 (U+05E9) contains a short segment L&lt;&lt;223.0,350.0&gt;--&lt;226.0,351.0&gt;&gt;
+* uniFB2A (U+FB2A) contains a short segment L&lt;&lt;223.0,350.0&gt;--&lt;226.0,351.0&gt;&gt;
+* uniFB2B (U+FB2B) contains a short segment L&lt;&lt;223.0,350.0&gt;--&lt;226.0,351.0&gt;&gt;
+* uniFB2C (U+FB2C) contains a short segment L&lt;&lt;223.0,350.0&gt;--&lt;226.0,351.0&gt;&gt; and 10 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;192.0,129.0&gt;--&lt;189.0,129.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;208.0,508.0&gt;--&lt;213.0,508.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;214.0,342.0&gt;-&lt;220.0,342.0&gt;-&lt;228.0,342.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;228.0,342.5&gt;-&lt;236.0,343.0&gt;-&lt;242.0,344.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;240.0,342.0&gt;-&lt;247.0,342.0&gt;-&lt;254.0,342.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;254.0,342.5&gt;-&lt;261.0,343.0&gt;-&lt;267.0,344.0&gt;&gt;
+* uni05E5 (U+05E5) contains a short segment L&lt;&lt;243.0,270.0&gt;--&lt;253.0,273.0&gt;&gt;
+* uni05E9 (U+05E9) contains a short segment L&lt;&lt;198.0,330.0&gt;--&lt;206.0,333.0&gt;&gt;
+* uniFB2A (U+FB2A) contains a short segment L&lt;&lt;198.0,330.0&gt;--&lt;206.0,333.0&gt;&gt;
+* uniFB2B (U+FB2B) contains a short segment L&lt;&lt;198.0,330.0&gt;--&lt;206.0,333.0&gt;&gt; and 11 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;195.0,123.0&gt;--&lt;192.0,123.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;221.0,514.0&gt;--&lt;226.0,514.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;222.0,347.0&gt;-&lt;229.0,347.0&gt;-&lt;235.5,347.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;235.5,347.5&gt;-&lt;242.0,348.0&gt;-&lt;248.0,348.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;247.0,350.0&gt;-&lt;254.0,350.0&gt;-&lt;260.0,350.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;260.0,350.5&gt;-&lt;266.0,351.0&gt;-&lt;272.0,351.0&gt;&gt;
+* uni05E9 (U+05E9) contains a short segment L&lt;&lt;209.0,339.0&gt;--&lt;215.0,341.0&gt;&gt;
+* uniFB2A (U+FB2A) contains a short segment L&lt;&lt;209.0,339.0&gt;--&lt;215.0,341.0&gt;&gt;
+* uniFB2B (U+FB2B) contains a short segment L&lt;&lt;209.0,339.0&gt;--&lt;215.0,341.0&gt;&gt;
+* uniFB2C (U+FB2C) contains a short segment L&lt;&lt;209.0,339.0&gt;--&lt;215.0,341.0&gt;&gt; and 10 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;202.0,168.0&gt;--&lt;200.0,168.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;139.0,477.0&gt;--&lt;142.0,477.0&gt;&gt;
+* uni05E2 (U+05E2) contains a short segment B&lt;&lt;173.0,38.0&gt;-&lt;176.0,38.0&gt;-&lt;179.0,38.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;170.0,285.0&gt;-&lt;176.0,285.0&gt;-&lt;181.0,285.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;181.0,285.5&gt;-&lt;186.0,286.0&gt;-&lt;191.0,287.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;191.0,248.0&gt;-&lt;186.0,248.0&gt;-&lt;179.0,247.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;179.0,247.0&gt;-&lt;172.0,246.0&gt;-&lt;165.0,246.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;201.0,287.0&gt;-&lt;207.0,287.0&gt;-&lt;212.5,287.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;212.5,287.5&gt;-&lt;218.0,288.0&gt;-&lt;223.0,289.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;223.0,251.0&gt;-&lt;217.0,250.0&gt;-&lt;210.5,249.5&gt;&gt; and 16 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;197.0,164.0&gt;--&lt;194.0,164.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;145.0,488.0&gt;--&lt;148.0,488.0&gt;&gt;
+* uni05E2 (U+05E2) contains a short segment L&lt;&lt;172.0,55.0&gt;--&lt;175.0,55.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;178.0,292.0&gt;-&lt;184.0,292.0&gt;-&lt;190.0,293.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;190.0,293.0&gt;-&lt;196.0,294.0&gt;-&lt;202.0,294.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;207.0,298.0&gt;-&lt;213.0,298.0&gt;-&lt;219.0,298.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;219.0,298.5&gt;-&lt;225.0,299.0&gt;-&lt;231.0,300.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;197.0,164.0&gt;--&lt;194.0,164.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;145.0,488.0&gt;--&lt;148.0,488.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;178.0,292.0&gt;-&lt;184.0,292.0&gt;-&lt;190.0,293.0&gt;&gt; and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;189.0,149.0&gt;--&lt;186.0,149.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;171.0,508.0&gt;--&lt;175.0,508.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;198.0,315.0&gt;-&lt;205.0,315.0&gt;-&lt;212.0,316.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;212.0,316.0&gt;-&lt;219.0,317.0&gt;-&lt;226.0,317.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;224.0,324.0&gt;-&lt;230.0,324.0&gt;-&lt;237.5,325.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;237.5,325.0&gt;-&lt;245.0,326.0&gt;-&lt;251.0,326.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;189.0,149.0&gt;--&lt;186.0,149.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;171.0,508.0&gt;--&lt;175.0,508.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;198.0,315.0&gt;-&lt;205.0,315.0&gt;-&lt;212.0,316.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;212.0,316.0&gt;-&lt;219.0,317.0&gt;-&lt;226.0,317.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;190.0,139.0&gt;--&lt;187.0,139.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;188.0,508.0&gt;--&lt;193.0,508.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;205.0,328.0&gt;-&lt;212.0,328.0&gt;-&lt;219.5,328.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;219.5,328.5&gt;-&lt;227.0,329.0&gt;-&lt;233.0,330.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;231.0,333.0&gt;-&lt;238.0,333.0&gt;-&lt;245.0,333.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;245.0,333.5&gt;-&lt;252.0,334.0&gt;-&lt;259.0,334.0&gt;&gt;
+* uniFB32 (U+FB32) contains a short segment L&lt;&lt;190.0,139.0&gt;--&lt;187.0,139.0&gt;&gt;
+* uniFB3E (U+FB3E) contains a short segment L&lt;&lt;188.0,508.0&gt;--&lt;193.0,508.0&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;205.0,328.0&gt;-&lt;212.0,328.0&gt;-&lt;219.5,328.5&gt;&gt;
+* uniFB43 (U+FB43) contains a short segment B&lt;&lt;219.5,328.5&gt;-&lt;227.0,329.0&gt;-&lt;233.0,330.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;205.0,171.0&gt;--&lt;204.0,171.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;135.0,469.0&gt;--&lt;137.0,469.0&gt;&gt;
+* uni05E2 (U+05E2) contains a short segment B&lt;&lt;174.0,27.0&gt;-&lt;178.0,27.0&gt;-&lt;181.0,27.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;164.0,280.0&gt;-&lt;171.0,280.0&gt;-&lt;175.5,281.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;175.5,281.0&gt;-&lt;180.0,282.0&gt;-&lt;184.0,282.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;184.0,255.0&gt;-&lt;180.0,254.0&gt;-&lt;174.0,253.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;174.0,253.5&gt;-&lt;168.0,253.0&gt;-&lt;161.0,253.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;197.0,279.0&gt;-&lt;203.0,279.0&gt;-&lt;208.0,280.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;208.0,280.0&gt;-&lt;213.0,281.0&gt;-&lt;217.0,281.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;217.0,255.0&gt;-&lt;213.0,254.0&gt;-&lt;207.0,253.5&gt;&gt; and 15 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni05D2 (U+05D2) contains a short segment L&lt;&lt;239.0,171.0&gt;--&lt;238.0,171.0&gt;&gt;
+* uni05DE (U+05DE) contains a short segment L&lt;&lt;142.0,467.0&gt;--&lt;144.0,467.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;169.0,281.0&gt;-&lt;174.0,281.0&gt;-&lt;179.0,281.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;179.0,281.5&gt;-&lt;184.0,282.0&gt;-&lt;188.0,283.0&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;188.0,255.0&gt;-&lt;184.0,254.0&gt;-&lt;178.0,253.5&gt;&gt;
+* uni05E3 (U+05E3) contains a short segment B&lt;&lt;178.0,253.5&gt;-&lt;172.0,253.0&gt;-&lt;166.0,253.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;209.0,279.0&gt;-&lt;214.0,279.0&gt;-&lt;219.0,279.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;219.0,279.5&gt;-&lt;224.0,280.0&gt;-&lt;228.0,281.0&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;228.0,255.0&gt;-&lt;224.0,254.0&gt;-&lt;218.0,253.5&gt;&gt;
+* uni05E4 (U+05E4) contains a short segment B&lt;&lt;218.0,253.5&gt;-&lt;212.0,253.0&gt;-&lt;206.0,253.0&gt;&gt; and 18 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* uni05E2 (U+05E2): L&lt;&lt;23.0,55.0&gt;--&lt;172.0,55.0&gt;&gt; -&gt; L&lt;&lt;172.0,55.0&gt;--&lt;175.0,55.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05E5 (U+05E5): L&lt;&lt;93.0,-240.0&gt;--&lt;91.0,226.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05E5 (U+05E5): L&lt;&lt;104.0,-240.0&gt;--&lt;103.0,217.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05E5 (U+05E5): L&lt;&lt;100.0,-240.0&gt;--&lt;99.0,220.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05E5 (U+05E5): L&lt;&lt;90.0,-240.0&gt;--&lt;89.0,225.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05E5 (U+05E5): L&lt;&lt;75.0,-240.0&gt;--&lt;72.0,221.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05D0 (U+05D0): L&lt;&lt;41.0,0.0&gt;--&lt;40.0,178.0&gt;&gt;</li>
+<li>uni05E5 (U+05E5): L&lt;&lt;87.0,-240.0&gt;--&lt;86.0,218.0&gt;&gt;</li>
+<li>uniFB2E (U+FB2E): L&lt;&lt;41.0,0.0&gt;--&lt;40.0,178.0&gt;&gt;</li>
+<li>uniFB2F (U+FB2F): L&lt;&lt;41.0,0.0&gt;--&lt;40.0,178.0&gt;&gt; and uniFB30 (U+FB30): L&lt;&lt;41.0,0.0&gt;--&lt;40.0,178.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05E5 (U+05E5): L&lt;&lt;69.0,-240.0&gt;--&lt;67.0,220.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05E5 (U+05E5): L&lt;&lt;63.0,-240.0&gt;--&lt;62.0,220.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05E6 (U+05E6): L&lt;&lt;486.0,588.0&gt;--&lt;485.0,450.0&gt;&gt; and uniFB46 (U+FB46): L&lt;&lt;486.0,588.0&gt;--&lt;485.0,450.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05E5 (U+05E5): L&lt;&lt;114.0,-240.0&gt;--&lt;113.0,232.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05E5 (U+05E5): L&lt;&lt;115.0,-240.0&gt;--&lt;114.0,217.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Hebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni05E5 (U+05E5): L&lt;&lt;113.0,-240.0&gt;--&lt;112.0,229.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+                    </body>
+                </html>

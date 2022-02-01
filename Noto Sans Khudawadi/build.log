@@ -1,0 +1,12 @@
+Creating variable fonts from src/NotoSansKhudawadi.glyphs
+Postprocessing font output/Noto Sans Khudawadi/unhinted/variable-ttf/NotoSansKhudawadi[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansKhudawadi.glyphs
+Created static font output/Noto Sans Khudawadi/unhinted/otf/NotoSansKhudawadi-Regular.otf
+Postprocessing font output/Noto Sans Khudawadi/unhinted/otf/NotoSansKhudawadi-Regular.otf
+Creating static fonts from src/NotoSansKhudawadi.glyphs
+Created static font output/Noto Sans Khudawadi/unhinted/ttf/NotoSansKhudawadi-Regular.ttf
+Postprocessing font output/Noto Sans Khudawadi/unhinted/ttf/NotoSansKhudawadi-Regular.ttf
+Couldn't autohint output/Noto Sans Khudawadi/unhinted/ttf/NotoSansKhudawadi-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo'}

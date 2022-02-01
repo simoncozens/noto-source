@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>5</td>
+                <td>49</td>
+                <td>4</td>
+                <td>96</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>4%</td>
+                <td>19%</td>
+                <td>181%</td>
+                <td>15%</td>
+                <td>356%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: fontbakery.profiles.name&gt; 🔥⏩⏩</h2>
+<h3>Does full font name begin with the font family name?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/match_familyname_fullfont&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Imperial Aramaic/unhinted/ttf/NotoSansImperialAramaic-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans ImpAramaic') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Imperial Aramaic Regular') [code: does-not]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️⚠️</h2>
+<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Imperial Aramaic/unhinted/ttf/NotoSansImperialAramaic-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Imperial Aramaic/unhinted/variable-ttf/NotoSansImperialAramaic[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Imperial Aramaic/unhinted/ttf/NotoSansImperialAramaic-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* u10843 (U+10843): X=475.5,Y=715.0 (should be at cap-height 714?)
+* u1084F (U+1084F): X=460.0,Y=713.0 (should be at cap-height 714?)
+* u10851 (U+10851): X=226.0,Y=-1.5 (should be at baseline 0?)
+* u10853 (U+10853): X=502.0,Y=712.5 (should be at cap-height 714?)
+* u10855 (U+10855): X=384.5,Y=713.5 (should be at cap-height 714?)
+* u10855 (U+10855): X=496.5,Y=715.0 (should be at cap-height 714?)
+* u10857 (U+10857): X=239.0,Y=1.0 (should be at baseline 0?) and u1085F (U+1085F): X=553.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Imperial Aramaic/unhinted/variable-ttf/NotoSansImperialAramaic[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* u10843 (U+10843): X=475.5,Y=715.0 (should be at cap-height 714?)
+* u1084F (U+1084F): X=460.0,Y=713.0 (should be at cap-height 714?)
+* u10851 (U+10851): X=226.0,Y=-1.5 (should be at baseline 0?)
+* u10853 (U+10853): X=502.0,Y=712.5 (should be at cap-height 714?)
+* u10855 (U+10855): X=384.5,Y=713.5 (should be at cap-height 714?)
+* u10855 (U+10855): X=496.5,Y=715.0 (should be at cap-height 714?)
+* u10857 (U+10857): X=239.0,Y=1.0 (should be at baseline 0?) and u1085F (U+1085F): X=553.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Imperial Aramaic/unhinted/ttf/NotoSansImperialAramaic-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* u10842 (U+10842) contains a short segment B&lt;&lt;467.0,675.0&gt;-&lt;467.0,679.0&gt;-&lt;470.0,687.0&gt;&gt;
+* u10842 (U+10842) contains a short segment B&lt;&lt;470.0,687.0&gt;-&lt;473.0,695.0&gt;-&lt;473.0,698.0&gt;&gt;
+* u10843 (U+10843) contains a short segment B&lt;&lt;472.0,705.0&gt;-&lt;474.0,710.0&gt;-&lt;475.5,715.0&gt;&gt;
+* u10843 (U+10843) contains a short segment B&lt;&lt;475.5,715.0&gt;-&lt;477.0,720.0&gt;-&lt;479.0,725.0&gt;&gt;
+* u10844 (U+10844) contains a short segment B&lt;&lt;300.0,559.0&gt;-&lt;293.0,556.0&gt;-&lt;286.0,552.5&gt;&gt;
+* u10844 (U+10844) contains a short segment B&lt;&lt;286.0,552.5&gt;-&lt;279.0,549.0&gt;-&lt;273.0,547.0&gt;&gt;
+* u10847 (U+10847) contains a short segment B&lt;&lt;197.0,573.0&gt;-&lt;197.0,578.0&gt;-&lt;196.5,592.5&gt;&gt;
+* u10848 (U+10848) contains a short segment B&lt;&lt;526.5,481.0&gt;-&lt;517.0,484.0&gt;-&lt;509.0,484.0&gt;&gt;
+* u1084C (U+1084C) contains a short segment B&lt;&lt;543.0,455.5&gt;-&lt;542.0,466.0&gt;-&lt;540.0,474.0&gt;&gt;
+* u10853 (U+10853) contains a short segment B&lt;&lt;497.0,697.0&gt;-&lt;499.0,707.0&gt;-&lt;502.0,712.5&gt;&gt; and 10 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>

@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansHatran/NotoSansHatran.designspace
+Postprocessing font output/Noto Sans Hatran/unhinted/variable-ttf/NotoSansHatran[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansHatran/NotoSansHatran.designspace
+Created static font output/Noto Sans Hatran/unhinted/otf/NotoSansHatran-Regular.otf
+Postprocessing font output/Noto Sans Hatran/unhinted/otf/NotoSansHatran-Regular.otf
+Creating static fonts from src/NotoSansHatran/NotoSansHatran.designspace
+Created static font output/Noto Sans Hatran/unhinted/ttf/NotoSansHatran-Regular.ttf
+Postprocessing font output/Noto Sans Hatran/unhinted/ttf/NotoSansHatran-Regular.ttf
+Couldn't autohint output/Noto Sans Hatran/unhinted/ttf/NotoSansHatran-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!

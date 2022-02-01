@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>2</td>
+                <td>7</td>
+                <td>43</td>
+                <td>4</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>3%</td>
+                <td>12%</td>
+                <td>74%</td>
+                <td>7%</td>
+                <td>171%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Universal&gt; 🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Grantha/unhinted/ttf/NotoSansGrantha-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 1755, but got 534 instead. [code: descent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Grantha/unhinted/variable-ttf/NotoSansGrantha[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 1755, but got 534 instead. [code: descent]</p>
+</span></li></ul></div></details>
+<h3>Font has **proper** whitespace glyph names?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphnames&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Grantha/unhinted/ttf/NotoSansGrantha-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot; [code: not-recommended-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Grantha/unhinted/variable-ttf/NotoSansGrantha[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;nbspace&quot;: Change to &quot;uni00A0&quot; [code: not-recommended-00a0]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️⚠️</h2>
+<h3>Check GDEF mark glyph class doesn't have characters that are not marks.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_non_mark_chars&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Grantha/unhinted/ttf/NotoSansGrantha-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+11302, U+1133E, U+1133F, U+11341, U+11342, U+11343, U+11344, U+1134D, U+11357, U+11362, U+11363 and U+1CD3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Grantha/unhinted/variable-ttf/NotoSansGrantha[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+11302, U+1133E, U+1133F, U+11341, U+11342, U+11343, U+11344, U+1134D, U+11357, U+11362, U+11363 and U+1CD3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Grantha/unhinted/ttf/NotoSansGrantha-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* five_tamil (U+0BEB): X=240.0,Y=715.0 (should be at cap-height 714?)
+* iiMatra_gran (U+11340): X=-399.5,Y=713.0 (should be at cap-height 714?)
+* iiMatra_gran (U+11340): X=-248.0,Y=716.0 (should be at cap-height 714?)
+* llVocalicMatra_gran (U+11363): X=1156.0,Y=715.0 (should be at cap-height 714?)
+* twocomb_gran (U+11368): X=-580.5,Y=712.5 (should be at cap-height 714?)
+* threecomb_gran (U+11369): X=-256.0,Y=715.0 (should be at cap-height 714?) and fivecomb_gran (U+1136B): X=-74.0,Y=712.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Grantha/unhinted/variable-ttf/NotoSansGrantha[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* five_tamil (U+0BEB): X=240.0,Y=715.0 (should be at cap-height 714?)
+* eight_tamil (U+0BEE): X=584.5,Y=0.5 (should be at baseline 0?)
+* ca_gran (U+1131A): X=271.0,Y=1.0 (should be at baseline 0?)
+* cha_gran (U+1131B): X=271.0,Y=1.0 (should be at baseline 0?)
+* dda_gran (U+11321): X=589.0,Y=0.5 (should be at baseline 0?)
+* dda_gran (U+11321): X=379.5,Y=-1.0 (should be at baseline 0?)
+* ddha_gran (U+11322): X=589.5,Y=0.5 (should be at baseline 0?)
+* ddha_gran (U+11322): X=378.0,Y=-1.0 (should be at baseline 0?)
+* iiMatra_gran (U+11340): X=-399.5,Y=713.0 (should be at cap-height 714?)
+* llVocalicMatra_gran (U+11363): X=1156.0,Y=715.0 (should be at cap-height 714?) and 3 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Grantha/unhinted/ttf/NotoSansGrantha-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* one_tamil (U+0BE7) contains a short segment L&lt;&lt;496.0,328.0&gt;--&lt;512.0,328.0&gt;&gt;
+* five_tamil (U+0BEB) contains a short segment B&lt;&lt;708.0,284.0&gt;-&lt;727.0,298.0&gt;-&lt;755.0,308.5&gt;&gt;
+* five_tamil (U+0BEB) contains a short segment B&lt;&lt;805.0,247.0&gt;-&lt;777.0,247.0&gt;-&lt;752.5,236.0&gt;&gt;
+* five_tamil (U+0BEB) contains a short segment B&lt;&lt;752.5,236.0&gt;-&lt;728.0,225.0&gt;-&lt;708.0,211.0&gt;&gt;
+* nine_tamil (U+0BEF) contains a short segment B&lt;&lt;661.0,328.0&gt;-&lt;676.0,328.0&gt;-&lt;688.0,327.0&gt;&gt;
+* onethousand_tamil (U+0BF2) contains a short segment L&lt;&lt;496.0,258.0&gt;--&lt;496.0,226.0&gt;&gt;
+* aa_gran (U+11306) contains a short segment L&lt;&lt;684.0,258.0&gt;--&lt;684.0,226.0&gt;&gt;
+* i_gran (U+11307) contains a short segment B&lt;&lt;160.0,461.0&gt;-&lt;173.0,469.0&gt;-&lt;191.0,474.0&gt;&gt;
+* u_gran (U+11309) contains a short segment B&lt;&lt;160.0,115.0&gt;-&lt;146.0,108.0&gt;-&lt;146.0,95.0&gt;&gt;
+* uu_gran (U+1130A) contains a short segment B&lt;&lt;160.0,115.0&gt;-&lt;146.0,108.0&gt;-&lt;146.0,95.0&gt;&gt; and 46 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>

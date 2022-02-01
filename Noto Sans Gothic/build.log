@@ -1,0 +1,10 @@
+Creating variable fonts from src/NotoSansGothic/NotoSansGothic.designspace
+Postprocessing font output/Noto Sans Gothic/unhinted/variable-ttf/NotoSansGothic[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansGothic/NotoSansGothic.designspace
+Created static font output/Noto Sans Gothic/unhinted/otf/NotoSansGothic-Regular.otf
+Postprocessing font output/Noto Sans Gothic/unhinted/otf/NotoSansGothic-Regular.otf
+Creating static fonts from src/NotoSansGothic/NotoSansGothic.designspace
+Created static font output/Noto Sans Gothic/unhinted/ttf/NotoSansGothic-Regular.ttf
+Postprocessing font output/Noto Sans Gothic/unhinted/ttf/NotoSansGothic-Regular.ttf
+Building variable, static completed. All done!

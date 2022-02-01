@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansKaithi.glyphs
+Postprocessing font output/Noto Sans Kaithi/unhinted/variable-ttf/NotoSansKaithi[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansKaithi.glyphs
+Created static font output/Noto Sans Kaithi/unhinted/otf/NotoSansKaithi-Regular.otf
+Postprocessing font output/Noto Sans Kaithi/unhinted/otf/NotoSansKaithi-Regular.otf
+Creating static fonts from src/NotoSansKaithi.glyphs
+Created static font output/Noto Sans Kaithi/unhinted/ttf/NotoSansKaithi-Regular.ttf
+Postprocessing font output/Noto Sans Kaithi/unhinted/ttf/NotoSansKaithi-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo'}

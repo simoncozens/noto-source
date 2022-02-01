@@ -1,0 +1,296 @@
+Creating variable fonts from src/NotoSansGurmukhi.glyphs
+Glyphs named 'manuktaprehalfguru' have different number of segments
+Glyphs named 'manuktaguru' have different number of segments
+Couldn't build variable font: In 'src/NotoSansGurmukhi.glyphs' -> 'master_ufo/NotoSansGurmukhi.designspace': Generating fonts from Designspace failed: fonts contains incompatible glyphs: 'manuktaguru', 'manuktaprehalfguru'
+Creating static fonts from src/NotoSansGurmukhi.glyphs
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedBlack.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedBlack.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedSemiBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensed.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensed.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedExtraLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedThin.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedThin.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedThin.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedThin.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedSemiBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedBlack.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Medium.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Medium.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Regular.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Regular.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensed.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensed.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedBlack.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedBlack.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedExtraBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedMedium.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedSemiBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Bold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Bold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedExtraLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedSemiBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedMedium.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedMedium.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Condensed.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Condensed.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Medium.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Medium.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedThin.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedThin.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedThin.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedThin.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedExtraLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedMedium.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedExtraBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Black.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Black.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedBlack.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedBlack.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Thin.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Thin.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedMedium.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedMedium.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedThin.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedThin.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Black.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Black.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedExtraLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Condensed.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Condensed.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Bold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Bold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiCondensedLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Regular.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Regular.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedExtraBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedBlack.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedMedium.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedMedium.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensed.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensed.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Light.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Light.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-CondensedExtraBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-SemiBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensedExtraLight.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedMedium.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedMedium.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedThin.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedThin.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Light.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-Light.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedSemiBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensed.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraCondensed.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedExtraBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Thin.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-Thin.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhiUI-ExtraCondensedSemiBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-ExtraBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-SemiCondensedExtraBold.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedBlack.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedBlack.otf
+Created static font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedExtraLight.otf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/otf/NotoSansGurmukhi-CondensedExtraLight.otf
+Creating static fonts from src/NotoSansGurmukhi.glyphs
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Thin.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Thin.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedSemiBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedExtraBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedBlack.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedBlack.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedThin.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedThin.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedBlack.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Regular.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Regular.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedBlack.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedMedium.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedSemiBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedMedium.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedMedium.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedExtraLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedExtraLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedMedium.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedMedium.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedExtraBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedThin.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedThin.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedExtraLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensed.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensed.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedSemiBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedSemiBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Black.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Black.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedBlack.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedBlack.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Thin.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Thin.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedThin.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedMedium.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedMedium.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Condensed.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Condensed.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedBlack.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Regular.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Regular.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedExtraBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedBlack.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Bold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Bold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Black.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Black.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedExtraBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Medium.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Medium.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensed.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensed.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Bold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Bold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Light.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Light.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-SemiCondensedMedium.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Light.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-Light.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensedExtraLight.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-ExtraCondensedThin.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Medium.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Medium.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensed.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-SemiCondensed.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedThin.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-CondensedThin.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedThin.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-CondensedThin.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Condensed.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhi-Condensed.ttf
+Created static font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensed.ttf
+Postprocessing font output/Noto Sans Gurmukhi/unhinted/ttf/NotoSansGurmukhiUI-ExtraCondensed.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>67</td>
+                <td>112</td>
+                <td>776</td>
+                <td>74</td>
+                <td>1681</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>5%</td>
+                <td>8%</td>
+                <td>58%</td>
+                <td>6%</td>
+                <td>126%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Glyph names are all valid?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/valid_glyphnames&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/variable-ttf/NotoSansLao-MM[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyph names do not comply with naming conventions: koKai-lao, khoKhai-lao, khoKhuay-lao, ngoNgu-lao, coCok-lao, soSang-lao, nyoNyung-lao, doDek-lao, toTa-lao, thoThong-lao and 96 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not. [code: found-invalid-names]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.os2&gt; 🔥</h2>
+<h3>Fonts have consistent PANOSE proportion?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_proportion&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.name&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩</h2>
+<h3>Does full font name begin with the font family name?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/match_familyname_fullfont&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao Cond Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao Condensed Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao Cond ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao Condensed ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao Cond ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao Condensed ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao Cond Light') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao Condensed Light') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao Cond Med') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao Condensed Medium') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao Cond SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao Condensed SemiBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao Cond Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao Condensed Thin') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao ExtCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao ExtraCondensed') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao ExtCond Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao ExtraCondensed Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao ExtCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao ExtraCondensed Bold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao ExtCond ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao ExtraCondensed ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao ExtCond ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao ExtraCondensed ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao ExtCond Light') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao ExtraCondensed Light') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao ExtCond Med') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao ExtraCondensed Medium') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao ExtCond SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao ExtraCondensed SemiBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao ExtCond Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao ExtraCondensed Thin') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao SemiBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao SemCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao SemiCondensed') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao SemCond Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao SemiCondensed Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao SemCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao SemiCondensed Bold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao SemCond ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao SemiCondensed ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao SemCond ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao SemiCondensed ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao SemCond Light') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao SemiCondensed Light') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao SemCond Med') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao SemiCondensed Medium') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao SemCond SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao SemiCondensed SemiBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Lao SemCond Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Lao SemiCondensed Thin') [code: does-not]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/variable-ttf/NotoSansLao-MM[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=265.5,Y=1.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=265.0,Y=1.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=287.5,Y=-2.0 (should be at baseline 0?)
+* iiVowel-lao (U+0EB5): X=-83.0,Y=716.0 (should be at cap-height 714?)
+* euuVowel-lao (U+0EB7): X=-83.0,Y=716.0 (should be at cap-height 714?) and maiTi-lao (U+0ECA): X=-245.0,Y=716.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* koKai-lao (U+0E81): X=78.0,Y=-2.0 (should be at baseline 0?)
+* iiVowel-lao (U+0EB5): X=-32.0,Y=712.0 (should be at cap-height 714?)
+* iiVowel-lao (U+0EB5): X=-16.0,Y=712.0 (should be at cap-height 714?)
+* euuVowel-lao (U+0EB7): X=-32.0,Y=712.0 (should be at cap-height 714?)
+* euuVowel-lao (U+0EB7): X=-16.0,Y=712.0 (should be at cap-height 714?)
+* karan-lao (U+0ECC): X=-307.0,Y=713.0 (should be at cap-height 714?)
+* karan-lao (U+0ECC): X=-165.0,Y=712.0 (should be at cap-height 714?) and khmuGo-lao (U+0EDE): X=78.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=207.0,Y=0.5 (should be at baseline 0?)
+* ngoNgu-lao (U+0E87): X=158.0,Y=1.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=207.5,Y=0.5 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=272.0,Y=2.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=272.0,Y=2.0 (should be at baseline 0?)
+* maiKanVowel-lao (U+0EB1): X=-278.0,Y=716.0 (should be at cap-height 717?)
+* one-lao (U+0ED1): X=135.5,Y=1.5 (should be at baseline 0?)
+* three-lao (U+0ED3): X=211.0,Y=2.0 (should be at baseline 0?)
+* four-lao (U+0ED4): X=355.0,Y=715.0 (should be at cap-height 717?)
+* four-lao (U+0ED4): X=434.0,Y=715.0 (should be at cap-height 717?)
+* five-lao (U+0ED5): X=355.0,Y=715.0 (should be at cap-height 717?) and five-lao (U+0ED5): X=434.0,Y=715.0 (should be at cap-height 717?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* maiTi-lao (U+0ECA): X=-266.0,Y=713.0 (should be at cap-height 714?) and karan-lao (U+0ECC): X=-130.5,Y=712.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* maiKonVowel-lao (U+0EBB): X=29.0,Y=716.0 (should be at cap-height 715?)
+* maiKonVowel-lao (U+0EBB): X=-187.0,Y=716.0 (should be at cap-height 715?)
+* eight-lao (U+0ED8): X=158.0,Y=1.0 (should be at baseline 0?)
+* kip (U+20AD): X=52.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=190.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=335.0,Y=714.0 (should be at cap-height 715?) and kip (U+20AD): X=479.0,Y=714.0 (should be at cap-height 715?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* maiKonVowel-lao (U+0EBB): X=27.0,Y=716.0 (should be at cap-height 715?)
+* maiKonVowel-lao (U+0EBB): X=-191.0,Y=716.0 (should be at cap-height 715?)
+* maiTi-lao (U+0ECA): X=-196.5,Y=713.5 (should be at cap-height 715?)
+* maiTi-lao (U+0ECA): X=-296.5,Y=714.0 (should be at cap-height 715?)
+* karan-lao (U+0ECC): X=-270.0,Y=713.0 (should be at cap-height 715?)
+* four-lao (U+0ED4): X=349.0,Y=714.0 (should be at cap-height 715?)
+* four-lao (U+0ED4): X=493.0,Y=714.0 (should be at cap-height 715?)
+* five-lao (U+0ED5): X=349.0,Y=714.0 (should be at cap-height 715?)
+* five-lao (U+0ED5): X=493.0,Y=714.0 (should be at cap-height 715?)
+* eight-lao (U+0ED8): X=150.0,Y=1.0 (should be at baseline 0?) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=202.5,Y=1.5 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=201.5,Y=1.5 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=262.0,Y=1.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=199.0,Y=-1.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=23.0,Y=-1.0 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=195.0,Y=-1.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=196.0,Y=-1.0 (should be at baseline 0?)
+* maiKonVowel-lao (U+0EBB): X=-185.0,Y=741.0 (should be at cap-height 739?)
+* maiKonVowel-lao (U+0EBB): X=33.0,Y=741.0 (should be at cap-height 739?)
+* ayMaiMuanVowel-lao (U+0EC3): X=44.0,Y=738.0 (should be at cap-height 739?) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=204.0,Y=1.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=203.5,Y=1.0 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=262.0,Y=1.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=266.0,Y=2.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=213.0,Y=1.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=19.0,Y=1.0 (should be at baseline 0?)
+* iVowel-lao (U+0EB4): X=-396.0,Y=729.0 (should be at cap-height 731?)
+* iVowel-lao (U+0EB4): X=-66.0,Y=729.0 (should be at cap-height 731?)
+* iVowel-lao (U+0EB4): X=-115.0,Y=729.0 (should be at cap-height 731?)
+* iVowel-lao (U+0EB4): X=-347.0,Y=729.0 (should be at cap-height 731?) and 18 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ngoNgu-lao (U+0E87): X=159.0,Y=2.0 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=204.0,Y=1.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=206.0,Y=1.0 (should be at baseline 0?)
+* nyoVowel-lao (U+0EBD): X=61.0,Y=-2.0 (should be at baseline 0?)
+* ayMaiMuanVowel-lao (U+0EC3): X=77.0,Y=717.0 (should be at cap-height 716?)
+* ayMaiMuanVowel-lao (U+0EC3): X=-12.0,Y=717.0 (should be at cap-height 716?)
+* one-lao (U+0ED1): X=136.0,Y=2.0 (should be at baseline 0?)
+* four-lao (U+0ED4): X=353.0,Y=715.0 (should be at cap-height 716?)
+* four-lao (U+0ED4): X=447.0,Y=715.0 (should be at cap-height 716?)
+* five-lao (U+0ED5): X=353.0,Y=715.0 (should be at cap-height 716?) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* maiKanVowel-lao (U+0EB1): X=-181.0,Y=718.0 (should be at cap-height 716?)
+* maiKanVowel-lao (U+0EB1): X=31.0,Y=718.0 (should be at cap-height 716?)
+* iiVowel-lao (U+0EB5): X=-64.5,Y=715.0 (should be at cap-height 716?)
+* euuVowel-lao (U+0EB7): X=-64.5,Y=715.0 (should be at cap-height 716?)
+* maiKonVowel-lao (U+0EBB): X=32.0,Y=714.0 (should be at cap-height 716?)
+* maiKonVowel-lao (U+0EBB): X=-181.0,Y=714.0 (should be at cap-height 716?)
+* ayMaiMuanVowel-lao (U+0EC3): X=194.0,Y=718.0 (should be at cap-height 716?)
+* four-lao (U+0ED4): X=352.0,Y=715.0 (should be at cap-height 716?)
+* four-lao (U+0ED4): X=462.0,Y=715.0 (should be at cap-height 716?)
+* five-lao (U+0ED5): X=352.0,Y=715.0 (should be at cap-height 716?) and 6 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* koKai-lao (U+0E81): X=47.0,Y=-2.0 (should be at baseline 0?)
+* khoKhai-lao (U+0E82): X=201.5,Y=2.0 (should be at baseline 0?)
+* khoKhuay-lao (U+0E84): X=228.0,Y=2.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=200.0,Y=2.0 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=252.0,Y=-1.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=260.0,Y=1.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=190.0,Y=-2.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=25.0,Y=-2.0 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=195.0,Y=-1.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=195.0,Y=-1.0 (should be at baseline 0?) and 10 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* soSang-lao (U+0E8A): X=270.5,Y=2.0 (should be at baseline 0?)
+* maiTi-lao (U+0ECA): X=-307.0,Y=712.0 (should be at cap-height 714?)
+* karan-lao (U+0ECC): X=-154.5,Y=712.0 (should be at cap-height 714?) and eight-lao (U+0ED8): X=179.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=179.0,Y=0.5 (should be at baseline 0?)
+* ngoNgu-lao (U+0E87): X=141.0,Y=2.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=179.5,Y=0.5 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=240.0,Y=2.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=241.0,Y=2.0 (should be at baseline 0?)
+* maiTi-lao (U+0ECA): X=-76.5,Y=716.0 (should be at cap-height 718?)
+* one-lao (U+0ED1): X=118.0,Y=1.5 (should be at baseline 0?)
+* four-lao (U+0ED4): X=309.0,Y=716.0 (should be at cap-height 718?)
+* four-lao (U+0ED4): X=388.0,Y=716.0 (should be at cap-height 718?)
+* five-lao (U+0ED5): X=309.0,Y=716.0 (should be at cap-height 718?)
+* five-lao (U+0ED5): X=388.0,Y=716.0 (should be at cap-height 718?) and six-lao (U+0ED6): X=222.0,Y=719.5 (should be at cap-height 718?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* iiVowel-lao (U+0EB5): X=-49.0,Y=713.5 (should be at cap-height 714?)
+* iiVowel-lao (U+0EB5): X=-17.0,Y=716.0 (should be at cap-height 714?)
+* iiVowel-lao (U+0EB5): X=-15.0,Y=716.0 (should be at cap-height 714?)
+* euuVowel-lao (U+0EB7): X=-49.0,Y=713.5 (should be at cap-height 714?)
+* euuVowel-lao (U+0EB7): X=-17.0,Y=716.0 (should be at cap-height 714?)
+* euuVowel-lao (U+0EB7): X=-15.0,Y=716.0 (should be at cap-height 714?)
+* karan-lao (U+0ECC): X=-266.0,Y=715.0 (should be at cap-height 714?) and karan-lao (U+0ECC): X=-125.0,Y=712.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* maiKonVowel-lao (U+0EBB): X=-301.0,Y=714.0 (should be at cap-height 716?)
+* maiKonVowel-lao (U+0EBB): X=23.0,Y=715.0 (should be at cap-height 716?)
+* maiKonVowel-lao (U+0EBB): X=-174.0,Y=715.0 (should be at cap-height 716?)
+* ayMaiMuanVowel-lao (U+0EC3): X=200.0,Y=714.0 (should be at cap-height 716?)
+* four-lao (U+0ED4): X=320.0,Y=715.0 (should be at cap-height 716?)
+* four-lao (U+0ED4): X=444.0,Y=715.0 (should be at cap-height 716?)
+* five-lao (U+0ED5): X=320.0,Y=715.0 (should be at cap-height 716?)
+* five-lao (U+0ED5): X=444.0,Y=715.0 (should be at cap-height 716?)
+* kip (U+20AD): X=44.0,Y=714.0 (should be at cap-height 716?)
+* kip (U+20AD): X=176.0,Y=714.0 (should be at cap-height 716?)
+* kip (U+20AD): X=301.0,Y=714.0 (should be at cap-height 716?) and kip (U+20AD): X=435.0,Y=714.0 (should be at cap-height 716?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* maiKonVowel-lao (U+0EBB): X=21.0,Y=716.0 (should be at cap-height 715?)
+* maiKonVowel-lao (U+0EBB): X=-181.0,Y=716.0 (should be at cap-height 715?)
+* four-lao (U+0ED4): X=323.0,Y=714.0 (should be at cap-height 715?)
+* four-lao (U+0ED4): X=460.0,Y=714.0 (should be at cap-height 715?)
+* five-lao (U+0ED5): X=323.0,Y=714.0 (should be at cap-height 715?)
+* five-lao (U+0ED5): X=460.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=41.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=187.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=301.0,Y=714.0 (should be at cap-height 715?) and kip (U+20AD): X=448.0,Y=714.0 (should be at cap-height 715?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=183.0,Y=1.5 (should be at baseline 0?)
+* ngoNgu-lao (U+0E87): X=209.0,Y=2.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=181.5,Y=1.5 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=233.0,Y=1.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=180.0,Y=-1.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=18.0,Y=-1.0 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=173.0,Y=-1.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=174.0,Y=-1.0 (should be at baseline 0?)
+* ayMaiMuanVowel-lao (U+0EC3): X=42.0,Y=738.0 (should be at cap-height 740?)
+* ayMaiMuanVowel-lao (U+0EC3): X=6.0,Y=738.0 (should be at cap-height 740?) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=181.5,Y=1.5 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=180.5,Y=1.5 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=233.0,Y=1.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=236.0,Y=2.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=193.0,Y=1.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=15.0,Y=1.0 (should be at baseline 0?)
+* iiVowel-lao (U+0EB5): X=-352.0,Y=730.0 (should be at cap-height 732?)
+* iiVowel-lao (U+0EB5): X=-59.0,Y=733.0 (should be at cap-height 732?)
+* iiVowel-lao (U+0EB5): X=-105.0,Y=731.0 (should be at cap-height 732?)
+* euuVowel-lao (U+0EB7): X=-352.0,Y=730.0 (should be at cap-height 732?) and 15 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* loLing-lao (U+0EA5): X=186.0,Y=1.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=187.0,Y=1.0 (should be at baseline 0?)
+* maiKanVowel-lao (U+0EB1): X=-265.0,Y=718.0 (should be at cap-height 717?)
+* ayMaiMuanVowel-lao (U+0EC3): X=81.0,Y=718.0 (should be at cap-height 717?)
+* ayMaiMuanVowel-lao (U+0EC3): X=-4.0,Y=718.0 (should be at cap-height 717?)
+* one-lao (U+0ED1): X=121.0,Y=2.0 (should be at baseline 0?)
+* four-lao (U+0ED4): X=312.0,Y=716.0 (should be at cap-height 717?)
+* four-lao (U+0ED4): X=404.0,Y=716.0 (should be at cap-height 717?)
+* five-lao (U+0ED5): X=312.0,Y=716.0 (should be at cap-height 717?) and five-lao (U+0ED5): X=404.0,Y=716.0 (should be at cap-height 717?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=190.5,Y=-0.5 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=191.0,Y=-0.5 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=197.0,Y=2.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=196.0,Y=2.0 (should be at baseline 0?)
+* maiKonVowel-lao (U+0EBB): X=26.0,Y=714.0 (should be at cap-height 716?)
+* maiKonVowel-lao (U+0EBB): X=-166.0,Y=714.0 (should be at cap-height 716?)
+* maiTho-lao (U+0EC9): X=-130.0,Y=714.0 (should be at cap-height 716?)
+* maiTho-lao (U+0EC9): X=2.0,Y=714.0 (should be at cap-height 716?)
+* two-lao (U+0ED2): X=269.0,Y=715.0 (should be at cap-height 716?)
+* two-lao (U+0ED2): X=377.0,Y=715.0 (should be at cap-height 716?) and 8 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* koKai-lao (U+0E81): X=39.0,Y=-2.0 (should be at baseline 0?)
+* khoKhai-lao (U+0E82): X=184.0,Y=2.0 (should be at baseline 0?)
+* khoKhuay-lao (U+0E84): X=204.0,Y=2.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=182.0,Y=2.0 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=225.0,Y=-1.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=231.0,Y=1.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=171.0,Y=-2.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=20.0,Y=-2.0 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=172.0,Y=-1.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=173.0,Y=-1.0 (should be at baseline 0?) and 8 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=247.5,Y=1.5 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=248.5,Y=1.5 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=330.0,Y=1.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=245.0,Y=-1.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=34.0,Y=-1.0 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=246.0,Y=-1.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=247.0,Y=-1.0 (should be at baseline 0?)
+* maiKonVowel-lao (U+0EBB): X=-230.0,Y=741.0 (should be at cap-height 739?)
+* maiKonVowel-lao (U+0EBB): X=42.0,Y=741.0 (should be at cap-height 739?)
+* ayMaiMuanVowel-lao (U+0EC3): X=51.0,Y=738.0 (should be at cap-height 739?) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=256.5,Y=1.0 (should be at baseline 0?)
+* ngoNgu-lao (U+0E87): X=290.0,Y=1.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=257.5,Y=1.0 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=331.0,Y=1.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=336.0,Y=2.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=259.0,Y=1.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=29.0,Y=1.0 (should be at baseline 0?)
+* iVowel-lao (U+0EB4): X=-498.0,Y=729.0 (should be at cap-height 730?)
+* iVowel-lao (U+0EB4): X=-90.0,Y=729.0 (should be at cap-height 730?)
+* iiVowel-lao (U+0EB5): X=-498.0,Y=729.0 (should be at cap-height 730?) and 14 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ngoNgu-lao (U+0E87): X=195.0,Y=1.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=267.5,Y=-0.5 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=246.0,Y=2.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=252.0,Y=2.0 (should be at baseline 0?)
+* nyoVowel-lao (U+0EBD): X=69.0,Y=1.0 (should be at baseline 0?)
+* maiTho-lao (U+0EC9): X=-189.0,Y=713.0 (should be at cap-height 714?)
+* maiTho-lao (U+0EC9): X=0.0,Y=713.0 (should be at cap-height 714?)
+* karan-lao (U+0ECC): X=-189.0,Y=712.5 (should be at cap-height 714?)
+* one-lao (U+0ED1): X=172.0,Y=2.0 (should be at baseline 0?)
+* three-lao (U+0ED3): X=324.0,Y=712.0 (should be at cap-height 714?) and three-lao (U+0ED3): X=266.5,Y=1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=272.0,Y=0.5 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=272.0,Y=0.5 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=345.0,Y=2.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=345.0,Y=2.0 (should be at baseline 0?)
+* maiKonVowel-lao (U+0EBB): X=48.0,Y=713.0 (should be at cap-height 714?)
+* maiKonVowel-lao (U+0EBB): X=-217.0,Y=713.0 (should be at cap-height 714?)
+* karan-lao (U+0ECC): X=-199.0,Y=713.0 (should be at cap-height 714?)
+* one-lao (U+0ED1): X=176.5,Y=1.5 (should be at baseline 0?)
+* three-lao (U+0ED3): X=317.0,Y=713.0 (should be at cap-height 714?)
+* three-lao (U+0ED3): X=259.5,Y=-0.5 (should be at baseline 0?) and six-lao (U+0ED6): X=355.0,Y=712.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* maiKonVowel-lao (U+0EBB): X=-364.0,Y=712.0 (should be at cap-height 714?)
+* maiKonVowel-lao (U+0EBB): X=46.0,Y=715.0 (should be at cap-height 714?)
+* maiKonVowel-lao (U+0EBB): X=-217.0,Y=715.0 (should be at cap-height 714?)
+* maiTi-lao (U+0ECA): X=-119.0,Y=716.0 (should be at cap-height 714?)
+* maiTi-lao (U+0ECA): X=-34.0,Y=716.0 (should be at cap-height 714?) and karan-lao (U+0ECC): X=-177.5,Y=712.5 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=238.0,Y=0.5 (should be at baseline 0?)
+* ngoNgu-lao (U+0E87): X=178.0,Y=1.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=238.5,Y=0.5 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=307.0,Y=2.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=307.0,Y=2.0 (should be at baseline 0?)
+* maiKanVowel-lao (U+0EB1): X=-223.0,Y=715.5 (should be at cap-height 715?)
+* maiKonVowel-lao (U+0EBB): X=42.0,Y=713.0 (should be at cap-height 715?)
+* maiKonVowel-lao (U+0EBB): X=-194.0,Y=713.0 (should be at cap-height 715?)
+* one-lao (U+0ED1): X=155.0,Y=1.5 (should be at baseline 0?)
+* three-lao (U+0ED3): X=234.0,Y=1.0 (should be at baseline 0?) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=251.0,Y=2.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=250.5,Y=1.5 (should be at baseline 0?)
+* iiVowel-lao (U+0EB5): X=-82.0,Y=712.0 (should be at cap-height 714?)
+* euuVowel-lao (U+0EB7): X=-82.0,Y=712.0 (should be at cap-height 714?)
+* maiTi-lao (U+0ECA): X=-233.0,Y=712.0 (should be at cap-height 714?)
+* maiTi-lao (U+0ECA): X=-282.0,Y=716.0 (should be at cap-height 714?) and eight-lao (U+0ED8): X=510.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* maiKonVowel-lao (U+0EBB): X=-348.0,Y=717.0 (should be at cap-height 715?)
+* maiKonVowel-lao (U+0EBB): X=37.0,Y=716.0 (should be at cap-height 715?)
+* maiKonVowel-lao (U+0EBB): X=-201.0,Y=716.0 (should be at cap-height 715?)
+* four-lao (U+0ED4): X=385.0,Y=714.0 (should be at cap-height 715?)
+* four-lao (U+0ED4): X=519.0,Y=714.0 (should be at cap-height 715?)
+* five-lao (U+0ED5): X=385.0,Y=714.0 (should be at cap-height 715?)
+* five-lao (U+0ED5): X=519.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=60.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=205.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=373.0,Y=714.0 (should be at cap-height 715?) and kip (U+20AD): X=527.0,Y=714.0 (should be at cap-height 715?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* iiVowel-lao (U+0EB5): X=-54.0,Y=713.0 (should be at cap-height 714?)
+* iiVowel-lao (U+0EB5): X=-21.0,Y=716.0 (should be at cap-height 714?)
+* iiVowel-lao (U+0EB5): X=-12.0,Y=716.0 (should be at cap-height 714?)
+* euuVowel-lao (U+0EB7): X=-54.0,Y=713.0 (should be at cap-height 714?)
+* euuVowel-lao (U+0EB7): X=-21.0,Y=716.0 (should be at cap-height 714?)
+* euuVowel-lao (U+0EB7): X=-12.0,Y=716.0 (should be at cap-height 714?)
+* maiTi-lao (U+0ECA): X=-208.0,Y=716.0 (should be at cap-height 714?)
+* karan-lao (U+0ECC): X=-289.0,Y=715.0 (should be at cap-height 714?)
+* karan-lao (U+0ECC): X=-143.5,Y=712.0 (should be at cap-height 714?) and eight-lao (U+0ED8): X=164.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=224.0,Y=1.5 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=224.0,Y=1.5 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=294.0,Y=1.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=221.0,Y=-1.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=28.0,Y=-1.0 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=219.0,Y=-1.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=220.0,Y=-1.0 (should be at baseline 0?)
+* maiKonVowel-lao (U+0EBB): X=-206.0,Y=741.0 (should be at cap-height 739?)
+* maiKonVowel-lao (U+0EBB): X=38.0,Y=741.0 (should be at cap-height 739?)
+* ayMaiMuanVowel-lao (U+0EC3): X=47.0,Y=738.0 (should be at cap-height 739?) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=229.5,Y=1.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=229.0,Y=1.0 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=295.0,Y=1.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=299.0,Y=2.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=235.0,Y=1.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=24.0,Y=1.0 (should be at baseline 0?)
+* iVowel-lao (U+0EB4): X=-444.0,Y=729.0 (should be at cap-height 730?)
+* iVowel-lao (U+0EB4): X=-77.0,Y=729.0 (should be at cap-height 730?)
+* iiVowel-lao (U+0EB5): X=-444.0,Y=729.0 (should be at cap-height 730?)
+* iiVowel-lao (U+0EB5): X=-133.0,Y=731.0 (should be at cap-height 730?) and 13 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ngoNgu-lao (U+0E87): X=176.0,Y=2.0 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=224.0,Y=1.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=228.0,Y=1.0 (should be at baseline 0?)
+* maiKonVowel-lao (U+0EBB): X=40.0,Y=714.0 (should be at cap-height 715?)
+* maiKonVowel-lao (U+0EBB): X=-196.0,Y=714.0 (should be at cap-height 715?)
+* karan-lao (U+0ECC): X=-165.0,Y=713.0 (should be at cap-height 715?)
+* one-lao (U+0ED1): X=153.0,Y=2.0 (should be at baseline 0?)
+* three-lao (U+0ED3): X=242.5,Y=2.0 (should be at baseline 0?)
+* kip (U+20AD): X=75.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=181.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=395.0,Y=714.0 (should be at cap-height 715?) and kip (U+20AD): X=511.0,Y=714.0 (should be at cap-height 715?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* ayMaiMuanVowel-lao (U+0EC3): X=203.0,Y=716.0 (should be at cap-height 715?)
+* maiTi-lao (U+0ECA): X=-108.0,Y=713.0 (should be at cap-height 715?)
+* maiTi-lao (U+0ECA): X=-29.0,Y=713.0 (should be at cap-height 715?)
+* four-lao (U+0ED4): X=392.0,Y=714.0 (should be at cap-height 715?)
+* four-lao (U+0ED4): X=506.0,Y=714.0 (should be at cap-height 715?)
+* five-lao (U+0ED5): X=392.0,Y=714.0 (should be at cap-height 715?)
+* five-lao (U+0ED5): X=506.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=68.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=192.0,Y=714.0 (should be at cap-height 715?)
+* kip (U+20AD): X=385.0,Y=714.0 (should be at cap-height 715?) and kip (U+20AD): X=518.0,Y=714.0 (should be at cap-height 715?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* koKai-lao (U+0E81): X=55.0,Y=-2.0 (should be at baseline 0?)
+* khoKhai-lao (U+0E82): X=220.5,Y=2.0 (should be at baseline 0?)
+* khoKhuay-lao (U+0E84): X=255.0,Y=2.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=220.5,Y=1.5 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=283.0,Y=-1.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=291.0,Y=1.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=212.0,Y=-2.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=31.0,Y=-2.0 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=220.0,Y=-1.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=220.0,Y=-1.0 (should be at baseline 0?) and 12 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* koKai-lao (U+0E81): X=65.0,Y=-2.0 (should be at baseline 0?)
+* khoKhai-lao (U+0E82): X=241.5,Y=2.0 (should be at baseline 0?)
+* khoKhuay-lao (U+0E84): X=284.0,Y=2.0 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=242.5,Y=1.5 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=316.0,Y=-1.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=326.0,Y=1.0 (should be at baseline 0?)
+* thoThong-lao (U+0E96): X=235.0,Y=-2.0 (should be at baseline 0?)
+* moMa-lao (U+0EA1): X=38.0,Y=-2.0 (should be at baseline 0?)
+* loLing-lao (U+0EA5): X=247.0,Y=-1.0 (should be at baseline 0?)
+* soSeua-lao (U+0EAA): X=247.0,Y=-1.0 (should be at baseline 0?) and 12 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/variable-ttf/NotoSansLao-MM[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* khoKhai-lao (U+0E82): X=272.0,Y=0.5 (should be at baseline 0?)
+* soSang-lao (U+0E8A): X=272.0,Y=0.5 (should be at baseline 0?)
+* doDek-lao (U+0E94): X=345.0,Y=2.0 (should be at baseline 0?)
+* toTa-lao (U+0E95): X=345.0,Y=2.0 (should be at baseline 0?)
+* maiKonVowel-lao (U+0EBB): X=48.0,Y=713.0 (should be at cap-height 714?)
+* maiKonVowel-lao (U+0EBB): X=-217.0,Y=713.0 (should be at cap-height 714?)
+* maiTho-lao (U+0EC9): X=-257.0,Y=714.5 (should be at cap-height 714?)
+* karan-lao (U+0ECC): X=-199.0,Y=713.0 (should be at cap-height 714?)
+* one-lao (U+0ED1): X=176.5,Y=1.5 (should be at baseline 0?)
+* three-lao (U+0ED3): X=317.0,Y=713.0 (should be at cap-height 714?)
+* three-lao (U+0ED3): X=259.5,Y=-0.5 (should be at baseline 0?) and six-lao (U+0ED6): X=355.0,Y=712.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;52.0,142.0&gt;-&lt;60.0,139.0&gt;-&lt;68.5,136.5&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment B&lt;&lt;213.0,142.0&gt;-&lt;213.0,134.0&gt;-&lt;226.0,134.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;398.0,0.0&gt;--&lt;398.0,14.0&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;213.0,142.0&gt;-&lt;213.0,134.0&gt;-&lt;226.0,134.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;296.0,134.0&gt;-&lt;304.0,134.0&gt;-&lt;312.5,136.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;312.5,136.0&gt;-&lt;321.0,138.0&gt;-&lt;328.0,141.0&gt;&gt;
+* thoThung-lao (U+0E97) contains a short segment B&lt;&lt;237.0,141.0&gt;-&lt;245.0,134.0&gt;-&lt;254.0,134.0&gt;&gt;
+* thoThung-lao (U+0E97) contains a short segment B&lt;&lt;254.0,134.0&gt;-&lt;263.0,134.0&gt;-&lt;271.0,141.0&gt;&gt;
+* thoThung-lao (U+0E97) contains a short segment B&lt;&lt;486.0,412.0&gt;-&lt;478.0,419.0&gt;-&lt;469.0,419.0&gt;&gt;
+* thoThung-lao (U+0E97) contains a short segment B&lt;&lt;469.0,419.0&gt;-&lt;460.0,419.0&gt;-&lt;452.0,412.0&gt;&gt; and 74 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;45.0,114.0&gt;-&lt;53.0,111.0&gt;-&lt;61.5,109.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;61.5,109.0&gt;-&lt;70.0,107.0&gt;-&lt;79.0,107.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;420.0,0.0&gt;--&lt;420.0,17.0&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;196.0,389.0&gt;-&lt;196.0,377.0&gt;-&lt;200.0,368.5&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;200.0,368.5&gt;-&lt;204.0,360.0&gt;-&lt;211.0,352.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;49.0,443.5&gt;-&lt;40.0,441.0&gt;-&lt;32.0,439.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;277.0,439.0&gt;-&lt;269.0,441.0&gt;-&lt;259.5,443.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;259.5,443.5&gt;-&lt;250.0,446.0&gt;-&lt;242.0,446.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;424.0,502.0&gt;--&lt;438.0,502.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;649.0,592.0&gt;--&lt;649.0,583.0&gt;&gt; and 32 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;195.0,56.0&gt;-&lt;202.0,56.0&gt;-&lt;209.0,58.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;209.0,58.0&gt;-&lt;216.0,60.0&gt;-&lt;222.0,63.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;55.0,492.0&gt;-&lt;48.0,492.0&gt;-&lt;40.5,490.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;40.5,490.0&gt;-&lt;33.0,488.0&gt;-&lt;27.0,486.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;203.0,485.0&gt;-&lt;196.0,488.0&gt;-&lt;188.0,490.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;188.0,490.0&gt;-&lt;180.0,492.0&gt;-&lt;172.0,492.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;360.0,489.0&gt;--&lt;372.0,489.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;507.0,588.0&gt;--&lt;507.0,577.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;203.0,485.0&gt;-&lt;196.0,488.0&gt;-&lt;188.0,490.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;188.0,490.0&gt;-&lt;180.0,492.0&gt;-&lt;172.0,492.0&gt;&gt; and 26 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;56.0,127.0&gt;-&lt;63.0,124.0&gt;-&lt;70.0,122.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;70.0,122.0&gt;-&lt;77.0,120.0&gt;-&lt;86.0,120.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;350.0,0.0&gt;--&lt;350.0,15.0&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;204.0,390.0&gt;-&lt;204.0,379.0&gt;-&lt;207.0,370.5&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;207.0,370.5&gt;-&lt;210.0,362.0&gt;-&lt;216.0,354.0&gt;&gt;
+* doDek-lao (U+0E94) contains a short segment B&lt;&lt;254.0,119.0&gt;-&lt;259.0,119.0&gt;-&lt;269.0,121.0&gt;&gt;
+* toTa-lao (U+0E95) contains a short segment B&lt;&lt;252.0,119.0&gt;-&lt;260.0,119.0&gt;-&lt;269.5,121.0&gt;&gt;
+* thoThung-lao (U+0E97) contains a short segment B&lt;&lt;215.5,129.5&gt;-&lt;222.0,120.0&gt;-&lt;231.0,120.0&gt;&gt;
+* thoThung-lao (U+0E97) contains a short segment B&lt;&lt;231.0,120.0&gt;-&lt;240.0,120.0&gt;-&lt;246.0,129.5&gt;&gt;
+* thoThung-lao (U+0E97) contains a short segment B&lt;&lt;420.0,432.0&gt;-&lt;411.0,432.0&gt;-&lt;405.0,422.0&gt;&gt; and 49 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;349.0,0.0&gt;--&lt;349.0,17.0&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;179.0,369.0&gt;-&lt;182.0,360.0&gt;-&lt;188.0,352.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;63.0,456.0&gt;-&lt;55.0,456.0&gt;-&lt;47.5,453.5&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;47.5,453.5&gt;-&lt;40.0,451.0&gt;-&lt;34.0,449.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;245.0,448.0&gt;-&lt;238.0,451.0&gt;-&lt;230.0,453.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;230.0,453.5&gt;-&lt;222.0,456.0&gt;-&lt;215.0,456.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;354.0,499.0&gt;--&lt;366.0,499.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;554.0,591.0&gt;--&lt;554.0,582.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;245.0,448.0&gt;-&lt;238.0,451.0&gt;-&lt;230.0,453.5&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;230.0,453.5&gt;-&lt;222.0,456.0&gt;-&lt;215.0,456.0&gt;&gt; and 25 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;51.0,114.0&gt;-&lt;58.0,111.0&gt;-&lt;65.0,109.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;65.0,109.0&gt;-&lt;72.0,107.0&gt;-&lt;80.0,107.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;349.0,0.0&gt;--&lt;349.0,16.0&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;192.0,370.0&gt;-&lt;195.0,361.0&gt;-&lt;201.0,353.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;66.0,445.0&gt;-&lt;57.0,445.0&gt;-&lt;49.5,443.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;49.5,443.0&gt;-&lt;42.0,441.0&gt;-&lt;36.0,438.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;257.0,438.0&gt;-&lt;251.0,441.0&gt;-&lt;243.0,443.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;243.0,443.0&gt;-&lt;235.0,445.0&gt;-&lt;227.0,445.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;353.0,502.0&gt;--&lt;365.0,502.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;568.0,592.0&gt;--&lt;568.0,583.0&gt;&gt; and 41 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;48.0,31.0&gt;-&lt;55.0,28.0&gt;-&lt;62.0,26.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;62.0,26.0&gt;-&lt;69.0,24.0&gt;-&lt;77.0,24.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;362.0,0.0&gt;--&lt;362.0,10.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;164.0,23.0&gt;-&lt;173.0,23.0&gt;-&lt;179.5,25.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;179.5,25.0&gt;-&lt;186.0,27.0&gt;-&lt;193.0,30.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;378.0,469.0&gt;--&lt;395.0,469.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;486.0,591.0&gt;--&lt;486.0,573.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment B&lt;&lt;29.0,30.0&gt;-&lt;37.0,27.0&gt;-&lt;44.0,25.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment B&lt;&lt;44.0,25.0&gt;-&lt;51.0,23.0&gt;-&lt;60.0,23.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment L&lt;&lt;136.0,95.0&gt;--&lt;136.0,86.0&gt;&gt; and 35 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;356.0,0.0&gt;--&lt;356.0,14.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;176.0,35.0&gt;-&lt;184.0,35.0&gt;-&lt;190.5,37.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;190.5,37.0&gt;-&lt;197.0,39.0&gt;-&lt;204.0,42.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;46.5,508.5&gt;-&lt;38.0,506.0&gt;-&lt;31.0,502.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;199.0,501.0&gt;-&lt;190.0,506.0&gt;-&lt;180.0,509.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;180.0,509.0&gt;-&lt;170.0,512.0&gt;-&lt;158.0,512.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;371.0,476.0&gt;--&lt;386.0,476.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;494.0,590.0&gt;--&lt;494.0,575.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;199.0,501.0&gt;-&lt;190.0,506.0&gt;-&lt;180.0,509.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;180.0,509.0&gt;-&lt;170.0,512.0&gt;-&lt;158.0,512.0&gt;&gt; and 29 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;58.0,481.0&gt;-&lt;50.0,481.0&gt;-&lt;42.5,479.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;42.5,479.0&gt;-&lt;35.0,477.0&gt;-&lt;29.0,475.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;215.0,474.0&gt;-&lt;209.0,477.0&gt;-&lt;200.5,479.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;200.5,479.5&gt;-&lt;192.0,482.0&gt;-&lt;185.0,482.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;358.0,492.0&gt;--&lt;370.0,492.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;521.0,589.0&gt;--&lt;521.0,579.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;215.0,474.0&gt;-&lt;209.0,477.0&gt;-&lt;200.5,479.5&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;200.5,479.5&gt;-&lt;192.0,482.0&gt;-&lt;185.0,482.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment L&lt;&lt;470.0,565.0&gt;--&lt;470.0,557.0&gt;&gt;
+* oO-lao (U+0EAD) contains a short segment B&lt;&lt;353.0,273.0&gt;-&lt;353.0,277.0&gt;-&lt;353.0,281.0&gt;&gt; and 24 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;163.0,368.5&gt;-&lt;166.0,359.0&gt;-&lt;171.0,351.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;60.0,469.0&gt;-&lt;52.0,469.0&gt;-&lt;45.0,467.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;45.0,467.0&gt;-&lt;38.0,465.0&gt;-&lt;31.0,463.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;229.0,462.0&gt;-&lt;223.0,465.0&gt;-&lt;214.5,467.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;214.5,467.5&gt;-&lt;206.0,470.0&gt;-&lt;199.0,470.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;356.0,495.0&gt;--&lt;368.0,495.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;536.0,590.0&gt;--&lt;536.0,580.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;229.0,462.0&gt;-&lt;223.0,465.0&gt;-&lt;214.5,467.5&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;214.5,467.5&gt;-&lt;206.0,470.0&gt;-&lt;199.0,470.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment L&lt;&lt;488.0,566.0&gt;--&lt;488.0,557.0&gt;&gt; and 22 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;52.0,22.0&gt;-&lt;59.0,19.0&gt;-&lt;66.0,17.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;66.0,17.0&gt;-&lt;73.0,15.0&gt;-&lt;81.0,15.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;365.0,0.0&gt;--&lt;365.0,7.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;156.0,15.0&gt;-&lt;165.0,15.0&gt;-&lt;171.5,17.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;171.5,17.0&gt;-&lt;178.0,19.0&gt;-&lt;186.0,22.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;383.0,442.0&gt;--&lt;383.0,464.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;383.0,464.0&gt;--&lt;401.0,464.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;480.0,592.0&gt;--&lt;480.0,572.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment B&lt;&lt;30.0,21.0&gt;-&lt;38.0,18.0&gt;-&lt;45.0,16.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment B&lt;&lt;45.0,16.0&gt;-&lt;52.0,14.0&gt;-&lt;61.0,14.0&gt;&gt; and 48 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;48.0,127.0&gt;-&lt;56.0,124.0&gt;-&lt;65.0,121.5&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;410.0,0.0&gt;--&lt;410.0,16.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;49.0,431.0&gt;-&lt;40.0,429.0&gt;-&lt;32.0,426.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;288.0,426.0&gt;-&lt;280.0,429.0&gt;-&lt;270.5,431.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;270.5,431.0&gt;-&lt;261.0,433.0&gt;-&lt;252.0,433.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;408.0,505.0&gt;--&lt;422.0,505.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;651.0,593.0&gt;--&lt;651.0,584.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;288.0,426.0&gt;-&lt;280.0,429.0&gt;-&lt;270.5,431.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;270.5,431.0&gt;-&lt;261.0,433.0&gt;-&lt;252.0,433.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment B&lt;&lt;40.0,126.0&gt;-&lt;48.0,123.0&gt;-&lt;57.0,120.5&gt;&gt; and 39 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* toTa-lao (U+0E95) contains a short segment B&lt;&lt;214.0,56.5&gt;-&lt;223.0,59.0&gt;-&lt;230.0,62.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;178.0,54.0&gt;-&lt;185.0,54.0&gt;-&lt;190.5,56.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;190.5,56.0&gt;-&lt;196.0,58.0&gt;-&lt;202.0,61.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;50.0,493.0&gt;-&lt;43.0,493.0&gt;-&lt;36.5,491.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;36.5,491.0&gt;-&lt;30.0,489.0&gt;-&lt;24.0,487.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;187.0,486.0&gt;-&lt;181.0,489.0&gt;-&lt;173.5,491.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;173.5,491.5&gt;-&lt;166.0,494.0&gt;-&lt;158.0,494.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;308.0,488.0&gt;--&lt;319.0,488.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;448.0,588.0&gt;--&lt;448.0,577.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;187.0,486.0&gt;-&lt;181.0,489.0&gt;-&lt;173.5,491.5&gt;&gt; and 28 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;58.0,121.0&gt;-&lt;64.0,118.0&gt;-&lt;71.0,116.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;71.0,116.0&gt;-&lt;78.0,114.0&gt;-&lt;85.0,114.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;329.0,0.0&gt;--&lt;329.0,16.0&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;200.0,370.5&gt;-&lt;203.0,362.0&gt;-&lt;208.0,354.0&gt;&gt;
+* doDek-lao (U+0E94) contains a short segment B&lt;&lt;242.0,113.0&gt;-&lt;247.0,113.0&gt;-&lt;256.0,114.5&gt;&gt;
+* toTa-lao (U+0E95) contains a short segment B&lt;&lt;240.0,113.0&gt;-&lt;247.0,113.0&gt;-&lt;256.0,114.5&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;69.0,439.0&gt;-&lt;61.0,439.0&gt;-&lt;54.0,436.5&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;54.0,436.5&gt;-&lt;47.0,434.0&gt;-&lt;41.0,431.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;259.0,431.0&gt;-&lt;254.0,434.0&gt;-&lt;246.5,436.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;246.5,436.5&gt;-&lt;239.0,439.0&gt;-&lt;232.0,439.0&gt;&gt; and 44 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* khoKhuay-lao (U+0E84) contains a short segment B&lt;&lt;204.0,92.0&gt;-&lt;212.0,92.0&gt;-&lt;220.5,94.5&gt;&gt;
+* doDek-lao (U+0E94) contains a short segment B&lt;&lt;224.0,90.0&gt;-&lt;230.0,90.0&gt;-&lt;239.0,92.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;62.0,460.0&gt;-&lt;54.0,460.0&gt;-&lt;47.0,458.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;47.0,458.0&gt;-&lt;40.0,456.0&gt;-&lt;34.0,453.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;231.0,452.0&gt;-&lt;225.0,455.0&gt;-&lt;217.5,457.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;217.5,457.5&gt;-&lt;210.0,460.0&gt;-&lt;203.0,460.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;324.0,498.0&gt;--&lt;335.0,498.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;513.0,591.0&gt;--&lt;513.0,581.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;231.0,452.0&gt;-&lt;225.0,455.0&gt;-&lt;217.5,457.5&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;217.5,457.5&gt;-&lt;210.0,460.0&gt;-&lt;203.0,460.0&gt;&gt; and 35 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;323.0,0.0&gt;--&lt;323.0,17.0&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;184.0,370.0&gt;-&lt;187.0,361.0&gt;-&lt;192.0,353.0&gt;&gt;
+* doDek-lao (U+0E94) contains a short segment B&lt;&lt;232.0,101.0&gt;-&lt;238.0,101.0&gt;-&lt;247.0,102.5&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;65.0,450.0&gt;-&lt;57.0,450.0&gt;-&lt;50.0,448.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;50.0,448.0&gt;-&lt;43.0,446.0&gt;-&lt;37.0,443.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;244.0,443.0&gt;-&lt;238.0,446.0&gt;-&lt;230.5,448.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;230.5,448.5&gt;-&lt;223.0,451.0&gt;-&lt;216.0,451.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;329.0,501.0&gt;--&lt;340.0,501.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;532.0,592.0&gt;--&lt;532.0,583.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;244.0,443.0&gt;-&lt;238.0,446.0&gt;-&lt;230.5,448.5&gt;&gt; and 38 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;42.0,31.0&gt;-&lt;48.0,28.0&gt;-&lt;54.0,26.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;54.0,26.0&gt;-&lt;60.0,24.0&gt;-&lt;67.0,24.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;320.0,0.0&gt;--&lt;320.0,10.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;149.0,23.0&gt;-&lt;156.0,23.0&gt;-&lt;162.0,25.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;162.0,25.0&gt;-&lt;168.0,27.0&gt;-&lt;174.0,30.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;44.0,519.5&gt;-&lt;36.0,516.0&gt;-&lt;29.0,512.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;333.0,469.0&gt;--&lt;348.0,469.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;432.0,591.0&gt;--&lt;432.0,573.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment B&lt;&lt;24.0,30.0&gt;-&lt;31.0,27.0&gt;-&lt;37.5,25.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment B&lt;&lt;37.5,25.0&gt;-&lt;44.0,23.0&gt;-&lt;52.0,23.0&gt;&gt; and 33 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;313.0,0.0&gt;--&lt;313.0,14.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;160.0,35.0&gt;-&lt;167.0,35.0&gt;-&lt;172.5,37.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;172.5,37.0&gt;-&lt;178.0,39.0&gt;-&lt;185.0,42.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;57.0,512.0&gt;-&lt;49.0,512.0&gt;-&lt;41.5,509.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;41.5,509.0&gt;-&lt;34.0,506.0&gt;-&lt;27.0,503.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;180.0,502.0&gt;-&lt;172.0,507.0&gt;-&lt;163.0,510.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;163.0,510.0&gt;-&lt;154.0,513.0&gt;-&lt;144.0,513.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;324.0,476.0&gt;--&lt;337.0,476.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;438.0,590.0&gt;--&lt;438.0,575.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;180.0,502.0&gt;-&lt;172.0,507.0&gt;-&lt;163.0,510.0&gt;&gt; and 28 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* toTa-lao (U+0E95) contains a short segment B&lt;&lt;204.0,65.0&gt;-&lt;213.0,65.0&gt;-&lt;221.5,67.0&gt;&gt;
+* toTa-lao (U+0E95) contains a short segment B&lt;&lt;221.5,67.0&gt;-&lt;230.0,69.0&gt;-&lt;238.0,72.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;192.0,65.0&gt;-&lt;199.0,65.0&gt;-&lt;204.5,66.5&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;204.5,66.5&gt;-&lt;210.0,68.0&gt;-&lt;216.0,71.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;53.0,483.0&gt;-&lt;46.0,483.0&gt;-&lt;39.5,481.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;39.5,481.0&gt;-&lt;33.0,479.0&gt;-&lt;27.0,477.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;200.0,476.0&gt;-&lt;194.0,479.0&gt;-&lt;186.5,481.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;186.5,481.5&gt;-&lt;179.0,484.0&gt;-&lt;171.0,484.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;313.0,491.0&gt;--&lt;324.0,491.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;467.0,589.0&gt;--&lt;467.0,578.0&gt;&gt; and 27 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* nyoNyung-lao (U+0E8D) contains a short segment B&lt;&lt;225.0,462.0&gt;-&lt;219.0,466.0&gt;-&lt;209.5,468.5&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;57.0,472.0&gt;-&lt;50.0,472.0&gt;-&lt;43.0,470.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;43.0,470.0&gt;-&lt;36.0,468.0&gt;-&lt;30.0,466.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;214.0,465.0&gt;-&lt;209.0,468.0&gt;-&lt;201.0,470.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;201.0,470.5&gt;-&lt;193.0,473.0&gt;-&lt;186.0,473.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;318.0,494.0&gt;--&lt;329.0,494.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;488.0,590.0&gt;--&lt;488.0,580.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;214.0,465.0&gt;-&lt;209.0,468.0&gt;-&lt;201.0,470.5&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;201.0,470.5&gt;-&lt;193.0,473.0&gt;-&lt;186.0,473.0&gt;&gt;
+* yoYa-lao (U+0EA2) contains a short segment B&lt;&lt;224.0,461.0&gt;-&lt;217.0,464.0&gt;-&lt;206.5,467.5&gt;&gt; and 24 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;44.0,22.0&gt;-&lt;51.0,19.0&gt;-&lt;57.0,17.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;57.0,17.0&gt;-&lt;63.0,15.0&gt;-&lt;70.0,15.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;325.0,0.0&gt;--&lt;325.0,7.0&gt;&gt;
+* toTa-lao (U+0E95) contains a short segment B&lt;&lt;210.0,17.5&gt;-&lt;220.0,20.0&gt;-&lt;227.0,23.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;141.0,15.0&gt;-&lt;149.0,15.0&gt;-&lt;154.5,17.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;154.5,17.0&gt;-&lt;160.0,19.0&gt;-&lt;167.0,22.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;339.0,442.0&gt;--&lt;339.0,464.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;339.0,464.0&gt;--&lt;355.0,464.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;428.0,592.0&gt;--&lt;428.0,572.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment B&lt;&lt;25.0,21.0&gt;-&lt;32.0,18.0&gt;-&lt;38.5,16.0&gt;&gt; and 49 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;458.0,0.0&gt;--&lt;458.0,10.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;201.0,24.0&gt;-&lt;211.0,24.0&gt;-&lt;220.0,26.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;220.0,26.0&gt;-&lt;229.0,28.0&gt;-&lt;238.0,31.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;484.0,469.0&gt;--&lt;506.0,469.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;611.0,591.0&gt;--&lt;611.0,573.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment L&lt;&lt;165.0,95.0&gt;--&lt;165.0,86.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment L&lt;&lt;539.0,558.0&gt;--&lt;539.0,545.0&gt;&gt;
+* hoHeuan-lao (U+0EAE) contains a short segment L&lt;&lt;488.0,548.0&gt;--&lt;488.0,536.0&gt;&gt;
+* ellipsis-lao (U+0EAF) contains a short segment L&lt;&lt;393.0,443.0&gt;--&lt;390.0,443.0&gt;&gt;
+* ellipsis-lao (U+0EAF) contains a short segment L&lt;&lt;116.0,548.0&gt;--&lt;116.0,536.0&gt;&gt; and 26 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;52.0,46.0&gt;-&lt;61.0,43.0&gt;-&lt;69.5,41.5&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;457.0,0.0&gt;--&lt;457.0,15.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;214.0,38.0&gt;-&lt;223.0,38.0&gt;-&lt;232.0,39.5&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;232.0,39.5&gt;-&lt;241.0,41.0&gt;-&lt;250.0,44.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;483.0,478.0&gt;--&lt;502.0,478.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;623.0,590.0&gt;--&lt;623.0,575.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment L&lt;&lt;172.0,78.0&gt;--&lt;172.0,77.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment L&lt;&lt;548.0,561.0&gt;--&lt;548.0,550.0&gt;&gt;
+* hoHeuan-lao (U+0EAE) contains a short segment L&lt;&lt;508.0,548.0&gt;--&lt;508.0,531.0&gt;&gt;
+* ellipsis-lao (U+0EAF) contains a short segment L&lt;&lt;399.0,428.0&gt;--&lt;395.0,428.0&gt;&gt; and 26 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;173.5,367.0&gt;-&lt;178.0,357.0&gt;-&lt;185.0,348.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;50.0,474.0&gt;-&lt;41.0,472.0&gt;-&lt;33.0,469.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;252.0,469.0&gt;-&lt;243.0,472.0&gt;-&lt;233.5,474.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;233.5,474.0&gt;-&lt;224.0,476.0&gt;-&lt;216.0,476.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;464.0,494.0&gt;--&lt;478.0,494.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;646.0,588.0&gt;--&lt;646.0,579.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;252.0,469.0&gt;-&lt;243.0,472.0&gt;-&lt;233.5,474.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;233.5,474.0&gt;-&lt;224.0,476.0&gt;-&lt;216.0,476.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment L&lt;&lt;572.0,566.0&gt;--&lt;572.0,558.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment B&lt;&lt;203.0,68.0&gt;-&lt;212.0,68.0&gt;-&lt;219.0,69.5&gt;&gt; and 26 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;162.0,366.0&gt;-&lt;167.0,356.0&gt;-&lt;174.0,347.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;50.0,486.0&gt;-&lt;41.0,484.0&gt;-&lt;33.0,482.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;241.0,482.0&gt;-&lt;232.0,484.0&gt;-&lt;222.5,486.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;222.5,486.0&gt;-&lt;213.0,488.0&gt;-&lt;205.0,488.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;480.0,491.0&gt;--&lt;494.0,491.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;644.0,587.0&gt;--&lt;644.0,578.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;241.0,482.0&gt;-&lt;232.0,484.0&gt;-&lt;222.5,486.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;222.5,486.0&gt;-&lt;213.0,488.0&gt;-&lt;205.0,488.0&gt;&gt;
+* woWi-lao (U+0EA7) contains a short segment B&lt;&lt;133.0,190.0&gt;-&lt;130.0,183.0&gt;-&lt;128.0,175.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment L&lt;&lt;562.0,565.0&gt;--&lt;562.0,558.0&gt;&gt; and 28 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;433.0,0.0&gt;--&lt;433.0,19.0&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;185.5,367.5&gt;-&lt;190.0,358.0&gt;-&lt;197.0,350.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;49.5,460.0&gt;-&lt;41.0,458.0&gt;-&lt;33.0,455.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;263.0,455.0&gt;-&lt;255.0,458.0&gt;-&lt;245.5,460.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;245.5,460.0&gt;-&lt;236.0,462.0&gt;-&lt;228.0,462.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;445.0,498.0&gt;--&lt;459.0,498.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;647.0,590.0&gt;--&lt;647.0,581.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;263.0,455.0&gt;-&lt;255.0,458.0&gt;-&lt;245.5,460.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;245.5,460.0&gt;-&lt;236.0,462.0&gt;-&lt;228.0,462.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment L&lt;&lt;583.0,567.0&gt;--&lt;583.0,558.0&gt;&gt; and 26 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;61.0,490.0&gt;-&lt;53.0,490.0&gt;-&lt;45.0,488.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;45.0,488.0&gt;-&lt;37.0,486.0&gt;-&lt;30.0,484.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;221.0,483.0&gt;-&lt;213.0,486.0&gt;-&lt;204.5,488.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;204.5,488.0&gt;-&lt;196.0,490.0&gt;-&lt;188.0,490.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;417.0,490.0&gt;--&lt;430.0,490.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;572.0,587.0&gt;--&lt;572.0,578.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;221.0,483.0&gt;-&lt;213.0,486.0&gt;-&lt;204.5,488.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;204.5,488.0&gt;-&lt;196.0,490.0&gt;-&lt;188.0,490.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment L&lt;&lt;505.0,565.0&gt;--&lt;505.0,557.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment B&lt;&lt;181.0,53.0&gt;-&lt;188.0,53.0&gt;-&lt;195.0,54.5&gt;&gt; and 25 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;54.0,134.0&gt;-&lt;61.0,131.0&gt;-&lt;69.0,129.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;69.0,129.0&gt;-&lt;77.0,127.0&gt;-&lt;86.0,127.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;373.0,0.0&gt;--&lt;373.0,15.0&gt;&gt;
+* coCok-lao (U+0E88) contains a short segment B&lt;&lt;97.0,201.0&gt;-&lt;91.0,201.0&gt;-&lt;82.0,199.5&gt;&gt;
+* thoThung-lao (U+0E97) contains a short segment B&lt;&lt;226.0,135.0&gt;-&lt;233.0,127.0&gt;-&lt;242.0,127.0&gt;&gt;
+* thoThung-lao (U+0E97) contains a short segment B&lt;&lt;242.0,127.0&gt;-&lt;251.0,127.0&gt;-&lt;258.0,135.0&gt;&gt;
+* thoThung-lao (U+0E97) contains a short segment B&lt;&lt;460.0,417.5&gt;-&lt;453.0,426.0&gt;-&lt;443.0,426.0&gt;&gt;
+* thoThung-lao (U+0E97) contains a short segment B&lt;&lt;443.0,426.0&gt;-&lt;434.0,426.0&gt;-&lt;427.0,417.5&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;50.5,423.5&gt;-&lt;42.0,421.0&gt;-&lt;35.0,418.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;285.0,418.0&gt;-&lt;278.0,421.0&gt;-&lt;269.5,423.5&gt;&gt; and 57 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;46.0,108.0&gt;-&lt;53.0,105.0&gt;-&lt;61.0,103.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;61.0,103.0&gt;-&lt;69.0,101.0&gt;-&lt;77.0,101.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;383.0,0.0&gt;--&lt;383.0,17.0&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;189.5,369.0&gt;-&lt;193.0,360.0&gt;-&lt;199.0,352.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;65.0,451.0&gt;-&lt;56.0,451.0&gt;-&lt;48.0,449.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;48.0,449.0&gt;-&lt;40.0,447.0&gt;-&lt;33.0,444.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;260.0,444.0&gt;-&lt;253.0,447.0&gt;-&lt;244.5,449.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;244.5,449.0&gt;-&lt;236.0,451.0&gt;-&lt;227.0,451.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;388.0,500.0&gt;--&lt;401.0,500.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;599.0,592.0&gt;--&lt;599.0,582.0&gt;&gt; and 30 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;50.0,120.0&gt;-&lt;57.0,117.0&gt;-&lt;65.0,115.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;65.0,115.0&gt;-&lt;73.0,113.0&gt;-&lt;81.0,113.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;378.0,0.0&gt;--&lt;378.0,16.0&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;198.0,389.0&gt;-&lt;198.0,378.0&gt;-&lt;201.5,369.5&gt;&gt;
+* soSang-lao (U+0E8A) contains a short segment B&lt;&lt;201.5,369.5&gt;-&lt;205.0,361.0&gt;-&lt;211.0,353.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;66.0,440.0&gt;-&lt;57.0,440.0&gt;-&lt;49.0,437.5&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;49.0,437.5&gt;-&lt;41.0,435.0&gt;-&lt;34.0,432.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;272.0,432.0&gt;-&lt;265.0,435.0&gt;-&lt;256.0,437.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;256.0,437.5&gt;-&lt;247.0,440.0&gt;-&lt;239.0,440.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;379.0,504.0&gt;--&lt;392.0,504.0&gt;&gt; and 39 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;55.0,31.0&gt;-&lt;63.0,28.0&gt;-&lt;71.0,26.5&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;71.0,26.5&gt;-&lt;79.0,25.0&gt;-&lt;88.0,25.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;408.0,0.0&gt;--&lt;408.0,10.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;182.0,24.0&gt;-&lt;191.0,24.0&gt;-&lt;198.5,26.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;198.5,26.0&gt;-&lt;206.0,28.0&gt;-&lt;215.0,31.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;429.0,469.0&gt;--&lt;448.0,469.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;545.0,591.0&gt;--&lt;545.0,573.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment B&lt;&lt;35.0,30.0&gt;-&lt;43.0,27.0&gt;-&lt;51.0,25.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment B&lt;&lt;51.0,25.0&gt;-&lt;59.0,23.0&gt;-&lt;68.0,23.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment L&lt;&lt;150.0,95.0&gt;--&lt;150.0,86.0&gt;&gt; and 32 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;47.0,45.0&gt;-&lt;55.0,42.0&gt;-&lt;62.5,40.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;62.5,40.0&gt;-&lt;70.0,38.0&gt;-&lt;79.0,38.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;404.0,0.0&gt;--&lt;404.0,14.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;194.0,36.0&gt;-&lt;202.0,36.0&gt;-&lt;210.0,38.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;210.0,38.0&gt;-&lt;218.0,40.0&gt;-&lt;226.0,43.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;424.0,477.0&gt;--&lt;441.0,477.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;555.0,590.0&gt;--&lt;555.0,575.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;221.0,499.0&gt;-&lt;211.0,504.0&gt;-&lt;199.0,508.0&gt;&gt;
+* moMa-lao (U+0EA1) contains a short segment L&lt;&lt;158.0,78.0&gt;--&lt;158.0,77.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment L&lt;&lt;490.0,560.0&gt;--&lt;490.0,550.0&gt;&gt; and 26 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;63.0,478.0&gt;-&lt;54.0,478.0&gt;-&lt;46.0,476.0&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;46.0,476.0&gt;-&lt;38.0,474.0&gt;-&lt;31.0,472.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;233.0,472.0&gt;-&lt;225.0,474.0&gt;-&lt;216.5,476.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;216.5,476.5&gt;-&lt;208.0,479.0&gt;-&lt;199.0,479.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;408.0,493.0&gt;--&lt;421.0,493.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;580.0,589.0&gt;--&lt;580.0,579.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;233.0,472.0&gt;-&lt;225.0,474.0&gt;-&lt;216.5,476.5&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;216.5,476.5&gt;-&lt;208.0,479.0&gt;-&lt;199.0,479.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment L&lt;&lt;518.0,566.0&gt;--&lt;518.0,557.0&gt;&gt;
+* oO-lao (U+0EAD) contains a short segment B&lt;&lt;403.0,272.0&gt;-&lt;403.0,277.0&gt;-&lt;403.0,281.0&gt;&gt; and 22 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;64.0,466.0&gt;-&lt;55.0,466.0&gt;-&lt;47.0,463.5&gt;&gt;
+* noNok-lao (U+0E99) contains a short segment B&lt;&lt;47.0,463.5&gt;-&lt;39.0,461.0&gt;-&lt;32.0,459.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;245.0,459.0&gt;-&lt;238.0,461.0&gt;-&lt;229.5,463.5&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment B&lt;&lt;229.5,463.5&gt;-&lt;221.0,466.0&gt;-&lt;213.0,466.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;399.0,496.0&gt;--&lt;412.0,496.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;589.0,590.0&gt;--&lt;589.0,581.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;245.0,459.0&gt;-&lt;238.0,461.0&gt;-&lt;229.5,463.5&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment B&lt;&lt;229.5,463.5&gt;-&lt;221.0,466.0&gt;-&lt;213.0,466.0&gt;&gt;
+* soSeua-lao (U+0EAA) contains a short segment L&lt;&lt;533.0,567.0&gt;--&lt;533.0,558.0&gt;&gt;
+* ellipsis-lao (U+0EAF) contains a short segment L&lt;&lt;340.0,378.0&gt;--&lt;336.0,378.0&gt;&gt; and 20 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;60.0,22.0&gt;-&lt;69.0,19.0&gt;-&lt;76.5,17.0&gt;&gt;
+* koKai-lao (U+0E81) contains a short segment B&lt;&lt;76.5,17.0&gt;-&lt;84.0,15.0&gt;-&lt;94.0,15.0&gt;&gt;
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;410.0,0.0&gt;--&lt;410.0,7.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;173.0,15.0&gt;-&lt;183.0,15.0&gt;-&lt;190.5,17.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;190.5,17.0&gt;-&lt;198.0,19.0&gt;-&lt;207.0,22.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;431.0,442.0&gt;--&lt;431.0,464.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;431.0,464.0&gt;--&lt;453.0,464.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;538.0,592.0&gt;--&lt;538.0,572.0&gt;&gt;
+* foFai-lao (U+0E9F) contains a short segment L&lt;&lt;76.0,548.0&gt;--&lt;102.0,548.0&gt;&gt;
+* foFai-lao (U+0E9F) contains a short segment L&lt;&lt;297.0,548.0&gt;--&lt;323.0,548.0&gt;&gt; and 44 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* khoKhai-lao (U+0E82) contains a short segment L&lt;&lt;459.0,0.0&gt;--&lt;459.0,7.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;192.0,15.0&gt;-&lt;203.0,15.0&gt;-&lt;211.5,17.0&gt;&gt;
+* thoThong-lao (U+0E96) contains a short segment B&lt;&lt;211.5,17.0&gt;-&lt;220.0,19.0&gt;-&lt;230.0,22.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;330.0,307.0&gt;--&lt;354.0,307.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;485.0,442.0&gt;--&lt;485.0,464.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;485.0,464.0&gt;--&lt;509.0,464.0&gt;&gt;
+* phoPhueng-lao (U+0E9C) contains a short segment L&lt;&lt;602.0,592.0&gt;--&lt;602.0,572.0&gt;&gt;
+* foFon-lao (U+0E9D) contains a short segment L&lt;&lt;330.0,307.0&gt;--&lt;354.0,307.0&gt;&gt;
+* foFai-lao (U+0E9F) contains a short segment L&lt;&lt;85.0,548.0&gt;--&lt;111.0,548.0&gt;&gt;
+* foFai-lao (U+0E9F) contains a short segment L&lt;&lt;334.0,548.0&gt;--&lt;360.0,548.0&gt;&gt; and 44 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* khmuNyo-lao (U+0EDF): B&lt;&lt;233.5,252.5&gt;-&lt;216.0,269.0&gt;-&lt;210.0,294.0&gt;&gt;/L&lt;&lt;210.0,294.0&gt;--&lt;210.0,260.0&gt;&gt; = 13.495733280795811 [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Lao/unhinted/ttf/NotoSansLao-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>soSeua-lao (U+0EAA): L&lt;&lt;485.0,87.0&gt;--&lt;484.0,347.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+                    </body>
+                </html>

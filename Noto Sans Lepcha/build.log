@@ -1,0 +1,12 @@
+Creating variable fonts from src/NotoSansLepcha.glyphs
+Postprocessing font output/Noto Sans Lepcha/unhinted/variable-ttf/NotoSansLepcha[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansLepcha.glyphs
+Created static font output/Noto Sans Lepcha/unhinted/otf/NotoSansLepcha-Regular.otf
+Postprocessing font output/Noto Sans Lepcha/unhinted/otf/NotoSansLepcha-Regular.otf
+Creating static fonts from src/NotoSansLepcha.glyphs
+Created static font output/Noto Sans Lepcha/unhinted/ttf/NotoSansLepcha-Regular.ttf
+Postprocessing font output/Noto Sans Lepcha/unhinted/ttf/NotoSansLepcha-Regular.ttf
+Couldn't autohint output/Noto Sans Lepcha/unhinted/ttf/NotoSansLepcha-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo'}

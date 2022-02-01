@@ -1,0 +1,27 @@
+Creating variable fonts from src/NotoSansGunjalaGondi.glyphs
+Postprocessing font output/Noto Sans Gunjala Gondi/unhinted/variable-ttf/NotoSansGunjalaGondi[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansGunjalaGondi.glyphs
+Created static font output/Noto Sans Gunjala Gondi/unhinted/otf/NotoSansGunjalaGondi-Regular.otf
+Postprocessing font output/Noto Sans Gunjala Gondi/unhinted/otf/NotoSansGunjalaGondi-Regular.otf
+Created static font output/Noto Sans Gunjala Gondi/unhinted/otf/NotoSansGunjalaGondi-Bold.otf
+Postprocessing font output/Noto Sans Gunjala Gondi/unhinted/otf/NotoSansGunjalaGondi-Bold.otf
+Created static font output/Noto Sans Gunjala Gondi/unhinted/otf/NotoSansGunjalaGondi-Medium.otf
+Postprocessing font output/Noto Sans Gunjala Gondi/unhinted/otf/NotoSansGunjalaGondi-Medium.otf
+Created static font output/Noto Sans Gunjala Gondi/unhinted/otf/NotoSansGunjalaGondi-Semibold.otf
+Postprocessing font output/Noto Sans Gunjala Gondi/unhinted/otf/NotoSansGunjalaGondi-Semibold.otf
+Creating static fonts from src/NotoSansGunjalaGondi.glyphs
+Created static font output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Medium.ttf
+Postprocessing font output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Medium.ttf
+Couldn't autohint output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Medium.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Bold.ttf
+Postprocessing font output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Bold.ttf
+Couldn't autohint output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Bold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Semibold.ttf
+Postprocessing font output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Semibold.ttf
+Couldn't autohint output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Semibold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Regular.ttf
+Postprocessing font output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Regular.ttf
+Couldn't autohint output/Noto Sans Gunjala Gondi/unhinted/ttf/NotoSansGunjalaGondi-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>66</td>
+                <td>81</td>
+                <td>757</td>
+                <td>80</td>
+                <td>1653</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>5%</td>
+                <td>6%</td>
+                <td>60%</td>
+                <td>6%</td>
+                <td>131%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1101, but got 1068 instead [code: ascent]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.os2&gt; 🔥</h2>
+<h3>Fonts have consistent PANOSE proportion?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_proportion&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.name&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Does full font name begin with the font family name?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/match_familyname_fullfont&gt;</div>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian Cond Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian Condensed Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian Cond ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian Condensed ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian Cond ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian Condensed ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian Cond Light') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian Condensed Light') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian Cond Med') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian Condensed Medium') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian Cond SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian Condensed SemiBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian Cond Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian Condensed Thin') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian ExtCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian ExtraCondensed') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian ExtCond Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian ExtraCondensed Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian ExtCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian ExtraCondensed Bold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian ExtCond ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian ExtraCondensed ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian ExtCond ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian ExtraCondensed ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian ExtCond Light') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian ExtraCondensed Light') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian ExtCond Med') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian ExtraCondensed Medium') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian ExtCond SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian ExtraCondensed SemiBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian ExtCond Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian ExtraCondensed Thin') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian SemiBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian SemCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian SemiCondensed') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian SemCond Blk') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian SemiCondensed Black') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian SemCond') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian SemiCondensed Bold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian SemCond ExtBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian SemiCondensed ExtraBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian SemCond ExtLt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian SemiCondensed ExtraLight') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian SemCond Light') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian SemiCondensed Light') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian SemCond Med') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian SemiCondensed Medium') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian SemCond SemBd') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian SemiCondensed SemiBold') [code: does-not]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Noto Sans Georgian SemCond Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Noto Sans Georgian SemiCondensed Thin') [code: does-not]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0302 (U+0302): X=135.5,Y=715.5 (should be at cap-height 714?)
+* uni0302 (U+0302): X=-132.5,Y=716.0 (should be at cap-height 714?)
+* uni10A0 (U+10A0): X=501.5,Y=-0.5 (should be at baseline 0?)
+* uni10B3 (U+10B3): X=507.0,Y=2.0 (should be at baseline 0?)
+* uni10C2 (U+10C2): X=143.0,Y=-1.0 (should be at baseline 0?)
+* uni10ED (U+10ED): X=261.0,Y=1.0 (should be at baseline 0?)
+* uni10F4 (U+10F4): X=516.0,Y=715.0 (should be at cap-height 714?)
+* uni10FC (U+10FC): X=30.0,Y=716.0 (should be at cap-height 714?)
+* uni10FC (U+10FC): X=238.0,Y=715.0 (should be at cap-height 714?)
+* uni10FD (U+10FD): X=114.0,Y=715.0 (should be at cap-height 714?) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10A0 (U+10A0): X=503.0,Y=-1.5 (should be at baseline 0?)
+* uni10C2 (U+10C2): X=141.5,Y=-1.5 (should be at baseline 0?)
+* uni10D9 (U+10D9): X=394.0,Y=2.0 (should be at baseline 0?)
+* uni10E9 (U+10E9): X=120.0,Y=713.5 (should be at cap-height 714?)
+* uni10ED (U+10ED): X=579.0,Y=1.0 (should be at baseline 0?)
+* uni10F3 (U+10F3): X=561.0,Y=-2.0 (should be at baseline 0?)
+* uni10FC (U+10FC): X=173.0,Y=714.5 (should be at cap-height 714?)
+* uni1C97 (U+1C97): X=619.5,Y=715.0 (should be at cap-height 714?)
+* uni1C9D (U+1C9D): X=357.0,Y=715.0 (should be at cap-height 714?)
+* uni1CB4 (U+1CB4): X=426.0,Y=713.0 (should be at cap-height 714?)
+* uni2D0B (U+2D0B): X=505.0,Y=714.5 (should be at cap-height 714?) and uni2D0C (U+2D0C): X=125.0,Y=714.5 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10DE (U+10DE): X=278.5,Y=714.5 (should be at cap-height 714?)
+* uni10DF (U+10DF): X=84.0,Y=1.0 (should be at baseline 0?)
+* uni10E7 (U+10E7): X=53.5,Y=1.0 (should be at baseline 0?)
+* uni10EF (U+10EF): X=46.0,Y=1.0 (should be at baseline 0?)
+* uni10F8 (U+10F8): X=439.0,Y=1.0 (should be at baseline 0?)
+* uni1C97 (U+1C97): X=517.5,Y=715.0 (should be at cap-height 714?)
+* uni1CB4 (U+1CB4): X=337.0,Y=715.0 (should be at cap-height 714?) and uni2D25 (U+2D25): X=378.5,Y=713.5 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10BA (U+10BA): X=478.0,Y=712.0 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=128.5,Y=-1.0 (should be at baseline 0?)
+* uni10DA (U+10DA): X=443.0,Y=1.0 (should be at baseline 0?)
+* uni10E3 (U+10E3): X=358.0,Y=1.0 (should be at baseline 0?)
+* uni10E9 (U+10E9): X=107.0,Y=715.5 (should be at cap-height 714?)
+* uni10EA (U+10EA): X=596.0,Y=2.0 (should be at baseline 0?)
+* uni10ED (U+10ED): X=233.0,Y=1.0 (should be at baseline 0?)
+* uni10F3 (U+10F3): X=507.0,Y=-2.0 (should be at baseline 0?)
+* uni10F7 (U+10F7): X=330.0,Y=-1.0 (should be at baseline 0?)
+* uni10FC (U+10FC): X=143.0,Y=716.0 (should be at cap-height 714?) and 8 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10BA (U+10BA): X=454.5,Y=713.0 (should be at cap-height 714?)
+* uni10BA (U+10BA): X=367.5,Y=0.5 (should be at baseline 0?)
+* uni10C0 (U+10C0): X=61.0,Y=715.0 (should be at cap-height 714?)
+* uni10C0 (U+10C0): X=471.0,Y=715.0 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=124.5,Y=-1.5 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=329.0,Y=1.0 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=464.0,Y=-1.0 (should be at baseline 0?)
+* uni10D9 (U+10D9): X=325.0,Y=-2.0 (should be at baseline 0?)
+* uni10DE (U+10DE): X=328.5,Y=716.0 (should be at cap-height 714?)
+* uni10E5 (U+10E5): X=329.0,Y=-1.0 (should be at baseline 0?) and 3 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10A0 (U+10A0): X=419.5,Y=-1.0 (should be at baseline 0?)
+* uni10BA (U+10BA): X=465.0,Y=712.5 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=126.5,Y=-1.0 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=477.0,Y=1.0 (should be at baseline 0?)
+* uni10D9 (U+10D9): X=322.0,Y=2.0 (should be at baseline 0?)
+* uni10DB (U+10DB): X=437.0,Y=715.5 (should be at cap-height 714?)
+* uni10DF (U+10DF): X=522.0,Y=-1.0 (should be at baseline 0?)
+* uni10E5 (U+10E5): X=477.0,Y=-1.0 (should be at baseline 0?)
+* uni10E7 (U+10E7): X=491.0,Y=-1.0 (should be at baseline 0?)
+* uni10EA (U+10EA): X=576.0,Y=-1.0 (should be at baseline 0?) and 7 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10BA (U+10BA): X=381.0,Y=714.5 (should be at cap-height 714?)
+* uni10DB (U+10DB): X=151.5,Y=713.0 (should be at cap-height 714?)
+* uni10E8 (U+10E8): X=343.0,Y=713.5 (should be at cap-height 714?)
+* uni10E8 (U+10E8): X=230.5,Y=716.0 (should be at cap-height 714?)
+* uni10EC (U+10EC): X=243.0,Y=716.0 (should be at cap-height 714?)
+* uni10EC (U+10EC): X=130.5,Y=713.5 (should be at cap-height 714?)
+* uni10F6 (U+10F6): X=391.5,Y=715.0 (should be at cap-height 714?)
+* uni1C97 (U+1C97): X=493.0,Y=712.0 (should be at cap-height 714?)
+* uni1C9D (U+1C9D): X=272.5,Y=713.5 (should be at cap-height 714?)
+* uni1C9D (U+1C9D): X=426.5,Y=713.0 (should be at cap-height 714?) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0302 (U+0302): X=57.0,Y=713.5 (should be at cap-height 714?)
+* uni0302 (U+0302): X=0.0,Y=716.0 (should be at cap-height 714?)
+* uni0302 (U+0302): X=-56.0,Y=715.5 (should be at cap-height 714?)
+* uni10BA (U+10BA): X=394.0,Y=714.5 (should be at cap-height 714?)
+* uni10DC (U+10DC): X=397.0,Y=713.0 (should be at cap-height 714?)
+* uni10DC (U+10DC): X=240.0,Y=713.0 (should be at cap-height 714?)
+* uni10E0 (U+10E0): X=205.0,Y=713.0 (should be at cap-height 714?)
+* uni10E8 (U+10E8): X=398.0,Y=713.5 (should be at cap-height 714?)
+* uni10EC (U+10EC): X=86.0,Y=713.5 (should be at cap-height 714?)
+* uni10F4 (U+10F4): X=280.5,Y=715.5 (should be at cap-height 714?) and 17 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10BA (U+10BA): X=426.5,Y=713.5 (should be at cap-height 714?)
+* uni10BA (U+10BA): X=370.0,Y=2.0 (should be at baseline 0?)
+* uni10C2 (U+10C2): X=117.0,Y=-2.0 (should be at baseline 0?)
+* uni10D3 (U+10D3): X=490.0,Y=2.0 (should be at baseline 0?)
+* uni10DE (U+10DE): X=293.5,Y=715.0 (should be at cap-height 714?)
+* uni1C97 (U+1C97): X=525.0,Y=715.0 (should be at cap-height 714?)
+* uni1CB4 (U+1CB4): X=349.0,Y=714.5 (should be at cap-height 714?)
+* uni2D02 (U+2D02): X=421.5,Y=-1.5 (should be at baseline 0?)
+* uni2D1D (U+2D1D): X=245.0,Y=2.0 (should be at baseline 0?)
+* uni2D1D (U+2D1D): X=69.0,Y=2.0 (should be at baseline 0?) and uni2D25 (U+2D25): X=377.5,Y=714.5 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0308 (U+0308): X=-130.0,Y=713.0 (should be at cap-height 714?)
+* uni0308 (U+0308): X=-50.0,Y=713.0 (should be at cap-height 714?)
+* uni0308 (U+0308): X=50.0,Y=713.0 (should be at cap-height 714?)
+* uni0308 (U+0308): X=131.0,Y=713.0 (should be at cap-height 714?)
+* uni10BA (U+10BA): X=439.5,Y=713.0 (should be at cap-height 714?)
+* uni10BA (U+10BA): X=368.5,Y=1.0 (should be at baseline 0?)
+* uni10C2 (U+10C2): X=121.0,Y=-2.0 (should be at baseline 0?)
+* uni10DE (U+10DE): X=309.5,Y=715.0 (should be at cap-height 714?)
+* uni10EA (U+10EA): X=418.0,Y=2.0 (should be at baseline 0?)
+* uni1C97 (U+1C97): X=533.0,Y=715.0 (should be at cap-height 714?) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0302 (U+0302): X=-43.0,Y=712.5 (should be at cap-height 714?)
+* uni10A0 (U+10A0): X=376.5,Y=-2.0 (should be at baseline 0?)
+* uni10BA (U+10BA): X=372.5,Y=715.0 (should be at cap-height 714?)
+* uni10D6 (U+10D6): X=88.5,Y=712.5 (should be at cap-height 714?)
+* uni10DA (U+10DA): X=175.0,Y=-1.5 (should be at baseline 0?)
+* uni10E6 (U+10E6): X=172.5,Y=1.0 (should be at baseline 0?)
+* uni10E9 (U+10E9): X=126.5,Y=713.5 (should be at cap-height 714?)
+* uni10F0 (U+10F0): X=208.0,Y=712.0 (should be at cap-height 714?)
+* uni1C9D (U+1C9D): X=269.0,Y=712.5 (should be at cap-height 714?)
+* uni1C9D (U+1C9D): X=420.5,Y=712.5 (should be at cap-height 714?) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0302 (U+0302): X=129.0,Y=715.5 (should be at cap-height 714?)
+* uni0302 (U+0302): X=-127.5,Y=716.0 (should be at cap-height 714?)
+* uni10A0 (U+10A0): X=502.0,Y=-1.0 (should be at baseline 0?)
+* uni10BA (U+10BA): X=545.5,Y=712.5 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=141.5,Y=-1.5 (should be at baseline 0?)
+* uni10D5 (U+10D5): X=401.0,Y=-2.0 (should be at baseline 0?)
+* uni10E9 (U+10E9): X=118.0,Y=712.5 (should be at cap-height 714?)
+* uni10ED (U+10ED): X=426.0,Y=-2.0 (should be at baseline 0?)
+* uni10F3 (U+10F3): X=401.0,Y=-2.0 (should be at baseline 0?)
+* uni10F3 (U+10F3): X=573.0,Y=2.0 (should be at baseline 0?) and 6 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10AD (U+10AD): X=340.5,Y=1.0 (should be at baseline 0?)
+* uni10C2 (U+10C2): X=109.0,Y=-2.0 (should be at baseline 0?)
+* uni10DF (U+10DF): X=85.5,Y=-1.0 (should be at baseline 0?)
+* uni10DF (U+10DF): X=165.5,Y=0.5 (should be at baseline 0?)
+* uni10E7 (U+10E7): X=49.5,Y=-1.0 (should be at baseline 0?)
+* uni10E7 (U+10E7): X=129.5,Y=0.5 (should be at baseline 0?)
+* uni10E8 (U+10E8): X=177.0,Y=712.0 (should be at cap-height 714?)
+* uni10E8 (U+10E8): X=180.0,Y=712.0 (should be at cap-height 714?)
+* uni10EC (U+10EC): X=278.0,Y=712.0 (should be at cap-height 714?)
+* uni10EC (U+10EC): X=281.0,Y=712.0 (should be at cap-height 714?) and 8 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* acutecomb (U+0301): X=92.5,Y=712.5 (should be at cap-height 714?)
+* uni10BA (U+10BA): X=445.5,Y=712.0 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=123.0,Y=-0.5 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=193.0,Y=1.0 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=458.0,Y=-2.0 (should be at baseline 0?)
+* uni10DF (U+10DF): X=511.0,Y=-2.0 (should be at baseline 0?)
+* uni10E3 (U+10E3): X=200.0,Y=1.0 (should be at baseline 0?)
+* uni10E5 (U+10E5): X=193.0,Y=1.0 (should be at baseline 0?)
+* uni10E5 (U+10E5): X=458.0,Y=-2.0 (should be at baseline 0?)
+* uni10E7 (U+10E7): X=477.0,Y=-2.0 (should be at baseline 0?) and 9 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10A0 (U+10A0): X=376.5,Y=-1.5 (should be at baseline 0?)
+* uni10BA (U+10BA): X=418.0,Y=713.0 (should be at cap-height 714?)
+* uni10BA (U+10BA): X=334.5,Y=0.5 (should be at baseline 0?)
+* uni10C0 (U+10C0): X=57.0,Y=715.0 (should be at cap-height 714?)
+* uni10C0 (U+10C0): X=440.0,Y=715.0 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=118.0,Y=-1.0 (should be at baseline 0?)
+* uni1CBA (U+1CBA): X=350.0,Y=714.5 (should be at cap-height 714?)
+* uni2D02 (U+2D02): X=388.0,Y=1.0 (should be at baseline 0?) and uni2D0B (U+2D0B): X=399.5,Y=715.5 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10BA (U+10BA): X=431.0,Y=712.5 (should be at cap-height 714?)
+* uni10C0 (U+10C0): X=53.0,Y=715.0 (should be at cap-height 714?)
+* uni10C0 (U+10C0): X=459.0,Y=715.0 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=120.0,Y=-1.0 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=298.0,Y=-1.0 (should be at baseline 0?)
+* uni10D9 (U+10D9): X=295.0,Y=1.0 (should be at baseline 0?)
+* uni10DE (U+10DE): X=320.0,Y=715.5 (should be at cap-height 714?)
+* uni10DF (U+10DF): X=348.0,Y=1.0 (should be at baseline 0?)
+* uni10E7 (U+10E7): X=315.0,Y=1.0 (should be at baseline 0?)
+* uni10F8 (U+10F8): X=197.0,Y=1.0 (should be at baseline 0?)
+* uni2D18 (U+2D18): X=321.0,Y=-2.0 (should be at baseline 0?) and uni2D25 (U+2D25): X=348.0,Y=715.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0302 (U+0302): X=-47.5,Y=713.5 (should be at cap-height 714?)
+* uni10AD (U+10AD): X=412.5,Y=2.0 (should be at baseline 0?)
+* uni10AD (U+10AD): X=325.0,Y=1.0 (should be at baseline 0?)
+* uni10BA (U+10BA): X=338.5,Y=714.5 (should be at cap-height 714?)
+* uni10DB (U+10DB): X=141.0,Y=715.5 (should be at cap-height 714?)
+* uni10E2 (U+10E2): X=54.0,Y=-2.0 (should be at baseline 0?)
+* uni10E8 (U+10E8): X=306.5,Y=716.0 (should be at cap-height 714?)
+* uni10E9 (U+10E9): X=243.5,Y=712.5 (should be at cap-height 714?)
+* uni10EC (U+10EC): X=119.5,Y=716.0 (should be at cap-height 714?)
+* uni10F4 (U+10F4): X=146.0,Y=715.0 (should be at cap-height 714?) and 8 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0302 (U+0302): X=55.0,Y=712.5 (should be at cap-height 714?)
+* uni0302 (U+0302): X=-53.5,Y=715.5 (should be at cap-height 714?)
+* uni10AD (U+10AD): X=420.0,Y=2.0 (should be at baseline 0?)
+* uni10AD (U+10AD): X=331.0,Y=1.0 (should be at baseline 0?)
+* uni10BA (U+10BA): X=351.5,Y=714.5 (should be at cap-height 714?)
+* uni10E8 (U+10E8): X=43.0,Y=712.0 (should be at cap-height 714?)
+* uni10EC (U+10EC): X=395.0,Y=712.0 (should be at cap-height 714?)
+* uni10FA (U+10FA): X=179.0,Y=2.0 (should be at baseline 0?)
+* uni10FC (U+10FC): X=92.0,Y=712.0 (should be at cap-height 714?)
+* uni1C97 (U+1C97): X=455.5,Y=714.5 (should be at cap-height 714?) and 11 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10AD (U+10AD): X=351.5,Y=1.5 (should be at baseline 0?)
+* uni10BA (U+10BA): X=387.5,Y=713.5 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=111.5,Y=-2.0 (should be at baseline 0?)
+* uni10D3 (U+10D3): X=441.0,Y=2.0 (should be at baseline 0?)
+* uni10DF (U+10DF): X=84.5,Y=1.5 (should be at baseline 0?)
+* uni10E7 (U+10E7): X=49.5,Y=1.5 (should be at baseline 0?)
+* uni10EF (U+10EF): X=42.5,Y=1.5 (should be at baseline 0?)
+* uni10F8 (U+10F8): X=413.5,Y=1.5 (should be at baseline 0?)
+* uni1C97 (U+1C97): X=484.5,Y=715.5 (should be at cap-height 714?)
+* uni1CB4 (U+1CB4): X=324.0,Y=714.5 (should be at cap-height 714?) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10AD (U+10AD): X=364.5,Y=2.0 (should be at baseline 0?)
+* uni10BA (U+10BA): X=402.0,Y=713.0 (should be at cap-height 714?)
+* uni10BA (U+10BA): X=334.0,Y=1.5 (should be at baseline 0?)
+* uni10C0 (U+10C0): X=58.0,Y=715.0 (should be at cap-height 714?)
+* uni10C0 (U+10C0): X=416.0,Y=715.0 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=114.5,Y=-1.5 (should be at baseline 0?)
+* uni10DE (U+10DE): X=286.5,Y=712.0 (should be at cap-height 714?)
+* uni1CBA (U+1CBA): X=338.5,Y=715.0 (should be at cap-height 714?)
+* uni2D02 (U+2D02): X=383.5,Y=0.5 (should be at baseline 0?)
+* uni2D0B (U+2D0B): X=385.5,Y=716.0 (should be at cap-height 714?) and uni2D25 (U+2D25): X=343.5,Y=716.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0302 (U+0302): X=-44.0,Y=712.0 (should be at cap-height 714?)
+* uni10AD (U+10AD): X=407.0,Y=2.0 (should be at baseline 0?)
+* uni10AD (U+10AD): X=321.0,Y=1.5 (should be at baseline 0?)
+* uni10BA (U+10BA): X=329.0,Y=715.0 (should be at cap-height 714?)
+* uni10DA (U+10DA): X=156.0,Y=-1.0 (should be at baseline 0?)
+* uni10E0 (U+10E0): X=235.0,Y=714.5 (should be at cap-height 714?)
+* uni10E2 (U+10E2): X=54.5,Y=-1.5 (should be at baseline 0?)
+* uni10F1 (U+10F1): X=278.5,Y=713.0 (should be at cap-height 714?)
+* uni10FD (U+10FD): X=102.5,Y=712.0 (should be at cap-height 714?)
+* uni1C97 (U+1C97): X=436.5,Y=713.0 (should be at cap-height 714?) and 6 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* acutecomb (U+0301): X=5.5,Y=716.0 (should be at cap-height 714?)
+* uni0302 (U+0302): X=51.0,Y=715.5 (should be at cap-height 714?)
+* uni0302 (U+0302): X=-50.5,Y=715.5 (should be at cap-height 714?)
+* uni0589 (U+0589): X=130.5,Y=1.5 (should be at baseline 0?)
+* uni0589 (U+0589): X=78.5,Y=1.5 (should be at baseline 0?)
+* uni10A0 (U+10A0): X=497.0,Y=-1.5 (should be at baseline 0?)
+* uni10DA (U+10DA): X=291.5,Y=-2.0 (should be at baseline 0?)
+* uni10EC (U+10EC): X=306.0,Y=712.0 (should be at cap-height 714?)
+* uni10FB (U+10FB): X=88.0,Y=2.0 (should be at baseline 0?)
+* uni10FB (U+10FB): X=140.0,Y=2.0 (should be at baseline 0?) and 7 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* acutecomb (U+0301): X=-8.5,Y=716.0 (should be at cap-height 714?)
+* uni0302 (U+0302): X=61.0,Y=715.5 (should be at cap-height 714?)
+* uni0302 (U+0302): X=-61.5,Y=715.5 (should be at cap-height 714?)
+* uni10A0 (U+10A0): X=497.5,Y=-2.0 (should be at baseline 0?)
+* uni10DE (U+10DE): X=248.5,Y=712.5 (should be at cap-height 714?)
+* uni10F4 (U+10F4): X=349.5,Y=713.5 (should be at cap-height 714?)
+* uni10FA (U+10FA): X=259.0,Y=2.0 (should be at baseline 0?)
+* uni1C9A (U+1C9A): X=730.0,Y=1.0 (should be at baseline 0?)
+* uni1C9D (U+1C9D): X=342.5,Y=713.0 (should be at cap-height 714?)
+* uni1C9D (U+1C9D): X=543.5,Y=712.5 (should be at cap-height 714?)
+* uni1CB4 (U+1CB4): X=393.0,Y=715.5 (should be at cap-height 714?) and uni1CBA (U+1CBA): X=421.5,Y=714.5 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10D3 (U+10D3): X=604.0,Y=2.0 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=153.0,Y=-2.0 (should be at baseline 0?)
+* uni10DB (U+10DB): X=476.0,Y=712.0 (should be at cap-height 714?)
+* uni10E3 (U+10E3): X=162.0,Y=-2.0 (should be at baseline 0?)
+* uni10E5 (U+10E5): X=153.0,Y=-2.0 (should be at baseline 0?)
+* uni10F4 (U+10F4): X=51.5,Y=-2.0 (should be at baseline 0?)
+* uni10F4 (U+10F4): X=155.5,Y=-1.0 (should be at baseline 0?)
+* uni10F7 (U+10F7): X=404.0,Y=1.0 (should be at baseline 0?)
+* uni1C9D (U+1C9D): X=351.5,Y=714.5 (should be at cap-height 714?)
+* uni1C9D (U+1C9D): X=555.0,Y=714.5 (should be at cap-height 714?) and 7 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0589 (U+0589): X=177.5,Y=2.0 (should be at baseline 0?)
+* uni0589 (U+0589): X=90.0,Y=2.0 (should be at baseline 0?)
+* uni10DB (U+10DB): X=470.5,Y=713.0 (should be at cap-height 714?)
+* uni10F7 (U+10F7): X=409.0,Y=0.5 (should be at baseline 0?)
+* uni1C9D (U+1C9D): X=350.0,Y=714.5 (should be at cap-height 714?)
+* uni1C9D (U+1C9D): X=548.5,Y=714.5 (should be at cap-height 714?)
+* uni1CB4 (U+1CB4): X=399.0,Y=715.0 (should be at cap-height 714?)
+* uni1CBA (U+1CBA): X=431.0,Y=713.5 (should be at cap-height 714?)
+* uni2D13 (U+2D13): X=762.5,Y=2.0 (should be at baseline 0?) and uni2D27 (U+2D27): X=389.0,Y=0.5 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10D4 (U+10D4): X=170.0,Y=1.0 (should be at baseline 0?)
+* uni10E3 (U+10E3): X=181.0,Y=1.0 (should be at baseline 0?)
+* uni10E5 (U+10E5): X=170.0,Y=1.0 (should be at baseline 0?)
+* uni10E9 (U+10E9): X=121.5,Y=715.0 (should be at cap-height 714?)
+* uni10F4 (U+10F4): X=48.5,Y=1.5 (should be at baseline 0?)
+* uni10F7 (U+10F7): X=399.0,Y=1.5 (should be at baseline 0?)
+* uni10FC (U+10FC): X=163.5,Y=712.5 (should be at cap-height 714?)
+* uni1C9D (U+1C9D): X=354.5,Y=714.5 (should be at cap-height 714?)
+* uni1C9D (U+1C9D): X=562.5,Y=714.5 (should be at cap-height 714?)
+* uni1CB4 (U+1CB4): X=416.0,Y=713.5 (should be at cap-height 714?) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0308 (U+0308): X=-89.0,Y=712.0 (should be at cap-height 714?)
+* uni0308 (U+0308): X=89.0,Y=712.0 (should be at cap-height 714?)
+* uni10BA (U+10BA): X=413.5,Y=2.0 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=379.0,Y=-2.0 (should be at baseline 0?)
+* uni10DF (U+10DF): X=412.0,Y=-2.0 (should be at baseline 0?)
+* uni10E3 (U+10E3): X=404.0,Y=-2.0 (should be at baseline 0?)
+* uni10E5 (U+10E5): X=379.0,Y=-2.0 (should be at baseline 0?)
+* uni10E7 (U+10E7): X=387.0,Y=-2.0 (should be at baseline 0?)
+* uni10F8 (U+10F8): X=155.0,Y=-2.0 (should be at baseline 0?)
+* uni1C9D (U+1C9D): X=317.0,Y=715.5 (should be at cap-height 714?)
+* uni1CB4 (U+1CB4): X=366.5,Y=715.0 (should be at cap-height 714?) and uni2D25 (U+2D25): X=422.0,Y=712.0 (should be at cap-height 714?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10A0 (U+10A0): X=461.5,Y=-0.5 (should be at baseline 0?)
+* uni10B3 (U+10B3): X=463.5,Y=1.0 (should be at baseline 0?)
+* uni10BA (U+10BA): X=514.0,Y=712.0 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=135.0,Y=-1.0 (should be at baseline 0?)
+* uni10D5 (U+10D5): X=362.0,Y=-1.0 (should be at baseline 0?)
+* uni10E6 (U+10E6): X=409.0,Y=-2.0 (should be at baseline 0?)
+* uni10E9 (U+10E9): X=111.5,Y=713.5 (should be at cap-height 714?)
+* uni10EA (U+10EA): X=643.0,Y=-2.0 (should be at baseline 0?)
+* uni10ED (U+10ED): X=246.0,Y=1.0 (should be at baseline 0?)
+* uni10ED (U+10ED): X=391.0,Y=-2.0 (should be at baseline 0?) and 9 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10BA (U+10BA): X=494.5,Y=713.0 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=132.5,Y=-1.5 (should be at baseline 0?)
+* uni10DB (U+10DB): X=457.0,Y=713.5 (should be at cap-height 714?)
+* uni10E3 (U+10E3): X=535.0,Y=-1.0 (should be at baseline 0?)
+* uni10F4 (U+10F4): X=43.5,Y=-0.5 (should be at baseline 0?)
+* uni10FC (U+10FC): X=167.0,Y=712.5 (should be at cap-height 714?)
+* uni1C97 (U+1C97): X=579.0,Y=715.0 (should be at cap-height 714?)
+* uni1C9D (U+1C9D): X=336.5,Y=715.5 (should be at cap-height 714?)
+* uni1CB4 (U+1CB4): X=400.5,Y=713.5 (should be at cap-height 714?)
+* uni1CBA (U+1CBA): X=405.0,Y=712.0 (should be at cap-height 714?) and 3 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10A0 (U+10A0): X=458.5,Y=-1.0 (should be at baseline 0?)
+* uni10BA (U+10BA): X=503.5,Y=712.5 (should be at cap-height 714?)
+* uni10C2 (U+10C2): X=133.5,Y=-1.5 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=197.0,Y=2.0 (should be at baseline 0?)
+* uni10DA (U+10DA): X=454.0,Y=1.0 (should be at baseline 0?)
+* uni10DB (U+10DB): X=466.5,Y=712.5 (should be at cap-height 714?)
+* uni10E3 (U+10E3): X=210.0,Y=2.0 (should be at baseline 0?)
+* uni10E3 (U+10E3): X=549.0,Y=1.0 (should be at baseline 0?)
+* uni10E5 (U+10E5): X=197.0,Y=2.0 (should be at baseline 0?)
+* uni10E9 (U+10E9): X=112.5,Y=715.0 (should be at cap-height 714?) and 8 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0302 (U+0302): X=50.5,Y=713.5 (should be at cap-height 714?)
+* uni0302 (U+0302): X=-49.0,Y=714.5 (should be at cap-height 714?)
+* uni10A0 (U+10A0): X=435.5,Y=-2.0 (should be at baseline 0?)
+* uni10BA (U+10BA): X=428.5,Y=715.0 (should be at cap-height 714?)
+* uni10DE (U+10DE): X=223.5,Y=712.5 (should be at cap-height 714?)
+* uni10E8 (U+10E8): X=253.5,Y=713.5 (should be at cap-height 714?)
+* uni10E8 (U+10E8): X=431.0,Y=712.0 (should be at cap-height 714?)
+* uni10EC (U+10EC): X=95.5,Y=712.0 (should be at cap-height 714?)
+* uni10EC (U+10EC): X=273.0,Y=713.5 (should be at cap-height 714?)
+* uni10F4 (U+10F4): X=184.0,Y=713.0 (should be at cap-height 714?) and 13 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0302 (U+0302): X=0.0,Y=715.0 (should be at cap-height 714?)
+* uni0302 (U+0302): X=-58.5,Y=715.5 (should be at cap-height 714?)
+* uni10BA (U+10BA): X=440.5,Y=714.5 (should be at cap-height 714?)
+* uni10DA (U+10DA): X=277.0,Y=1.0 (should be at baseline 0?)
+* uni10DC (U+10DC): X=438.0,Y=712.0 (should be at cap-height 714?)
+* uni10DC (U+10DC): X=254.0,Y=712.0 (should be at cap-height 714?)
+* uni10F0 (U+10F0): X=214.0,Y=715.0 (should be at cap-height 714?)
+* uni10F4 (U+10F4): X=313.0,Y=714.5 (should be at cap-height 714?)
+* uni10FA (U+10FA): X=229.0,Y=2.0 (should be at baseline 0?)
+* uni1C9D (U+1C9D): X=308.5,Y=713.5 (should be at cap-height 714?) and 11 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni10BA (U+10BA): X=410.5,Y=1.5 (should be at baseline 0?)
+* uni10D3 (U+10D3): X=544.0,Y=2.0 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=374.0,Y=1.0 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=476.0,Y=-2.0 (should be at baseline 0?)
+* uni10E5 (U+10E5): X=476.0,Y=-2.0 (should be at baseline 0?)
+* uni10E7 (U+10E7): X=484.0,Y=-2.0 (should be at baseline 0?)
+* uni10F8 (U+10F8): X=66.0,Y=-2.0 (should be at baseline 0?)
+* uni1C9D (U+1C9D): X=322.5,Y=715.5 (should be at cap-height 714?)
+* uni1CB4 (U+1CB4): X=377.0,Y=714.5 (should be at cap-height 714?)
+* uni1CBA (U+1CBA): X=395.0,Y=713.5 (should be at cap-height 714?)
+* uni2D1D (U+2D1D): X=285.0,Y=2.0 (should be at baseline 0?) and uni2D1D (U+2D1D): X=75.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0308 (U+0308): X=-134.5,Y=715.5 (should be at cap-height 714?)
+* uni0308 (U+0308): X=-52.0,Y=715.0 (should be at cap-height 714?)
+* uni0308 (U+0308): X=52.0,Y=715.5 (should be at cap-height 714?)
+* uni0308 (U+0308): X=135.0,Y=715.0 (should be at cap-height 714?)
+* uni10BA (U+10BA): X=407.0,Y=0.5 (should be at baseline 0?)
+* uni10C2 (U+10C2): X=128.0,Y=-2.0 (should be at baseline 0?)
+* uni10D4 (U+10D4): X=488.0,Y=1.0 (should be at baseline 0?)
+* uni10DB (U+10DB): X=445.0,Y=715.0 (should be at cap-height 714?)
+* uni10DF (U+10DF): X=404.0,Y=2.0 (should be at baseline 0?)
+* uni10E3 (U+10E3): X=397.0,Y=2.0 (should be at baseline 0?) and 11 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedThin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0302 (U+0302): X=44.5,Y=712.0 (should be at cap-height 714?)
+* uni10A0 (U+10A0): X=434.0,Y=-1.5 (should be at baseline 0?)
+* uni10BA (U+10BA): X=420.5,Y=715.0 (should be at cap-height 714?)
+* uni10E8 (U+10E8): X=171.0,Y=715.5 (should be at cap-height 714?)
+* uni10EC (U+10EC): X=349.0,Y=715.5 (should be at cap-height 714?)
+* uni10F0 (U+10F0): X=236.0,Y=712.0 (should be at cap-height 714?)
+* uni10F6 (U+10F6): X=388.0,Y=1.0 (should be at baseline 0?)
+* uni10F6 (U+10F6): X=414.0,Y=1.0 (should be at baseline 0?)
+* uni1C9A (U+1C9A): X=655.0,Y=1.0 (should be at baseline 0?)
+* uni1C9D (U+1C9D): X=300.5,Y=712.0 (should be at cap-height 714?) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* uni0302 (U+0302): X=44.0,Y=715.5 (should be at cap-height 714?)
+* uni0302 (U+0302): X=-42.5,Y=715.5 (should be at cap-height 714?)
+* uni0589 (U+0589): X=118.5,Y=1.0 (should be at baseline 0?)
+* uni0589 (U+0589): X=76.0,Y=1.0 (should be at baseline 0?)
+* uni10A0 (U+10A0): X=497.0,Y=-1.0 (should be at baseline 0?)
+* uni10DE (U+10DE): X=257.5,Y=715.5 (should be at cap-height 714?)
+* uni10E8 (U+10E8): X=188.0,Y=713.5 (should be at cap-height 714?)
+* uni10EC (U+10EC): X=391.5,Y=713.5 (should be at cap-height 714?)
+* uni10F4 (U+10F4): X=161.0,Y=713.0 (should be at cap-height 714?)
+* uni10FB (U+10FB): X=88.0,Y=1.0 (should be at baseline 0?) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10AC (U+10AC) contains a short segment L&lt;&lt;271.0,558.0&gt;--&lt;271.0,551.0&gt;&gt;
+* uni10BA (U+10BA) contains a short segment L&lt;&lt;491.0,0.0&gt;--&lt;491.0,18.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;359.0,498.0&gt;-&lt;360.0,502.0&gt;-&lt;360.5,506.5&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;360.5,506.5&gt;-&lt;361.0,511.0&gt;-&lt;361.0,515.0&gt;&gt;
+* uni10C2 (U+10C2) contains a short segment L&lt;&lt;248.0,630.0&gt;--&lt;259.0,630.0&gt;&gt;
+* uni10C5 (U+10C5) contains a short segment L&lt;&lt;527.0,197.0&gt;--&lt;527.0,186.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;245.0,515.0&gt;-&lt;245.0,511.0&gt;-&lt;245.5,506.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;245.5,506.5&gt;-&lt;246.0,502.0&gt;-&lt;247.0,498.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;266.0,584.0&gt;-&lt;266.0,580.0&gt;-&lt;266.5,575.5&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;266.5,575.5&gt;-&lt;267.0,571.0&gt;-&lt;268.0,567.0&gt;&gt; and 77 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;531.0,530.0&gt;-&lt;531.0,525.0&gt;-&lt;530.5,520.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;530.5,520.0&gt;-&lt;530.0,515.0&gt;-&lt;529.0,510.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;381.0,510.0&gt;-&lt;383.0,520.0&gt;-&lt;383.0,529.0&gt;&gt;
+* uni10C5 (U+10C5) contains a short segment L&lt;&lt;495.0,197.0&gt;--&lt;495.0,185.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;214.0,529.0&gt;-&lt;214.0,520.0&gt;-&lt;216.0,510.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;68.0,510.0&gt;-&lt;67.0,515.0&gt;-&lt;66.5,520.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;66.5,520.0&gt;-&lt;66.0,525.0&gt;-&lt;66.0,530.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;401.0,517.0&gt;-&lt;405.0,517.0&gt;-&lt;409.5,516.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;409.5,516.0&gt;-&lt;414.0,515.0&gt;-&lt;418.0,514.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;227.0,593.0&gt;-&lt;227.0,588.0&gt;-&lt;227.5,583.0&gt;&gt; and 73 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;415.0,556.0&gt;-&lt;415.0,550.0&gt;-&lt;414.5,542.5&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;414.5,542.5&gt;-&lt;414.0,535.0&gt;-&lt;413.0,530.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;142.0,555.0&gt;-&lt;142.0,549.0&gt;-&lt;142.5,543.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;142.5,543.0&gt;-&lt;143.0,537.0&gt;-&lt;144.0,532.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;60.0,532.0&gt;-&lt;59.0,537.0&gt;-&lt;58.5,543.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;58.5,543.5&gt;-&lt;58.0,550.0&gt;-&lt;58.0,556.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;114.0,332.0&gt;-&lt;113.0,324.0&gt;-&lt;111.5,316.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;111.5,316.0&gt;-&lt;110.0,308.0&gt;-&lt;110.0,299.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;272.0,-39.0&gt;-&lt;271.0,-46.0&gt;-&lt;270.5,-53.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;270.5,-53.0&gt;-&lt;270.0,-60.0&gt;-&lt;270.0,-67.0&gt;&gt; and 42 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;212.0,234.0&gt;-&lt;210.0,227.0&gt;-&lt;209.0,216.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;475.0,525.0&gt;-&lt;475.0,519.0&gt;-&lt;475.0,513.5&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;475.0,513.5&gt;-&lt;475.0,508.0&gt;-&lt;474.0,504.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;302.0,504.0&gt;-&lt;304.0,514.0&gt;-&lt;304.0,522.0&gt;&gt;
+* uni10C2 (U+10C2) contains a short segment L&lt;&lt;226.0,630.0&gt;--&lt;241.0,630.0&gt;&gt;
+* uni10C5 (U+10C5) contains a short segment L&lt;&lt;468.0,205.0&gt;--&lt;468.0,190.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;225.0,522.0&gt;-&lt;225.0,514.0&gt;-&lt;227.0,504.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;56.0,504.0&gt;-&lt;55.0,508.0&gt;-&lt;54.5,513.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;54.5,513.5&gt;-&lt;54.0,519.0&gt;-&lt;54.0,525.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;320.5,216.0&gt;-&lt;319.0,227.0&gt;-&lt;318.0,234.0&gt;&gt; and 58 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;453.0,536.0&gt;-&lt;453.0,531.0&gt;-&lt;452.5,525.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;452.5,525.0&gt;-&lt;452.0,519.0&gt;-&lt;451.0,514.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;192.0,536.0&gt;-&lt;192.0,531.0&gt;-&lt;192.0,525.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;192.0,525.5&gt;-&lt;192.0,520.0&gt;-&lt;193.0,516.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;58.0,516.0&gt;-&lt;57.0,521.0&gt;-&lt;56.5,526.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;56.5,526.5&gt;-&lt;56.0,532.0&gt;-&lt;56.0,537.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;209.0,604.0&gt;-&lt;209.0,598.0&gt;-&lt;209.5,592.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;209.5,592.0&gt;-&lt;210.0,586.0&gt;-&lt;211.0,581.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;325.0,-28.0&gt;-&lt;325.0,-33.0&gt;-&lt;324.5,-38.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;324.5,-38.0&gt;-&lt;324.0,-43.0&gt;-&lt;324.0,-48.0&gt;&gt; and 59 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;463.0,531.0&gt;-&lt;463.0,525.0&gt;-&lt;463.0,519.5&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;463.0,519.5&gt;-&lt;463.0,514.0&gt;-&lt;462.0,509.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;224.0,599.0&gt;-&lt;224.0,593.0&gt;-&lt;224.5,588.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;224.5,588.0&gt;-&lt;225.0,583.0&gt;-&lt;226.0,578.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;140.0,337.0&gt;-&lt;137.0,324.0&gt;-&lt;137.0,315.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;340.0,-25.0&gt;-&lt;339.0,-30.0&gt;-&lt;339.0,-34.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;339.0,-34.0&gt;-&lt;339.0,-38.0&gt;-&lt;339.0,-42.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment L&lt;&lt;492.0,195.0&gt;--&lt;512.0,195.0&gt;&gt;
+* uni10EF (U+10EF) contains a short segment L&lt;&lt;334.0,316.0&gt;--&lt;334.0,304.0&gt;&gt;
+* uni10FA (U+10FA) contains a short segment L&lt;&lt;149.0,41.0&gt;--&lt;149.0,45.0&gt;&gt; and 47 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10B3 (U+10B3) contains a short segment B&lt;&lt;453.0,-147.0&gt;-&lt;447.0,-147.0&gt;-&lt;438.0,-146.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;192.0,-88.0&gt;-&lt;192.0,-78.0&gt;-&lt;193.5,-68.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;193.5,-68.0&gt;-&lt;195.0,-58.0&gt;-&lt;197.0,-48.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;233.0,-48.0&gt;-&lt;231.0,-57.0&gt;-&lt;230.0,-65.5&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;230.0,-65.5&gt;-&lt;229.0,-74.0&gt;-&lt;229.0,-82.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment L&lt;&lt;422.0,150.0&gt;--&lt;447.0,150.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;261.5,-247.5&gt;-&lt;250.0,-245.0&gt;-&lt;241.0,-241.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;432.0,770.0&gt;-&lt;445.0,770.0&gt;-&lt;455.0,768.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;455.0,768.0&gt;-&lt;465.0,766.0&gt;-&lt;472.0,763.0&gt;&gt;
+* uni10F7 (U+10F7) contains a short segment B&lt;&lt;98.0,380.0&gt;-&lt;98.0,371.0&gt;-&lt;98.5,361.0&gt;&gt; and 46 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;247.0,-45.0&gt;-&lt;246.0,-53.0&gt;-&lt;245.0,-61.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;245.0,-61.0&gt;-&lt;244.0,-69.0&gt;-&lt;244.0,-76.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment L&lt;&lt;427.0,157.0&gt;--&lt;453.0,157.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;240.0,-191.0&gt;-&lt;249.0,-195.0&gt;-&lt;261.0,-198.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;468.5,767.5&gt;-&lt;481.0,765.0&gt;-&lt;489.0,762.0&gt;&gt;
+* uni10F7 (U+10F7) contains a short segment B&lt;&lt;115.0,360.0&gt;-&lt;116.0,350.0&gt;-&lt;117.0,343.0&gt;&gt;
+* uni10FA (U+10FA) contains a short segment L&lt;&lt;203.0,0.0&gt;--&lt;203.0,2.0&gt;&gt;
+* uni10FD (U+10FD) contains a short segment B&lt;&lt;312.0,571.0&gt;-&lt;313.0,578.0&gt;-&lt;314.0,588.0&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;135.0,577.0&gt;-&lt;135.0,572.0&gt;-&lt;135.5,567.5&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;135.5,567.5&gt;-&lt;136.0,563.0&gt;-&lt;136.0,557.0&gt;&gt; and 30 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;60.0,527.0&gt;-&lt;59.0,532.0&gt;-&lt;58.5,538.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;58.5,538.5&gt;-&lt;58.0,545.0&gt;-&lt;58.0,551.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;120.0,333.0&gt;-&lt;119.0,326.0&gt;-&lt;118.0,318.5&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;118.0,318.5&gt;-&lt;117.0,311.0&gt;-&lt;117.0,303.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;288.0,-36.0&gt;-&lt;286.0,-51.0&gt;-&lt;286.0,-61.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment L&lt;&lt;450.0,175.0&gt;--&lt;475.0,175.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;531.0,676.0&gt;-&lt;522.0,679.0&gt;-&lt;510.0,682.0&gt;&gt;
+* uni10FA (U+10FA) contains a short segment L&lt;&lt;166.0,16.0&gt;--&lt;166.0,19.0&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;181.0,567.0&gt;-&lt;181.0,563.0&gt;-&lt;181.0,559.0&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;181.0,559.0&gt;-&lt;181.0,555.0&gt;-&lt;182.0,550.0&gt;&gt; and 37 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;59.0,522.0&gt;-&lt;58.0,527.0&gt;-&lt;57.5,533.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;57.5,533.0&gt;-&lt;57.0,539.0&gt;-&lt;57.0,544.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;305.0,-32.0&gt;-&lt;304.0,-43.0&gt;-&lt;304.0,-55.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment L&lt;&lt;464.0,182.0&gt;--&lt;488.0,182.0&gt;&gt;
+* uni10EF (U+10EF) contains a short segment L&lt;&lt;303.0,322.0&gt;--&lt;303.0,304.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;546.0,662.0&gt;-&lt;536.0,665.0&gt;-&lt;524.0,667.5&gt;&gt;
+* uni10FA (U+10FA) contains a short segment L&lt;&lt;161.0,25.0&gt;--&lt;161.0,28.0&gt;&gt;
+* uni10FD (U+10FD) contains a short segment B&lt;&lt;305.0,555.0&gt;-&lt;307.0,563.0&gt;-&lt;308.0,572.5&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;200.0,561.0&gt;-&lt;200.0,554.0&gt;-&lt;201.0,546.0&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;81.0,546.0&gt;-&lt;79.0,555.0&gt;-&lt;78.5,561.5&gt;&gt; and 43 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;371.0,504.0&gt;-&lt;373.0,514.0&gt;-&lt;373.0,523.0&gt;&gt;
+* uni10C5 (U+10C5) contains a short segment L&lt;&lt;510.0,197.0&gt;--&lt;510.0,185.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;228.0,523.0&gt;-&lt;228.0,514.0&gt;-&lt;230.0,504.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;421.0,512.0&gt;-&lt;426.0,512.0&gt;-&lt;430.5,511.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;430.5,511.0&gt;-&lt;435.0,510.0&gt;-&lt;440.0,509.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;245.0,589.0&gt;-&lt;245.0,584.0&gt;-&lt;245.5,579.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;245.5,579.0&gt;-&lt;246.0,574.0&gt;-&lt;247.0,570.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;78.0,589.5&gt;-&lt;77.0,599.0&gt;-&lt;77.0,607.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;34.0,295.0&gt;-&lt;34.0,305.0&gt;-&lt;35.5,314.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;35.5,314.0&gt;-&lt;37.0,323.0&gt;-&lt;39.0,332.0&gt;&gt; and 62 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;378.0,557.0&gt;-&lt;378.0,551.0&gt;-&lt;377.5,543.5&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;377.5,543.5&gt;-&lt;377.0,536.0&gt;-&lt;376.0,531.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;132.0,557.0&gt;-&lt;132.0,550.0&gt;-&lt;132.5,544.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;132.5,544.0&gt;-&lt;133.0,538.0&gt;-&lt;134.0,533.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;53.0,533.0&gt;-&lt;52.0,538.0&gt;-&lt;51.5,545.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;51.5,545.0&gt;-&lt;51.0,552.0&gt;-&lt;51.0,558.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;279.0,509.0&gt;-&lt;283.0,508.0&gt;-&lt;286.0,507.5&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;286.0,507.5&gt;-&lt;289.0,507.0&gt;-&lt;293.0,506.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;109.0,332.0&gt;-&lt;108.0,324.0&gt;-&lt;106.5,315.5&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;106.5,315.5&gt;-&lt;105.0,307.0&gt;-&lt;105.0,296.0&gt;&gt; and 39 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;445.0,527.0&gt;-&lt;445.0,522.0&gt;-&lt;445.0,516.5&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;445.0,516.5&gt;-&lt;445.0,511.0&gt;-&lt;444.0,506.0&gt;&gt;
+* uni10C5 (U+10C5) contains a short segment L&lt;&lt;442.0,208.0&gt;--&lt;442.0,191.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;53.0,506.0&gt;-&lt;52.0,511.0&gt;-&lt;52.0,516.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;52.0,516.5&gt;-&lt;52.0,522.0&gt;-&lt;52.0,527.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;365.0,503.0&gt;-&lt;370.0,502.0&gt;-&lt;373.5,500.5&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;373.5,500.5&gt;-&lt;377.0,499.0&gt;-&lt;381.0,497.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;231.0,597.0&gt;-&lt;231.0,592.0&gt;-&lt;231.5,587.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;231.5,587.0&gt;-&lt;232.0,582.0&gt;-&lt;233.0,577.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;136.0,342.0&gt;-&lt;135.0,336.0&gt;-&lt;134.5,331.0&gt;&gt; and 59 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;419.0,539.0&gt;-&lt;419.0,533.0&gt;-&lt;419.0,527.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;419.0,527.0&gt;-&lt;419.0,521.0&gt;-&lt;418.0,516.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;182.0,539.0&gt;-&lt;182.0,534.0&gt;-&lt;182.0,528.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;182.0,528.5&gt;-&lt;182.0,523.0&gt;-&lt;183.0,518.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;54.0,518.0&gt;-&lt;53.0,523.0&gt;-&lt;52.5,529.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;52.5,529.0&gt;-&lt;52.0,535.0&gt;-&lt;52.0,540.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;201.0,608.0&gt;-&lt;201.0,602.0&gt;-&lt;201.5,596.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;201.5,596.0&gt;-&lt;202.0,590.0&gt;-&lt;203.0,584.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;174.0,-70.0&gt;-&lt;174.0,-60.0&gt;-&lt;175.0,-50.5&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;175.0,-50.5&gt;-&lt;176.0,-41.0&gt;-&lt;178.0,-32.0&gt;&gt; and 61 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;431.0,533.0&gt;-&lt;431.0,528.0&gt;-&lt;431.0,522.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;431.0,522.0&gt;-&lt;431.0,516.0&gt;-&lt;430.0,511.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;215.0,603.0&gt;-&lt;215.0,597.0&gt;-&lt;215.5,591.5&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;215.5,591.5&gt;-&lt;216.0,586.0&gt;-&lt;217.0,581.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;175.0,-67.0&gt;-&lt;175.0,-57.0&gt;-&lt;176.0,-47.5&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;176.0,-47.5&gt;-&lt;177.0,-38.0&gt;-&lt;179.0,-28.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;316.0,-28.0&gt;-&lt;315.0,-32.0&gt;-&lt;315.0,-36.5&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;315.0,-36.5&gt;-&lt;315.0,-41.0&gt;-&lt;315.0,-45.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment L&lt;&lt;453.0,190.0&gt;--&lt;468.0,190.0&gt;&gt;
+* uni10EF (U+10EF) contains a short segment L&lt;&lt;316.0,317.0&gt;--&lt;316.0,305.0&gt;&gt; and 54 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;232.0,499.0&gt;-&lt;235.0,499.0&gt;-&lt;238.0,499.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;238.0,499.0&gt;-&lt;241.0,499.0&gt;-&lt;244.0,499.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;165.0,-93.0&gt;-&lt;165.0,-83.0&gt;-&lt;166.5,-72.5&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;166.5,-72.5&gt;-&lt;168.0,-62.0&gt;-&lt;170.0,-52.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;206.0,-52.0&gt;-&lt;205.0,-61.0&gt;-&lt;203.5,-70.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;203.5,-70.0&gt;-&lt;202.0,-79.0&gt;-&lt;202.0,-87.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment L&lt;&lt;371.0,151.0&gt;--&lt;391.0,151.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;237.0,-247.5&gt;-&lt;227.0,-245.0&gt;-&lt;219.0,-242.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;377.0,770.0&gt;-&lt;389.0,770.0&gt;-&lt;398.5,768.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;398.5,768.0&gt;-&lt;408.0,766.0&gt;-&lt;414.0,763.0&gt;&gt; and 41 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;250.0,503.0&gt;-&lt;253.0,503.0&gt;-&lt;256.0,502.5&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;256.0,502.5&gt;-&lt;259.0,502.0&gt;-&lt;263.0,502.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;87.0,326.0&gt;-&lt;85.0,318.0&gt;-&lt;84.0,309.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;84.0,309.0&gt;-&lt;83.0,300.0&gt;-&lt;83.0,290.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;164.0,-88.0&gt;-&lt;164.0,-78.0&gt;-&lt;165.5,-68.5&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;165.5,-68.5&gt;-&lt;167.0,-59.0&gt;-&lt;169.0,-49.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;221.0,-49.0&gt;-&lt;219.0,-58.0&gt;-&lt;218.5,-66.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;218.5,-66.0&gt;-&lt;218.0,-74.0&gt;-&lt;218.0,-81.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment L&lt;&lt;378.0,158.0&gt;--&lt;398.0,158.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;417.5,768.0&gt;-&lt;429.0,766.0&gt;-&lt;437.0,763.0&gt;&gt; and 35 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;53.0,529.0&gt;-&lt;53.0,534.0&gt;-&lt;52.0,540.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;52.0,540.5&gt;-&lt;51.0,547.0&gt;-&lt;51.0,553.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;114.0,334.0&gt;-&lt;113.0,326.0&gt;-&lt;111.5,318.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;111.5,318.0&gt;-&lt;110.0,310.0&gt;-&lt;110.0,300.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment L&lt;&lt;405.0,174.0&gt;--&lt;423.0,174.0&gt;&gt;
+* uni10FA (U+10FA) contains a short segment L&lt;&lt;151.0,16.0&gt;--&lt;151.0,18.0&gt;&gt;
+* uni1C96 (U+1C96) contains a short segment B&lt;&lt;318.0,477.0&gt;-&lt;322.0,476.0&gt;-&lt;325.5,475.0&gt;&gt;
+* uni1C96 (U+1C96) contains a short segment B&lt;&lt;325.5,475.0&gt;-&lt;329.0,474.0&gt;-&lt;334.0,474.0&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;174.0,573.0&gt;-&lt;174.0,568.0&gt;-&lt;174.5,563.5&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;174.5,563.5&gt;-&lt;175.0,559.0&gt;-&lt;176.0,553.0&gt;&gt; and 35 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;404.0,546.0&gt;-&lt;404.0,540.0&gt;-&lt;403.5,533.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;403.5,533.0&gt;-&lt;403.0,526.0&gt;-&lt;402.0,522.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;54.0,524.0&gt;-&lt;53.0,529.0&gt;-&lt;52.5,535.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;52.5,535.0&gt;-&lt;52.0,541.0&gt;-&lt;52.0,547.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;120.0,336.0&gt;-&lt;118.0,328.0&gt;-&lt;117.0,321.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;117.0,321.0&gt;-&lt;116.0,314.0&gt;-&lt;116.0,305.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;280.0,-37.0&gt;-&lt;279.0,-47.0&gt;-&lt;279.0,-59.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment L&lt;&lt;421.0,179.0&gt;--&lt;438.0,179.0&gt;&gt;
+* uni10FA (U+10FA) contains a short segment L&lt;&lt;149.0,23.0&gt;--&lt;149.0,26.0&gt;&gt;
+* uni1C96 (U+1C96) contains a short segment B&lt;&lt;336.0,476.0&gt;-&lt;339.0,475.0&gt;-&lt;343.0,474.0&gt;&gt; and 46 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10B3 (U+10B3) contains a short segment B&lt;&lt;563.0,-115.0&gt;-&lt;571.0,-116.0&gt;-&lt;580.5,-116.5&gt;&gt;
+* uni10D2 (U+10D2) contains a short segment B&lt;&lt;161.0,393.0&gt;-&lt;161.0,386.0&gt;-&lt;162.5,377.5&gt;&gt;
+* uni10D2 (U+10D2) contains a short segment B&lt;&lt;162.5,377.5&gt;-&lt;164.0,369.0&gt;-&lt;165.0,361.0&gt;&gt;
+* uni10DA (U+10DA) contains a short segment L&lt;&lt;687.0,188.0&gt;--&lt;649.0,188.0&gt;&gt;
+* uni10DA (U+10DA) contains a short segment L&lt;&lt;398.0,188.0&gt;--&lt;360.0,188.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;254.0,-76.0&gt;-&lt;254.0,-67.0&gt;-&lt;255.5,-58.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;255.5,-58.0&gt;-&lt;257.0,-49.0&gt;-&lt;258.0,-40.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;587.0,768.0&gt;-&lt;599.0,766.0&gt;-&lt;607.0,764.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;607.0,730.0&gt;-&lt;599.0,732.0&gt;-&lt;588.0,733.5&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;588.0,733.5&gt;-&lt;577.0,735.0&gt;-&lt;564.0,735.0&gt;&gt; and 65 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10B3 (U+10B3) contains a short segment B&lt;&lt;560.0,-105.0&gt;-&lt;567.0,-106.0&gt;-&lt;577.5,-107.0&gt;&gt;
+* uni10D2 (U+10D2) contains a short segment B&lt;&lt;176.0,392.0&gt;-&lt;176.0,385.0&gt;-&lt;177.5,376.5&gt;&gt;
+* uni10D2 (U+10D2) contains a short segment B&lt;&lt;177.5,376.5&gt;-&lt;179.0,368.0&gt;-&lt;180.0,360.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;93.0,586.0&gt;-&lt;90.0,595.0&gt;-&lt;89.5,603.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;89.5,603.0&gt;-&lt;89.0,611.0&gt;-&lt;89.0,619.0&gt;&gt;
+* uni10EF (U+10EF) contains a short segment L&lt;&lt;303.0,356.0&gt;--&lt;303.0,335.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;588.5,767.0&gt;-&lt;603.0,764.0&gt;-&lt;612.0,760.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;612.0,714.0&gt;-&lt;604.0,717.0&gt;-&lt;591.5,719.5&gt;&gt;
+* uni10F7 (U+10F7) contains a short segment B&lt;&lt;128.0,374.0&gt;-&lt;128.0,367.0&gt;-&lt;129.0,359.0&gt;&gt;
+* uni10F7 (U+10F7) contains a short segment B&lt;&lt;129.0,359.0&gt;-&lt;130.0,351.0&gt;-&lt;131.0,345.0&gt;&gt; and 54 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;510.0,546.0&gt;-&lt;510.0,540.0&gt;-&lt;509.5,534.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;509.5,534.0&gt;-&lt;509.0,528.0&gt;-&lt;508.0,523.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;401.0,523.0&gt;-&lt;401.0,527.0&gt;-&lt;402.0,533.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;402.0,533.0&gt;-&lt;403.0,539.0&gt;-&lt;403.0,545.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;179.0,545.0&gt;-&lt;179.0,539.0&gt;-&lt;180.0,533.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;180.0,533.0&gt;-&lt;181.0,527.0&gt;-&lt;181.0,523.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;74.0,523.0&gt;-&lt;74.0,528.0&gt;-&lt;73.0,534.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;73.0,534.0&gt;-&lt;72.0,540.0&gt;-&lt;72.0,546.0&gt;&gt;
+* uni10D2 (U+10D2) contains a short segment B&lt;&lt;211.0,388.0&gt;-&lt;211.0,380.0&gt;-&lt;212.0,372.0&gt;&gt;
+* uni10D2 (U+10D2) contains a short segment B&lt;&lt;212.0,372.0&gt;-&lt;213.0,364.0&gt;-&lt;215.0,356.0&gt;&gt; and 52 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;501.0,552.0&gt;-&lt;501.0,546.0&gt;-&lt;500.5,539.5&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;500.5,539.5&gt;-&lt;500.0,533.0&gt;-&lt;499.0,528.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;409.0,528.0&gt;-&lt;410.0,533.0&gt;-&lt;410.5,539.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;410.5,539.0&gt;-&lt;411.0,545.0&gt;-&lt;411.0,551.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;165.0,551.0&gt;-&lt;165.0,545.0&gt;-&lt;165.5,539.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;165.5,539.0&gt;-&lt;166.0,533.0&gt;-&lt;167.0,528.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;77.0,528.0&gt;-&lt;76.0,533.0&gt;-&lt;75.5,539.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;75.5,539.5&gt;-&lt;75.0,546.0&gt;-&lt;75.0,552.0&gt;&gt;
+* uni10D2 (U+10D2) contains a short segment B&lt;&lt;201.0,390.0&gt;-&lt;201.0,383.0&gt;-&lt;202.5,374.5&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;343.0,529.0&gt;-&lt;349.0,529.0&gt;-&lt;353.0,528.0&gt;&gt; and 61 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;520.0,538.0&gt;-&lt;520.0,533.0&gt;-&lt;519.0,527.5&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;519.0,527.5&gt;-&lt;518.0,522.0&gt;-&lt;518.0,517.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;392.0,517.0&gt;-&lt;392.0,521.0&gt;-&lt;393.0,526.5&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;393.0,526.5&gt;-&lt;394.0,532.0&gt;-&lt;394.0,537.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;196.0,537.0&gt;-&lt;196.0,532.0&gt;-&lt;196.5,526.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;196.5,526.5&gt;-&lt;197.0,521.0&gt;-&lt;198.0,517.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;71.0,517.0&gt;-&lt;71.0,522.0&gt;-&lt;70.0,527.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;70.0,527.5&gt;-&lt;69.0,533.0&gt;-&lt;69.0,538.0&gt;&gt;
+* uni10D2 (U+10D2) contains a short segment B&lt;&lt;222.0,385.0&gt;-&lt;222.0,378.0&gt;-&lt;223.0,370.0&gt;&gt;
+* uni10D2 (U+10D2) contains a short segment B&lt;&lt;223.0,370.0&gt;-&lt;224.0,362.0&gt;-&lt;226.0,354.0&gt;&gt; and 54 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;456.0,554.0&gt;-&lt;456.0,548.0&gt;-&lt;455.5,541.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;455.5,541.0&gt;-&lt;455.0,534.0&gt;-&lt;454.0,529.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;153.0,553.0&gt;-&lt;153.0,547.0&gt;-&lt;153.5,541.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;153.5,541.0&gt;-&lt;154.0,535.0&gt;-&lt;155.0,530.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;68.0,530.0&gt;-&lt;67.0,535.0&gt;-&lt;66.5,541.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;66.5,541.5&gt;-&lt;66.0,548.0&gt;-&lt;66.0,554.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;320.0,522.0&gt;-&lt;326.0,521.0&gt;-&lt;331.0,520.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;165.0,615.0&gt;-&lt;165.0,609.0&gt;-&lt;165.5,602.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;165.5,602.0&gt;-&lt;166.0,595.0&gt;-&lt;167.0,588.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;42.0,293.0&gt;-&lt;42.0,304.0&gt;-&lt;43.5,313.5&gt;&gt; and 46 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10AC (U+10AC) contains a short segment L&lt;&lt;256.0,561.0&gt;--&lt;256.0,538.0&gt;&gt;
+* uni10AD (U+10AD) contains a short segment B&lt;&lt;635.0,127.0&gt;-&lt;643.0,122.0&gt;-&lt;650.5,121.0&gt;&gt;
+* uni10AD (U+10AD) contains a short segment B&lt;&lt;650.5,121.0&gt;-&lt;658.0,120.0&gt;-&lt;667.0,120.0&gt;&gt;
+* uni10BA (U+10BA) contains a short segment L&lt;&lt;449.0,0.0&gt;--&lt;449.0,19.0&gt;&gt;
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;329.0,501.0&gt;-&lt;331.0,511.0&gt;-&lt;331.0,519.0&gt;&gt;
+* uni10C2 (U+10C2) contains a short segment L&lt;&lt;236.0,630.0&gt;--&lt;249.0,630.0&gt;&gt;
+* uni10C5 (U+10C5) contains a short segment L&lt;&lt;496.0,201.0&gt;--&lt;496.0,188.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;235.0,519.0&gt;-&lt;235.0,511.0&gt;-&lt;237.0,501.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;253.0,589.0&gt;-&lt;253.0,584.0&gt;-&lt;253.5,579.5&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;253.5,579.5&gt;-&lt;254.0,575.0&gt;-&lt;255.0,571.0&gt;&gt; and 58 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;63.0,513.0&gt;-&lt;62.0,518.0&gt;-&lt;61.5,523.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;61.5,523.0&gt;-&lt;61.0,528.0&gt;-&lt;61.0,534.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;375.0,513.0&gt;-&lt;379.0,512.0&gt;-&lt;383.5,511.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;383.5,511.0&gt;-&lt;388.0,510.0&gt;-&lt;392.0,509.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;217.0,599.0&gt;-&lt;217.0,593.0&gt;-&lt;218.0,587.5&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;218.0,587.5&gt;-&lt;219.0,582.0&gt;-&lt;219.0,577.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;145.0,334.0&gt;-&lt;142.0,322.0&gt;-&lt;142.0,311.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;213.0,-64.0&gt;-&lt;213.0,-54.0&gt;-&lt;214.0,-44.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;214.0,-44.0&gt;-&lt;215.0,-34.0&gt;-&lt;217.0,-24.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;352.0,-24.0&gt;-&lt;352.0,-30.0&gt;-&lt;351.5,-35.0&gt;&gt; and 53 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10BD (U+10BD) contains a short segment B&lt;&lt;338.0,507.0&gt;-&lt;340.0,517.0&gt;-&lt;340.0,526.0&gt;&gt;
+* uni10C5 (U+10C5) contains a short segment L&lt;&lt;476.0,203.0&gt;--&lt;476.0,187.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;217.0,526.0&gt;-&lt;217.0,517.0&gt;-&lt;219.0,507.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;393.0,509.0&gt;-&lt;398.0,509.0&gt;-&lt;402.5,508.0&gt;&gt;
+* uni10D6 (U+10D6) contains a short segment B&lt;&lt;402.5,508.0&gt;-&lt;407.0,507.0&gt;-&lt;411.0,505.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;234.0,594.0&gt;-&lt;234.0,589.0&gt;-&lt;234.5,584.0&gt;&gt;
+* uni10DB (U+10DB) contains a short segment B&lt;&lt;234.5,584.0&gt;-&lt;235.0,579.0&gt;-&lt;236.0,574.0&gt;&gt;
+* uni10DF (U+10DF) contains a short segment B&lt;&lt;150.0,335.0&gt;-&lt;148.0,322.0&gt;-&lt;148.0,314.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;210.0,-61.0&gt;-&lt;210.0,-51.0&gt;-&lt;211.0,-41.5&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;211.0,-41.5&gt;-&lt;212.0,-32.0&gt;-&lt;214.0,-22.0&gt;&gt; and 48 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;222.0,-82.0&gt;-&lt;222.0,-73.0&gt;-&lt;223.0,-63.5&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;223.0,-63.5&gt;-&lt;224.0,-54.0&gt;-&lt;226.0,-44.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;262.0,-44.0&gt;-&lt;261.0,-52.0&gt;-&lt;260.0,-60.5&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;260.0,-60.5&gt;-&lt;259.0,-69.0&gt;-&lt;259.0,-76.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;288.0,-247.5&gt;-&lt;275.0,-245.0&gt;-&lt;265.0,-240.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;265.0,-206.0&gt;-&lt;275.0,-210.0&gt;-&lt;287.5,-212.5&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;494.0,770.0&gt;-&lt;507.0,770.0&gt;-&lt;518.0,768.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;518.0,768.0&gt;-&lt;529.0,766.0&gt;-&lt;536.0,763.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;536.0,729.0&gt;-&lt;528.0,732.0&gt;-&lt;518.0,733.5&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;518.0,733.5&gt;-&lt;508.0,735.0&gt;-&lt;497.0,735.0&gt;&gt; and 43 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;277.0,-40.0&gt;-&lt;276.0,-48.0&gt;-&lt;275.0,-55.5&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;275.0,-55.5&gt;-&lt;274.0,-63.0&gt;-&lt;274.0,-71.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;267.0,-191.0&gt;-&lt;277.0,-195.0&gt;-&lt;290.0,-198.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;525.5,767.5&gt;-&lt;539.0,765.0&gt;-&lt;548.0,761.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;548.0,714.0&gt;-&lt;539.0,717.0&gt;-&lt;528.0,719.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;528.0,719.0&gt;-&lt;517.0,721.0&gt;-&lt;505.0,721.0&gt;&gt;
+* uni10F7 (U+10F7) contains a short segment B&lt;&lt;121.0,377.0&gt;-&lt;121.0,369.0&gt;-&lt;121.5,359.5&gt;&gt;
+* uni10F7 (U+10F7) contains a short segment B&lt;&lt;121.5,359.5&gt;-&lt;122.0,350.0&gt;-&lt;124.0,344.0&gt;&gt;
+* uni10FA (U+10FA) contains a short segment L&lt;&lt;229.0,0.0&gt;--&lt;229.0,2.0&gt;&gt;
+* uni10FD (U+10FD) contains a short segment B&lt;&lt;356.0,572.0&gt;-&lt;358.0,578.0&gt;-&lt;358.5,587.5&gt;&gt; and 29 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;167.0,547.0&gt;-&lt;167.0,541.0&gt;-&lt;168.0,535.5&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;168.0,535.5&gt;-&lt;169.0,530.0&gt;-&lt;169.0,525.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;67.0,525.0&gt;-&lt;66.0,530.0&gt;-&lt;65.5,536.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;65.5,536.0&gt;-&lt;65.0,542.0&gt;-&lt;65.0,548.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;316.0,-30.0&gt;-&lt;315.0,-46.0&gt;-&lt;315.0,-56.0&gt;&gt;
+* uni10EF (U+10EF) contains a short segment L&lt;&lt;312.0,329.0&gt;--&lt;312.0,310.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;578.0,674.0&gt;-&lt;569.0,678.0&gt;-&lt;555.5,681.0&gt;&gt;
+* uni10FA (U+10FA) contains a short segment L&lt;&lt;183.0,17.0&gt;--&lt;183.0,20.0&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;187.0,560.0&gt;-&lt;187.0,557.0&gt;-&lt;187.5,554.0&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;187.5,554.0&gt;-&lt;188.0,551.0&gt;-&lt;188.0,547.0&gt;&gt; and 31 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedSemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;65.0,519.0&gt;-&lt;64.0,524.0&gt;-&lt;63.5,530.0&gt;&gt;
+* uni10C7 (U+10C7) contains a short segment B&lt;&lt;63.5,530.0&gt;-&lt;63.0,536.0&gt;-&lt;63.0,541.0&gt;&gt;
+* uni10E4 (U+10E4) contains a short segment B&lt;&lt;333.0,-27.0&gt;-&lt;332.0,-39.0&gt;-&lt;332.0,-51.0&gt;&gt;
+* uni10EF (U+10EF) contains a short segment L&lt;&lt;325.0,324.0&gt;--&lt;325.0,308.0&gt;&gt;
+* uni10F6 (U+10F6) contains a short segment B&lt;&lt;589.0,659.0&gt;-&lt;581.0,663.0&gt;-&lt;567.0,666.0&gt;&gt;
+* uni10FA (U+10FA) contains a short segment L&lt;&lt;174.0,26.0&gt;--&lt;174.0,29.0&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;206.0,555.0&gt;-&lt;206.0,549.0&gt;-&lt;207.0,543.0&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;82.0,543.0&gt;-&lt;81.0,552.0&gt;-&lt;80.5,557.0&gt;&gt;
+* uni1C9B (U+1C9B) contains a short segment B&lt;&lt;80.5,557.0&gt;-&lt;80.0,562.0&gt;-&lt;80.0,568.0&gt;&gt;
+* uni1C9F (U+1C9F) contains a short segment B&lt;&lt;144.0,513.0&gt;-&lt;142.0,503.0&gt;-&lt;142.0,494.0&gt;&gt; and 35 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* uni1C90 (U+1C90): L&lt;&lt;61.0,352.0&gt;--&lt;-33.0,352.0&gt;&gt;/L&lt;&lt;-33.0,352.0&gt;--&lt;71.0,378.0&gt;&gt; = 14.036243467926484 [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni1CAA (U+1CAA): L&lt;&lt;385.0,316.0&gt;--&lt;386.0,465.0&gt;&gt;</li>
+<li>uni1CB2 (U+1CB2): L&lt;&lt;581.0,158.0&gt;--&lt;582.0,0.0&gt;&gt;</li>
+<li>uni1CB2 (U+1CB2): L&lt;&lt;74.0,0.0&gt;--&lt;75.0,158.0&gt;&gt;</li>
+<li>uni1CBE (U+1CBE): L&lt;&lt;582.0,714.0&gt;--&lt;581.0,556.0&gt;&gt; and uni1CBE (U+1CBE): L&lt;&lt;75.0,556.0&gt;--&lt;74.0,714.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-Condensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni1C9F (U+1C9F): L&lt;&lt;407.0,210.0&gt;--&lt;408.0,640.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni10DE (U+10DE): L&lt;&lt;172.0,759.0&gt;--&lt;342.0,760.0&gt;&gt;</li>
+<li>uni10EA (U+10EA): L&lt;&lt;332.0,552.0&gt;--&lt;503.0,553.0&gt;&gt; and uni1CAA (U+1CAA): L&lt;&lt;337.0,328.0&gt;--&lt;338.0,476.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni10EA (U+10EA): L&lt;&lt;325.0,549.0&gt;--&lt;477.0,550.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni1C9F (U+1C9F): L&lt;&lt;407.0,207.0&gt;--&lt;408.0,664.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-CondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni1C9F (U+1C9F): L&lt;&lt;404.0,214.0&gt;--&lt;405.0,628.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni10A1 (U+10A1): L&lt;&lt;657.0,138.0&gt;--&lt;863.0,139.0&gt;&gt;</li>
+<li>uni10DE (U+10DE): L&lt;&lt;206.0,761.0&gt;--&lt;375.0,762.0&gt;&gt;</li>
+<li>uni10EA (U+10EA): L&lt;&lt;376.0,548.0&gt;--&lt;544.0,549.0&gt;&gt; and uni1CAA (U+1CAA): L&lt;&lt;373.0,324.0&gt;--&lt;374.0,459.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensed.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni1C9F (U+1C9F): L&lt;&lt;378.0,202.0&gt;--&lt;379.0,640.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni1C9F (U+1C9F): L&lt;&lt;374.0,198.0&gt;--&lt;375.0,664.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedMedium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni1C9F (U+1C9F): L&lt;&lt;378.0,208.0&gt;--&lt;379.0,630.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBlack.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni10A1 (U+10A1): L&lt;&lt;627.0,153.0&gt;--&lt;813.0,154.0&gt;&gt;</li>
+<li>uni10DE (U+10DE): L&lt;&lt;187.0,759.0&gt;--&lt;367.0,760.0&gt;&gt;</li>
+<li>uni10EA (U+10EA): L&lt;&lt;354.0,552.0&gt;--&lt;534.0,553.0&gt;&gt;</li>
+<li>uni1CAA (U+1CAA): L&lt;&lt;360.0,322.0&gt;--&lt;361.0,471.0&gt;&gt;</li>
+<li>uni1CB2 (U+1CB2): L&lt;&lt;548.0,153.0&gt;--&lt;549.0,0.0&gt;&gt;</li>
+<li>uni1CB2 (U+1CB2): L&lt;&lt;77.0,0.0&gt;--&lt;78.0,153.0&gt;&gt;</li>
+<li>uni1CBE (U+1CBE): L&lt;&lt;549.0,714.0&gt;--&lt;548.0,561.0&gt;&gt; and uni1CBE (U+1CBE): L&lt;&lt;78.0,561.0&gt;--&lt;77.0,714.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Sans Georgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>uni10DE (U+10DE): L&lt;&lt;189.0,760.0&gt;--&lt;349.0,761.0&gt;&gt;</li>
+<li>uni1CAA (U+1CAA): L&lt;&lt;348.0,330.0&gt;--&lt;349.0,464.0&gt;&gt;</li>
+<li>uni1CB2 (U+1CB2): L&lt;&lt;536.0,137.0&gt;--&lt;537.0,0.0&gt;&gt; and uni1CBE (U+1CBE): L&lt;&lt;537.0,714.0&gt;--&lt;536.0,577.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+                    </body>
+                </html>

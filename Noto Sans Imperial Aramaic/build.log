@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSansImperialAramaic/NotoSansImperialAramaic.designspace
+Postprocessing font output/Noto Sans Imperial Aramaic/unhinted/variable-ttf/NotoSansImperialAramaic[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSansImperialAramaic/NotoSansImperialAramaic.designspace
+Created static font output/Noto Sans Imperial Aramaic/unhinted/otf/NotoSansImperialAramaic-Regular.otf
+Postprocessing font output/Noto Sans Imperial Aramaic/unhinted/otf/NotoSansImperialAramaic-Regular.otf
+Creating static fonts from src/NotoSansImperialAramaic/NotoSansImperialAramaic.designspace
+Created static font output/Noto Sans Imperial Aramaic/unhinted/ttf/NotoSansImperialAramaic-Regular.ttf
+Postprocessing font output/Noto Sans Imperial Aramaic/unhinted/ttf/NotoSansImperialAramaic-Regular.ttf
+Couldn't autohint output/Noto Sans Imperial Aramaic/unhinted/ttf/NotoSansImperialAramaic-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
