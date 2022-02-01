@@ -10,10 +10,12 @@ import logging
 import os
 import subprocess
 import json
+import requests
+
 
 
 COMMIT_URL = "https://github.com/googlefonts/noto-source/commit"
-BLACKLISTED = ["Noto Sans", "Noto Serif", "Noto Sans Mono", "Arimo", "Arimo-Italic"]
+BLACKLISTED = ["Noto Sans", "Noto Serif", "Noto Sans Mono", "Noto Sans Italic", "Arimo", "Arimo-Italic"]
 DASHBOARD_URL = "https://simoncozens.github.io/noto-source/"
 STATE_URL = DASHBOARD_URL + "state.json"
 MAX_BUILD = 20
@@ -42,7 +44,7 @@ class NotoBuilder(GFBuilder):
             source = self.config["sources"][0]
         source, _ = os.path.splitext(os.path.basename(source))
         fname = re.sub(r"([a-z])([A-Z])", r"\1 \2", source)
-        fname = re.sub("-MM$", "", fname)
+        fname = re.sub("-?MM$", "", fname)
         return fname
 
     def post_process_ttf(self, filename):
@@ -72,6 +74,10 @@ os.makedirs("output", exist_ok=True)  # Stop it being deleted
 
 script_projects = {}
 # Try to load state here
+try:
+    script_projects = requests.get(STATE_URL).json()
+except Exception as e:
+    logging.getLogger().error(e)
 
 def last_commit(file):
     log = subprocess.check_output(
@@ -104,7 +110,7 @@ for ix, file in enumerate(to_build):
         log.removeHandler(hdlr)
     log.addHandler(logging.FileHandler("output/%s/build.log" % family))
     log.addHandler(logging.StreamHandler())
-    print("\n::group::%s (%i/%i)\n" % (family, ix + 1, len(all_files)), file=sys.stderr)
+    print("\n::group::%s (%i/%i)\n" % (family, ix + 1, len(to_build)), file=sys.stderr)
     errors = None
     report = None
     try:
