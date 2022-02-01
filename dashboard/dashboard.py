@@ -104,7 +104,8 @@ def build_and_test_file(file):
         subprocess.run(
             [
                 "fontbakery",
-                "check-notofonts",
+                "check-googlefonts",
+                "--config", "fontbakery.yml"
                 "-l",
                 "WARN",
                 "-n",
