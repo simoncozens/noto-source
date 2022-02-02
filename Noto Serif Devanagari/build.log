@@ -1,0 +1,180 @@
+Creating variable fonts from src/NotoSerifDevanagari-MM.glyphs
+Fonts had differing anchors in glyph ayMatra_candraBindu-deva:
+ * Noto Serif Devanagari Light, Noto Serif Devanagari Condensed Light, Noto Serif Devanagari Condensed had "_top, candra, top"
+ * Noto Serif Devanagari Regular, Noto Serif Devanagari SemiBold, Noto Serif Devanagari Bold, Noto Serif Devanagari Condensed SemiBold, Noto Serif Devanagari Condensed Bold had "_top, _candra"
+Fonts had differing anchors in glyph eMatra_anusvara-deva:
+ * Noto Serif Devanagari Light, Noto Serif Devanagari Regular, Noto Serif Devanagari SemiBold, Noto Serif Devanagari Condensed Light, Noto Serif Devanagari Condensed, Noto Serif Devanagari Condensed SemiBold, Noto Serif Devanagari Condensed Bold had "_top, #topRight"
+ * Noto Serif Devanagari Bold had "_top, _topRight"
+Fonts had differing anchors in glyph eShortMatra_anusvara-deva:
+ * Noto Serif Devanagari Light, Noto Serif Devanagari Regular, Noto Serif Devanagari Condensed Light, Noto Serif Devanagari Condensed, Noto Serif Devanagari Condensed SemiBold, Noto Serif Devanagari Condensed Bold had "_top, #topRight"
+ * Noto Serif Devanagari SemiBold, Noto Serif Devanagari Bold had "_top, _topRight"
+Fonts had differing anchors in glyph nukta_halant-deva:
+ * Noto Serif Devanagari Light, Noto Serif Devanagari Regular, Noto Serif Devanagari SemiBold, Noto Serif Devanagari Bold, Noto Serif Devanagari Condensed, Noto Serif Devanagari Condensed SemiBold, Noto Serif Devanagari Condensed Bold had "_bottom, nukta"
+ * Noto Serif Devanagari Condensed Light had "_bottom, nukta, _nukta"
+Fonts had differing anchors in glyph nukta_llVocalicMatra-deva:
+ * Noto Serif Devanagari Light, Noto Serif Devanagari Condensed Light, Noto Serif Devanagari Condensed, Noto Serif Devanagari Condensed Bold had "_bottom, nukta, _nukta"
+ * Noto Serif Devanagari Regular, Noto Serif Devanagari SemiBold, Noto Serif Devanagari Bold, Noto Serif Devanagari Condensed SemiBold had "_bottom, nukta"
+Fonts had differing anchors in glyph nukta_rrVocalicMatra-deva:
+ * Noto Serif Devanagari Light, Noto Serif Devanagari Regular, Noto Serif Devanagari SemiBold, Noto Serif Devanagari Condensed Light, Noto Serif Devanagari Condensed, Noto Serif Devanagari Condensed SemiBold, Noto Serif Devanagari Condensed Bold had "_bottom, nukta, _nukta"
+ * Noto Serif Devanagari Bold had "_bottom, nukta"
+Fonts had differing anchors in glyph nukta_uuMatra-deva.01:
+ * Noto Serif Devanagari Light, Noto Serif Devanagari Condensed Light, Noto Serif Devanagari Condensed, Noto Serif Devanagari Condensed SemiBold had "_bottom, nukta, _nukta"
+ * Noto Serif Devanagari Regular, Noto Serif Devanagari SemiBold, Noto Serif Devanagari Bold, Noto Serif Devanagari Condensed Bold had "_bottom, nukta"
+Fonts had differing anchors in glyph oeMatra_reph-deva:
+ * Noto Serif Devanagari Light, Noto Serif Devanagari Regular, Noto Serif Devanagari SemiBold, Noto Serif Devanagari Bold, Noto Serif Devanagari Condensed Light, Noto Serif Devanagari Condensed SemiBold, Noto Serif Devanagari Condensed Bold had "_top"
+ * Noto Serif Devanagari Condensed had "_top, candra, top"
+Fonts had differing anchors in glyph oeMatra_rephanusvara-deva:
+ * Noto Serif Devanagari Light, Noto Serif Devanagari Regular, Noto Serif Devanagari SemiBold, Noto Serif Devanagari Bold, Noto Serif Devanagari Condensed Light, Noto Serif Devanagari Condensed SemiBold, Noto Serif Devanagari Condensed Bold had "_top"
+ * Noto Serif Devanagari Condensed had "_top, candra, top"
+Fonts had differing anchors in glyph oeMatra_rephcandrabindu-deva:
+ * Noto Serif Devanagari Light, Noto Serif Devanagari Regular, Noto Serif Devanagari SemiBold, Noto Serif Devanagari Bold, Noto Serif Devanagari Condensed Light, Noto Serif Devanagari Condensed SemiBold, Noto Serif Devanagari Condensed Bold had "_top"
+ * Noto Serif Devanagari Condensed had "_top, candra, top"
+Couldn't build variable font: In 'src/NotoSerifDevanagari-MM.glyphs' -> 'master_ufo/NotoSerifDevanagari.designspace': Compatibility check failed
+Creating static fonts from src/NotoSerifDevanagari-MM.glyphs
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedBlack.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedBlack.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedBlack.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedBlack.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedSemiBold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedBold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedBold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedMedium.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedExtraBold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedExtraBold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedLight.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedLight.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Light.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Light.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedSemiBold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Thin.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Thin.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedThin.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedThin.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedExtraLight.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedExtraLight.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensed.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensed.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedExtraBold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedBold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedBold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedLight.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedLight.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiBold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiBold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Bold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Bold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraLight.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraLight.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedBlack.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedSemiBold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedSemiBold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedMedium.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedMedium.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraBold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraBold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedExtraBold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedBold.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedBold.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedLight.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedLight.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedExtraLight.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedThin.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedThin.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensed.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensed.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedThin.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-ExtraCondensedThin.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Regular.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Regular.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Medium.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Medium.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Black.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Black.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-SemiCondensedExtraLight.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedMedium.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-CondensedMedium.otf
+Created static font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Condensed.otf
+Postprocessing font output/Noto Serif Devanagari/unhinted/otf/NotoSerifDevanagari-Condensed.otf
+Creating static fonts from src/NotoSerifDevanagari-MM.glyphs
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedThin.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedThin.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiBold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiBold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedExtraLight.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Regular.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Regular.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensed.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensed.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedExtraLight.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedThin.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedThin.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedLight.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedLight.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedBold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedBold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedMedium.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedBlack.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensed.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensed.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedSemiBold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Black.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Black.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedSemiBold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedLight.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedThin.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedExtraBold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedExtraBold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedLight.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedLight.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Light.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Light.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Condensed.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Condensed.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedBold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Medium.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Medium.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraBold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraBold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Thin.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Thin.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedBlack.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedBlack.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Bold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-Bold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedBold.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedBold.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraLight.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-ExtraLight.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedBlack.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedMedium.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-CondensedMedium.ttf
+Created static font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Serif Devanagari/unhinted/ttf/NotoSerifDevanagari-SemiCondensedMedium.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

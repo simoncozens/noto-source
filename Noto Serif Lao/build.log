@@ -1,0 +1,151 @@
+Creating variable fonts from src/NotoSerifLao-MM.glyphs
+Postprocessing font output/Noto Serif Lao/unhinted/variable-ttf/NotoSerifLao-MM[wdth,wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifLao-MM.glyphs
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedLight.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedLight.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedExtraBold.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedBlack.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedBlack.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraBold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraBold.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedBold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedBold.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiBold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiBold.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedExtraLight.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedMedium.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Thin.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Thin.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedExtraLight.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedExtraLight.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedBlack.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedThin.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedThin.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedExtraLight.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedBold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedBold.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensed.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensed.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedSemiBold.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedThin.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedThin.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Medium.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Medium.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Light.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Light.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedBlack.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedBlack.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedSemiBold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedSemiBold.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Condensed.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Condensed.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensed.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensed.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Black.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Black.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedMedium.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-SemiCondensedMedium.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedSemiBold.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedThin.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedThin.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Bold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Bold.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedExtraBold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedExtraBold.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraLight.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraLight.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedLight.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedLight.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedBold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedBold.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedMedium.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedMedium.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Regular.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-Regular.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedLight.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-CondensedLight.otf
+Created static font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Lao/unhinted/otf/NotoSerifLao-ExtraCondensedExtraBold.otf
+Creating static fonts from src/NotoSerifLao-MM.glyphs
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedThin.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedExtraLight.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Medium.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Medium.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensed.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensed.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedLight.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedLight.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiBold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiBold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedLight.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedLight.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraLight.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraLight.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedBlack.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraBold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraBold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Condensed.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Condensed.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Regular.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Regular.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedBlack.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedBlack.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensed.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensed.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedMedium.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedThin.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedThin.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedMedium.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Light.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Light.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedLight.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedMedium.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedMedium.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedSemiBold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedBold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Black.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Black.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedThin.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedThin.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Thin.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Thin.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedExtraBold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Bold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-Bold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedBold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedBold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedExtraBold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedBold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedBold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedSemiBold.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-SemiCondensedBlack.ttf
+Created static font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Lao/unhinted/ttf/NotoSerifLao-CondensedExtraLight.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

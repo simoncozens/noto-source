@@ -1,0 +1,47 @@
+Creating variable fonts from src/NotoSerifGujarati-MM.glyphs
+Glyphs named 'eMatra_reph_anusvara-gujarati' have different number of segments
+Glyphs named 'eCandraReph_anusvara-gujarati' have different number of segments
+Glyphs named 'aiMatra_reph_anusvara-gujarati' have different number of segments
+Glyphs named 'reph_anusvara-gujarati' have different number of segments
+Glyphs named 'iiMatra_reph_anusvara-gujarati' have different number of segments
+Couldn't build variable font: In 'src/NotoSerifGujarati-MM.glyphs' -> 'master_ufo/NotoSerifGujarati.designspace': Generating fonts from Designspace failed: fonts contains incompatible glyphs: 'aiMatra_reph_anusvara-gujarati', 'eCandraReph_anusvara-gujarati', 'eMatra_reph_anusvara-gujarati', 'iiMatra_reph_anusvara-gujarati', 'reph_anusvara-gujarati'
+Creating static fonts from src/NotoSerifGujarati-MM.glyphs
+Created static font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Light.otf
+Postprocessing font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Light.otf
+Created static font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Thin.otf
+Postprocessing font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Thin.otf
+Created static font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Black.otf
+Postprocessing font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Black.otf
+Created static font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-SemiBold.otf
+Postprocessing font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-SemiBold.otf
+Created static font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-ExtraLight.otf
+Postprocessing font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-ExtraLight.otf
+Created static font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Medium.otf
+Postprocessing font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Medium.otf
+Created static font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-ExtraBold.otf
+Postprocessing font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-ExtraBold.otf
+Created static font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Regular.otf
+Postprocessing font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Regular.otf
+Created static font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Bold.otf
+Postprocessing font output/Noto Serif Gujarati/unhinted/otf/NotoSerifGujarati-Bold.otf
+Creating static fonts from src/NotoSerifGujarati-MM.glyphs
+Created static font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-ExtraLight.ttf
+Postprocessing font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-ExtraLight.ttf
+Created static font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Medium.ttf
+Postprocessing font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Medium.ttf
+Created static font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Thin.ttf
+Postprocessing font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Thin.ttf
+Created static font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Black.ttf
+Postprocessing font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Black.ttf
+Created static font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Bold.ttf
+Postprocessing font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Bold.ttf
+Created static font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Light.ttf
+Postprocessing font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Light.ttf
+Created static font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-ExtraBold.ttf
+Postprocessing font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-ExtraBold.ttf
+Created static font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-SemiBold.ttf
+Postprocessing font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-SemiBold.ttf
+Created static font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Regular.ttf
+Postprocessing font output/Noto Serif Gujarati/unhinted/ttf/NotoSerifGujarati-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

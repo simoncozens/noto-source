@@ -1,0 +1,27 @@
+Creating variable fonts from src/NotoSerifOriya.glyphs
+Postprocessing font output/Noto Serif Oriya/unhinted/variable-ttf/NotoSerifOriya[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifOriya.glyphs
+Created static font output/Noto Serif Oriya/unhinted/otf/NotoSerifOriya-Medium.otf
+Postprocessing font output/Noto Serif Oriya/unhinted/otf/NotoSerifOriya-Medium.otf
+Created static font output/Noto Serif Oriya/unhinted/otf/NotoSerifOriya-Regular.otf
+Postprocessing font output/Noto Serif Oriya/unhinted/otf/NotoSerifOriya-Regular.otf
+Created static font output/Noto Serif Oriya/unhinted/otf/NotoSerifOriya-Bold.otf
+Postprocessing font output/Noto Serif Oriya/unhinted/otf/NotoSerifOriya-Bold.otf
+Created static font output/Noto Serif Oriya/unhinted/otf/NotoSerifOriya-SemiBold.otf
+Postprocessing font output/Noto Serif Oriya/unhinted/otf/NotoSerifOriya-SemiBold.otf
+Creating static fonts from src/NotoSerifOriya.glyphs
+Created static font output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-Regular.ttf
+Postprocessing font output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-Regular.ttf
+Couldn't autohint output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-Regular.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-Medium.ttf
+Postprocessing font output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-Medium.ttf
+Couldn't autohint output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-Medium.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-SemiBold.ttf
+Postprocessing font output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-SemiBold.ttf
+Couldn't autohint output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-SemiBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-Bold.ttf
+Postprocessing font output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-Bold.ttf
+Couldn't autohint output/Noto Serif Oriya/unhinted/ttf/NotoSerifOriya-Bold.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

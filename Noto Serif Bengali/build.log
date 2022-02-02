@@ -1,0 +1,150 @@
+Creating variable fonts from src/NotoSerifBengali/NotoSerifBengali.designspace
+Postprocessing font output/Noto Serif Bengali/unhinted/variable-ttf/NotoSerifBengali[wdth,wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifBengali/NotoSerifBengali.designspace
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedBlack.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedBlack.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedBlack.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedBlack.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedBold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedBold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Regular.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Regular.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensed.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensed.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraLight.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraLight.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedSemiBold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedSemiBold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedBold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedBold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensed.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensed.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedThin.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedThin.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedBold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedBold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedExtraBold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Condensed.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Condensed.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedThin.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedThin.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedLight.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedLight.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiBold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiBold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Medium.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Medium.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedExtraLight.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedMedium.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedExtraLight.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedExtraLight.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedExtraBold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedExtraBold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedSemiBold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedThin.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedThin.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraBold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraBold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedBlack.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Bold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Bold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedLight.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedLight.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedExtraLight.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Black.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Black.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedLight.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedLight.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedExtraBold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Thin.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Thin.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedMedium.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-CondensedMedium.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedMedium.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-SemiCondensedMedium.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-ExtraCondensedSemiBold.otf
+Created static font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Light.otf
+Postprocessing font output/Noto Serif Bengali/unhinted/otf/NotoSerifBengali-Light.otf
+Creating static fonts from src/NotoSerifBengali/NotoSerifBengali.designspace
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensed.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensed.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedMedium.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedLight.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraLight.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraLight.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Black.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Black.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedBold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedBold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedBlack.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedBlack.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedBold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedBold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedLight.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedLight.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedSemiBold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiBold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiBold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedThin.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedThin.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Regular.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Regular.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedMedium.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedMedium.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraBold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraBold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Light.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Light.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedLight.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedLight.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Thin.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Thin.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedBlack.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedExtraLight.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedThin.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedThin.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-CondensedExtraBold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensed.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensed.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedThin.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Condensed.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Condensed.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Bold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Bold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedBold.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Medium.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-Medium.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf
+Created static font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Bengali/unhinted/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf
+Building variable, static completed. All done!

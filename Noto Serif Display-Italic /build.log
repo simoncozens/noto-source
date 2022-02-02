@@ -1,0 +1,162 @@
+Creating variable fonts from src/NotoSerifDisplay-ItalicMM.glyphs
+Glyphs named 'iota_brevecomb_commaabovecomb_gravecomb' have different number of segments
+Glyphs named 'upsilon_brevecomb_commaabovecomb_gravecomb' have different number of segments
+Glyphs named 'dasiaoxia_brevecomb' have different number of segments
+Glyphs named 'alpha_brevecomb_commareversedabovecomb_gravecomb' have different number of segments
+Glyphs named 'upsilon_brevecomb_commareversedabovecomb_acutecomb' have different number of segments
+Glyphs named 'alpha_brevecomb_commaabovecomb_gravecomb' have different number of segments
+Glyphs named 'alpha_brevecomb_commareversedabovecomb_acutecomb' have different number of segments
+Glyphs named 'upsilon_brevecomb_commareversedabovecomb_gravecomb' have different number of segments
+Glyphs named 'iota_brevecomb_commareversedabovecomb_acutecomb' have different number of segments
+Glyphs named 'iota_brevecomb_commareversedabovecomb_gravecomb' have different number of segments
+Glyphs named 'dasiavaria_brevecomb' have different number of segments
+Glyphs named 'psilivaria_brevecomb' have different number of segments
+Couldn't build variable font: In 'src/NotoSerifDisplay-ItalicMM.glyphs' -> 'master_ufo/NotoSerifDisplay-Italic-Italic.designspace': Generating fonts from Designspace failed: fonts contains incompatible glyphs: 'alpha_brevecomb_commaabovecomb_gravecomb', 'alpha_brevecomb_commareversedabovecomb_acutecomb', 'alpha_brevecomb_commareversedabovecomb_gravecomb', 'dasiaoxia_brevecomb', 'dasiavaria_brevecomb', 'iota_brevecomb_commaabovecomb_gravecomb', 'iota_brevecomb_commareversedabovecomb_acutecomb', 'iota_brevecomb_commareversedabovecomb_gravecomb', 'psilivaria_brevecomb', 'upsilon_brevecomb_commaabovecomb_gravecomb', 'upsilon_brevecomb_commareversedabovecomb_acutecomb', 'upsilon_brevecomb_commareversedabovecomb_gravecomb'
+Creating static fonts from src/NotoSerifDisplay-ItalicMM.glyphs
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-MediumItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-MediumItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedBoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedBoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedBoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedBoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedSemiBoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedSemiBoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedBlackItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedBlackItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedLightItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedLightItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedMediumItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedMediumItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedMediumItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedMediumItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ThinItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ThinItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-Italic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-Italic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-BoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-BoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedExtraBoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedExtraBoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedLightItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedLightItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedExtraLightItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedExtraLightItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedThinItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedThinItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedExtraBoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedExtraBoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedSemiBoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedSemiBoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraBoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraBoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedMediumItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedMediumItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedThinItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedThinItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedThinItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedThinItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedBoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedBoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedLightItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedLightItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedExtraLightItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedExtraLightItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-BlackItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-BlackItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraLightItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraLightItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-LightItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-LightItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedBlackItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedBlackItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedExtraBoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedExtraBoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedSemiBoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiCondensedSemiBoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-ExtraCondensedItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedExtraLightItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedExtraLightItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiBoldItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-SemiBoldItalic.otf
+Created static font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedBlackItalic.otf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/otf/NotoSerifDisplay-CondensedBlackItalic.otf
+Creating static fonts from src/NotoSerifDisplay-ItalicMM.glyphs
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedThinItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedThinItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-MediumItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-MediumItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedMediumItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedMediumItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedLightItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedLightItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-BlackItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-BlackItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedExtraLightItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedExtraLightItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ThinItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ThinItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraLightItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraLightItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-BoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-BoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedExtraLightItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedExtraLightItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedExtraBoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedExtraBoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedMediumItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedMediumItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedSemiBoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedSemiBoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedLightItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedLightItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedExtraBoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedExtraBoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedBoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedBoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedBlackItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedBlackItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedSemiBoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedSemiBoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedBlackItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedBlackItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedMediumItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedMediumItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedLightItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedLightItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedExtraBoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedExtraBoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiBoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiBoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedBlackItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedBlackItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraBoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraBoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedExtraLightItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedExtraLightItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-Italic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-Italic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedSemiBoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedSemiBoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedThinItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-SemiCondensedThinItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedBoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedBoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedThinItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-CondensedThinItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedBoldItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-ExtraCondensedBoldItalic.ttf
+Created static font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-LightItalic.ttf
+Postprocessing font output/Noto Serif Display-Italic /unhinted/ttf/NotoSerifDisplay-LightItalic.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

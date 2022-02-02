@@ -1,0 +1,15 @@
+Creating variable fonts from src/NotoSerifKhojki.glyphs
+Postprocessing font output/Noto Serif Khojki/unhinted/variable-ttf/NotoSerifKhojki[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifKhojki.glyphs
+Created static font output/Noto Serif Khojki/unhinted/otf/NotoSerifKhojki-Regular.otf
+Postprocessing font output/Noto Serif Khojki/unhinted/otf/NotoSerifKhojki-Regular.otf
+Created static font output/Noto Serif Khojki/unhinted/otf/NotoSerifKhojki-Bold.otf
+Postprocessing font output/Noto Serif Khojki/unhinted/otf/NotoSerifKhojki-Bold.otf
+Creating static fonts from src/NotoSerifKhojki.glyphs
+Created static font output/Noto Serif Khojki/unhinted/ttf/NotoSerifKhojki-Bold.ttf
+Postprocessing font output/Noto Serif Khojki/unhinted/ttf/NotoSerifKhojki-Bold.ttf
+Created static font output/Noto Serif Khojki/unhinted/ttf/NotoSerifKhojki-Regular.ttf
+Postprocessing font output/Noto Serif Khojki/unhinted/ttf/NotoSerifKhojki-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

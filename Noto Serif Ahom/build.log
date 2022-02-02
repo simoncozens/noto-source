@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSerifAhom.glyphs
+Couldn't build variable font: In 'src/NotoSerifAhom.glyphs' -> 'master_ufo/NotoSerifAhom-Regular.designspace': Generating fonts from Designspace failed: Report bug against fonttools.
+Creating static fonts from src/NotoSerifAhom.glyphs
+Created static font output/Noto Serif Ahom/unhinted/otf/NotoSerifAhom-Regular.otf
+Postprocessing font output/Noto Serif Ahom/unhinted/otf/NotoSerifAhom-Regular.otf
+Creating static fonts from src/NotoSerifAhom.glyphs
+Created static font output/Noto Serif Ahom/unhinted/ttf/NotoSerifAhom-Regular.ttf
+Postprocessing font output/Noto Serif Ahom/unhinted/ttf/NotoSerifAhom-Regular.ttf
+Couldn't autohint output/Noto Serif Ahom/unhinted/ttf/NotoSerifAhom-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

@@ -1,0 +1,42 @@
+Creating variable fonts from src/NotoSerifMalayalam.glyphs
+Postprocessing font output/Noto Serif Malayalam/unhinted/variable-ttf/NotoSerifMalayalam[wght].ttf
+Creating static fonts from src/NotoSerifMalayalam.glyphs
+Created static font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Thin.otf
+Postprocessing font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Thin.otf
+Created static font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-SemiBold.otf
+Postprocessing font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-SemiBold.otf
+Created static font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Black.otf
+Postprocessing font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Black.otf
+Created static font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-ExtraBold.otf
+Postprocessing font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-ExtraBold.otf
+Created static font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-ExtraLight.otf
+Postprocessing font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-ExtraLight.otf
+Created static font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Regular.otf
+Postprocessing font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Regular.otf
+Created static font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Bold.otf
+Postprocessing font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Bold.otf
+Created static font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Medium.otf
+Postprocessing font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Medium.otf
+Created static font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Light.otf
+Postprocessing font output/Noto Serif Malayalam/unhinted/otf/NotoSerifMalayalam-Light.otf
+Creating static fonts from src/NotoSerifMalayalam.glyphs
+Created static font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-ExtraLight.ttf
+Postprocessing font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-ExtraLight.ttf
+Created static font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Black.ttf
+Postprocessing font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Black.ttf
+Created static font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Regular.ttf
+Postprocessing font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Regular.ttf
+Created static font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-SemiBold.ttf
+Postprocessing font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-SemiBold.ttf
+Created static font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Light.ttf
+Postprocessing font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Light.ttf
+Created static font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Bold.ttf
+Postprocessing font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Bold.ttf
+Created static font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-ExtraBold.ttf
+Postprocessing font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-ExtraBold.ttf
+Created static font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Medium.ttf
+Postprocessing font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Medium.ttf
+Created static font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Thin.ttf
+Postprocessing font output/Noto Serif Malayalam/unhinted/ttf/NotoSerifMalayalam-Thin.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

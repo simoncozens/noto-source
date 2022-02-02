@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSerifOldUyghur.glyphs
+Postprocessing font output/Noto Serif Old Uyghur/unhinted/variable-ttf/NotoSerifOldUyghur[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifOldUyghur.glyphs
+Created static font output/Noto Serif Old Uyghur/unhinted/otf/NotoSerifOldUyghur-Regular.otf
+Postprocessing font output/Noto Serif Old Uyghur/unhinted/otf/NotoSerifOldUyghur-Regular.otf
+Creating static fonts from src/NotoSerifOldUyghur.glyphs
+Created static font output/Noto Serif Old Uyghur/unhinted/ttf/NotoSerifOldUyghur-Regular.ttf
+Postprocessing font output/Noto Serif Old Uyghur/unhinted/ttf/NotoSerifOldUyghur-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

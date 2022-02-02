@@ -1,0 +1,158 @@
+Creating variable fonts from src/NotoSerifEthiopic/NotoSerifEthiopic.designspace
+Fonts had differing anchors in glyph dblverticallineabovecomb:
+ * Noto Serif Ethiopic Light, Noto Serif Ethiopic Regular, Noto Serif Ethiopic Bold, Noto Serif Ethiopic Condensed Light, Noto Serif Ethiopic Condensed had "_top, top"
+ * Noto Serif Ethiopic Regular had "top, _top"
+Fonts had differing anchors in glyph dieresiscomb:
+ * Noto Serif Ethiopic Light, Noto Serif Ethiopic Regular, Noto Serif Ethiopic Bold, Noto Serif Ethiopic Condensed Light, Noto Serif Ethiopic Condensed had "_top, top"
+ * Noto Serif Ethiopic Regular had "top, _top"
+Fonts had differing anchors in glyph uni25CC:
+ * Noto Serif Ethiopic Light, Noto Serif Ethiopic Regular, Noto Serif Ethiopic Bold, Noto Serif Ethiopic Condensed Light, Noto Serif Ethiopic Condensed had "bottom, top, topright"
+ * Noto Serif Ethiopic Regular had "top, bottom, topright"
+Couldn't build variable font: In 'src/NotoSerifEthiopic/NotoSerifEthiopic.designspace': Compatibility check failed
+Creating static fonts from src/NotoSerifEthiopic/NotoSerifEthiopic.designspace
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedBlack.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedExtraBold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedExtraBold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedExtraBold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedExtraLight.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedBlack.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedBlack.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedLight.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedLight.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedBold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedBold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Regular.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Regular.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Black.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Black.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedThin.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedThin.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraBold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraBold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedSemiBold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedSemiBold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedMedium.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedMedium.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedMedium.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Thin.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Thin.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedBold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedBold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedExtraLight.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensed.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensed.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedExtraBold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedSemiBold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedThin.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedThin.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiBold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiBold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Bold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Bold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Light.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Light.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Medium.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Medium.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Condensed.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-Condensed.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedBlack.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedBlack.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedThin.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedThin.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensed.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensed.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedExtraLight.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedExtraLight.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedLight.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraCondensedLight.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedSemiBold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedBold.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedBold.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedMedium.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-SemiCondensedMedium.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedLight.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-CondensedLight.otf
+Created static font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraLight.otf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/otf/NotoSerifEthiopic-ExtraLight.otf
+Creating static fonts from src/NotoSerifEthiopic/NotoSerifEthiopic.designspace
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedLight.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedLight.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedMedium.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensed.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensed.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiBold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiBold.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedThin.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedBlack.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Light.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Light.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedMedium.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedMedium.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedSemiBold.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedMedium.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraBold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraBold.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedBold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedBold.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedExtraLight.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Black.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Black.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedExtraLight.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedBlack.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Regular.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Regular.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedExtraBold.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedThin.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedThin.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensed.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensed.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Medium.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Medium.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Condensed.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Condensed.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Thin.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Thin.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedExtraBold.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedThin.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedThin.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Bold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-Bold.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedBold.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedSemiBold.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedLight.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-SemiCondensedLight.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedBold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedBold.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraLight.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraLight.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedBlack.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-CondensedBlack.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedLight.ttf
+Created static font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Ethiopic/unhinted/ttf/NotoSerifEthiopic-ExtraCondensedSemiBold.ttf
+Building variable, static completed. All done!

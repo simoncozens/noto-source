@@ -1,0 +1,4 @@
+Creating variable fonts from src/NotoSerifNyiakengPuachueHmong/NotoSerifNyiakengPuachueHmong.designspace
+Postprocessing font output/Noto Serif Nyiakeng Puachue Hmong/unhinted/variable-ttf/NotoSerifNyiakengPuachueHmong[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifNyiakengPuachueHmong/NotoSerifNyiakengPuachueHmong.designspace

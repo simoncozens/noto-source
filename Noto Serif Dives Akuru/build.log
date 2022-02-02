@@ -1,0 +1,12 @@
+Creating variable fonts from src/NotoSerifDivesAkuru.glyphs
+Postprocessing font output/Noto Serif Dives Akuru/unhinted/variable-ttf/NotoSerifDivesAkuru[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifDivesAkuru.glyphs
+Created static font output/Noto Serif Dives Akuru/unhinted/otf/NotoSerifDivesAkuru-Regular.otf
+Postprocessing font output/Noto Serif Dives Akuru/unhinted/otf/NotoSerifDivesAkuru-Regular.otf
+Creating static fonts from src/NotoSerifDivesAkuru.glyphs
+Created static font output/Noto Serif Dives Akuru/unhinted/ttf/NotoSerifDivesAkuru-Regular.ttf
+Postprocessing font output/Noto Serif Dives Akuru/unhinted/ttf/NotoSerifDivesAkuru-Regular.ttf
+Couldn't autohint output/Noto Serif Dives Akuru/unhinted/ttf/NotoSerifDivesAkuru-Regular.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

@@ -1,0 +1,150 @@
+Creating variable fonts from src/NotoSerifArmenian/NotoSerifArmenian.designspace
+Postprocessing font output/Noto Serif Armenian/unhinted/variable-ttf/NotoSerifArmenian[wdth,wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifArmenian/NotoSerifArmenian.designspace
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedBold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedBold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedThin.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedThin.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedBold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedBold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedMedium.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedMedium.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedSemiBold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedSemiBold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiBold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiBold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedExtraLight.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedLight.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedLight.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedMedium.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Regular.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Regular.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraLight.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraLight.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedExtraLight.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedExtraLight.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Condensed.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Condensed.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedLight.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedLight.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedThin.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedThin.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Light.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Light.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Bold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Bold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedBlack.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedBlack.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Thin.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Thin.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraBold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraBold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Medium.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Medium.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedExtraBold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedExtraBold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedThin.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedThin.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedExtraBold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedLight.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-CondensedLight.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedSemiBold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedSemiBold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedMedium.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedMedium.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedExtraBold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Black.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-Black.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensed.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensed.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensedBlack.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensed.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-ExtraCondensed.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedBlack.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedBlack.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedBold.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedBold.otf
+Created static font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Armenian/unhinted/otf/NotoSerifArmenian-SemiCondensedExtraLight.otf
+Creating static fonts from src/NotoSerifArmenian/NotoSerifArmenian.designspace
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedSemiBold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Condensed.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Condensed.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedBold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedBold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Light.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Light.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedBold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedBold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Medium.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Medium.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedExtraLight.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedBold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedExtraBold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedBlack.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedBlack.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Regular.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Regular.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraBold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraBold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensed.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensed.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedExtraBold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedThin.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensed.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensed.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Thin.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Thin.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Bold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Bold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraLight.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraLight.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedMedium.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedBlack.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedThin.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedThin.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedSemiBold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedExtraLight.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedBlack.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiBold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiBold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedThin.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedThin.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedMedium.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Black.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-Black.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedMedium.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedMedium.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedLight.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedLight.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-CondensedLight.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedLight.ttf
+Postprocessing font output/Noto Serif Armenian/unhinted/ttf/NotoSerifArmenian-SemiCondensedLight.ttf
+Building variable, static completed. All done!

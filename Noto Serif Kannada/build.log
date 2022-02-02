@@ -1,0 +1,42 @@
+Creating variable fonts from src/NotoSerifKannada-MM.glyphs
+Postprocessing font output/Noto Serif Kannada/unhinted/variable-ttf/NotoSerifKannada-MM[wght].ttf
+Creating static fonts from src/NotoSerifKannada-MM.glyphs
+Created static font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-ExtraLight.otf
+Postprocessing font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-ExtraLight.otf
+Created static font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Medium.otf
+Postprocessing font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Medium.otf
+Created static font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-ExtraBold.otf
+Postprocessing font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-ExtraBold.otf
+Created static font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Light.otf
+Postprocessing font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Light.otf
+Created static font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Regular.otf
+Postprocessing font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Regular.otf
+Created static font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Thin.otf
+Postprocessing font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Thin.otf
+Created static font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Black.otf
+Postprocessing font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Black.otf
+Created static font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Bold.otf
+Postprocessing font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-Bold.otf
+Created static font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-SemiBold.otf
+Postprocessing font output/Noto Serif Kannada/unhinted/otf/NotoSerifKannada-SemiBold.otf
+Creating static fonts from src/NotoSerifKannada-MM.glyphs
+Created static font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Black.ttf
+Postprocessing font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Black.ttf
+Created static font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Medium.ttf
+Postprocessing font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Medium.ttf
+Created static font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Thin.ttf
+Postprocessing font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Thin.ttf
+Created static font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Regular.ttf
+Postprocessing font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Regular.ttf
+Created static font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-ExtraLight.ttf
+Postprocessing font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-ExtraLight.ttf
+Created static font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-SemiBold.ttf
+Postprocessing font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-SemiBold.ttf
+Created static font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-ExtraBold.ttf
+Postprocessing font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-ExtraBold.ttf
+Created static font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Bold.ttf
+Postprocessing font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Bold.ttf
+Created static font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Light.ttf
+Postprocessing font output/Noto Serif Kannada/unhinted/ttf/NotoSerifKannada-Light.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}

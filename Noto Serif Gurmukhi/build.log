@@ -1,0 +1,43 @@
+Creating variable fonts from src/NotoSerifGurmukhi-MM.glyphs
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/variable-ttf/NotoSerifGurmukhi-MM[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifGurmukhi-MM.glyphs
+Created static font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Bold.otf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Bold.otf
+Created static font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Regular.otf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Regular.otf
+Created static font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-ExtraLight.otf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-ExtraLight.otf
+Created static font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Light.otf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Light.otf
+Created static font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Black.otf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Black.otf
+Created static font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-SemiBold.otf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-SemiBold.otf
+Created static font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Thin.otf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Thin.otf
+Created static font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Medium.otf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-Medium.otf
+Created static font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-ExtraBold.otf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/otf/NotoSerifGurmukhi-ExtraBold.otf
+Creating static fonts from src/NotoSerifGurmukhi-MM.glyphs
+Created static font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Black.ttf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Black.ttf
+Created static font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-ExtraLight.ttf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-ExtraLight.ttf
+Created static font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Bold.ttf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Bold.ttf
+Created static font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Thin.ttf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Thin.ttf
+Created static font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-ExtraBold.ttf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-ExtraBold.ttf
+Created static font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Medium.ttf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Medium.ttf
+Created static font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-SemiBold.ttf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-SemiBold.ttf
+Created static font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Light.ttf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Light.ttf
+Created static font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Regular.ttf
+Postprocessing font output/Noto Serif Gurmukhi/unhinted/ttf/NotoSerifGurmukhi-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'master_ufo', 'instance_ufo'}
