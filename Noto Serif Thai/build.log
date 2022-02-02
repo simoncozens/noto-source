@@ -1,0 +1,151 @@
+Creating variable fonts from src/NotoSerifThai-MM.glyphs
+Postprocessing font output/Noto Serif Thai/unhinted/variable-ttf/NotoSerifThai-MM[wdth,wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifThai-MM.glyphs
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedBlack.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedExtraBold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedBlack.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedBlack.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedExtraLight.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedExtraLight.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedMedium.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedMedium.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraBold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraBold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedThin.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedThin.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensed.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensed.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedSemiBold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedSemiBold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Light.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Light.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedBold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedBold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Bold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Bold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedBlack.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedBlack.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensed.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensed.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedThin.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedThin.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedThin.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedThin.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Black.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Black.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedExtraLight.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraLight.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraLight.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedMedium.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedMedium.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Condensed.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Condensed.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedLight.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedLight.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Regular.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Regular.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedLight.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedLight.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedSemiBold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedSemiBold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiBold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiBold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedMedium.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedBold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedBold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedBold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedBold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-ExtraCondensedExtraBold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedExtraBold.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedExtraBold.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Thin.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Thin.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedLight.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-CondensedLight.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Medium.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-Medium.otf
+Created static font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Thai/unhinted/otf/NotoSerifThai-SemiCondensedExtraLight.otf
+Creating static fonts from src/NotoSerifThai-MM.glyphs
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedBlack.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedBlack.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedBlack.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedBold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedBold.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedBold.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedMedium.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedMedium.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Thin.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Thin.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Medium.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Medium.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraBold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraBold.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Condensed.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Condensed.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensed.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensed.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedLight.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedLight.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedExtraBold.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedThin.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Black.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Black.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Bold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Bold.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraLight.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraLight.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedSemiBold.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedLight.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Light.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Light.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedExtraLight.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedExtraLight.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedThin.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedThin.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedBlack.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Regular.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-Regular.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedThin.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedThin.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedSemiBold.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedLight.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedLight.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedBold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-CondensedBold.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedExtraBold.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedMedium.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensedMedium.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiBold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiBold.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensed.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-SemiCondensed.ttf
+Created static font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Thai/unhinted/ttf/NotoSerifThai-ExtraCondensedSemiBold.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

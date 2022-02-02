@@ -1,0 +1,149 @@
+Creating variable fonts from src/NotoSerifTamil-Slanted/NotoSerifTamilSlanted.designspace
+Couldn't build variable font: Axis order arg is missing {'ital'} axes.
+Creating static fonts from src/NotoSerifTamil-Slanted/NotoSerifTamilSlanted.designspace
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Medium.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Medium.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedBold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedBold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedExtraBold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Condensed.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Condensed.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedBlack.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedBlack.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensed.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensed.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedMedium.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedMedium.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensed.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensed.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedBlack.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedBlack.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedLight.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedLight.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraBold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraBold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Thin.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Thin.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedExtraLight.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedThin.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedThin.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedLight.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedLight.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedThin.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedThin.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedExtraLight.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedExtraLight.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Light.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Light.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiBold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiBold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedSemiBold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedSemiBold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Bold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Bold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedThin.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedThin.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedExtraLight.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedExtraLight.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraLight.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraLight.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedMedium.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedMedium.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedBold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedBold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedExtraBold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedExtraBold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedLight.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedLight.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedBold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedBold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Black.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Black.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedMedium.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-CondensedMedium.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedExtraBold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedExtraBold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-SemiCondensedSemiBold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedSemiBold.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedSemiBold.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedBlack.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-ExtraCondensedBlack.otf
+Created static font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Regular.otf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/otf/NotoSerifTamilSlanted-Regular.otf
+Creating static fonts from src/NotoSerifTamil-Slanted/NotoSerifTamilSlanted.designspace
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedBold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedBold.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedExtraLight.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedSemiBold.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedBlack.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedBlack.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensed.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensed.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiBold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiBold.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Black.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Black.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Medium.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Medium.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedExtraLight.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedMedium.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedMedium.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedExtraBold.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedLight.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedLight.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedExtraLight.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedExtraLight.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedBold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedBold.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedSemiBold.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedExtraBold.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedBlack.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedBlack.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensed.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensed.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Regular.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Regular.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedMedium.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedMedium.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedExtraBold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedExtraBold.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraBold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraBold.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Light.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Light.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedBlack.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedBlack.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedThin.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedThin.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedThin.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedThin.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedThin.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedThin.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Bold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Bold.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraLight.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraLight.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedSemiBold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-SemiCondensedSemiBold.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedLight.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedLight.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Condensed.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Condensed.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedLight.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedLight.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedMedium.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-CondensedMedium.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Thin.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-Thin.ttf
+Created static font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedBold.ttf
+Postprocessing font output/Noto Serif Tamil Slanted/unhinted/ttf/NotoSerifTamilSlanted-ExtraCondensedBold.ttf
+Building variable, static completed. All done!

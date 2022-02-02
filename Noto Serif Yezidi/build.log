@@ -1,0 +1,4 @@
+Creating variable fonts from src/NotoSerifYezidi/NotoSerifYezidi.designspace
+Postprocessing font output/Noto Serif Yezidi/unhinted/variable-ttf/NotoSerifYezidi[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifYezidi/NotoSerifYezidi.designspace

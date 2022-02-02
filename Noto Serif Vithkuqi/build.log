@@ -1,0 +1,27 @@
+Creating variable fonts from src/NotoSerifVithkuqi.glyphs
+Postprocessing font output/Noto Serif Vithkuqi/unhinted/variable-ttf/NotoSerifVithkuqi[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifVithkuqi.glyphs
+Created static font output/Noto Serif Vithkuqi/unhinted/otf/NotoSerifVithkuqi-Regular.otf
+Postprocessing font output/Noto Serif Vithkuqi/unhinted/otf/NotoSerifVithkuqi-Regular.otf
+Created static font output/Noto Serif Vithkuqi/unhinted/otf/NotoSerifVithkuqi-Medium.otf
+Postprocessing font output/Noto Serif Vithkuqi/unhinted/otf/NotoSerifVithkuqi-Medium.otf
+Created static font output/Noto Serif Vithkuqi/unhinted/otf/NotoSerifVithkuqi-Bold.otf
+Postprocessing font output/Noto Serif Vithkuqi/unhinted/otf/NotoSerifVithkuqi-Bold.otf
+Created static font output/Noto Serif Vithkuqi/unhinted/otf/NotoSerifVithkuqi-SemiBold.otf
+Postprocessing font output/Noto Serif Vithkuqi/unhinted/otf/NotoSerifVithkuqi-SemiBold.otf
+Creating static fonts from src/NotoSerifVithkuqi.glyphs
+Created static font output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-SemiBold.ttf
+Postprocessing font output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-SemiBold.ttf
+Couldn't autohint output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-SemiBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-Regular.ttf
+Postprocessing font output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-Regular.ttf
+Couldn't autohint output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-Regular.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-Medium.ttf
+Postprocessing font output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-Medium.ttf
+Couldn't autohint output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-Medium.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-Bold.ttf
+Postprocessing font output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-Bold.ttf
+Couldn't autohint output/Noto Serif Vithkuqi/unhinted/ttf/NotoSerifVithkuqi-Bold.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

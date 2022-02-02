@@ -1,0 +1,52 @@
+Creating variable fonts from src/NotoSerifTibetan-MM.glyphs
+Glyphs named 'rdelNagRdelDkar_tibet' have different number of segments
+Couldn't build variable font: In 'src/NotoSerifTibetan-MM.glyphs' -> 'master_ufo/NotoSerifTibetan.designspace': Generating fonts from Designspace failed: fonts contains incompatible glyphs: 'rdelNagRdelDkar_tibet'
+Creating static fonts from src/NotoSerifTibetan-MM.glyphs
+Created static font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Bold.otf
+Postprocessing font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Bold.otf
+Created static font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Light.otf
+Postprocessing font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Light.otf
+Created static font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-ExtraBold.otf
+Postprocessing font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-ExtraBold.otf
+Created static font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Medium.otf
+Postprocessing font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Medium.otf
+Created static font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-ExtraLight.otf
+Postprocessing font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-ExtraLight.otf
+Created static font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-SemiBold.otf
+Postprocessing font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-SemiBold.otf
+Created static font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Regular.otf
+Postprocessing font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Regular.otf
+Created static font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Thin.otf
+Postprocessing font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Thin.otf
+Created static font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Black.otf
+Postprocessing font output/Noto Serif Tibetan/unhinted/otf/NotoSerifTibetan-Black.otf
+Creating static fonts from src/NotoSerifTibetan-MM.glyphs
+Created static font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-ExtraLight.ttf
+Postprocessing font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-ExtraLight.ttf
+Couldn't autohint output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-ExtraLight.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Medium.ttf
+Postprocessing font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Medium.ttf
+Couldn't autohint output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Medium.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Regular.ttf
+Postprocessing font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Regular.ttf
+Couldn't autohint output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Regular.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-SemiBold.ttf
+Postprocessing font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-SemiBold.ttf
+Couldn't autohint output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-SemiBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Light.ttf
+Postprocessing font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Light.ttf
+Couldn't autohint output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Light.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Bold.ttf
+Postprocessing font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Bold.ttf
+Couldn't autohint output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Bold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Thin.ttf
+Postprocessing font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Thin.ttf
+Couldn't autohint output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Thin.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-ExtraBold.ttf
+Postprocessing font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-ExtraBold.ttf
+Couldn't autohint output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-ExtraBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Black.ttf
+Postprocessing font output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Black.ttf
+Couldn't autohint output/Noto Serif Tibetan/unhinted/ttf/NotoSerifTibetan-Black.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

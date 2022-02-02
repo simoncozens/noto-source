@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>8</td>
+                <td>17</td>
+                <td>223</td>
+                <td>15</td>
+                <td>164</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>2%</td>
+                <td>5%</td>
+                <td>66%</td>
+                <td>4%</td>
+                <td>48%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check axis ordering on the STAT table. </h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/STAT/axis_order&gt;</div>
+<details><summary>ℹ️ <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>From a total of 2 font files, 1 of them (50.00%) lack a STAT table.</p>
+<pre><code>And these are the most common STAT axis orderings:
+('wght', 1) [code: summary]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Check `Google Fonts Latin Core` glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<details><summary>🔥 <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00A1 (INVERTED EXCLAMATION MARK)
+
+- 0x00A2 (CENT SIGN)
+
+- 0x00A3 (POUND SIGN)
+
+- 0x00A4 (CURRENCY SIGN)
+
+- 0x00A5 (YEN SIGN)
+
+- 0x00A6 (BROKEN BAR)
+
+- 0x00A7 (SECTION SIGN)
+
+- 0x00A8 (DIAERESIS)
+
+- 0x00A9 (COPYRIGHT SIGN)
+
+- 0x00AA (FEMININE ORDINAL INDICATOR)
+
+- And 119 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00A1 (INVERTED EXCLAMATION MARK)
+
+- 0x00A2 (CENT SIGN)
+
+- 0x00A3 (POUND SIGN)
+
+- 0x00A4 (CURRENCY SIGN)
+
+- 0x00A5 (YEN SIGN)
+
+- 0x00A6 (BROKEN BAR)
+
+- 0x00A7 (SECTION SIGN)
+
+- 0x00A8 (DIAERESIS)
+
+- 0x00A9 (COPYRIGHT SIGN)
+
+- 0x00AA (FEMININE ORDINAL INDICATOR)
+
+- And 119 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Description strings in the name table must not exceed 200 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/description_max_length&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 3.0Mb |
+| Hinted Size   | 3.0Mb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 3.0Mb |
+| Hinted Size   | 3.0Mb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<h3>Ensure files are not too large.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/file_size&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Font file is 3.0Mb; ideally it should be less than 1.0Mb [code: large-font]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Font file is 3.0Mb; ideally it should be less than 1.0Mb [code: large-font]</p>
+</span></li></ul></div></details>
+<h3>Font has old ttfautohint applied?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/old_ttfautohint&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.168'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.168'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<h3>EPAR table present in font?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/epar&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<h3>Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gasp&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+<details><summary>🔥 <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2021 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2021 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Glyphs are similiar to Google Fonts version?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version: [.notdef, u17000, u17001, u17004, u17008, u1700B, u1700D, u17013, u17014, u1701A, u1701B, u1701C, u1701F, u17021, u17022, u17024, u17029, u1702E, u17031, u17032, u17034, u17038, u17039, u1703A, u1703E, u1703F, u17045, u17048, u17049, u1704B, u1704C, u1704D, u17050, u17054, u17056, u17057, u17059, u1705A, u1705B, u1705C, u1705D, u1705F, u17062, u17066, u17067, u17068, u17069, u1706A, u1706B, u1706C, u1706F, u17070, u17071, u17072, u17073, u17074, u17075, u17076, u17078, u1707A, u1707B, u1707C, u1707F, u17080, u17081, u17082, u17083, u17084, u17085, u17086, u17087, u17088, u17089, u1708A, u1708B, u1708C, u1708D, u1708F, u17091, u17092, u17093, u17095, u17098, u17099, u1709A, u1709B, u1709C, u1709E, u1709F, u170A0, u170A1, u170A2, u170A3, u170A4, u170A5, u170A6, u170A9, u170AA, u170AB, u170AC, u170AD, u170AE, u170AF, u170B0, u170B1, u170B2, u170B3, u170B5, u170B6, u170B7, u170B8, u170B9, u170BA, u170BB, u170BC, u170BD, u170BE, u170BF, u170C0, u170C1, u170C5, u170C7, u170C8, u170C9, u170CA, u170CB, u170CC, u170CD, u170CF, u170D1, u170D2, u170D3, u170D6, u170D8, u170D9, u170DA, u170DB, u170DC, u170DF, u170E0, u170E1, u170E2, u170E3, u170E4, u170E5, u170E8, u170E9, u170EA, u170EB, u170EC, u170F0, u170F1, u170F2, u170F3, u170F5, u170F6, u170F7, u170F8, u170FA, u170FC, u170FE, u170FF, u17100, u17101, u17104, u17106, u17108, u1710A, u1710B, u1710C, u1710F, u17111, u17115, u1711A, u1711B, u1711C, u1711E, u17120, u17121, u17122, u17124, u1712C, u1712D, u1712E, u1712F, u17131, u17135, u17136, u17137, u17138, u17139, u1713B, u1713C, u1713D, u1713E, u1713F, u17141, u17142, u17143, u17144, u17146, u17147, u17148, u17149, u1714A, u1714C, u1714D, u1714F, u17150, u17151, u17157, u17158, u17159, u1715A, u1715C, u1715D, u1715E, u1715F, u17160, u17161, u17162, u17163, u17164, u17165, u17166, u17167, u17168, u17169, u1716D, u1716E, u17171, u17172, u17173, u17174, u17175, u17176, u17177, u17178, u17179, u1717A, u1717B, u1717D, u1717E, u17180, u17181, u17182, u17183, u17185, u17187, u17188, u17189, u1718A, u1718B, u1718E, u1718F, u17190, u17192, u17193, u17194, u17195, u17196, u17197, u17198, u1719C, u1719D, u1719E, u1719F, u171A0, u171A1, u171A2, u171A3, u171A4, u171A5, u171A6, u171A7, u171A8, u171A9, u171AC, u171AD, u171AE, u171AF, u171B0, u171B1, u171B2, u171B3, u171B4, u171B5, u171B6, u171B7, u171B8, u171B9, u171BA, u171BB, u171BF, u171C0, u171C2, u171C3, u171C4, u171C9, u171CF, u171D0, u171D1, u171D4, u171D5, u171D7, u171DA, u171DB, u171DC, u171DE, u171E4, u171E6, u171E7, u171E8, u171E9, u171EA, u171EB, u171EC, u171ED, u171EE, u171F0, u171F4, u171F5, u171F9, u171FA, u171FD, u171FE, u171FF, u17200, u17204, u17205, u17206, u17207, u17208, u1720C, u1720D, u1720E, u17213, u17214, u17215, u17216, u17218, u1721A, u1721C, u1721D, u1721E, u1721F, u17221, u17226, u1722B, u17232, u17239, u1723A, u1723D, u17241, u17242, u17249, u1724A, u1724B, u1724C, u1724E, u1724F, u17253, u17254, u17257, u1725A, u1725B, u1725C, u1725D, u1725E, u17260, u17263, u17264, u17265, u17266, u17267, u17268, u17269, u1726A, u1726B, u1726C, u1726D, u1726F, u17272, u17273, u17274, u17275, u17276, u17277, u17278, u17279, u1727A, u1727B, u1727C, u1727E, u1727F, u17281, u17283, u17284, u17286, u17287, u17288, u17289, u1728B, u1728D, u1728E, u1728F, u17291, u17292, u17294, u17295, u17296, u17297, u17298, u17299, u1729A, u1729B, u1729C, u172A0, u172A3, u172A6, u172A7, u172A8, u172A9, u172AE, u172AF, u172B0, u172B1, u172B3, u172B4, u172B5, u172B8, u172B9, u172BA, u172BC, u172BD, u172BE, u172C0, u172C2, u172C5, u172C8, u172C9, u172CA, u172CB, u172CC, u172CD, u172CF, u172D1, u172D2, u172D3, u172D4, u172D7, u172D9, u172DA, u172DC, u172DD, u172DE, u172DF, u172E0, u172E2, u172E3, u172E5, u172E7, u172E8, u172E9, u172EC, u172ED, u172EE, u172EF, u172F0, u172F1, u172F3, u172F5, u172F6, u172F7, u172F8, u172FA, u172FC, u172FD, u17300, u17301, u17302, u17303, u17304, u17305, u17306, u17307, u17309, u1730B, u1730C, u1730D, u1730E, u1730F, u17313, u17315, u17317, u17318, u1731B, u1731C, u1731D, u1731F, u17321, u17322, u17326, u17328, u17329, u1732B, u17330, u17331, u17333, u17334, u17336, u17338, u17339, u1733A, u1733B, u1733F, u17340, u17341, u17342, u17344, u17345, u17346, u17347, u17349, u1734A, u1734B, u1734C, u1734D, u1734E, u1734F, u17350, u17351, u17352, u17356, u17357, u17359, u1735A, u1735B, u1735D, u1735E, u17360, u17362, u17365, u17366, u17367, u17368, u17369, u1736B, u1736C, u17371, u17376, u17377, u17378, u17379, u1737A, u1737B, u1737C, u1737D, u1737E, u1737F, u17380, u17382, u17383, u17384, u17388, u1738B, u1738C, u17390, u17392, u17396, u17397, u1739B, u1739D, u1739E, u173A0, u173A2, u173A4, u173A7, u173A9, u173AC, u173AD, u173AF, u173B2, u173B3, u173B8, u173B9, u173BA, u173BD, u173BE, u173BF, u173C0, u173C1, u173C2, u173C3, u173C4, u173C5, u173C6, u173C7, u173C9, u173CD, u173D0, u173D3, u173D7, u173D8, u173D9, u173DA, u173DD, u173DE, u173E1, u173E2, u173E4, u173EA, u173ED, u173EE, u173F5, u173F6, u173F7, u173F8, u173FA, u173FE, u17401, u17402, u17403, u17404, u17405, u17407, u17408, u17409, u1740A, u1740B, u1740C, u1740D, u1740E, u1740F, u17410, u17411, u17412, u17413, u17414, u17415, u17416, u17417, u17418, u17419, u1741A, u1741B, u1741D, u1741F, u17420, u17421, u17422, u17423, u17424, u17425, u17426, u17428, u17429, u1742A, u1742B, u1742E, u1742F, u17431, u17433, u17434, u17436, u17438, u1743A, u1743B, u1743C, u1743D, u1743E, u17440, u17442, u17443, u17445, u17448, u17449, u1744B, u1744C, u1744E, u17450, u17454, u17457, u17458, u1745A, u1745C, u1745D, u1745E, u17461, u17464, u17465, u17466, u17469, u1746B, u1746E, u1746F, u17470, u17471, u17473, u17474, u17477, u17479, u1747A, u1747B, u1747D, u1747E, u17482, u17483, u17484, u17487, u17488, u1748B, u1748D, u1748E, u1748F, u17494, u17495, u17496, u17497, u17498, u17499, u1749B, u1749C, u1749D, u1749F, u174A2, u174A3, u174A7, u174A8, u174A9, u174AA, u174AB, u174AC, u174AD, u174AE, u174AF, u174B0, u174B4, u174B7, u174B9, u174BA, u174BB, u174BC, u174BE, u174BF, u174C0, u174C2, u174C3, u174C4, u174C6, u174C9, u174CA, u174CB, u174CC, u174CD, u174CE, u174CF, u174D0, u174D4, u174D5, u174D6, u174D7, u174D8, u174D9, u174DA, u174DB, u174DC, u174DD, u174DE, u174DF, u174E0, u174E1, u174E3, u174E5, u174E9, u174EA, u174EC, u174ED, u174EE, u174EF, u174F0, u174F1, u174F2, u174F3, u174F6, u174F8, u174F9, u174FA, u174FD, u17500, u17502, u17503, u17505, u17507, u17508, u1750A, u1750B, u1750D, u1750E, u17518, u17519, u1751A, u1751B, u1751C, u1751F, u17521, u17522, u17523, u17525, u17527, u17528, u1752B, u1752D, u1752E, u1752F, u17530, u17533, u17534, u17535, u17536, u17537, u17538, u1753B, u1753C, u1753D, u1753F, u17541, u17542, u17543, u17544, u17545, u17548, u17549, u1754C, u1754D, u1754E, u1754F, u17550, u17551, u17552, u17553, u17554, u17555, u17556, u17557, u17558, u17559, u1755A, u1755D, u1755E, u1755F, u17560, u17563, u17567, u17568, u17569, u1756B, u1756C, u17571, u17572, u17573, u17574, u17577, u1757A, u1757D, u1757E, u1757F, u17580, u17581, u17582, u17584, u17586, u17587, u17588, u17589, u1758C, u1758D, u1758E, u17591, u17592, u17594, u17595, u17596, u17599, u1759A, u1759B, u1759C, u1759E, u175A2, u175A3, u175A4, u175A5, u175A8, u175AB, u175AC, u175AD, u175AE, u175B4, u175B8, u175B9, u175BA, u175BC, u175BD, u175C1, u175C4, u175C5, u175C6, u175C7, u175C8, u175C9, u175CB, u175D2, u175D3, u175D4, u175D6, u175D7, u175D8, u175D9, u175DA, u175DB, u175DC, u175DD, u175DE, u175DF, u175E0, u175E1, u175E2, u175E4, u175E8, u175EA, u175EB, u175EC, u175ED, u175EE, u175F5, u175F7, u175F8, u175F9, u175FA, u175FB, u175FC, u175FE, u175FF, u17600, u17601, u17602, u17603, u17605, u17607, u17608, u17609, u1760A, u1760B, u1760C, u1760D, u1760F, u17610, u17611, u17612, u17613, u17614, u17615, u17616, u17617, u17619, u1761A, u1761B, u1761D, u1761E, u1761F, u17620, u17621, u17622, u17623, u17625, u17626, u17627, u17628, u17629, u1762D, u1762E, u1762F, u17631, u17633, u17634, u17635, u17637, u17639, u1763A, u1763B, u1763C, u1763D, u1763E, u1763F, u17640, u17641, u17642, u17643, u17644, u17645, u17646, u17647, u17648, u17649, u1764A, u1764B, u1764C, u1764D, u1764E, u1764F, u17650, u17651, u17652, u17653, u17654, u17657, u17658, u17659, u1765A, u1765B, u1765C, u1765D, u1765E, u1765F, u17660, u17661, u17662, u17663, u17664, u17665, u17666, u17667, u17668, u1766B, u1766D, u1766E, u1766F, u17670, u17671, u17672, u17673, u17674, u17678, u17679, u1767A, u1767C, u1767D, u1767F, u17681, u17685, u17686, u17687, u1768E, u1768F, u17690, u17693, u17694, u17695, u17696, u17697, u17698, u1769A, u1769B, u1769C, u1769D, u1769F, u176A0, u176A2, u176A3, u176A4, u176A5, u176A8, u176AB, u176AC, u176AF, u176B1, u176B3, u176B4, u176B7, u176B8, u176B9, u176BA, u176BB, u176BD, u176BE, u176BF, u176C0, u176C2, u176C3, u176C4, u176C6, u176C7, u176CA, u176CF, u176D0, u176D1, u176D3, u176D5, u176D6, u176D7, u176D8, u176D9, u176DC, u176DE, u176DF, u176E0, u176E1, u176E3, u176E4, u176E6, u176E7, u176E9, u176EA, u176EB, u176ED, u176EF, u176F1, u176F5, u176F6, u176F7, u176F8, u176FA, u176FD, u176FE, u176FF, u17704, u17705, u17706, u17707, u17708, u1770B, u1770F, u17710, u17712, u17713, u17714, u17715, u17716, u17717, u17718, u17719, u1771A, u1771B, u1771C, u1771D, u1771F, u17722, u17725, u17726, u17729, u1772F, u17730, u17731, u17732, u17733, u17734, u17735, u17739, u1773C, u1773D, u1773E, u17741, u17743, u17744, u17746, u17749, u1774A, u1774C, u1774D, u1774E, u1774F, u17750, u17751, u17752, u17753, u17754, u17755, u17756, u17757, u17758, u17759, u1775A, u1775D, u1775F, u17761, u17764, u17765, u17768, u1776A, u1776F, u17770, u17771, u17773, u17775, u17776, u1777A, u1777B, u1777C, u1777D, u1777E, u1777F, u17780, u17781, u17782, u17783, u17785, u17788, u1778C, u1778D, u1778E, u17790, u17791, u17792, u17793, u17794, u17795, u17796, u1779B, u1779D, u1779E, u1779F, u177A4, u177A6, u177A8, u177AA, u177AB, u177AD, u177AE, u177B1, u177B2, u177B3, u177B4, u177B5, u177B7, u177B8, u177B9, u177BB, u177BC, u177BE, u177BF, u177C0, u177C1, u177C2, u177C4, u177C6, u177C7, u177C8, u177C9, u177CC, u177CF, u177D2, u177D5, u177D8, u177D9, u177DA, u177DD, u177DF, u177E1, u177E5, u177E6, u177E7, u177E8, u177E9, u177EA, u177EB, u177EC, u177ED, u177EE, u177EF, u177F0, u177F1, u177F2, u177F3, u177F4, u177F5, u177F6, u177F7, u177F8, u177F9, u177FA, u177FB, u177FC, u177FD, u177FE, u177FF, u17801, u17802, u17803, u17804, u17805, u17806, u17807, u17808, u17809, u1780B, u1780D, u1780E, u17810, u17811, u17812, u17813, u17814, u17815, u17816, u17817, u17818, u17819, u1781A, u1781B, u1781C, u1781D, u1781E, u1781F, u17820, u17821, u17822, u17823, u17824, u17825, u17826, u17828, u1782A, u1782B, u1782C, u1782D, u1782E, u1782F, u17830, u17831, u17832, u17833, u17834, u17835, u17836, u17838, u17839, u1783A, u1783B, u1783C, u1783D, u1783E, u1783F, u17840, u17841, u17842, u17843, u17844, u17845, u17846, u17847, u17848, u1784A, u1784B, u1784C, u1784D, u1784E, u1784F, u17850, u17851, u17852, u17853, u17854, u17855, u17856, u17857, u17858, u17859, u1785A, u1785B, u1785C, u1785E, u17861, u17862, u17864, u17865, u17866, u17867, u1786A, u1786B, u17870, u17873, u17877, u17878, u1787A, u1787B, u1787C, u1787D, u1787F, u17880, u17883, u17885, u17886, u17888, u17889, u1788B, u1788C, u1788E, u1788F, u17890, u17891, u17892, u17893, u17894, u17895, u17896, u17897, u17898, u17899, u1789A, u1789B, u1789D, u1789E, u1789F, u178A0, u178A1, u178A2, u178A3, u178A5, u178A6, u178A7, u178A8, u178AB, u178AD, u178AF, u178B1, u178B2, u178B4, u178BC, u178C1, u178C5, u178C7, u178CB, u178CC, u178CF, u178D5, u178DB, u178DE, u178E0, u178E8, u178E9, u178EA, u178EB, u178EF, u178F7, u178FB, u178FC, u178FD, u17901, u17902, u17903, u17905, u17907, u17908, u1790B, u1790C, u1790E, u17910, u17911, u17912, u17916, u1791B, u1791C, u17920, u17922, u17925, u17926, u17928, u1792C, u1792D, u17930, u17932, u17933, u17934, u17935, u17936, u17937, u17938, u17939, u1793A, u1793B, u1793C, u1793D, u1793E, u1793F, u17944, u17945, u17947, u17948, u17949, u1794A, u1794D, u17951, u17952, u17954, u17955, u17956, u17957, u17959, u1795D, u1795E, u17960, u17961, u17965, u17966, u17967, u17969, u1796A, u1796C, u1796F, u17971, u17972, u17975, u17976, u17977, u17978, u1797A, u17981, u17982, u17984, u17986, u17987, u1798B, u1798D, u1798E, u1798F, u17993, u17996, u17997, u17998, u17999, u1799A, u1799C, u1799E, u179A0, u179A2, u179A4, u179A6, u179A7, u179A8, u179AC, u179AD, u179AE, u179AF, u179B0, u179B1, u179B3, u179B6, u179B8, u179B9, u179BB, u179BC, u179C0, u179C2, u179C3, u179C4, u179C7, u179CD, u179CE, u179CF, u179D0, u179D1, u179D2, u179D3, u179D4, u179D5, u179D9, u179DA, u179DC, u179DD, u179DE, u179E1, u179E3, u179E4, u179E5, u179E6, u179E7, u179E8, u179EA, u179EB, u179EC, u179EE, u179EF, u179F0, u179F6, u179F7, u179F8, u179F9, u179FA, u179FD, u179FE, u179FF, u17A01, u17A05, u17A07, u17A08, u17A0A, u17A0B, u17A0C, u17A0D, u17A0E, u17A0F, u17A11, u17A12, u17A13, u17A14, u17A15, u17A16, u17A17, u17A1C, u17A1E, u17A20, u17A21, u17A22, u17A25, u17A29, u17A2A, u17A2B, u17A2C, u17A2E, u17A31, u17A36, u17A37, u17A39, u17A3D, u17A3E, u17A40, u17A41, u17A42, u17A45, u17A47, u17A4C, u17A4D, u17A4E, u17A4F, u17A52, u17A55, u17A56, u17A57, u17A58, u17A59, u17A5B, u17A5D, u17A5F, u17A62, u17A63, u17A64, u17A65, u17A68, u17A69, u17A6B, u17A6C, u17A6D, u17A6E, u17A6F, u17A70, u17A71, u17A74, u17A76, u17A77, u17A78, u17A79, u17A7A, u17A7B, u17A7E, u17A7F, u17A82, u17A87, u17A88, u17A89, u17A8A, u17A8B, u17A8C, u17A8D, u17A8F, u17A90, u17A92, u17A94, u17A95, u17A97, u17A9A, u17A9B, u17A9C, u17A9D, u17AA0, u17AA1, u17AA2, u17AA3, u17AA4, u17AA5, u17AA6, u17AAA, u17AAB, u17AAC, u17AB1, u17AB3, u17AB4, u17AB6, u17AB8, u17ABC, u17ABD, u17ABE, u17ABF, u17AC0, u17AC2, u17AC3, u17AC5, u17AC8, u17AC9, u17ACB, u17ACD, u17ACE, u17AD1, u17AD4, u17AD5, u17AD6, u17AD9, u17ADA, u17ADB, u17ADC, u17ADE, u17ADF, u17AE0, u17AE1, u17AE2, u17AE3, u17AE4, u17AE5, u17AE6, u17AE7, u17AE9, u17AEB, u17AEC, u17AEF, u17AF3, u17AF5, u17AF6, u17AF8, u17AFB, u17AFD, u17AFE, u17B00, u17B01, u17B06, u17B0C, u17B0D, u17B10, u17B15, u17B17, u17B18, u17B19, u17B1C, u17B1D, u17B1F, u17B21, u17B23, u17B25, u17B26, u17B27, u17B2A, u17B2B, u17B2D, u17B2E, u17B31, u17B32, u17B33, u17B34, u17B39, u17B3B, u17B40, u17B42, u17B43, u17B44, u17B45, u17B46, u17B47, u17B49, u17B4A, u17B4C, u17B4D, u17B4E, u17B4F, u17B50, u17B51, u17B52, u17B54, u17B55, u17B56, u17B57, u17B59, u17B5A, u17B5B, u17B5C, u17B5E, u17B5F, u17B61, u17B64, u17B65, u17B66, u17B69, u17B6C, u17B6E, u17B6F, u17B70, u17B71, u17B72, u17B73, u17B74, u17B75, u17B76, u17B77, u17B79, u17B7A, u17B7B, u17B7C, u17B7D, u17B7E, u17B7F, u17B80, u17B81, u17B82, u17B83, u17B84, u17B85, u17B86, u17B87, u17B88, u17B89, u17B8A, u17B8D, u17B8E, u17B8F, u17B90, u17B91, u17B92, u17B93, u17B94, u17B96, u17B97, u17B98, u17B99, u17B9A, u17B9E, u17B9F, u17BA0, u17BA3, u17BA5, u17BA8, u17BA9, u17BAA, u17BAB, u17BB0, u17BB1, u17BB3, u17BB6, u17BB7, u17BBB, u17BBC, u17BBD, u17BBF, u17BC0, u17BC1, u17BC2, u17BC3, u17BC5, u17BC7, u17BC8, u17BCA, u17BCE, u17BCF, u17BD0, u17BD1, u17BD2, u17BD3, u17BD4, u17BD8, u17BDA, u17BDC, u17BDD, u17BDE, u17BDF, u17BE1, u17BE3, u17BE5, u17BE6, u17BE7, u17BE8, u17BE9, u17BEA, u17BEB, u17BED, u17BEE, u17BEF, u17BF0, u17BF1, u17BF2, u17BF4, u17BF6, u17BF7, u17BF8, u17BF9, u17BFB, u17BFC, u17BFD, u17BFE, u17C00, u17C01, u17C02, u17C03, u17C04, u17C06, u17C07, u17C08, u17C09, u17C0A, u17C0B, u17C0C, u17C0D, u17C10, u17C11, u17C12, u17C13, u17C14, u17C15, u17C16, u17C17, u17C18, u17C19, u17C1A, u17C1B, u17C1D, u17C1E, u17C1F, u17C20, u17C21, u17C22, u17C23, u17C24, u17C25, u17C26, u17C27, u17C28, u17C29, u17C2A, u17C2B, u17C2C, u17C2D, u17C2E, u17C2F, u17C30, u17C31, u17C32, u17C33, u17C34, u17C35, u17C36, u17C37, u17C38, u17C39, u17C3A, u17C3C, u17C3D, u17C3F, u17C40, u17C45, u17C46, u17C47, u17C48, u17C49, u17C4A, u17C4B, u17C4D, u17C4F, u17C50, u17C51, u17C52, u17C53, u17C55, u17C56, u17C57, u17C59, u17C5A, u17C5C, u17C5E, u17C5F, u17C61, u17C66, u17C67, u17C69, u17C6B, u17C71, u17C72, u17C76, u17C78, u17C7B, u17C7C, u17C7D, u17C7E, u17C7F, u17C84, u17C88, u17C8B, u17C8C, u17C8D, u17C8F, u17C91, u17C9C, u17C9D, u17C9E, u17C9F, u17CA1, u17CA6, u17CA7, u17CA8, u17CA9, u17CAC, u17CAE, u17CAF, u17CB1, u17CB4, u17CB6, u17CB8, u17CBE, u17CBF, u17CC2, u17CC3, u17CC5, u17CC6, u17CC7, u17CC9, u17CCB, u17CCC, u17CCD, u17CCE, u17CCF, u17CD0, u17CD6, u17CD9, u17CDC, u17CDE, u17CE0, u17CE1, u17CE4, u17CE7, u17CEA, u17CEC, u17CED, u17CEE, u17CEF, u17CF0, u17CF2, u17CF3, u17CF4, u17CF5, u17CF7, u17CF9, u17CFA, u17CFB, u17CFC, u17CFE, u17CFF, u17D00, u17D01, u17D02, u17D03, u17D04, u17D06, u17D07, u17D08, u17D09, u17D0A, u17D0D, u17D0E, u17D18, u17D1D, u17D1F, u17D20, u17D21, u17D24, u17D25, u17D26, u17D27, u17D28, u17D29, u17D2A, u17D2B, u17D2C, u17D2D, u17D2E, u17D2F, u17D30, u17D31, u17D33, u17D38, u17D3B, u17D3C, u17D3D, u17D40, u17D44, u17D47, u17D48, u17D49, u17D4D, u17D52, u17D53, u17D55, u17D57, u17D5B, u17D5D, u17D5E, u17D61, u17D67, u17D68, u17D69, u17D6F, u17D71, u17D73, u17D74, u17D75, u17D76, u17D7B, u17D7C, u17D7E, u17D7F, u17D81, u17D84, u17D85, u17D87, u17D88, u17D89, u17D8A, u17D8B, u17D8C, u17D8D, u17D8F, u17D90, u17D91, u17D93, u17D96, u17D97, u17D98, u17D9A, u17D9B, u17D9C, u17D9D, u17DA0, u17DA1, u17DA6, u17DA7, u17DA8, u17DAA, u17DAC, u17DAE, u17DAF, u17DB1, u17DB2, u17DB3, u17DB4, u17DB5, u17DB7, u17DB9, u17DBA, u17DBB, u17DBC, u17DBD, u17DBF, u17DC0, u17DC1, u17DC2, u17DC3, u17DC7, u17DCA, u17DCB, u17DCF, u17DD1, u17DD6, u17DD7, u17DD8, u17DD9, u17DDA, u17DDB, u17DDC, u17DDD, u17DDE, u17DDF, u17DE0, u17DE2, u17DE3, u17DE4, u17DE6, u17DE8, u17DE9, u17DEA, u17DEB, u17DEC, u17DED, u17DEE, u17DEF, u17DF2, u17DF4, u17DF5, u17DF7, u17DF8, u17DF9, u17DFA, u17DFB, u17DFC, u17DFD, u17DFF, u17E00, u17E01, u17E02, u17E03, u17E04, u17E06, u17E07, u17E08, u17E09, u17E0A, u17E0B, u17E0C, u17E0D, u17E0E, u17E0F, u17E11, u17E12, u17E13, u17E16, u17E17, u17E18, u17E19, u17E1B, u17E1C, u17E1D, u17E1E, u17E20, u17E21, u17E22, u17E23, u17E24, u17E25, u17E27, u17E28, u17E29, u17E2B, u17E2C, u17E2D, u17E30, u17E31, u17E34, u17E35, u17E37, u17E39, u17E3A, u17E3B, u17E3C, u17E3D, u17E3E, u17E3F, u17E40, u17E41, u17E42, u17E43, u17E44, u17E45, u17E46, u17E47, u17E48, u17E49, u17E4A, u17E4B, u17E4C, u17E4D, u17E4E, u17E4F, u17E50, u17E51, u17E52, u17E53, u17E54, u17E56, u17E57, u17E59, u17E5D, u17E5F, u17E61, u17E62, u17E63, u17E64, u17E68, u17E6B, u17E6D, u17E6E, u17E6F, u17E72, u17E75, u17E77, u17E7C, u17E7E, u17E81, u17E84, u17E86, u17E87, u17E88, u17E8A, u17E90, u17E91, u17E92, u17E93, u17E94, u17E96, u17E97, u17E98, u17E99, u17E9A, u17E9B, u17E9D, u17EA0, u17EA1, u17EA3, u17EA4, u17EA6, u17EA7, u17EA8, u17EAA, u17EAB, u17EAC, u17EAD, u17EAE, u17EAF, u17EB0, u17EB3, u17EB4, u17EB5, u17EB6, u17EB8, u17EB9, u17EBB, u17EBC, u17EBD, u17EBF, u17EC0, u17EC1, u17EC2, u17EC3, u17EC4, u17EC6, u17EC7, u17EC9, u17ECA, u17ECB, u17ECC, u17ECE, u17ED0, u17ED2, u17ED4, u17ED5, u17ED7, u17ED9, u17EDA, u17EDC, u17EDD, u17EDE, u17EDF, u17EE0, u17EE1, u17EE2, u17EE6, u17EE7, u17EE8, u17EEA, u17EED, u17EEE, u17EF0, u17EF3, u17EF4, u17EF5, u17EF6, u17EF8, u17EF9, u17EFA, u17EFB, u17EFC, u17EFD, u17EFF, u17F01, u17F02, u17F03, u17F05, u17F08, u17F09, u17F0C, u17F0E, u17F10, u17F11, u17F12, u17F13, u17F14, u17F16, u17F17, u17F18, u17F19, u17F1A, u17F1B, u17F1C, u17F1E, u17F1F, u17F20, u17F21, u17F25, u17F26, u17F2A, u17F2B, u17F30, u17F31, u17F32, u17F33, u17F36, u17F38, u17F3A, u17F3B, u17F3C, u17F3E, u17F3F, u17F46, u17F47, u17F4A, u17F4B, u17F50, u17F51, u17F54, u17F57, u17F58, u17F59, u17F5A, u17F5D, u17F5E, u17F5F, u17F61, u17F62, u17F63, u17F64, u17F66, u17F67, u17F69, u17F6A, u17F6B, u17F6C, u17F6E, u17F72, u17F73, u17F74, u17F75, u17F77, u17F79, u17F7C, u17F7D, u17F7E, u17F7F, u17F80, u17F81, u17F82, u17F83, u17F86, u17F88, u17F8D, u17F8E, u17F91, u17F92, u17F94, u17F9A, u17F9C, u17FA1, u17FA2, u17FA4, u17FA6, u17FA8, u17FA9, u17FAA, u17FAB, u17FAC, u17FAE, u17FB0, u17FB2, u17FB4, u17FB5, u17FB6, u17FB7, u17FB9, u17FBB, u17FBD, u17FBE, u17FBF, u17FC1, u17FC3, u17FC5, u17FC8, u17FC9, u17FCA, u17FCB, u17FD0, u17FD2, u17FD3, u17FD8, u17FD9, u17FDC, u17FDD, u17FDE, u17FDF, u17FE1, u17FE2, u17FE3, u17FE5, u17FE6, u17FE8, u17FE9, u17FEA, u17FED, u17FEE, u17FEF, u17FF0, u17FF1, u17FF2, u17FF3, u17FF4, u17FF5, u17FF8, u17FFC, u17FFD, u18000, u18001, u18002, u18003, u18004, u18005, u18006, u18007, u18008, u1800A, u1800D, u18010, u18012, u18013, u18014, u18016, u18017, u18018, u1801B, u1801C, u1801D, u1801E, u1801F, u18021, u18022, u18023, u18024, u18025, u18026, u18027, u18028, u18029, u1802A, u1802C, u1802F, u18030, u18032, u18033, u18034, u18035, u18036, u18038, u1803B, u1803C, u1803D, u1803F, u18044, u18047, u18049, u1804A, u1804B, u1804C, u1804D, u1804E, u1804F, u18053, u18055, u18056, u18057, u18058, u18059, u1805A, u1805B, u1805C, u1805E, u1805F, u18060, u18061, u18062, u18063, u18067, u18068, u18069, u1806A, u1806C, u1806D, u1806F, u18070, u18072, u18073, u18074, u18075, u18076, u18078, u18079, u1807A, u1807B, u1807C, u1807D, u1807E, u1807F, u18080, u18081, u18082, u18083, u18086, u18087, u1808A, u1808C, u1808F, u18090, u18091, u18092, u18095, u1809A, u1809B, u1809C, u1809E, u180A2, u180A3, u180A4, u180A6, u180AA, u180AB, u180AD, u180AE, u180B1, u180B4, u180B6, u180B7, u180BB, u180BF, u180C1, u180C2, u180C3, u180C4, u180C6, u180C8, u180C9, u180CA, u180CB, u180CC, u180CD, u180CE, u180D1, u180D2, u180D4, u180D5, u180DA, u180DB, u180DC, u180DD, u180E0, u180E2, u180E3, u180E4, u180E5, u180E6, u180E7, u180EA, u180ED, u180EE, u180EF, u180F0, u180F1, u180F4, u180F6, u180F8, u180F9, u180FA, u180FC, u180FD, u180FE, u180FF, u18100, u18102, u18103, u18104, u18106, u18108, u1810A, u1810B, u1810C, u1810E, u1810F, u18110, u18111, u18112, u18113, u18114, u1811B, u1811C, u1811D, u1811E, u1811F, u18120, u18121, u18122, u18123, u18124, u18125, u18126, u18127, u18128, u18129, u1812A, u1812B, u1812C, u1812D, u1812E, u1812F, u18131, u18132, u18136, u18138, u18139, u1813C, u1813D, u1813E, u1813F, u18140, u18141, u18142, u18143, u18144, u18145, u18146, u18148, u1814A, u1814C, u1814D, u1814E, u18150, u18151, u18152, u18154, u18155, u18159, u1815B, u1815C, u1815D, u1815F, u18163, u18166, u18167, u18168, u18169, u1816A, u1816D, u1816F, u18173, u18174, u18177, u18179, u1817E, u18180, u18181, u18182, u18185, u18187, u18188, u1818A, u1818B, u1818C, u1818D, u1818E, u1818F, u18192, u18194, u18195, u18199, u1819C, u1819D, u1819F, u181A3, u181A7, u181AB, u181AD, u181B0, u181B4, u181B6, u181B7, u181BE, u181BF, u181C1, u181C3, u181C5, u181C9, u181CA, u181CB, u181CC, u181CD, u181CF, u181D1, u181D2, u181D3, u181D4, u181D5, u181D7, u181D8, u181DA, u181DB, u181DC, u181DE, u181DF, u181E0, u181E1, u181E2, u181E3, u181E4, u181E5, u181E6, u181E8, u181EA, u181EB, u181EC, u181ED, u181EE, u181EF, u181F0, u181F1, u181F5, u181F6, u181F8, u181FA, u181FB, u181FC, u181FD, u181FE, u18200, u18201, u18202, u18203, u18205, u18206, u18209, u1820B, u1820E, u1820F, u18210, u18211, u18212, u18214, u18217, u18219, u1821A, u18221, u18223, u18224, u18225, u18226, u18227, u18228, u18229, u1822E, u18230, u18231, u18233, u18234, u18235, u18236, u18237, u18238, u18239, u1823A, u1823B, u1823C, u1823E, u18243, u18244, u18245, u18246, u18247, u18248, u18249, u1824A, u1824B, u1824E, u1824F, u18254, u18255, u18256, u18257, u18258, u1825A, u1825C, u1825D, u1825E, u1825F, u18260, u18261, u18262, u18263, u18264, u18265, u18267, u18269, u1826A, u1826B, u1826C, u1826D, u1826E, u1826F, u18270, u18271, u18272, u18273, u18274, u18275, u18276, u18277, u18278, u18279, u1827A, u1827C, u1827D, u1827E, u1827F, u18281, u18284, u18285, u18287, u1828B, u1828C, u1828D, u1828E, u1828F, u18290, u18292, u18294, u18295, u18296, u18297, u18298, u18299, u1829A, u1829B, u1829F, u182A2, u182A3, u182A4, u182A5, u182A6, u182A7, u182A8, u182AC, u182AE, u182AF, u182B1, u182B4, u182B5, u182B6, u182B7, u182B8, u182B9, u182BA, u182BB, u182BC, u182BD, u182BE, u182BF, u182C0, u182C2, u182C3, u182C4, u182C5, u182C6, u182C7, u182C8, u182CB, u182CC, u182CF, u182D1, u182D3, u182D4, u182D5, u182D6, u182D8, u182D9, u182DA, u182DB, u182DE, u182DF, u182E1, u182E3, u182E5, u182E6, u182E7, u182EA, u182EB, u182EE, u182EF, u182F1, u182F2, u182F3, u182F4, u182F6, u182F9, u182FC, u18300, u18303, u18304, u18305, u18306, u18308, u18309, u1830A, u1830B, u1830C, u1830D, u18312, u18313, u18314, u18315, u18316, u18317, u18318, u18319, u1831A, u1831B, u1831C, u1831D, u1831E, u18321, u18322, u18323, u18325, u18326, u18327, u18328, u18329, u1832A, u1832B, u1832C, u18331, u18334, u18335, u18337, u1833B, u1833D, u1833E, u1833F, u18340, u18341, u18342, u18343, u18344, u18346, u18349, u1834A, u1834B, u1834C, u1834D, u1834E, u1834F, u18351, u18352, u18353, u18354, u18355, u18356, u18357, u18358, u18359, u1835C, u1835D, u1835F, u18360, u18361, u18362, u18363, u18365, u18366, u1836A, u1836B, u1836C, u1836E, u1836F, u18373, u18374, u18375, u18376, u18377, u18378, u18379, u1837A, u1837B, u1837C, u1837D, u1837E, u1837F, u18380, u18381, u18382, u18383, u18384, u18385, u1838D, u1838F, u18391, u18392, u18394, u18395, u18396, u18398, u1839A, u1839D, u1839E, u1839F, u183A0, u183A1, u183A3, u183A6, u183A7, u183AC, u183AD, u183AE, u183AF, u183B0, u183B1, u183B2, u183B4, u183B6, u183B7, u183BD, u183BF, u183C0, u183C1, u183C3, u183C5, u183C6, u183C8, u183CD, u183CF, u183D3, u183D8, u183D9, u183DC, u183DE, u183DF, u183E1, u183E3, u183E4, u183E6, u183EA, u183ED, u183EF, u183F2, u183F3, u183F4, u183F6, u183F7, u183F8, u183F9, u183FB, u183FF, u18401, u18404, u18405, u18408, u18409, u1840C, u1840D, u18410, u18413, u18414, u18415, u18417, u1841A, u1841B, u1841C, u1841F, u18421, u18422, u18423, u18424, u18425, u18426, u18428, u18429, u1842A, u1842D, u18430, u18433, u18434, u18436, u1843A, u1843D, u1843E, u1843F, u18441, u18442, u18443, u18445, u18446, u1844A, u1844D, u18450, u18453, u18454, u18458, u18459, u1845A, u1845E, u18460, u18461, u18463, u18464, u18465, u18468, u18469, u1846A, u1846B, u1846C, u1846D, u1846E, u1846F, u18470, u18471, u18472, u18473, u18474, u18475, u18478, u18479, u1847B, u1847C, u1847E, u1847F, u18480, u18482, u18483, u18487, u1848D, u18492, u18494, u18495, u18498, u1849E, u184A3, u184A4, u184A5, u184A6, u184A7, u184A8, u184A9, u184AA, u184B6, u184B7, u184B8, u184B9, u184BA, u184BB, u184BC, u184BE, u184BF, u184C3, u184C5, u184C9, u184CA, u184CB, u184CC, u184D1, u184D2, u184D3, u184D4, u184D5, u184D8, u184DB, u184DC, u184DD, u184DE, u184E0, u184E1, u184E2, u184E4, u184E8, u184E9, u184EC, u184EF, u184F1, u184F5, u184F6, u184F7, u184FA, u184FC, u184FF, u18502, u18504, u18505, u18506, u18507, u18508, u18509, u1850A, u1850E, u18510, u18511, u18512, u18513, u18514, u18516, u18517, u18518, u18519, u1851A, u1851C, u1851F, u18520, u18521, u18522, u18523, u18524, u18526, u18528, u18529, u1852A, u1852B, u1852C, u1852D, u1852E, u1852F, u18531, u18533, u18534, u18537, u18538, u18539, u1853E, u18540, u18541, u18542, u18543, u18546, u18547, u18548, u18549, u1854A, u1854B, u1854C, u1854D, u18550, u18551, u18552, u18553, u18554, u18556, u18557, u18558, u18559, u1855A, u1855B, u1855C, u1855D, u1855E, u1855F, u18560, u18562, u18563, u18565, u18568, u1856A, u1856B, u1856C, u1856D, u18570, u18571, u18573, u18578, u18579, u1857A, u1857B, u1857C, u1857D, u1857F, u18581, u18582, u18583, u18584, u18585, u18588, u18589, u1858A, u1858C, u1858D, u1858E, u1858F, u18590, u18591, u18596, u18597, u18599, u1859A, u1859B, u1859D, u1859E, u1859F, u185A0, u185A5, u185A6, u185A7, u185A8, u185AB, u185B1, u185B3, u185B6, u185B7, u185BA, u185BF, u185C0, u185C3, u185C5, u185C8, u185C9, u185CC, u185CE, u185D0, u185D1, u185D2, u185D3, u185D4, u185D8, u185DB, u185DC, u185DD, u185DE, u185E1, u185E2, u185E5, u185E6, u185E7, u185E9, u185EA, u185EB, u185EC, u185ED, u185EF, u185F0, u185F2, u185F4, u185F5, u185F8, u185FA, u185FC, u185FF, u18600, u18601, u18602, u18603, u18604, u18605, u18606, u18607, u18608, u1860A, u1860B, u1860D, u1860E, u18611, u18612, u18613, u18614, u18615, u18616, u18617, u18618, u18619, u1861A, u1861B, u1861E, u1861F, u18623, u18624, u18625, u1862C, u18631, u18632, u18633, u18637, u18638, u1863C, u18641, u18643, u18644, u18646, u18648, u1864A, u1864C, u18650, u18651, u18654, u18656, u18657, u18658, u1865A, u1865B, u1865E, u18661, u18663, u18664, u18666, u18667, u18669, u1866A, u1866C, u1866D, u1866E, u1866F, u18670, u18676, u18679, u1867B, u1867C, u1867D, u1867E, u1867F, u18680, u18688, u1868A, u1868D, u18690, u18694, u18695, u18696, u18697, u1869B, u1869C, u1869D, u1869E, u1869F, u186A2, u186A3, u186A4, u186A5, u186A6, u186A7, u186AB, u186AD, u186AF, u186B0, u186B3, u186B5, u186B6, u186B7, u186B8, u186BA, u186BB, u186BD, u186BF, u186CA, u186CD, u186CF, u186D1, u186D3, u186D4, u186D5, u186D7, u186D8, u186DB, u186DE, u186DF, u186E2, u186E3, u186E4, u186E6, u186E7, u186E8, u186EB, u186EC, u186F0, u186F2, u186F3, u186F5, u186F6, u186F7, u186F8, u186FE, u186FF, u18701, u18702, u18707, u18708, u18709, u1870A, u1870C, u1870E, u1870F, u18710, u18711, u18712, u18716, u18718, u18719, u1871A, u1871B, u1871E, u18723, u18724, u18726, u18727, u18728, u1872B, u1872C, u1872E, u1872F, u18730, u18732, u18733, u18734, u18735, u18736, u18737, u1873B, u1873C, u1873D, u18740, u18741, u18743, u18745, u18748, u18749, u18751, u18752, u18755, u18756, u18758, u18759, u1875A, u1875B, u1875D, u1875F, u18763, u18764, u18768, u1876A, u1876B, u1876E, u18770, u18772, u18774, u18775, u18776, u18777, u18778, u18779, u1877A, u1877B, u1877E, u18783, u18784, u18786, u1878B, u1878D, u1878E, u1878F, u18790, u18791, u18792, u18794, u18795, u18797, u18798, u18799, u1879A, u1879B, u1879D, u1879F, u187A0, u187A2, u187A3, u187A4, u187A5, u187A7, u187A9, u187AA, u187AC, u187AF, u187B1, u187B3, u187B4, u187B5, u187B7, u187B8, u187B9, u187BA, u187BB, u187BC, u187BD, u187BE, u187BF, u187C1, u187C2, u187C3, u187C5, u187C6, u187C7, u187C8, u187C9, u187CB, u187CF, u187D0, u187D1, u187D3, u187D4, u187D7, u187D8, u187DA, u187DB, u187DC, u187DF, u187E1, u187E2, u187E5, u187E6, u187E7, u187E8, u187E9, u187EA, u187EC, u187ED, u187EE, u187EF, u187F0, u187F2, u187F3, u187F4, u187F5, u187F6, u18802, u18803, u18806, u18807, u18808, u1880A, u1880D, u18816, u18818, u1881A, u1881E, u1881F, u18824, u18825, u18826, u1882B, u1882C, u1882D, u18830, u18831, u18832, u18834, u18839, u1883A, u1883B, u1883C, u18841, u18845, u18846, u18847, u1884C, u18853, u18858, u18859, u1885A, u1885B, u1885E, u1885F, u18860, u18862, u18863, u18864, u18865, u18867, u18869, u1886B, u1886F, u18872, u18873, u18879, u1887D, u18881, u18882, u18887, u18888, u18889, u1888C, u1888E, u18891, u18893, u18894, u1889A, u1889E, u188A1, u188A3, u188A7, u188A8, u188A9, u188B0, u188B1, u188B2, u188B5, u188B7, u188B8, u188BA, u188BB, u188BD, u188C0, u188C4, u188C5, u188C6, u188CA, u188CB, u188D0, u188D2, u188D3, u188D6, u188D7, u188D8, u188DA, u188DC, u188DF, u188E0, u188E3, u188E8, u188E9, u188EC, u188ED, u188EF, u188F0, u188F1, u188F5, u188F6, u188F7, u188FC, u188FD, u18902, u18904, u18907, u18908, u18909, u1890A, u1890D, u18912, u18913, u18918, u1891A, u1891C, u1891E, u1891F, u18922, u18927, u18928, u1892A, u1892C, u18930, u18932, u18933, u18934, u18935, u18936, u18937, u18938, u18939, u1893A, u1893C, u1893E, u18941, u18942, u18943, u18944, u18947, u18948, u1894B, u1894C, u1894D, u18950, u18952, u18953, u18954, u18955, u18956, u18957, u18959, u1895A, u1895B, u1895C, u1895D, u1895E, u1895F, u18967, u18968, u18969, u1896A, u1896C, u1896E, u18970, u18973, u18975, u18976, u18978, u18979, u1897B, u1897E, u1897F, u18980, u18981, u18982, u18984, u18985, u18986, u18989, u1898A, u1898F, u18990, u18993, u18995, u18996, u18997, u18999, u1899B, u1899C, u1899E, u189A1, u189A3, u189A5, u189A7, u189A8, u189B4, u189B6, u189B8, u189BE, u189BF, u189C1, u189C4, u189CA, u189CB, u189CC, u189CE, u189CF, u189D1, u189D3, u189D4, u189D5, u189D6, u189DC, u189DD, u189DE, u189DF, u189E0, u189E4, u189E6, u189E7, u189E9, u189EA, u189EB, u189EC, u189ED, u189EF, u189F2, u189F4, u189F5, u189F6, u189FD, u189FE, u189FF, u18A00, u18A01, u18A02, u18A04, u18A05, u18A06, u18A07, u18A09, u18A0A, u18A0B, u18A0C, u18A0D, u18A10, u18A12, u18A13, u18A14, u18A15, u18A17, u18A18, u18A1C, u18A1E, u18A22, u18A23, u18A24, u18A25, u18A26, u18A27, u18A2C, u18A2E, u18A2F, u18A30, u18A31, u18A33, u18A34, u18A38, u18A3B, u18A3D, u18A3E, u18A42, u18A44, u18A45, u18A46, u18A48, u18A49, u18A4B, u18A4C, u18A4E, u18A4F, u18A53, u18A54, u18A56, u18A57, u18A59, u18A5A, u18A5C, u18A5E, u18A5F, u18A62, u18A64, u18A65, u18A66, u18A6A, u18A6F, u18A71, u18A73, u18A74, u18A75, u18A76, u18A7A, u18A7B, u18A7D, u18A82, u18A86, u18A88, u18A89, u18A8A, u18A8B, u18A8D, u18A8E, u18A8F, u18A92, u18A93, u18A95, u18A96, u18A97, u18A98, u18A99, u18A9A, u18A9F, u18AA0, u18AA1, u18AA3, u18AA5, u18AA6, u18AA7, u18AA8, u18AA9, u18AAA, u18AAB, u18AAC, u18AAE, u18AAF, u18AB0, u18AB1, u18AB7, u18ABB, u18ABD, u18ABF, u18AC5, u18AC6, u18AC7, u18AC8, u18ACA, u18ACB, u18ACD, u18ACF, u18AD5, u18AD6, u18ADA, u18ADE, u18ADF, u18AE0, u18AE2, u18AE3, u18AE4, u18AE5, u18AE6, u18AE7, u18AE9, u18AEA, u18AEC, u18AED, u18AEE, u18AF1]</p>
+</span></li></ul></div></details>
+<h3>Check for font-v versioning.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontv&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.168&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.168&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<h3>Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/cjk_vertical_metrics_regressions&gt;</div>
+<details><summary>🔥 <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender is 836 when it should be 856 [code: cjk-metric-regression]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoDescender is -146 when it should be -150 [code: cjk-metric-regression]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 usWinAscent is 836 when it should be 856 [code: cjk-metric-regression]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 usWinDescent is 146 when it should be 150 [code: cjk-metric-regression]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>hhea ascent is 836 when it should be 856 [code: cjk-metric-regression]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>hhea descent is -146 when it should be -150 [code: cjk-metric-regression]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender is 836 when it should be 856 [code: cjk-metric-regression]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoDescender is -146 when it should be -150 [code: cjk-metric-regression]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 usWinAscent is 836 when it should be 856 [code: cjk-metric-regression]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 usWinDescent is 146 when it should be 150 [code: cjk-metric-regression]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>hhea ascent is 836 when it should be 856 [code: cjk-metric-regression]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>hhea descent is -146 when it should be -150 [code: cjk-metric-regression]</p>
+</span></li></ul></div></details>
+<h3>Does the font contain less than 40 CJK characters?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/cjk_not_enough_glyphs&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>There are only 18 CJK glyphs when there needs to be at least 40 in order to support the smallest CJK writing system, Hangul.
+The following CJK glyphs were found:
+['uni2FF0', 'uni2FF1', 'uni2FF2', 'uni2FF3', 'uni2FF4', 'uni2FF5', 'uni2FF6', 'uni2FF7', 'uni2FF8', 'uni2FF9', 'uni2FFA', 'uni2FFB', 'uni4E00', 'uni4F53', 'uni590F', 'uni5B8B', 'uni897F', 'uni9AD4']
+Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>There are only 18 CJK glyphs when there needs to be at least 40 in order to support the smallest CJK writing system, Hangul.
+The following CJK glyphs were found:
+['uni2FF0', 'uni2FF1', 'uni2FF2', 'uni2FF3', 'uni2FF4', 'uni2FF5', 'uni2FF6', 'uni2FF7', 'uni2FF8', 'uni2FF9', 'uni2FFA', 'uni2FFB', 'uni4E00', 'uni4F53', 'uni590F', 'uni5B8B', 'uni897F', 'uni9AD4']
+Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Ensure variable fonts include an avar table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/mandatory_avar_table&gt;</div>
+<details><summary>🔥 <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This variable font does not have an avar table. [code: missing-avar]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; ⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Font contains all required tables?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/required_tables&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GSUB
+- gasp
+- vhea
+- And vmtx [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GSUB
+- gasp
+- vhea
+- And vmtx [code: optional-tables]</p>
+</span></li></ul></div></details>
+<h3>List all superfamily filepaths</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/superfamily/list&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Serif Tangut/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Serif Tangut/unhinted/variable-ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- glyph1
+- And glyph2
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- glyph1
+- And glyph2
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Does the font contain chws and vchw features?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/cjk_chws_feature&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>chws feature not found in font. Use chws_tool (https://github.com/googlefonts/chws_tool) to add it. [code: missing-chws-feature]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>vchw feature not found in font. Use chws_tool (https://github.com/googlefonts/chws_tool) to add it. [code: missing-vchw-feature]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>chws feature not found in font. Use chws_tool (https://github.com/googlefonts/chws_tool) to add it. [code: missing-chws-feature]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>vchw feature not found in font. Use chws_tool (https://github.com/googlefonts/chws_tool) to add it. [code: missing-vchw-feature]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.os2&gt; 🔥</h2>
+<h3>Fonts have consistent PANOSE family type?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_familytype&gt;</div>
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️⚠️</h2>
+<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⏩⏩⏩⏩</h2>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* u17013 (U+17013): L&lt;&lt;508.0,544.0&gt;--&lt;247.0,478.0&gt;&gt;/L&lt;&lt;247.0,478.0&gt;--&lt;542.0,478.0&gt;&gt; = 14.191096549023982
+* u170B3 (U+170B3): L&lt;&lt;322.0,103.0&gt;--&lt;597.0,165.0&gt;&gt;/L&lt;&lt;597.0,165.0&gt;--&lt;332.0,165.0&gt;&gt; = 12.705169690097586
+* u170B3 (U+170B3): L&lt;&lt;742.0,161.0&gt;--&lt;421.0,81.0&gt;&gt;/L&lt;&lt;421.0,81.0&gt;--&lt;700.0,81.0&gt;&gt; = 13.994237771997035
+* u170F1 (U+170F1): L&lt;&lt;276.0,-26.0&gt;--&lt;276.0,381.0&gt;&gt;/B&lt;&lt;276.0,381.0&gt;-&lt;242.0,207.0&gt;-&lt;236.0,158.0&gt;&gt; = 11.056412980248197
+* u170F2 (U+170F2): L&lt;&lt;273.0,-34.0&gt;--&lt;273.0,384.0&gt;&gt;/B&lt;&lt;273.0,384.0&gt;-&lt;241.0,240.0&gt;-&lt;227.0,157.0&gt;&gt; = 12.528807709151492
+* u170F5 (U+170F5): L&lt;&lt;313.0,-75.0&gt;--&lt;313.0,447.0&gt;&gt;/B&lt;&lt;313.0,447.0&gt;-&lt;257.0,223.0&gt;-&lt;245.0,159.0&gt;&gt; = 14.036243467926484
+* u17105 (U+17105): B&lt;&lt;337.0,492.0&gt;-&lt;257.0,354.0&gt;-&lt;164.0,274.0&gt;&gt;/L&lt;&lt;164.0,274.0&gt;--&lt;172.0,278.0&gt;&gt; = 14.137562158980275
+* u17114 (U+17114): B&lt;&lt;273.0,168.0&gt;-&lt;211.0,98.0&gt;-&lt;134.0,57.0&gt;&gt;/L&lt;&lt;134.0,57.0&gt;--&lt;136.0,58.0&gt;&gt; = 1.4688007143857
+* u17171 (U+17171): B&lt;&lt;545.0,120.0&gt;-&lt;488.0,70.0&gt;-&lt;418.0,41.0&gt;&gt;/L&lt;&lt;418.0,41.0&gt;--&lt;429.0,45.0&gt;&gt; = 2.52042197786743
+* u1717D (U+1717D): B&lt;&lt;549.0,183.0&gt;-&lt;484.0,100.0&gt;-&lt;410.0,51.0&gt;&gt;/L&lt;&lt;410.0,51.0&gt;--&lt;415.0,53.0&gt;&gt; = 11.709609311488988 and 137 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>M (U+004D): L&lt;&lt;139.0,47.0&gt;--&lt;140.0,666.0&gt;&gt;</li>
+<li>M (U+004D): L&lt;&lt;721.0,326.0&gt;--&lt;722.0,620.0&gt;&gt;</li>
+<li>N (U+004E): L&lt;&lt;134.0,47.0&gt;--&lt;135.0,656.0&gt;&gt;</li>
+<li>N (U+004E): L&lt;&lt;179.0,595.0&gt;--&lt;180.0,48.0&gt;&gt;</li>
+<li>N (U+004E): L&lt;&lt;603.0,146.0&gt;--&lt;602.0,664.0&gt;&gt;</li>
+<li>U (U+0055): L&lt;&lt;597.0,311.0&gt;--&lt;596.0,664.0&gt;&gt;</li>
+<li>U (U+0055): L&lt;&lt;642.0,666.0&gt;--&lt;640.0,283.0&gt;&gt;</li>
+<li>e (U+0065): L&lt;&lt;478.0,256.0&gt;--&lt;129.0,257.0&gt;&gt;</li>
+<li>u (U+0075): L&lt;&lt;435.0,127.0&gt;--&lt;437.0,451.0&gt;&gt;</li>
+<li>u17000 (U+17000): L&lt;&lt;871.0,218.0&gt;--&lt;872.0,-2.0&gt;&gt; and 2102 more.</li>
+</ul>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>

@@ -1,0 +1,27 @@
+Creating variable fonts from src/NotoSerifToto-MM.glyphs
+Postprocessing font output/Noto Serif Toto/unhinted/variable-ttf/NotoSerifToto-MM[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifToto-MM.glyphs
+Created static font output/Noto Serif Toto/unhinted/otf/NotoSerifToto-Bold.otf
+Postprocessing font output/Noto Serif Toto/unhinted/otf/NotoSerifToto-Bold.otf
+Created static font output/Noto Serif Toto/unhinted/otf/NotoSerifToto-Medium.otf
+Postprocessing font output/Noto Serif Toto/unhinted/otf/NotoSerifToto-Medium.otf
+Created static font output/Noto Serif Toto/unhinted/otf/NotoSerifToto-Regular.otf
+Postprocessing font output/Noto Serif Toto/unhinted/otf/NotoSerifToto-Regular.otf
+Created static font output/Noto Serif Toto/unhinted/otf/NotoSerifToto-SemiBold.otf
+Postprocessing font output/Noto Serif Toto/unhinted/otf/NotoSerifToto-SemiBold.otf
+Creating static fonts from src/NotoSerifToto-MM.glyphs
+Created static font output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-Regular.ttf
+Postprocessing font output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-Regular.ttf
+Couldn't autohint output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-Regular.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-SemiBold.ttf
+Postprocessing font output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-SemiBold.ttf
+Couldn't autohint output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-SemiBold.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-Medium.ttf
+Postprocessing font output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-Medium.ttf
+Couldn't autohint output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-Medium.ttf: 0xF1: missing standard character glyph
+Created static font output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-Bold.ttf
+Postprocessing font output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-Bold.ttf
+Couldn't autohint output/Noto Serif Toto/unhinted/ttf/NotoSerifToto-Bold.ttf: 0xF1: missing standard character glyph
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

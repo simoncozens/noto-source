@@ -1,0 +1,11 @@
+Creating variable fonts from src/NotoSerifTangut.glyphs
+Postprocessing font output/Noto Serif Tangut/unhinted/variable-ttf/NotoSerifTangut[wght].ttf
+Cannot remove tables '['MVAR']' since they are not in the font.
+Creating static fonts from src/NotoSerifTangut.glyphs
+Created static font output/Noto Serif Tangut/unhinted/otf/NotoSerifTangut-Regular.otf
+Postprocessing font output/Noto Serif Tangut/unhinted/otf/NotoSerifTangut-Regular.otf
+Creating static fonts from src/NotoSerifTangut.glyphs
+Created static font output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf
+Postprocessing font output/Noto Serif Tangut/unhinted/ttf/NotoSerifTangut-Regular.ttf
+Building variable, static completed. All done!
+Removing auxiliary dirs/files {'instance_ufo', 'master_ufo'}

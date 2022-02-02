@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>14</td>
+                <td>31</td>
+                <td>347</td>
+                <td>22</td>
+                <td>219</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>3%</td>
+                <td>6%</td>
+                <td>70%</td>
+                <td>4%</td>
+                <td>44%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check axis ordering on the STAT table. </h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/STAT/axis_order&gt;</div>
+<details><summary>ℹ️ <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>From a total of 3 font files, 3 of them (100.00%) lack a STAT table.</p>
+<pre><code>And these are the most common STAT axis orderings:
+ [code: summary]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Check `Google Fonts Latin Core` glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 149 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 149 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0021 (EXCLAMATION MARK)
+
+- 0x0022 (QUOTATION MARK)
+
+- 0x0023 (NUMBER SIGN)
+
+- 0x0024 (DOLLAR SIGN)
+
+- 0x0025 (PERCENT SIGN)
+
+- 0x0026 (AMPERSAND)
+
+- 0x0027 (APOSTROPHE)
+
+- 0x0028 (LEFT PARENTHESIS)
+
+- 0x0029 (RIGHT PARENTHESIS)
+
+- 0x002A (ASTERISK)
+
+- And 149 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Description strings in the name table must not exceed 200 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/description_max_length&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 197.9kb |
+| Hinted Size   | 197.9kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 197.9kb |
+| Hinted Size   | 197.9kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Hinting filesize impact:</p>
+<p>|               | output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf          |
+|:------------- | ---------------:|
+| Dehinted Size | 196.8kb |
+| Hinted Size   | 196.9kb   |
+| Increase      | 24 bytes      |
+| Change        | 0.0 %  |
+[code: size-impact]</p>
+</span></li></ul></div></details>
+<h3>Font has old ttfautohint applied?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/old_ttfautohint&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.000'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.000'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.000'] [code: version-not-detected]</p>
+</span></li></ul></div></details>
+<h3>EPAR table present in font?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/epar&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818 [code: lacks-EPAR]</p>
+</span></li></ul></div></details>
+<h3>Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gasp&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>These are the ppm ranges declared on the gasp table:</p>
+<p>PPM &lt;= 65535:
+flag = 0x0F
+- Use grid-fitting
+- Use grayscale rendering
+- Use gridfitting with ClearType symmetric smoothing
+- Use smoothing along multiple axes with ClearType®
+[code: ranges]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2021 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2021 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2021 Google LLC. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Glyphs are similiar to Google Fonts version?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version: [hyphen, u16FE1, u16FE1.vert, u1B170, u1B170.vert, u1B171, u1B171.vert, u1B172, u1B172.vert, u1B173, u1B173.vert, u1B175, u1B175.vert, u1B176, u1B176.vert, u1B177, u1B177.vert, u1B178, u1B178.vert, u1B179, u1B179.vert, u1B17A, u1B17A.vert, u1B17B, u1B17B.vert, u1B17C, u1B17C.vert, u1B17D, u1B17D.vert, u1B17E, u1B17E.vert, u1B17F, u1B17F.vert, u1B180, u1B180.vert, u1B181, u1B181.vert, u1B182, u1B182.vert, u1B184, u1B184.vert, u1B185, u1B185.vert, u1B186, u1B186.vert, u1B187, u1B187.vert, u1B189, u1B189.vert, u1B18A, u1B18A.vert, u1B18B, u1B18B.vert, u1B18D, u1B18D.vert, u1B18E, u1B18E.vert, u1B18F, u1B18F.vert, u1B190, u1B190.vert, u1B191, u1B191.vert, u1B192, u1B192.vert, u1B193, u1B193.vert, u1B194, u1B194.vert, u1B195, u1B195.vert, u1B196, u1B196.vert, u1B197, u1B197.vert, u1B198, u1B198.vert, u1B199, u1B199.vert, u1B19A, u1B19A.vert, u1B19B, u1B19B.vert, u1B19C, u1B19C.vert, u1B19D, u1B19D.vert, u1B19E, u1B19E.vert, u1B19F, u1B19F.vert, u1B1A0, u1B1A0.vert, u1B1A1, u1B1A1.vert, u1B1A2, u1B1A2.vert, u1B1A3, u1B1A3.vert, u1B1A4, u1B1A4.vert, u1B1A5, u1B1A5.vert, u1B1A6, u1B1A6.vert, u1B1A7, u1B1A7.vert, u1B1A8, u1B1A8.vert, u1B1A9, u1B1A9.vert, u1B1AA, u1B1AA.vert, u1B1AB, u1B1AB.vert, u1B1AC, u1B1AC.vert, u1B1AD, u1B1AD.vert, u1B1AE, u1B1AE.vert, u1B1AF, u1B1AF.vert, u1B1B0, u1B1B0.vert, u1B1B2, u1B1B2.vert, u1B1B3, u1B1B3.vert, u1B1B4, u1B1B4.vert, u1B1B5, u1B1B5.vert, u1B1B6, u1B1B6.vert, u1B1B7, u1B1B7.vert, u1B1B8, u1B1B8.vert, u1B1B9, u1B1B9.vert, u1B1BB, u1B1BB.vert, u1B1BC, u1B1BC.vert, u1B1BD, u1B1BD.vert, u1B1BE, u1B1BE.vert, u1B1C0, u1B1C0.vert, u1B1C1, u1B1C1.vert, u1B1C2, u1B1C2.vert, u1B1C3, u1B1C3.vert, u1B1C4, u1B1C4.vert, u1B1C5, u1B1C5.vert, u1B1C6, u1B1C6.vert, u1B1C7, u1B1C7.vert, u1B1C8, u1B1C8.vert, u1B1C9, u1B1C9.vert, u1B1CB, u1B1CB.vert, u1B1CC, u1B1CC.vert, u1B1CD, u1B1CD.vert, u1B1CE, u1B1CE.vert, u1B1CF, u1B1CF.vert, u1B1D0, u1B1D0.vert, u1B1D1, u1B1D1.vert, u1B1D2, u1B1D2.vert, u1B1D3, u1B1D3.vert, u1B1D4, u1B1D4.vert, u1B1D5, u1B1D5.vert, u1B1D6, u1B1D6.vert, u1B1D7, u1B1D7.vert, u1B1D8, u1B1D8.vert, u1B1D9, u1B1D9.vert, u1B1DA, u1B1DA.vert, u1B1DB, u1B1DB.vert, u1B1DC, u1B1DC.vert, u1B1DD, u1B1DD.vert, u1B1DE, u1B1DE.vert, u1B1DF, u1B1DF.vert, u1B1E0, u1B1E0.vert, u1B1E1, u1B1E1.vert, u1B1E3, u1B1E3.vert, u1B1E4, u1B1E4.vert, u1B1E5, u1B1E5.vert, u1B1E8, u1B1E8.vert, u1B1EA, u1B1EA.vert, u1B1EB, u1B1EB.vert, u1B1EC, u1B1EC.vert, u1B1ED, u1B1ED.vert, u1B1EE, u1B1EE.vert, u1B1EF, u1B1EF.vert, u1B1F0, u1B1F0.vert, u1B1F1, u1B1F1.vert, u1B1F3, u1B1F3.vert, u1B1F4, u1B1F4.vert, u1B1F5, u1B1F5.vert, u1B1F7, u1B1F7.vert, u1B1F8, u1B1F8.vert, u1B1F9, u1B1F9.vert, u1B1FB, u1B1FB.vert, u1B1FC, u1B1FC.vert, u1B1FD, u1B1FD.vert, u1B1FE, u1B1FE.vert, u1B1FF, u1B1FF.vert, u1B200, u1B200.vert, u1B201, u1B201.vert, u1B202, u1B202.vert, u1B203, u1B203.vert, u1B204, u1B204.vert, u1B205, u1B205.vert, u1B207, u1B207.vert, u1B208, u1B208.vert, u1B20A, u1B20A.vert, u1B20B, u1B20B.vert, u1B20C, u1B20C.vert, u1B20D, u1B20D.vert, u1B20E, u1B20E.vert, u1B20F, u1B20F.vert, u1B210, u1B210.vert, u1B211, u1B211.vert, u1B212, u1B212.vert, u1B214, u1B214.vert, u1B216, u1B216.vert, u1B217, u1B217.vert, u1B21A, u1B21A.vert, u1B21B, u1B21B.vert, u1B21C, u1B21C.vert, u1B21D, u1B21D.vert, u1B21E, u1B21E.vert, u1B221, u1B221.vert, u1B222, u1B222.vert, u1B223, u1B223.vert, u1B224, u1B224.vert, u1B226, u1B226.vert, u1B227, u1B227.vert, u1B229, u1B229.vert, u1B22A, u1B22A.vert, u1B22B, u1B22B.vert, u1B22D, u1B22D.vert, u1B22E, u1B22E.vert, u1B22F, u1B22F.vert, u1B230, u1B230.vert, u1B231, u1B231.vert, u1B232, u1B232.vert, u1B233, u1B233.vert, u1B235, u1B235.vert, u1B237, u1B237.vert, u1B238, u1B238.vert, u1B239, u1B239.vert, u1B23A, u1B23A.vert, u1B23C, u1B23C.vert, u1B23D, u1B23D.vert, u1B23E, u1B23E.vert, u1B23F, u1B23F.vert, u1B240, u1B240.vert, u1B241, u1B241.vert, u1B242, u1B242.vert, u1B244, u1B245, u1B245.vert, u1B246, u1B246.vert, u1B24A, u1B24A.vert, u1B24B, u1B24B.vert, u1B24F, u1B24F.vert, u1B251, u1B251.vert, u1B252, u1B252.vert, u1B253, u1B253.vert, u1B255, u1B255.vert, u1B257, u1B257.vert, u1B258, u1B258.vert, u1B25C, u1B25C.vert, u1B25D, u1B25D.vert, u1B25E, u1B25E.vert, u1B25F, u1B25F.vert, u1B260, u1B260.vert, u1B261, u1B261.vert, u1B262, u1B262.vert, u1B266, u1B266.vert, u1B267, u1B267.vert, u1B268, u1B268.vert, u1B26A, u1B26A.vert, u1B26B, u1B26B.vert, u1B26C, u1B26C.vert, u1B26D, u1B26D.vert, u1B26E, u1B26E.vert, u1B271, u1B271.vert, u1B272, u1B272.vert, u1B273, u1B273.vert, u1B274, u1B274.vert, u1B275, u1B275.vert, u1B276, u1B276.vert, u1B278, u1B278.vert, u1B279, u1B279.vert, u1B27A, u1B27A.vert, u1B27B, u1B27B.vert, u1B27C, u1B27C.vert, u1B27E, u1B27E.vert, u1B27F, u1B27F.vert, u1B280, u1B280.vert, u1B281, u1B281.vert, u1B282, u1B282.vert, u1B287, u1B287.vert, u1B28A, u1B28A.vert, u1B28B, u1B28B.vert, u1B28D, u1B28D.vert, u1B290, u1B290.vert, u1B292, u1B292.vert, u1B293, u1B293.vert, u1B294, u1B294.vert, u1B295, u1B295.vert, u1B296, u1B296.vert, u1B297, u1B297.vert, u1B298, u1B298.vert, u1B299, u1B299.vert, u1B29A, u1B29A.vert, u1B29B, u1B29B.vert, u1B29D, u1B29D.vert, u1B2A0, u1B2A0.vert, u1B2A3, u1B2A3.vert, u1B2A4, u1B2A4.vert, u1B2A5, u1B2A5.vert, u1B2A6, u1B2A6.vert, u1B2A7, u1B2A7.vert, u1B2AA, u1B2AA.vert, u1B2AB, u1B2AB.vert, u1B2AD, u1B2AD.vert, u1B2AE, u1B2AE.vert, u1B2AF, u1B2AF.vert, u1B2B0, u1B2B0.vert, u1B2B2, u1B2B2.vert, u1B2B4, u1B2B4.vert, u1B2B5, u1B2B5.vert, u1B2B6, u1B2B6.vert, u1B2B7, u1B2B7.vert, u1B2B9, u1B2B9.vert, u1B2BB, u1B2BB.vert, u1B2BC, u1B2BC.vert, u1B2BD, u1B2BD.vert, u1B2C0, u1B2C0.vert, u1B2C1, u1B2C1.vert, u1B2C3, u1B2C3.vert, u1B2C4, u1B2C4.vert, u1B2C6, u1B2C6.vert, u1B2C8, u1B2C8.vert, u1B2CA, u1B2CA.vert, u1B2CD, u1B2CD.vert, u1B2CE, u1B2CE.vert, u1B2D2, u1B2D2.vert, u1B2D3, u1B2D3.vert, u1B2D5, u1B2D5.vert, u1B2D6, u1B2D6.vert, u1B2D7, u1B2D7.vert, u1B2D9, u1B2D9.vert, u1B2DA, u1B2DA.vert, u1B2DB, u1B2DB.vert, u1B2DC, u1B2DC.vert, u1B2DF, u1B2DF.vert, u1B2E1, u1B2E1.vert, u1B2E4, u1B2E4.vert, u1B2E5, u1B2E5.vert, u1B2E6, u1B2E6.vert, u1B2E7, u1B2E7.vert, u1B2E9, u1B2E9.vert, u1B2ED, u1B2ED.vert, u1B2EE, u1B2EE.vert, u1B2F1, u1B2F1.vert, u1B2F3, u1B2F3.vert, u1B2F5, u1B2F5.vert, u1B2F8, u1B2F8.vert, u1B2F9, u1B2F9.vert, u1B2FA, u1B2FA.vert, uni4E00]</p>
+</span></li></ul></div></details>
+<h3>Checking OS/2 fsSelection value.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fsselection&gt;</div>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 fsSelection BOLD bit should be set. [code: bad-BOLD]</p>
+</span></li></ul></div></details>
+<h3>Checking head.macStyle value.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/mac_style&gt;</div>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head macStyle BOLD bit should be set. [code: bad-BOLD]</p>
+</span></li></ul></div></details>
+<h3>Check name table: FONT_FAMILY_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/familyname&gt;</div>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the &quot;name&quot; table: Expected &quot;Noto Traditional Nushu&quot; but got &quot;Noto Traditional Nushu Bold&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<h3>Check name table: FONT_SUBFAMILY_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/subfamilyname&gt;</div>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>SUBFAMILY_NAME for Win &quot;Regular&quot; must be &quot;Bold&quot; [code: bad-familyname]</p>
+</span></li></ul></div></details>
+<h3>Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/typographicfamilyname&gt;</div>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font style is &quot;Bold&quot; and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]</p>
+</span></li></ul></div></details>
+<h3>Check for font-v versioning.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontv&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.000&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.000&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>Version string is: &quot;Version 2.000&quot;
+The version string must ideally include a git commit hash and either a &quot;dev&quot; or a &quot;release&quot; suffix such as in the example below:
+&quot;Version 1.3; git-0d08353-release&quot; [code: bad-format]</p>
+</span></li></ul></div></details>
+<h3>Combined length of family and style must not exceed 27 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Traditional Nushu Bold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Traditional Nushu Light' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Traditional Nushu' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>Does the font contain less than 40 CJK characters?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/cjk_not_enough_glyphs&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>There are only 6 CJK glyphs when there needs to be at least 40 in order to support the smallest CJK writing system, Hangul.
+The following CJK glyphs were found:
+['uni4E00', 'uni4E66', 'uni4F20', 'uni4F53', 'uni5973', 'uni7EDF']
+Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>There are only 6 CJK glyphs when there needs to be at least 40 in order to support the smallest CJK writing system, Hangul.
+The following CJK glyphs were found:
+['uni4E00', 'uni4E66', 'uni4F20', 'uni4F53', 'uni5973', 'uni7EDF']
+Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>There are only 6 CJK glyphs when there needs to be at least 40 in order to support the smallest CJK writing system, Hangul.
+The following CJK glyphs were found:
+['uni4E00', 'uni4E66', 'uni4F20', 'uni4F53', 'uni5973', 'uni7EDF']
+Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Font contains glyphs for whitespace characters?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphs&gt;</div>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+</span></li></ul></div></details>
+<h3>Font contains all required tables?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/required_tables&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GSUB
+- gasp
+- vhea
+- And vmtx [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GSUB
+- gasp
+- vhea
+- And vmtx [code: optional-tables]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>This font contains the following optional tables:
+- loca
+- prep
+- GSUB
+- gasp
+- vhea
+- And vmtx [code: optional-tables]</p>
+</span></li></ul></div></details>
+<h3>List all superfamily filepaths</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/superfamily/list&gt;</div>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Traditional Nushu/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Traditional Nushu/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<details><summary>ℹ️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>ℹ️ INFO</span><span class='details_text'><p>output/Noto Traditional Nushu/unhinted/ttf [code: family-path]</p>
+</span></li></ul></div></details>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- glyph1
+- And glyph2
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- glyph1
+- And glyph2
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- glyph1
+- And glyph2
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Does the font contain chws and vchw features?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/cjk_chws_feature&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>chws feature not found in font. Use chws_tool (https://github.com/googlefonts/chws_tool) to add it. [code: missing-chws-feature]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>vchw feature not found in font. Use chws_tool (https://github.com/googlefonts/chws_tool) to add it. [code: missing-vchw-feature]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>chws feature not found in font. Use chws_tool (https://github.com/googlefonts/chws_tool) to add it. [code: missing-chws-feature]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>vchw feature not found in font. Use chws_tool (https://github.com/googlefonts/chws_tool) to add it. [code: missing-vchw-feature]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>chws feature not found in font. Use chws_tool (https://github.com/googlefonts/chws_tool) to add it. [code: missing-chws-feature]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>vchw feature not found in font. Use chws_tool (https://github.com/googlefonts/chws_tool) to add it. [code: missing-vchw-feature]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.hhea&gt; ⚠️⚠️⚠️</h2>
+<h3>Checking Vertical Metric Linegaps.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/linegaps&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️⚠️⚠️</h2>
+<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* M (U+004D): L&lt;&lt;383.0,67.0&gt;--&lt;268.0,378.0&gt;&gt; -&gt; L&lt;&lt;268.0,378.0&gt;--&lt;209.0,552.0&gt;&gt;
+* M (U+004D): L&lt;&lt;642.0,552.0&gt;--&lt;582.0,378.0&gt;&gt; -&gt; L&lt;&lt;582.0,378.0&gt;--&lt;468.0,67.0&gt;&gt;
+* N (U+004E): L&lt;&lt;242.0,741.0&gt;--&lt;457.0,346.0&gt;&gt; -&gt; L&lt;&lt;457.0,346.0&gt;--&lt;531.0,186.0&gt;&gt;
+* N (U+004E): L&lt;&lt;507.0,0.0&gt;--&lt;293.0,396.0&gt;&gt; -&gt; L&lt;&lt;293.0,396.0&gt;--&lt;218.0,555.0&gt;&gt;
+* b (U+0062): L&lt;&lt;226.0,798.0&gt;--&lt;226.0,597.0&gt;&gt; -&gt; L&lt;&lt;226.0,597.0&gt;--&lt;222.0,507.0&gt;&gt;
+* d (U+0064): L&lt;&lt;424.0,513.0&gt;--&lt;419.0,601.0&gt;&gt; -&gt; L&lt;&lt;419.0,601.0&gt;--&lt;419.0,798.0&gt;&gt;
+* h (U+0068): L&lt;&lt;226.0,798.0&gt;--&lt;226.0,597.0&gt;&gt; -&gt; L&lt;&lt;226.0,597.0&gt;--&lt;219.0,492.0&gt;&gt;
+* p (U+0070): L&lt;&lt;221.0,47.0&gt;--&lt;226.0,-45.0&gt;&gt; -&gt; L&lt;&lt;226.0,-45.0&gt;--&lt;226.0,-215.0&gt;&gt; and q (U+0071): L&lt;&lt;419.0,-215.0&gt;--&lt;419.0,-37.0&gt;&gt; -&gt; L&lt;&lt;419.0,-37.0&gt;--&lt;424.0,53.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* M (U+004D): L&lt;&lt;369.0,78.0&gt;--&lt;215.0,500.0&gt;&gt; -&gt; L&lt;&lt;215.0,500.0&gt;--&lt;158.0,663.0&gt;&gt;
+* M (U+004D): L&lt;&lt;627.0,663.0&gt;--&lt;570.0,500.0&gt;&gt; -&gt; L&lt;&lt;570.0,500.0&gt;--&lt;417.0,78.0&gt;&gt;
+* N (U+004E): L&lt;&lt;168.0,729.0&gt;--&lt;466.0,228.0&gt;&gt; -&gt; L&lt;&lt;466.0,228.0&gt;--&lt;547.0,81.0&gt;&gt;
+* N (U+004E): L&lt;&lt;539.0,0.0&gt;--&lt;242.0,502.0&gt;&gt; -&gt; L&lt;&lt;242.0,502.0&gt;--&lt;160.0,648.0&gt;&gt;
+* b (U+0062): L&lt;&lt;158.0,795.0&gt;--&lt;158.0,567.0&gt;&gt; -&gt; L&lt;&lt;158.0,567.0&gt;--&lt;155.0,465.0&gt;&gt;
+* d (U+0064): L&lt;&lt;451.0,482.0&gt;--&lt;447.0,578.0&gt;&gt; -&gt; L&lt;&lt;447.0,578.0&gt;--&lt;447.0,795.0&gt;&gt;
+* h (U+0068): L&lt;&lt;158.0,795.0&gt;--&lt;158.0,567.0&gt;&gt; -&gt; L&lt;&lt;158.0,567.0&gt;--&lt;157.0,451.0&gt;&gt;
+* p (U+0070): L&lt;&lt;157.0,52.0&gt;--&lt;158.0,-46.0&gt;&gt; -&gt; L&lt;&lt;158.0,-46.0&gt;--&lt;158.0,-238.0&gt;&gt;
+* q (U+0071): L&lt;&lt;447.0,-238.0&gt;--&lt;447.0,-35.0&gt;&gt; -&gt; L&lt;&lt;447.0,-35.0&gt;--&lt;451.0,69.0&gt;&gt;
+* u1B241 (U+1B241): L&lt;&lt;211.0,322.0&gt;--&lt;210.0,321.0&gt;&gt; -&gt; L&lt;&lt;210.0,321.0&gt;--&lt;209.0,320.0&gt;&gt; and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:
+* M (U+004D): L&lt;&lt;374.0,74.0&gt;--&lt;235.0,455.0&gt;&gt; -&gt; L&lt;&lt;235.0,455.0&gt;--&lt;177.0,622.0&gt;&gt;
+* M (U+004D): L&lt;&lt;633.0,622.0&gt;--&lt;575.0,455.0&gt;&gt; -&gt; L&lt;&lt;575.0,455.0&gt;--&lt;436.0,74.0&gt;&gt;
+* N (U+004E): L&lt;&lt;196.0,733.0&gt;--&lt;463.0,271.0&gt;&gt; -&gt; L&lt;&lt;463.0,271.0&gt;--&lt;541.0,120.0&gt;&gt;
+* N (U+004E): L&lt;&lt;527.0,0.0&gt;--&lt;260.0,463.0&gt;&gt; -&gt; L&lt;&lt;260.0,463.0&gt;--&lt;181.0,614.0&gt;&gt;
+* b (U+0062): L&lt;&lt;183.0,796.0&gt;--&lt;183.0,578.0&gt;&gt; -&gt; L&lt;&lt;183.0,578.0&gt;--&lt;180.0,480.0&gt;&gt;
+* d (U+0064): L&lt;&lt;441.0,493.0&gt;--&lt;436.0,587.0&gt;&gt; -&gt; L&lt;&lt;436.0,587.0&gt;--&lt;436.0,796.0&gt;&gt;
+* h (U+0068): L&lt;&lt;183.0,796.0&gt;--&lt;183.0,578.0&gt;&gt; -&gt; L&lt;&lt;183.0,578.0&gt;--&lt;180.0,466.0&gt;&gt;
+* p (U+0070): L&lt;&lt;181.0,50.0&gt;--&lt;183.0,-45.0&gt;&gt; -&gt; L&lt;&lt;183.0,-45.0&gt;--&lt;183.0,-229.0&gt;&gt;
+* q (U+0071): L&lt;&lt;436.0,-229.0&gt;--&lt;436.0,-36.0&gt;&gt; -&gt; L&lt;&lt;436.0,-36.0&gt;--&lt;441.0,63.0&gt;&gt;
+* u1B2D2 (U+1B2D2): L&lt;&lt;403.0,444.0&gt;--&lt;451.0,373.0&gt;&gt; -&gt; L&lt;&lt;451.0,373.0&gt;--&lt;454.0,369.0&gt;&gt;
+* u1B2E3 (U+1B2E3): L&lt;&lt;372.0,249.0&gt;--&lt;369.0,254.0&gt;&gt; -&gt; L&lt;&lt;369.0,254.0&gt;--&lt;342.0,309.0&gt;&gt; and x (U+0078): L&lt;&lt;127.0,543.0&gt;--&lt;200.0,423.0&gt;&gt; -&gt; L&lt;&lt;200.0,423.0&gt;--&lt;254.0,333.0&gt;&gt; [code: found-colinear-vectors]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* u1B280 (U+1B280): B&lt;&lt;319.0,344.0&gt;-&lt;353.0,207.0&gt;-&lt;347.0,56.0&gt;&gt;/B&lt;&lt;347.0,56.0&gt;-&lt;389.0,211.0&gt;-&lt;381.0,393.0&gt;&gt; = 12.885786139883773
+* u1B29C (U+1B29C): B&lt;&lt;346.0,342.0&gt;-&lt;386.0,267.0&gt;-&lt;388.0,197.0&gt;&gt;/B&lt;&lt;388.0,197.0&gt;-&lt;407.0,335.0&gt;-&lt;387.0,465.0&gt;&gt; = 9.475840373422137
+* u1B2F1 (U+1B2F1): B&lt;&lt;259.0,-74.0&gt;-&lt;299.0,0.0&gt;-&lt;320.0,74.0&gt;&gt;/B&lt;&lt;320.0,74.0&gt;-&lt;310.0,53.0&gt;-&lt;291.0,31.0&gt;&gt; = 9.62026294418454
+* u1B2F1 (U+1B2F1): B&lt;&lt;303.0,210.0&gt;-&lt;335.0,180.0&gt;-&lt;335.0,134.0&gt;&gt;/B&lt;&lt;335.0,134.0&gt;-&lt;359.0,251.0&gt;-&lt;350.0,376.0&gt;&gt; = 11.592175410291073
+* u1B2F1 (U+1B2F1): B&lt;&lt;370.0,735.0&gt;-&lt;410.0,634.0&gt;-&lt;431.0,526.0&gt;&gt;/B&lt;&lt;431.0,526.0&gt;-&lt;433.0,565.0&gt;-&lt;456.0,591.0&gt;&gt; = 13.939214298170658
+* u1B2F1 (U+1B2F1): B&lt;&lt;468.0,-79.0&gt;-&lt;411.0,-29.0&gt;-&lt;414.0,37.0&gt;&gt;/B&lt;&lt;414.0,37.0&gt;-&lt;390.0,-47.0&gt;-&lt;353.0,-120.0&gt;&gt; = 13.342833698423016 and u1B2F1 (U+1B2F1): B&lt;&lt;485.0,412.0&gt;-&lt;454.0,439.0&gt;-&lt;439.0,477.0&gt;&gt;/B&lt;&lt;439.0,477.0&gt;-&lt;452.0,385.0&gt;-&lt;451.0,306.0&gt;&gt; = 13.498081685033126 [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>u1B18F (U+1B18F): L&lt;&lt;505.0,1000.0&gt;--&lt;625.0,999.0&gt;&gt;</li>
+<li>u1B195 (U+1B195): L&lt;&lt;407.0,1000.0&gt;--&lt;528.0,999.0&gt;&gt;</li>
+<li>u1B19D (U+1B19D): L&lt;&lt;376.0,1000.0&gt;--&lt;497.0,999.0&gt;&gt;</li>
+<li>u1B1A1 (U+1B1A1): L&lt;&lt;440.0,1000.0&gt;--&lt;563.0,999.0&gt;&gt;</li>
+<li>u1B1D9 (U+1B1D9): L&lt;&lt;481.0,1000.0&gt;--&lt;610.0,999.0&gt;&gt;</li>
+<li>u1B1DC (U+1B1DC): L&lt;&lt;749.0,241.0&gt;--&lt;626.0,240.0&gt;&gt;</li>
+<li>u1B20B (U+1B20B): L&lt;&lt;427.0,-120.0&gt;--&lt;311.0,-119.0&gt;&gt;</li>
+<li>u1B22D (U+1B22D): L&lt;&lt;407.0,1000.0&gt;--&lt;527.0,999.0&gt;&gt;</li>
+<li>u1B231 (U+1B231): L&lt;&lt;217.0,346.0&gt;--&lt;336.0,345.0&gt;&gt;</li>
+<li>u1B253 (U+1B253): L&lt;&lt;502.0,999.0&gt;--&lt;618.0,1000.0&gt;&gt; and u1B27E (U+1B27E): L&lt;&lt;389.0,999.0&gt;--&lt;506.0,1000.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>output/Noto Traditional Nushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>h (U+0068): L&lt;&lt;158.0,567.0&gt;--&lt;157.0,451.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+                    </body>
+                </html>
